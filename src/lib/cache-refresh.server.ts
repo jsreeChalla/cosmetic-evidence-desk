@@ -43,13 +43,30 @@ export interface RefreshResult {
 }
 
 export interface SweepReport {
-  status: 'not-due' | 'started' | 'in-progress' | 'completed'
+  status: 'not-due' | 'skipped' | 'started' | 'in-progress' | 'completed'
   message: string
   results: Array<RefreshResult>
   remaining: number
   sweepStartedAt?: string
   nextSweepAt?: string
 }
+
+// ---------------------------------------------------------------------------
+// Claude API credentials
+// ---------------------------------------------------------------------------
+
+/**
+ * Research needs Claude to turn fetched pages into structured, quote-checked
+ * evidence. Without credentials the pipeline would still spend Firecrawl
+ * credits and then fall back to a crude LLM-free summary — so refreshes are
+ * skipped entirely instead, and the existing cache is left untouched.
+ */
+export function hasClaudeCredentials(): boolean {
+  return !!(process.env.ANTHROPIC_API_KEY?.trim() || process.env.ANTHROPIC_AUTH_TOKEN?.trim())
+}
+
+const NO_CLAUDE_KEY_MESSAGE =
+  'Skipped: no Claude API key (ANTHROPIC_API_KEY or ANTHROPIC_AUTH_TOKEN) is configured, so no research was run and no Firecrawl credits were used. The cached evidence is unchanged.'
 
 // ---------------------------------------------------------------------------
 // Firecrawl credit check
@@ -96,12 +113,19 @@ function independentCount(data: BrandAnalysis | undefined): number {
 function isWeaker(next: BrandAnalysis, existing: BrandAnalysis | undefined): boolean {
   if (!existing?.hasEvidence) return false
   if (!next.hasEvidence) return true
+  // No independent sources AND no claim cards (e.g. the LLM-free fallback
+  // summary) can't replace an entry that has either.
+  const nextEmpty = independentCount(next) === 0 && next.claims.length === 0
+  if (nextEmpty && (independentCount(existing) > 0 || existing.claims.length > 0)) return true
   return next.degraded && independentCount(next) === 0 && independentCount(existing) > 0
 }
 
 export async function refreshBrand(brand: BrandCatalogEntry): Promise<RefreshResult> {
   const startedAt = Date.now()
   const secs = () => Math.round((Date.now() - startedAt) / 100) / 10
+  if (!hasClaudeCredentials()) {
+    return { brandId: brand.id, outcome: 'failed', seconds: 0, detail: NO_CLAUDE_KEY_MESSAGE }
+  }
   try {
     const allowFirecrawl = await shouldUseFirecrawl()
     // Imported lazily so the heavy AI/retrieval code only loads when needed.
@@ -193,6 +217,13 @@ export async function runSweep(opts: { maxBrands?: number; concurrency?: number;
   if (!state.lastSweepStartedAt && !state.activeSweepStartedAt) {
     state = await bootstrapState(cachedAt)
     if (state.lastSweepStartedAt) await writeRefreshState(state)
+  }
+
+  const nextDue = state.lastSweepStartedAt ? addInterval(state.lastSweepStartedAt) : undefined
+  const due = !!state.activeSweepStartedAt || !!opts.force || !nextDue || nextDue <= now
+  if (due && !hasClaudeCredentials()) {
+    // Don't start (or advance) a sweep that can't do real research.
+    return { status: 'skipped', message: NO_CLAUDE_KEY_MESSAGE, results: [], remaining: 0, nextSweepAt: nextDue }
   }
 
   let status: SweepReport['status'] = 'in-progress'
