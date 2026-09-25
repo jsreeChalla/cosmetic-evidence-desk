@@ -21,6 +21,10 @@ import type { BrandAnalysis } from './schemas'
  *   data/refresh-state.json, used when MONGODB_URI is not set, so the app
  *   still runs with no database.
  *
+ * Either way, the committed data/brand-cache/*.json files are also bundled
+ * into the server build as seed data (see "Bundled seed data" below), so a
+ * deployment always has the 65 cached brands even before any migration.
+ *
  * Populated lazily by getBrandResearch on a miss/staleness, by the Vercel Cron
  * route (src/routes/api/cron/refresh-cache.ts) and by
  * scripts/refresh-brand-cache.mjs, which all go through this module.
@@ -60,6 +64,34 @@ interface RefreshStateDoc {
   _id: 'sweep'
   state: RefreshState
   updatedAt: string
+}
+
+// ---------------------------------------------------------------------------
+// Bundled seed data
+// ---------------------------------------------------------------------------
+// data/brand-cache/*.json is compiled INTO the server bundle, because a Vercel
+// function can't read files from the repo at runtime. The seed is the fallback
+// whenever the store has no entry for a brand (empty/unmigrated database, no
+// database at all, or a read error), and a seeded brand is copied into MongoDB
+// the first time it's requested so later refreshes update it there.
+// Standalone scripts bundled with esbuild (no import.meta.glob) read the
+// files from disk instead, so the seed is simply empty there.
+
+let SEED: Map<string, BrandCacheEntry> | undefined
+
+function seedEntries(): Map<string, BrandCacheEntry> {
+  if (SEED) return SEED
+  SEED = new Map()
+  try {
+    const modules = import.meta.glob<BrandCacheEntry>('../../data/brand-cache/*.json', { eager: true, import: 'default' })
+    for (const [path, entry] of Object.entries(modules)) {
+      const brandId = path.split('/').pop()!.replace(/\.json$/, '')
+      if (entry?.cachedAt && entry?.data) SEED.set(brandId, entry)
+    }
+  } catch {
+    // Not built by Vite (e.g. esbuild-bundled scripts) — no bundled seed.
+  }
+  return SEED
 }
 
 // ---------------------------------------------------------------------------
@@ -115,17 +147,25 @@ export async function readBrandCache(brandId: string): Promise<BrandCacheEntry |
   if (cacheBackend() === 'mongodb') {
     try {
       const doc = await (await brands()).findOne({ _id: brandId })
-      return doc ? { cachedAt: doc.cachedAt, data: doc.data } : undefined
+      if (doc) return { cachedAt: doc.cachedAt, data: doc.data }
     } catch (err) {
       console.error(`[brand-cache] mongodb read failed brand=${brandId}`, err)
-      return undefined // treat as a miss rather than failing the page
+      return seedEntries().get(brandId) // serve the bundled copy rather than failing the page
     }
+    const seeded = seedEntries().get(brandId)
+    if (seeded) {
+      // First request for this brand on an empty database: copy the seed in.
+      await writeBrandCache(brandId, seeded.data, seeded.cachedAt).catch((err) =>
+        console.error(`[brand-cache] seeding mongodb failed brand=${brandId}`, err),
+      )
+    }
+    return seeded
   }
   try {
     const raw = await readFile(join(CACHE_DIR, `${brandId}.json`), 'utf-8')
     return JSON.parse(raw) as BrandCacheEntry
   } catch {
-    return undefined
+    return seedEntries().get(brandId) // e.g. on Vercel, where data/ isn't on disk
   }
 }
 
@@ -146,8 +186,14 @@ export async function writeBrandCache(brandId: string, data: BrandAnalysis, cach
 /** Every cached brand in one query (the collection is small: ~65 docs, ~1.3 MB). */
 export async function listBrandCache(): Promise<Array<BrandCacheListing>> {
   if (cacheBackend() === 'mongodb') {
-    const docs = await (await brands()).find({}).toArray()
-    return docs.map((d) => ({ brandId: d._id, cachedAt: d.cachedAt, data: d.data }))
+    let fromDb: Array<BrandCacheListing> = []
+    try {
+      const docs = await (await brands()).find({}).toArray()
+      fromDb = docs.map((d) => ({ brandId: d._id, cachedAt: d.cachedAt, data: d.data }))
+    } catch (err) {
+      console.error('[brand-cache] mongodb list failed', err)
+    }
+    return withSeedFallback(fromDb)
   }
   let files: Array<string> = []
   try {
@@ -162,7 +208,14 @@ export async function listBrandCache(): Promise<Array<BrandCacheListing>> {
       return entry ? { brandId, ...entry } : undefined
     }),
   )
-  return entries.filter((e): e is BrandCacheListing => !!e)
+  return withSeedFallback(entries.filter((e): e is BrandCacheListing => !!e))
+}
+
+// Adds bundled seed entries for any brand the store doesn't have yet.
+function withSeedFallback(entries: Array<BrandCacheListing>): Array<BrandCacheListing> {
+  const have = new Set(entries.map((e) => e.brandId))
+  const extra = [...seedEntries()].filter(([id]) => !have.has(id)).map(([brandId, e]) => ({ brandId, ...e }))
+  return extra.length ? [...entries, ...extra] : entries
 }
 
 // ---------------------------------------------------------------------------
