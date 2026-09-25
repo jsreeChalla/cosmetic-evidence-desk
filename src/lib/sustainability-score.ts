@@ -1,4 +1,4 @@
-import type { BrandAnalysis, BrandClaim, ClaimCategory, LegalMatter, ResearchPaper } from './schemas'
+import { VERTICAL_CATEGORIES, type BrandAnalysis, type BrandClaim, type ClaimCategory, type LegalMatter, type ResearchPaper, type Vertical } from './schemas'
 import { sortByRecency } from './recency'
 
 /**
@@ -64,7 +64,27 @@ import { sortByRecency } from './recency'
  * surfaces as a Note rather than a verdict.
  */
 
-const SCORED_CATEGORIES: Array<ClaimCategory> = ['safety', 'sustainability', 'cruelty-free', 'quality', 'labour-ethics']
+/**
+ * Categories that count towards the score are the brand's own vertical's
+ * categories (VERTICAL_CATEGORIES) — the same ones shown as cards — minus the
+ * ones that are product-line labels rather than a measure of the brand
+ * (vegan). So an electronics brand is scored on e-waste, conflict minerals and
+ * data privacy, never on cruelty-free.
+ *
+ *   cosmetics:   safety, sustainability, labour-ethics, cruelty-free, quality
+ *   fashion:     safety, sustainability, labour-ethics, material-sourcing, counterfeit-risk
+ *   electronics: safety, sustainability, labour-ethics, e-waste-recyclability, conflict-minerals, data-privacy
+ *   food:        safety, sustainability, labour-ethics, sourcing-organic, additives-health, animal-welfare
+ *
+ * Verticals have 5 or 6 categories, so the total is scaled to a 0-5 scale
+ * (DISPLAY_MAX) to keep scores comparable across verticals.
+ */
+const NOT_SCORED: ReadonlySet<ClaimCategory> = new Set<ClaimCategory>(['vegan'])
+const DISPLAY_MAX = 5
+
+export function scoredCategoriesFor(vertical: Vertical = 'cosmetics'): Array<ClaimCategory> {
+  return (VERTICAL_CATEGORIES[vertical] ?? VERTICAL_CATEGORIES.cosmetics).filter((c) => !NOT_SCORED.has(c))
+}
 
 export interface SustainabilityScoreBreakdown {
   category: ClaimCategory
@@ -83,8 +103,10 @@ export interface SustainabilityScore {
   breakdown: Array<SustainabilityScoreBreakdown>
   // Set when the labour-ethics gate capped the category breakdown's total.
   overrideReason?: string
-  // Sum of category points before flooring/capping (can be negative).
+  // Sum of category points before flooring/scaling/capping (can be negative).
   rawScore: number
+  // Number of categories scored for this brand's vertical (5 or 6).
+  categoryCount: number
   // Number of categories that received the -1 penalty.
   penaltiesApplied: number
 }
@@ -204,6 +226,14 @@ const CATEGORY_LEGAL_KEYWORDS: Partial<Record<ClaimCategory, Array<string>>> = {
   safety: ['safety', 'recall', 'toxic', 'harmful', 'banned substance', 'prohibited substance', 'allergen', 'contaminat', 'carcinogen', 'injur', 'sécurité', 'rappel'],
   'cruelty-free': ['animal test', 'animal-test', 'tested on animals', 'cruelty', 'animal welfare', 'expérimentation animale'],
   quality: ['counterfeit', 'defect', 'quality', 'misleading', 'false advertising', 'deceptive', 'efficacy', 'trompeuse'],
+  'material-sourcing': ['cotton', 'leather', 'wool', 'xinjiang', 'deforestation', 'material', 'sourcing', 'recycled polyester'],
+  'counterfeit-risk': ['counterfeit', 'fake', 'contrefaçon', 'trademark', 'knock-off'],
+  'e-waste-recyclability': ['e-waste', 'weee', 'deee', 'recycl', 'repairab', 'planned obsolescence', 'obsolescence programmée', 'take-back'],
+  'conflict-minerals': ['conflict mineral', 'cobalt', 'tantalum', 'tin', 'tungsten', 'coltan', '3tg', 'drc', 'congo'],
+  'data-privacy': ['gdpr', 'rgpd', 'cnil', 'data protection', 'privacy', 'personal data', 'données personnelles', 'data breach'],
+  'sourcing-organic': ['organic', 'biologique', 'bio ', 'pesticide', 'origin', 'sourcing', 'deforestation'],
+  'additives-health': ['additive', 'additif', 'e171', 'nitrite', 'sugar', 'salt', 'nutri-score', 'contaminat', 'recall'],
+  'animal-welfare': ['animal welfare', 'bien-être animal', 'cage', 'battery', 'slaughter', 'l214', 'livestock'],
 }
 
 const DISMISSAL_PATTERN = /\b(dismiss(ed|al)|acquit(ted)?|cleared|overturned|rejected the (claim|complaint)|in favou?r of (the )?(company|brand)|relaxe|débouté)\b/i
@@ -336,14 +366,15 @@ export function assessFalseClaimPenalty(
 
 // ---------------------------------------------------------------------------
 
-export function computeSustainabilityScore(data: BrandAnalysis): SustainabilityScore | null {
+export function computeSustainabilityScore(data: BrandAnalysis, vertical: Vertical = 'cosmetics'): SustainabilityScore | null {
   if (!data.hasEvidence) return null
 
   const claimByCategory = new Map(data.claims.map((c) => [c.category, c]))
   const generated = new Date(data.generatedAt)
   const referenceYear = Number.isNaN(generated.getTime()) ? new Date().getFullYear() : generated.getFullYear()
 
-  const breakdown: Array<SustainabilityScoreBreakdown> = SCORED_CATEGORIES.map((category) => {
+  const scored = scoredCategoriesFor(vertical)
+  const breakdown: Array<SustainabilityScoreBreakdown> = scored.map((category) => {
     const claim = claimByCategory.get(category)
 
     // The narrow China-only animal-testing compromise keeps its 0.5 and is never penalised.
@@ -397,9 +428,10 @@ export function computeSustainabilityScore(data: BrandAnalysis): SustainabilityS
 
   const rawScore = breakdown.reduce((sum, b) => sum + b.points, 0)
   const penaltiesApplied = breakdown.filter((b) => b.penalty).length
-  // Floor at 0 (keeps a 0-5 scale), then snap to the nearest half-point.
-  const score = Math.round(Math.max(0, rawScore) * 2) / 2
-  const maxScore = SCORED_CATEGORIES.length
+  const categoryCount = scored.length
+  const maxScore = DISPLAY_MAX
+  // Floor at 0, scale the category total to 0-5, then snap to the nearest half-point.
+  const score = Math.round((Math.max(0, rawScore) / categoryCount) * maxScore * 2) / 2
 
   // Labour/ethics gate stays the ceiling; the -1 applies inside it, never on top of it.
   const labourViolated = claimByCategory.get('labour-ethics')?.match === 'contradicted'
@@ -409,10 +441,11 @@ export function computeSustainabilityScore(data: BrandAnalysis): SustainabilityS
       maxScore,
       breakdown,
       rawScore,
+      categoryCount,
       penaltiesApplied,
       overrideReason: `Independent sources found this brand violates labour rights or ethical conduct standards — capped at ${LABOUR_VIOLATION_SCORE_CAP}/${maxScore} regardless of how well the other categories score.`,
     }
   }
 
-  return { score, maxScore, breakdown, rawScore, penaltiesApplied }
+  return { score, maxScore, breakdown, rawScore, categoryCount, penaltiesApplied }
 }

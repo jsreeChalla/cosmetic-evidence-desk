@@ -8,6 +8,14 @@ const LABELS: Partial<Record<ClaimCategory, string>> = {
   'cruelty-free': 'Cruelty-free',
   quality: 'Product quality',
   'labour-ethics': 'Labour & ethics',
+  'material-sourcing': 'Material sourcing',
+  'counterfeit-risk': 'Counterfeit risk',
+  'e-waste-recyclability': 'E-waste & recyclability',
+  'conflict-minerals': 'Conflict minerals',
+  'data-privacy': 'Data privacy',
+  'sourcing-organic': 'Organic sourcing',
+  'additives-health': 'Additives & health',
+  'animal-welfare': 'Animal welfare',
 }
 
 export const SCRAPED_NOTICE =
@@ -97,11 +105,17 @@ export function SustainabilityScoreBadge(props: { score: SustainabilityScore }) 
           </ul>
 
           {score.overrideReason && <p className="text-xs text-rose-700">{score.overrideReason}</p>}
-          {score.rawScore < 0 && (
-            <p className="text-xs text-ink/50">
-              Category points add up to {score.rawScore.toFixed(1)}; the score is shown as 0 because it never goes below zero.
-            </p>
-          )}
+          <p className="text-xs text-ink/50">
+            {score.rawScore < 0
+              ? `Category points add up to ${score.rawScore.toFixed(1)} out of ${score.categoryCount}; the score is shown as 0 because it never goes below zero.`
+              : score.categoryCount !== score.maxScore
+                ? `Category points add up to ${score.rawScore.toFixed(1)} out of ${score.categoryCount}, scaled to ${score.maxScore} so scores compare across sectors.`
+                : `Category points add up to ${score.rawScore.toFixed(1)} out of ${score.categoryCount}.`}
+          </p>
+          <p className="text-xs text-ink/50">
+            Only the checks relevant to this brand's sector are scored (for example, electronics brands are scored on
+            e-waste, conflict minerals and data privacy, not on cruelty-free).
+          </p>
 
           <p className="text-xs text-ink/50">
             A −1 is given only when the brand made a verified public claim that recent independent evidence contradicts —

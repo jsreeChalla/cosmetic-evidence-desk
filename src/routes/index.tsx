@@ -221,7 +221,7 @@ function BrandResult({
     return <EmptyState brandName={brand.name} reason="no-data" />
   }
 
-  const sustainabilityScore = computeSustainabilityScore(data)
+  const sustainabilityScore = computeSustainabilityScore(data, brand.vertical ?? 'cosmetics')
 
   return (
     <div className="space-y-8">
