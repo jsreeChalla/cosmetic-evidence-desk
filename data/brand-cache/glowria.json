@@ -1,0 +1,48 @@
+{
+  "cachedAt": "2026-09-16T12:15:08.634Z",
+  "data": {
+    "brand": "Glowria",
+    "overview": "The only brand-specific sources are Glowria's own websites, which present marketing claims about vegan, cruelty-free, prostaglandin-free, and dermatologist/ophthalmologist-tested lash and brow products. No independent testing, ratings, or legal records naming Glowria appear in the fetched sources, so these claims are self-reported and unverified. Note that multiple unrelated businesses use the \"Glowria\" name (a candle warmer lamp shop and a health/beauty reseller), which are distinct from the lash/brow cosmetics brand.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "vegan",
+        "claim": "Glowria states its vegan lash and brow collection contains no animal-derived ingredients.",
+        "quote": "100% vegan formulas — no animal-derived ingredients",
+        "sourceUrl": "https://glowria-cosmetics.com/collections/vegan-lash-brow-care",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Glowria claims its products are cruelty-free certified and never tested on animals.",
+        "quote": "Cruelty-free certified — never tested on animals",
+        "sourceUrl": "https://glowria-cosmetics.com/collections/vegan-lash-brow-care",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Glowria claims its formulas are dermatologist-tested and ophthalmologist-approved and free from parabens, sulfates and prostaglandins.",
+        "quote": "Clean beauty — free from parabens, sulfates & prostaglandins ✦ Sustainably sourced botanical actives ✦ Dermatologist-tested & ophthalmologist-approved",
+        "sourceUrl": "https://glowria-cosmetics.com/collections/vegan-lash-brow-care",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "claim": "Glowria claims to use sustainably sourced botanical actives as part of an ethical, sustainable beauty philosophy.",
+        "quote": "botanical science with an ethical, sustainable beauty philosophy",
+        "sourceUrl": "https://glowria-cosmetics.com/collections/vegan-lash-brow-care",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:15:08.633Z"
+  }
+}

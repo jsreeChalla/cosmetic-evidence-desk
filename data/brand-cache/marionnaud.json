@@ -1,0 +1,116 @@
+{
+  "cachedAt": "2026-09-16T12:06:22.093Z",
+  "data": {
+    "brand": "Marionnaud",
+    "parentCompany": "AS Watson",
+    "overview": "Marionnaud is a France-based beauty retailer (Marionnaud Parfumeries SAS) owned by AS Watson. The only substantive brand-specific evaluation in the fetched sources is Good On You's rating, which scores Marionnaud \"Not Good Enough\" overall — weak on environmental policy, labour conditions, and especially animal welfare, where it holds no policy against animal testing. The brand's own fetched pages contain navigation/product listings rather than explicit self-claims.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/marionnaud-beauty"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/marionnaud-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/marionnaud-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/marionnaud-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Marionnaud Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/marionnaud-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-ethics",
+          "animal-welfare",
+          "packaging",
+          "supply-chain"
+        ],
+        "summary": "Good On You rates Marionnaud 'Not Good Enough' overall (Planet 2/5, People 2/5, Animals 1/5). It found no evidence of lower-impact ingredients or that its emissions target is on track, and no biodegradability policy. On labour, part of production is BSCI-certified but there is no evidence of living wages or responsible mica sourcing. On animals, it has no policy against animal testing and no commitment to eliminate animal-derived ingredients.",
+        "findings": [
+          {
+            "text": "Marionnaud has a science-based emissions target but no evidence it is on track, and no policy on ingredient biodegradability or environmental toxicity.",
+            "quote": "It's set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there's no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence Marionnaud ensures living wages or provides financial security to suppliers.",
+            "quote": "There's no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Marionnaud uses mica but has disclosed no responsible-sourcing information to mitigate human rights risks.",
+            "quote": "It uses mica, but it hasn't disclosed any information regarding responsible sourcing that mitigates human rights risks.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Marionnaud has no certification, policy, or statement against animal testing in its supply chains.",
+            "quote": "It does not have a certification, policy, or statement against the use of animal testing in its supply chains.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Marionnaud has made no public commitment to eliminate animal-derived ingredients and does not state which it uses.",
+            "quote": "It doesn't clearly state what animal-derived ingredients it uses. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:06:22.092Z"
+  }
+}

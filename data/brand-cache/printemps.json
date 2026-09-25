@@ -1,0 +1,136 @@
+{
+  "cachedAt": "2026-09-10T07:44:33.350Z",
+  "data": {
+    "brand": "Printemps",
+    "overview": "Printemps (Groupe Printemps), a French fashion, luxury and beauty department store group, publishes environmental and labour commitments including a 40% energy reduction, FSC-labelled bags, and a gender equality index. However, the independent rating from Good On You rates Printemps's house fashion brands \"We Avoid\" overall, citing weak evidence on living wages, textile waste, and animal welfare.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Printemps Group states it has reduced energy consumption at its sites by 40% between 2019 and 2025, meeting its 2030 target.",
+        "quote": "-40% reduction in energy consumption between 2019 and 2025 (2030 target achieved)",
+        "sourceUrl": "https://www.groupe-printemps.com/en/commitments",
+        "quoteVerification": "flagged",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/printemps"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Printemps Group states it is committed to ensuring health, safety and high-quality working conditions and reports a 98/100 gender equality index.",
+        "quote": "we are committed to being a thoughtful employer and ensuring excellent health and safety standards and high-quality working conditions for employees at all our sites",
+        "sourceUrl": "https://www.groupe-printemps.com/en/commitments",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/printemps"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/printemps"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Printemps Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/printemps",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "living-wage",
+          "textile-waste",
+          "animal-welfare",
+          "supply-chain-audits"
+        ],
+        "summary": "Good On You rates Printemps's house fashion brands \"We Avoid\" overall, with low scores across Planet (2/5), People (1/5) and Animals (1/5). It finds no evidence of living wages, lower-impact materials, or an animal welfare policy, and notes the brand audits some of its supply chain without specifying how much. It appears to use leather, wool, cashmere, alpaca and mohair.",
+        "findings": [
+          {
+            "text": "Printemps is rated as not ensuring a living wage for its workers.",
+            "quote": "PRINTEMPS is not taking adequate steps to ensure payment of a living wage for its workers.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence Printemps uses lower-impact materials or minimises textile waste in its supply chain.",
+            "quote": "There’s no evidence it uses any lower-impact materials. While it offers resale of secondhand products, there’s no evidence it’s taking further action to address textile waste in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Printemps claims to audit some of its supply chain but does not specify what percentage.",
+            "quote": "The brand claims to audit some of its supply chain but doesn’t specify what percentage. There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Printemps appears to use animal-derived materials and has no evidence of an animal welfare policy.",
+            "quote": "It appears to use leather, wool, cashmere, alpaca, and mohair. It doesn’t appear to use shearling or down. There’s no evidence it has an animal welfare policy.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Réduire notre impact environnemental",
+        "publisher": "Groupe Printemps",
+        "sourceUrl": "https://www.groupe-printemps.com/reduire-limpact-environnemental-de-nos-activites",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "energy",
+          "waste",
+          "transport",
+          "packaging"
+        ],
+        "summary": "Groupe Printemps details environmental actions including a 40% energy reduction between 2019 and 2025, LED lighting, a 10-year energy performance contract, FSC-labelled paper bags since 2017, and natural-gas (GNV) delivery vehicles for its Paris stores. These are the company's own self-reported figures.",
+        "findings": [
+          {
+            "text": "Printemps reports a 40% reduction in energy consumed between 2019 and 2025, meeting its 2030 target.",
+            "quote": "-40 % d'énergie consommée entre 2019 et 2025 (objectif 2030 atteint)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Since 2017 all Printemps bags are made from FSC-labelled paper from sustainably managed forests.",
+            "quote": "depuis 2017, tous nos sacs sont entièrement fabriqués à partir de papier labellisé FSC, provenant de forêts gérées de manière durable",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Paris store deliveries use only natural-gas (GNV) vehicles at night, and express air delivery was eliminated.",
+            "quote": "la livraison de nos magasins parisiens est effectuée uniquement de nuit par des véhicules roulant au gaz naturel (GNV). Nous avons également fait le choix de supprimer la livraison express par avion",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 26,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-10T07:44:33.349Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cachedAt": "2026-09-02T11:08:52.945Z",
+  "data": {
+    "brand": "Blissim",
+    "overview": "The fetched sources predominantly concern \"Bliss\" (blissworld.com), a US skincare brand with its own cruelty-free claims, rather than \"Blissim\" (blissim.fr), the French beauty-box retailer. The only Blissim-specific fetched source is its own French storefront, which describes vegan products as containing no animal-derived ingredients. No independent, brand-specific evidence or legal matters for Blissim itself were found in these sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "vegan",
+        "claim": "Blissim describes its vegan-filtered products as containing no animal-derived ingredients such as dairy, honey, beeswax, lanolin, keratin or animal squalane.",
+        "quote": "Aucun ingrédient d’origine animale ne s’est glissé dans ces produits. Pas de produit laitier, ni miel, cire d’abeille, lanoline",
+        "sourceUrl": "https://blissim.fr/boutique/caracteristiques-produits/vegan",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:08:52.944Z"
+  }
+}

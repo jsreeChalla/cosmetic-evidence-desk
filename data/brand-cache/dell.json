@@ -1,0 +1,233 @@
+{
+  "cachedAt": "2026-09-21T09:21:47.860Z",
+  "data": {
+    "brand": "Dell",
+    "overview": "Dell Inc. is a subsidiary of Dell Technologies, an American technology company founded in 1984 and based in Round Rock, Texas. Independent sources rate Dell's environmental and social practices favorably but flag product safety recalls and multiple data breaches (including a 2024 incident exposing roughly 49 million customer records) and a history of consumer-protection and employment litigation. Dell publishes its own free consumer e-waste takeback program.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "e-waste-recyclability",
+        "claim": "Dell offers free consumer takeback services to recycle used Dell and non-Dell equipment.",
+        "quote": "Responsibly recycle your used Dell and non-Dell equipment for free.",
+        "sourceUrl": "https://recycling.dell.com/_Content/en-US/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "sustainablereports.org",
+            "sourceUrl": "https://sustainablereports.org/en/brand-reports/dell-technologies-sustainability-report-2025"
+          },
+          {
+            "publisher": "BrandScore",
+            "sourceUrl": "https://brandscore.org/companies/dell-technologies"
+          }
+        ]
+      },
+      {
+        "category": "data-privacy",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Daily Security Review",
+            "sourceUrl": "https://dailysecurityreview.com/security-spotlight/dell-investigates-data-breach-claims-after-hacker-leaks-employee-info/"
+          },
+          {
+            "publisher": "BreachHistory",
+            "sourceUrl": "https://breachhistory.com/blog/dell-data-breaches-full-timeline-through-2026"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Dell Technologies Sustainability Report 2025",
+        "publisher": "sustainablereports.org",
+        "sourceUrl": "https://sustainablereports.org/en/brand-reports/dell-technologies-sustainability-report-2025",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "sustainability",
+          "ESG disclosure",
+          "lifecycle",
+          "supply chain"
+        ],
+        "summary": "This editorial breakdown reads Dell's FY2025 annual reporting as an auditable evidence baseline rather than a complete sustainability story. It concludes Dell is a credible computers-category candidate but scores it conservatively because its disclosures are embedded in annual reports rather than a dedicated ESG package, and because supplier enforcement outcomes lack transparency.",
+        "findings": [
+          {
+            "text": "Dell was included as a minimum-defensible-evidence candidate rather than a category leader in sustainability outcomes.",
+            "quote": "Dell's placement is best understood as a \"minimum defensible evidence\" inclusion, not a claim of category-leading sustainability outcomes.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Dell's social responsibility score is deliberately conservative due to limited visibility into multi-tier supplier enforcement.",
+            "quote": "annual reporting can support a baseline governance review, but it rarely provides full visibility into multi-tier supplier enforcement. This is why Dell's social score is deliberately conservative",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Dell still needs deeper transparency on supplier enforcement outcomes and stronger device lifecycle evidence.",
+            "quote": "stronger category-specific lifecycle evidence for devices and PCs deeper transparency on supplier enforcement outcomes",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is Dell Technologies a Good Company? Ethics, Sustainability & Ratings",
+        "publisher": "BrandScore",
+        "sourceUrl": "https://brandscore.org/companies/dell-technologies",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "ESG ratings",
+          "product safety",
+          "environment",
+          "governance"
+        ],
+        "summary": "BrandScore rates Dell Technologies 'B / Satisfactory' overall, with strong environmental (B+), social (A+) and governance (A+) scores backed by ISO 14001 and EPEAT Climate+ certifications, but failing (F) product and fiscal scores driven by product recalls and financial violations, plus a low Trustpilot customer rating.",
+        "findings": [
+          {
+            "text": "Dell holds ISO 14001 and EPEAT Climate+ certifications indicating strong environmental practices.",
+            "quote": "strong environmental and social practices, evidenced by ISO 14001 and EPEAT Climate+ certifications",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Dell has 13 confirmed product recalls that BrandScore flags as safety concerns.",
+            "quote": "13 confirmed product recalls indicate safety concerns.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Dell scored F on product and fiscal dimensions due to recalls and financial violations.",
+            "quote": "product safety and financial governance need attention, as indicated by product recalls and financial violations",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Dell Investigates Data Breach Claims After Hacker Leaks Employee Info",
+        "publisher": "Daily Security Review",
+        "sourceUrl": "https://dailysecurityreview.com/security-spotlight/dell-investigates-data-breach-claims-after-hacker-leaks-employee-info/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "data privacy",
+          "data breach",
+          "employee data"
+        ],
+        "summary": "In September 2024 a threat actor leaked data for over 10,000 Dell employees on a hacking forum, and Dell confirmed its security team was investigating. The article notes this followed an earlier 2024 breach in which an abused API was used to steal 49 million customer records.",
+        "findings": [
+          {
+            "text": "A hacker leaked data on over 10,000 Dell employees, prompting a Dell investigation.",
+            "quote": "a threat actor, known as \"grep,\" leaked data for over 10,000 employees on a hacking forum",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Earlier in 2024 Dell suffered a breach where an API was abused to steal 49 million customer records.",
+            "quote": "the company suffered a breach where an API was abused to steal 49 million customer records",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "data-privacy",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Dell Data Breaches: Full Timeline Through 2026",
+        "publisher": "BreachHistory",
+        "sourceUrl": "https://breachhistory.com/blog/dell-data-breaches-full-timeline-through-2026",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "data privacy",
+          "data breach",
+          "supply chain"
+        ],
+        "summary": "BreachHistory indexes three Dell-linked breach incidents through 2026, including two 2024 events affecting approximately 49M+ records each and a 2018 incident affecting 100K+ records. Recurring themes include third-party and supply-chain exposure across Dell catalog entries.",
+        "findings": [
+          {
+            "text": "Dell disclosed a 2024 breach of a customer portal with data offered for sale on the dark web, affecting ~49M+ records.",
+            "quote": "Dell disclosed a breach of a portal containing customer purchase information including names, addresses, and order details. Data was offered for sale on the dark web.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A 2024 incident involved a threat actor brute-forcing service tags at 5,000 requests per minute for three weeks.",
+            "quote": "Threat actor Menelik brute-forced 7-digit service tags at 5,000 req/min for 3 weeks. No financial data exposed.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "In November 2018 Dell detected unauthorized activity attempting to extract customer names, emails and hashed passwords.",
+            "quote": "Dell detected & disrupted unauthorized activity on its network attempting to extract Dell customer information, which was included names, email addresses & hashed passwords",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "data-privacy",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "New York Attorney General false advertising lawsuit",
+        "entity": "Dell Inc.",
+        "status": "decided",
+        "year": 2007,
+        "summary": "New York AG Andrew Cuomo sued Dell over false advertising and deceptive business practices, and a state Supreme Court justice found Dell had engaged in fraud and deceptive practices.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
+        "quote": "Andrew Cuomo filed a lawsuit against Dell for \" false advertising and deceptive business practices, including offering misleading financing, and failing to honor rebates, warranties and service contracts\"",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "OptiPlex faulty capacitor civil case",
+        "entity": "Dell Inc.",
+        "status": "unclear",
+        "year": 2010,
+        "summary": "A civil case alleged Dell shipped millions of computers with faulty capacitors and knowingly concealed the component problems from customers.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
+        "quote": "Dell shipped at least 11.8 million computers from May 2003 to July 2005 that were at risk of failing because of faulty capacitors made by the Japanese manufacturer Nichicon",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "Gilbert v. Dell gender identity discrimination arbitration",
+        "entity": "Dell Inc.",
+        "status": "decided",
+        "year": 2022,
+        "summary": "A transgender employee filed suit for discriminatory termination, and an arbitrator ruled Dell had terminated the employee because of gender identity and disability.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
+        "quote": "the Arbitrator ruled that Dell had terminated the employee because of gender identity and disability",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 14,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:21:47.860Z"
+  }
+}

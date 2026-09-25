@@ -1,0 +1,202 @@
+{
+  "cachedAt": "2026-09-02T09:42:14.777Z",
+  "data": {
+    "brand": "Kiehl's",
+    "parentCompany": "L'Oréal",
+    "overview": "Kiehl's, a skincare and body care brand founded in 1851 and acquired by L'Oréal in 2000, promotes sustainability through renewable/responsibly-sourced ingredients, refillable packaging, a takeback program, and product-level environmental impact scores. Independent reviewers rate its sustainability efforts favorably overall but note continued use of some environmentally harmful ingredients. On animal welfare, both PETA and Cruelty-Free Kitty confirm Kiehl's is NOT cruelty-free because it permits animal testing where required by law (e.g. mainland China).",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Kiehl's says a large majority of its products contain multiple renewable ingredients and supports responsible farming communities globally.",
+        "quote": "a full 98% of our offerings contain three or more renewable ingredients). And our continued support of sustainable practices helps support responsible farming in more than 600 communities across the globe",
+        "sourceUrl": "https://www.kiehls.com/skincare-advice/sustainable-skincare-ingredients.html?srsltid=AfmBOor_hz7aEJpXZyBSnteQMk1vwr1aXGO5xOh19et8cNRw31ZEX4zB",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Kiehl's claims it does not conduct animal testing except where required by law and is committed to a future without animal testing.",
+        "quote": "We at Kiehl’s do not conduct animal testing on our products or ingredients, nor ask others to test on our behalf, except when required by law.",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/kielhs/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Kiehl's Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/kielhs/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China",
+          "L'Oreal"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Kiehl's is not cruelty-free because, although it claims not to test itself, it admits to animal testing where required by law and is sold in mainland China, where authorities test products on animals. The reviewer notes this contradicts Kiehl's stated commitment to a future without animal tests. Kiehl's is owned by L'Oréal, which is also not cruelty-free.",
+        "findings": [
+          {
+            "text": "Kiehl's permits animal testing where legally required and sells in mainland China, so it cannot be considered cruelty-free.",
+            "quote": "Although they claim not to test on animals themselves, they do admit to testing on animals where required by law. Since Kiehl’s is available in stores in mainland China",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Kiehl's was founded in 1851 and acquired by L'Oréal in 2000.",
+            "quote": "Kiehl’s is a high-end skincare and body care brand available in department stores and drugstores worldwide. Founded in 1851, they were acquired by L’Oreal in 2000.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Kiehl's (L'Oreal) Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/kiehls-loreal/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing"
+        ],
+        "summary": "PETA lists Kiehl's (L'Oreal) as a company that does test on animals, stating it may test directly, via suppliers, or via a third party, and may sell in regions where animal testing is legally mandated.",
+        "findings": [
+          {
+            "text": "PETA classifies Kiehl's (L'Oreal) as a company that does test on animals.",
+            "quote": "Kiehl’s (L’Oreal) does test on animals. They might conduct animal testing directly, rely on their suppliers to do so, or outsource it to a third party.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "How Sustainable is Kiehl's?",
+        "publisher": "The Commons (Commons Earth)",
+        "sourceUrl": "https://brands.thecommons.earth/brand-rating/213/kiehl's",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "packaging",
+          "ingredients",
+          "labour-ethics",
+          "emissions"
+        ],
+        "summary": "The Commons gives Kiehl's an overall 'Great/Good' sustainability rating, praising packaging minimization, a long-running takeback program, and ingredient commitments. However, it notes Kiehl's still uses ingredients that threaten the climate, including microplastics and harmful sun care ingredients, and that parent L'Oréal is off track for its scope 3 emissions target. L'Oréal's supplier code of conduct prohibits forced and child labor but omits living wage and collective bargaining guarantees.",
+        "findings": [
+          {
+            "text": "Kiehl's has committed to avoiding several harmful ingredients but still uses microplastics and other petrochemical-based ingredients that threaten the climate.",
+            "quote": "While it has made commitments, Kiehl's still uses many ingredients that pose a significant threat to the climate, including microplastics, harmful sun care ingredients, and other petrochemical-based ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Kiehl's runs a takeback program launched in 2009 accepting containers from any brand and has a goal to eliminate single-use virgin plastic by 2030.",
+            "quote": "Its takeback program, Recycle & Be Rewarded, was launched in 2009 and allows customers to return containers from any brand for in-store recycling and rewards.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Parent L'Oréal's supplier code prohibits forced and child labor but does not ensure a living wage or collective bargaining where not legally allowed.",
+            "quote": "Its code of conduct doesn't ensure the right to collective bargaining where not allowed by law, ensure a living wage, or include environmental clauses.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal is on track for some emissions targets but very off track for its scope 3 target.",
+            "quote": "It has reported on its progress within the past year, and is on track for some of its targets, but is very off track for its scope 3 target.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Kiehl's Really Natural Or Are they Greenwashing?",
+        "publisher": "Kristen Arnett",
+        "sourceUrl": "https://kristenarnett.com/is-kiehls-really-natural-or-are-they-greenwashing/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "greenwashing",
+          "ingredients",
+          "animal-testing",
+          "parabens"
+        ],
+        "summary": "This opinion piece argues Kiehl's markets itself as natural while its formulas contain synthetic chemicals; the author points to the Creamy Eye Treatment with Avocado containing four parabens and phenoxyethanol, with avocado oil low on the ingredient list. It also cites PETA to say Kiehl's (owned by L'Oreal) still tests on animals.",
+        "findings": [
+          {
+            "text": "The author found Kiehl's Creamy Eye Treatment with Avocado contains four parabens and only a small amount of avocado oil, contradicting its natural marketing.",
+            "quote": "I counted 4 _parabens_, among other non-natural chemicals I’m not excited to see. Like the highly skin irritating/neurotoxin _Phenoxyethanol._",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The author states, citing PETA, that Kiehl's (owned by L'Oreal) still tests on animals.",
+            "quote": "According to [PETA], Kiehl’s (owned by L’Oreal) is still testing on animals.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Kiehl's Sustainability Initiatives—Why Embracing Refillables are a 'Game-Changer'",
+        "publisher": "Beauty Packaging",
+        "sourceUrl": "https://www.beautypackaging.com/kiehls-sustainability-initiatives-why-embracing-refillables-are-a-game-changer/",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "packaging",
+          "refillables",
+          "renewable-energy",
+          "plastic-reduction"
+        ],
+        "summary": "In a Q&A with Kiehl's Global Head of Sustainability Maggie Kervick, the L'Oréal-owned brand describes refill pouches that use 61-81% less plastic than repurchasing jars, a commitment to reusable/recyclable products and packaging by 2030, and production facilities powered by renewable energy. In 2024 refill formats saved 122 tons of plastic globally.",
+        "findings": [
+          {
+            "text": "Kiehl's says refill formats saved 122 tons of plastic in production globally in 2024.",
+            "quote": "In 2024, Kiehl’s refill formats allowed us to use 122 fewer tons of plastic in product production globally.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Kiehl's states 97% of its products are made in facilities powered by over 99% renewable energy and commits to reusable/recyclable products by 2030.",
+            "quote": "97% of Kiehl’s products are made in facilities that are powered by over 99% renewable energy.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 25,
+    "sourcesFetched": 24,
+    "degraded": false,
+    "generatedAt": "2026-09-02T09:42:14.777Z"
+  }
+}

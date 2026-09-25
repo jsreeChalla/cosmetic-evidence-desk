@@ -1,0 +1,111 @@
+{
+  "cachedAt": "2026-09-02T11:37:15.797Z",
+  "data": {
+    "brand": "Dr Pierre Ricaud",
+    "parentCompany": "Groupe Rocher",
+    "overview": "Dr Pierre Ricaud is a French dermocosmetics brand founded in 1986, owned by Groupe Rocher since 2007, that manufactures anti-aging skincare in its own factories in France and sells directly to consumers without intermediaries. Available evidence focuses on the brand's own sustainability and made-in-France commitments (recycled packaging, refills, the 3R policy) plus a third-party CSR analysis rating its environmental communications at a B. No independent safety, cruelty-free, or labour-ethics assessment specific to the brand was found in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "The brand says its recycled plastic and glass packaging saved 84 tonnes of virgin glass and 21 tonnes of virgin plastic in 2023.",
+        "quote": "In 2023, thanks to the integration of recycled plastic and glass in our packaging, we saved 84 tons of virgin glass and 21 tons of virgin plastic.",
+        "sourceUrl": "https://groupe-rocher.com/en/brands/dr-pierre-ricaud",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "2050 Analytics",
+            "sourceUrl": "https://2050analytics.com/fr/org/93872.dr-pierre-ricaud"
+          },
+          {
+            "publisher": "BeautyDecoded",
+            "sourceUrl": "https://www.beautydecoded.com/en/brands/dr-pierre-ricaud/"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "The brand states all its products are made in France and Europe and distributed directly without intermediaries.",
+        "quote": "We are a French brand, all of whose products are made in France and Europe and have chosen to ditribute our products without an intermediary",
+        "sourceUrl": "https://www.ricaud.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Analyse RSE Dr Pierre Ricaud",
+        "publisher": "2050 Analytics",
+        "sourceUrl": "https://2050analytics.com/fr/org/93872.dr-pierre-ricaud",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "packaging",
+          "circular-economy",
+          "greenwashing",
+          "CSR-rating"
+        ],
+        "summary": "This third-party CSR analysis rates Dr Pierre Ricaud with a global score of B, noting it communicates more completely than most peers on major CSR issues. It highlights circular-economy initiatives such as ecological refills that saved tonnes of glass and plastic, progressive removal of plastic films, recyclable/compostable packaging, responsible sourcing of lotus polyphenols from India, and use of vitamin C synthesized from natural glucose.",
+        "findings": [
+          {
+            "text": "The brand receives a global CSR score of B and is judged to communicate more completely than most peers on major CSR issues.",
+            "quote": "Avec un score global B , Dr Pierre Ricaud communique de manière plus complète que la majorité de ses pairs sur les enjeux RSE majeurs.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Its ecological refills for the 'Essence de Beauté' range saved over 15 tonnes of glass and 3 tonnes of plastic in 2020.",
+            "quote": "En 2020, plus de 90 000 recharges ont été vendues, économisant ainsi plus de 15 tonnes de verre et 3 tonnes de plastique.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The analysis credits responsible sourcing of lotus polyphenols harvested in India via ecological extraction processes.",
+            "quote": "Dr Pierre Ricaud agit dans ce domaine en assurant la provenance responsable des polyphénols de lotus, récoltés en Inde et extraits via des procédés écologiques.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "Dr. Pierre Ricaud Reviews: AI Score and Reviews from 50,000 Beautydecoders",
+        "publisher": "BeautyDecoded",
+        "sourceUrl": "https://www.beautydecoded.com/en/brands/dr-pierre-ricaud/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ingredient-analysis",
+          "product-reviews",
+          "ownership",
+          "formulation"
+        ],
+        "summary": "An independent physician-led analysis of 25 Dr Pierre Ricaud products across its main ranges, drawing on 87 user reviews. It praises the transparency of documented active ingredients (niacinamide, AHA, multi-weight hyaluronic acid, peptides) and the organic galanga innovation, while cautioning that several users report perfume in the formulas, a potential issue for hyper-reactive skin. It confirms the brand joined Groupe Rocher in 2007.",
+        "findings": [
+          {
+            "text": "The reviewer praises transparency of documented active ingredients with proven efficacy across the range.",
+            "quote": "The transparency of the active ingredients: niacinamide, AHA, multi-weight HA, peptides - documented active ingredients with proven efficacy.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Several users report perfume in the formulas, flagged as a potential problem for hyper-reactive skin.",
+            "quote": "A word of caution: several users report perfume in the formulas, a potential hindrance for hyper-reactive skin.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The source confirms the brand joined Groupe Rocher in 2007.",
+            "quote": "The brand joins the Groupe Rocher in 2007 .",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 29,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:37:15.796Z"
+  }
+}

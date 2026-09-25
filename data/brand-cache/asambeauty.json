@@ -1,0 +1,52 @@
+{
+  "cachedAt": "2026-09-02T10:52:59.786Z",
+  "data": {
+    "brand": "Asambeauty",
+    "overview": "Found 25 fetched sources; showing conservative snippets from the top results.",
+    "hasEvidence": true,
+    "claims": [],
+    "papers": [
+      {
+        "title": "Sustainability - Asam Betriebs-GmbH",
+        "publisher": "asam-cosmetics.com",
+        "sourceUrl": "https://asam-cosmetics.com/sustainability/?lang=en",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [],
+        "summary": "With a great deal of visionary spirit, the family business Asam has developed into a great asambeauty world of experience.",
+        "findings": [
+          {
+            "text": "With a great deal of visionary spirit, the family business Asam has developed into a great asambeauty world of experience.",
+            "quote": "With a great deal of visionary spirit, the family business Asam has developed into a great asambeauty world of experience.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "asambeauty Company Overview, Contact Details & Competitors",
+        "publisher": "leadiq.com",
+        "sourceUrl": "https://leadiq.com/c/asambeauty/5d48160bf45f783eced81e25",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [],
+        "summary": "[![LeadIQ logo](https://leadiq.com/_assets/logo.DuCvgQ6q.svg)](https://leadiq.com/?utm_source=seo) [Learn more at LeadIQ.com](https://leadiq.com/?utm_source=seo) Start free ## Insights **Private Label Strategy** Asambeauty has a history as a private-label producer and now operates as a multi-channel",
+        "findings": [
+          {
+            "text": "[![LeadIQ logo](https://leadiq.com/_assets/logo.DuCvgQ6q.svg)](https://leadiq.com/?utm_source=seo) [Learn more at LeadIQ.com](https://leadiq.com/?utm_source=seo) Start free ## Insights **Private Label Strategy** Asambeauty has a history as a private-label producer and now operates as a multi-channel",
+            "quote": "[![LeadIQ logo](https://leadiq.com/_assets/logo.DuCvgQ6q.svg)](https://leadiq.com/?utm_source=seo) [Learn more at LeadIQ.com](https://leadiq.com/?utm_source=seo) Start free ## Insights **Private Label Strategy** Asambeauty has a history as a private-label producer and now operates as a multi-channel beauty company with strong in-house brands.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 25,
+    "sourcesFetched": 25,
+    "degraded": false,
+    "generatedAt": "2026-09-02T10:52:59.785Z"
+  }
+}

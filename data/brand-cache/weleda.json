@@ -1,0 +1,287 @@
+{
+  "cachedAt": "2026-09-16T12:12:20.893Z",
+  "data": {
+    "brand": "Weleda",
+    "parentCompany": "Weleda AG",
+    "overview": "Weleda AG is a Swiss maker of certified natural cosmetics and anthroposophic medicines, controlled by a foundation/society structure rather than a commercial parent. Independent raters (Good On You, The Good Shopping Guide, Trusted Labels) give it favourable-to-strong ethical and ingredient-safety assessments, and multiple cruelty-free trackers report it does not test on animals though it is not Leaping Bunny or PETA certified. Independent sources note Weleda is not fully vegan and that its natural formulas rely on essential oils that can sensitize some users.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Weleda states it is a certified B Corp, recertified in 2024 with a score of 120.66, meeting rigorous social and environmental performance standards.",
+        "quote": "Weleda has been a certified B Corp since 2021. In October 2024, we proudly achieved recertification with an increased score of 120.66.",
+        "sourceUrl": "https://www.weleda.com/weleda/our-responsibility/sustainability",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/weleda-beauty"
+          },
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+          },
+          {
+            "publisher": "Trusted Labels",
+            "sourceUrl": "https://trustedlabels.co/brands/weleda/"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/weleda"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Weleda states it and its suppliers work against all forms of child labour and comply with ILO and local standards.",
+        "quote": "Weleda, and its Suppliers shall work against all forms of child labour as the children’s right to childhood is a fundamental human right.",
+        "sourceUrl": "https://www.weleda.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/weleda"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+          },
+          {
+            "publisher": "Trusted Labels",
+            "sourceUrl": "https://trustedlabels.co/brands/weleda/"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/weleda"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Weleda - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/weleda-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "ethical-rating",
+          "animal-welfare"
+        ],
+        "summary": "Good On You rates Weleda 'It's a start' overall, its scale's mid-tier, scoring the brand 4/5 on Planet, 3/5 on People, and 3/5 on Animals. The Switzerland-based brand covers body lotions, moisturisers, shampoo, soap and deodorant and ships worldwide. A detailed rating summary was still pending at the time the page was last updated.",
+        "findings": [
+          {
+            "text": "Weleda receives a mid-tier overall sustainability rating from Good On You, with its strongest score on the environmental (Planet) dimension.",
+            "quote": "Weleda sustainability rating Planet 4 out of 5 People 3 out of 5 Animals 3 out of 5 Overall rating: It's a start",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Weleda - Skincare: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-rating",
+          "animal-testing",
+          "GMO",
+          "organic",
+          "vegan"
+        ],
+        "summary": "The Good Shopping Guide rates Weleda (owned by Weleda A.G.) a highly-rated ethical brand that passes its skincare benchmark, scoring well for Environment, Animals and People. It gives a top rating on genetic modification for Weleda's anti-GM and microplastic-free stance, and notes strong animal welfare from its anti-testing position and not selling in mainland China. It flags room to improve on environmental reporting and vegan verification.",
+        "findings": [
+          {
+            "text": "Weleda scores well on animal welfare because it states an anti-animal-testing stance and does not sell in mainland China where testing is required by law.",
+            "quote": "In terms of Animal Welfare , Weleda scores highly as it clearly states its anti-animal testing stance on its website, and does not sell products in mainland China where animal testing is required by law.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda receives a top genetic-modification rating for stating its products are free from microplastics, GM and petroleum-derived ingredients.",
+            "quote": "Weleda state that its products are “[f]ree from microplastics, genetically modified ingredients, and petroleum-derived ingredients.” As a result, Weleda receives a top rating in our Genetic Modification criterion.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Guide identifies vegan verification as an area where Weleda only earns a middle rating and could improve.",
+            "quote": "we recommend that Weleda improves in the areas where it currently receives a middle rating; Environmental Report and Vegetarian/vegan Verified.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "good",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Weleda Review: Ingredients & Ownership",
+        "publisher": "Trusted Labels",
+        "sourceUrl": "https://trustedlabels.co/brands/weleda/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ingredient-safety",
+          "ownership",
+          "certification",
+          "vegan",
+          "essential-oils"
+        ],
+        "summary": "Trusted Labels scores Weleda 8/10 for ingredient safety, flagging no high-concern ingredient but noting essential oils can sensitize some individuals. It describes Weleda as a century-old natural skincare maker controlled by the General Anthroposophical Society and Klinik Arlesheim with no commercial parent or private equity, certified natural by NATRUE and a certified B Corp, with many but not all products vegan.",
+        "findings": [
+          {
+            "text": "Trusted Labels flags essential oils as the one ingredient of concern, since specific components are often not fully disclosed and can sensitize some people.",
+            "quote": "Essential oils — commonly known as Essential Oil Blend Natural scent but specific components often not fully disclosed, can sensitize some individuals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda uses biodynamic and organic plant ingredients with no synthetic fragrances, preservatives or petroleum-derived ingredients, and many products are vegan.",
+            "quote": "Formulas use biodynamic and organic plant ingredients, certified natural by NATRUE. No synthetic fragrances, synthetic preservatives, or petroleum-derived ingredients; many products are vegan.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda is foundation-controlled with no commercial parent or private-equity/venture ownership; only non-voting participation certificates trade publicly.",
+            "quote": "There is no commercial parent company and no private-equity or venture ownership.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "good",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Weleda Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/weleda/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Conscious Bunny concludes Weleda is cruelty-free, not testing finished products or ingredients on animals and not owned by an animal-testing parent, but it is not certified by any organization such as PETA or Leaping Bunny. It reports Weleda only sells toothpaste and soap bars in China, which are not classed as cosmetics and so not subject to mandatory testing. It states Weleda is not 100% vegan.",
+        "findings": [
+          {
+            "text": "Conscious Bunny assesses Weleda as cruelty-free, with no animal testing by the brand, its suppliers or third parties.",
+            "quote": "Yes, Weleda is cruelty-free. They don’t test their finished products or ingredients on animals, nor do their suppliers or third parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda holds no cruelty-free certification from any organization.",
+            "quote": "No, Weleda is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda is reported to be not fully vegan, meaning some of its products contain animal-derived ingredients.",
+            "quote": "Weleda is not 100% vegan, meaning that some of its products",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Weleda Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/weleda",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "certification"
+        ],
+        "summary": "Bunny Search aggregates certification data and reports that, according to Ethical Elephant and NATRUE, Weleda is cruelty-free and does not test on animals. It notes Weleda is not currently listed in PETA's database and is not Leaping Bunny certified, and that it has no vegan certification data for the brand from the organizations it tracks.",
+        "findings": [
+          {
+            "text": "Per Ethical Elephant and NATRUE, Weleda is considered cruelty-free and does not test on animals.",
+            "quote": "According to Ethical Elephant, NATRUE, Weleda does not test on animals. Based on their certification criteria, this brand has committed to cruelty-free practices.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Weleda is not currently Leaping Bunny certified and not listed in PETA's database.",
+            "quote": "Weleda is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search has no vegan certification data for Weleda from the organizations it tracks.",
+            "quote": "We don't have vegan certification data for Weleda from the organizations we track.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 22,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:12:20.892Z"
+  }
+}

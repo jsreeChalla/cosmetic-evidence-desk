@@ -1,0 +1,41 @@
+{
+  "name": "evidence-desk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "start": "node .output/server/index.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:logic": "esbuild src/lib/research.server.ts --bundle --platform=node --format=esm --outfile=scripts/_bundled-research-server.mjs --external:ai --external:@ai-sdk/anthropic && node scripts/test-pipeline-logic.mjs",
+    "refresh-cache:build": "esbuild scripts/refresh-entry.ts --bundle --platform=node --format=esm --outfile=scripts/_bundled-refresh-entry.mjs --banner:js=\"import { createRequire as __crq } from 'node:module'; const require = __crq(import.meta.url);\"",
+    "refresh-cache": "npm run refresh-cache:build && node scripts/refresh-brand-cache.mjs",
+    "migrate-cache": "npm run refresh-cache:build && node scripts/migrate-cache-to-db.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.0",
+    "@tanstack/react-router": "^1.170.0",
+    "@tanstack/react-start": "^1.168.0",
+    "@vercel/functions": "^3.9.9",
+    "ai": "^7.0.0",
+    "mongodb": "^7.6.0",
+    "nitro": "3.0.260903-beta",
+    "node-fetch": "^3.3.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5.7.0",
+    "vite": "^7.0.0",
+    "vite-tsconfig-paths": "^5.1.0"
+  }
+}

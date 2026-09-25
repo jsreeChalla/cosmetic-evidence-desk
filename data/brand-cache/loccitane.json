@@ -1,0 +1,78 @@
+{
+  "cachedAt": "2026-09-02T09:53:16.591Z",
+  "data": {
+    "brand": "L'Occitane en Provence",
+    "parentCompany": "Groupe L'Occitane",
+    "overview": "L'Occitane en Provence is the flagship brand of Groupe L'Occitane, a Luxembourg-based cosmetics holding company. The brand states its products comply with the EU Cosmetics Regulation and excludes ingredients such as parabens, triclosan and phthalates, but multiple independent sources (PETA, Good On You, The Good Shopping Guide, Conscious Bunny) rate it as NOT cruelty-free because it allows animal testing where required by law, notably in mainland China. Independent sustainability assessments give mixed marks, praising refill systems and living-wage coverage while flagging incomplete upstream ingredient traceability.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "safety",
+        "claim": "L'Occitane says its products are safe and fully compliant with the EU Cosmetics Regulation, with safety confirmed by clinical testing.",
+        "quote": "L'OCCITANE en Provence is committed to the safety and efficacy of its products and manufactures products that are fully compliant with the EU Cosmetics Regulation, one of the strictest regulations in the world.",
+        "sourceUrl": "https://group.loccitane.com/our-viewpoints",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "vegan",
+        "claim": "L'Occitane says it does not use animal matter or animal by-products in its products, apart from bee products such as honey, propolis and royal jelly.",
+        "quote": "ANIMAL MATTER or any by-product of animal origin, except for bee products such as honey, propolis (bee glue) and royal jelly",
+        "sourceUrl": "https://group.loccitane.com/our-viewpoints",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "L'Occitane - Skincare: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/loccitane-skincare/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-rating",
+          "animal-welfare",
+          "vegan",
+          "GMO",
+          "organic"
+        ],
+        "summary": "The Good Shopping Guide gives L'Occitane a poor ethical score that fails its benchmark. It rates well on GMO-free and armaments but poorly on animal welfare and organic, noting the brand allows third-party animal testing where legally required (e.g. mainland China) and sells no certified-vegan products.",
+        "findings": [
+          {
+            "text": "The brand fails the guide's ethical benchmark.",
+            "quote": "The brand receives a poor GOOD Shopping Guide ethical score in our Ethical Skincare Ratings Table and, therefore, does not pass our benchmark.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It is not cruelty-free because it allows third-party animal testing where required by law.",
+            "quote": "L’Occitane is not cruelty-free, as the brand does allow its products to be tested on animals by a third party in countries where this is required by law, such as in-store in mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It sells no certified-vegan products, only uncertified ones it claims are vegan.",
+            "quote": "L’Occitane does not sell any certified-vegan products. However, as it has some uncertified products it claims to be vegan, the company receives a middle rating for Vegetarian/Vegan Verified.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 27,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-02T09:53:16.590Z"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "cachedAt": "2026-09-21T08:03:13.520Z",
+  "data": {
+    "brand": "SkinCeuticals",
+    "parentCompany": "L'Oréal",
+    "overview": "SkinCeuticals is a medical-aesthetic skincare brand owned by L'Oréal, positioning itself as science-backed and physician-recommended. Independent sources are consistent that the brand is not certified cruelty-free (it sells in mainland China where animal testing may be required) and uses animal-derived ingredients with no vegan options. Good On You rates it \"It's a Start\" overall, with strong environmental scores but a \"Very Poor\" animal-welfare rating; dermatologist reviews praise its antioxidant serums while criticizing high prices and fragrance in some products.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "SkinCeuticals says its products are science-backed, lab-tested, physician-recommended and clinically proven to improve skin health.",
+        "quote": "Rigorously tested in labs and recommended by physicians, our award-winning products have been proven to improve skin health.",
+        "sourceUrl": "https://intl.skinceuticals.com/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "The Dermatology Review",
+            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/"
+          },
+          {
+            "publisher": "The Skin Sophisticate",
+            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Green Glow Vibes",
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/skinceuticals"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/skinceuticals-beauty"
+          },
+          {
+            "publisher": "The Dermatology Review",
+            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/"
+          },
+          {
+            "publisher": "The Skin Sophisticate",
+            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Green Glow Vibes",
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/skinceuticals"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/skinceuticals-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Green Glow Vibes",
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/skinceuticals-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/skinceuticals-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is SkinCeuticals Truly Cruelty-Free? A Deep Dive",
+        "publisher": "Green Glow Vibes",
+        "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "China",
+          "parent-company"
+        ],
+        "summary": "This review concludes SkinCeuticals is not credibly cruelty-free: parent company L'Oréal conducts animal testing, the brand lacks PETA or Leaping Bunny certification, and it sells in mainland China where animal testing may be required. It also states the products are not vegan, containing animal-derived ingredients with no vegan-friendly options available.",
+        "findings": [
+          {
+            "text": "The brand lacks recognized cruelty-free certification and its parent company L'Oréal engages in animal testing.",
+            "quote": "Their parent company, L’Oréal , engages in animal testing , and SkinCeuticals lacks certification from recognized cruelty-free organizations like PETA or Leaping Bunny.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Selling in mainland China, where animal testing is required, undermines cruelty-free claims.",
+            "quote": "Selling in mainland China , where animal testing is required, further muddles their cruelty-free claims.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The products contain animal-derived ingredients and there are no vegan options.",
+            "quote": "The products contain animal-derived ingredients , and there aren’t any vegan-friendly options available.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is SkinCeuticals Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/skinceuticals",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "certification",
+          "China",
+          "parent-company"
+        ],
+        "summary": "Bunny Search, aggregating data from PETA, Leaping Bunny and other organizations, lists SkinCeuticals as not cruelty-free, appearing on Ethical Elephant's animal-tested list. It is not PETA-approved nor Leaping Bunny certified, and is owned by L'Oréal. The flag is commonly linked to selling in mainland China.",
+        "findings": [
+          {
+            "text": "SkinCeuticals is flagged as not cruelty-free and appears on an animal-testing list.",
+            "quote": "According to Ethical Elephant, SkinCeuticals is on their animal testing list. This typically indicates the company may test on animals directly, use suppliers that test on animals, or sell in markets where animal testing is required by law",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand holds neither PETA nor Leaping Bunny certification.",
+            "quote": "SkinCeuticals is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status - they may be listed by other organizations like PETA, or may not have applied",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Skinceuticals - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/skinceuticals-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-ethics",
+          "animal-welfare",
+          "supply-chain",
+          "packaging"
+        ],
+        "summary": "Good On You rates SkinCeuticals (owned by L'Oréal) \"It's a Start\" overall, with Planet 4/5, People 3/5 and Animals 1/5. It scores well on environmental measures like RSPO-certified palm oil and a science-based emissions target, but poorly on animal welfare due to animal-derived ingredients and possible legally required animal testing. Labour practices are partly traced and audited.",
+        "findings": [
+          {
+            "text": "It has set a science-based emissions target and uses RSPO-certified palm oil, but shows no lower-impact ingredients.",
+            "quote": "It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It uses animal-derived ingredients and may conduct animal testing when required by law.",
+            "quote": "It uses animal-derived ingredients in its products. It has not made any public commitments to eliminate animal-derived ingredients. It may conduct animal testing when required by law (for instance, in China)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It partly traces and audits its supply chain and ensures some final-stage workers earn living wages.",
+            "quote": "It ensures some workers in the final production stage are paid living wages, though not through its entire supply chain.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "SkinCeuticals Review",
+        "publisher": "The Dermatology Review",
+        "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "efficacy",
+          "vitamin-c",
+          "antioxidants"
+        ],
+        "summary": "The Dermatology Review examines SkinCeuticals' science-backed clinical products, highlighting founder Dr. Sheldon Pinnell's pioneering topical vitamin C research and the brand's antioxidant-focused formulas such as C E Ferulic. It evaluates the ingredient evidence favorably while noting the review recommends competing brands as alternatives.",
+        "findings": [
+          {
+            "text": "The brand's products are built on founder Dr. Sheldon Pinnell's pioneering topical antioxidant and vitamin C research.",
+            "quote": "in 1992, he filed the very first vitamin C patent. This discovery paved the way for an entirely new skin care category: topical vitamin C.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Antioxidants including L-ascorbic acid and vitamin E are the key active ingredients across its products.",
+            "quote": "One of the main antioxidants in SkinCeutical products is L-ascorbic acid, which is pure vitamin C.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "good",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "SkinCeuticals Review: The Best and Worst Products, According to Dermatologists",
+        "publisher": "The Skin Sophisticate",
+        "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "efficacy",
+          "price",
+          "fragrance",
+          "sensitive-skin"
+        ],
+        "summary": "Drawing on dermatologists' assessments, this review praises SkinCeuticals staples like C E Ferulic and Silymarin CF as top antioxidant serums, while criticizing high prices and questionable formulation choices such as fragrance in the Triple Lipid Restore moisturizer and essential oils in the Phyto Corrective mist, which can irritate sensitive skin.",
+        "findings": [
+          {
+            "text": "C E Ferulic and Silymarin CF are rated among the best antioxidant serums, though pricing doesn't always match innovation.",
+            "quote": "C E Ferulic and Silymarin CF are still among the best antioxidant serums available, while newer releases like the Peptide-R Serum and Phyto Mist feel like overpriced extras.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Triple Lipid Restore moisturizer is heavily fragranced, an odd choice for a barrier-soothing product.",
+            "quote": "The catch? It’s heavily fragranced, which is a strange choice for a product meant to soothe irritated skin. At $150 a jar, it’s a luxurious experience but might not be the best for sensitive skin.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Phyto Corrective Essence Mist contains essential oils and fragrance that can irritate sensitive skin.",
+            "quote": "Unfortunately, it’s loaded with essential oils and fragrance—a nightmare for sensitive skin. For $67, you’re better off with",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:03:13.519Z"
+  }
+}

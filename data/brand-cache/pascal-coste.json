@@ -1,0 +1,24 @@
+{
+  "cachedAt": "2026-09-21T07:58:57.804Z",
+  "data": {
+    "brand": "Pascal Coste",
+    "overview": "The only brand-specific source is Pascal Coste's own salon website, which describes its professional hair care range and states the products are made in France. No independent evaluations, legal matters, or third-party assessments naming Pascal Coste were found among the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "Pascal Coste says its professional hair care range suits all hair types and needs thanks to specific compositions and vitamin complexes that penetrate deep into the hair fibre.",
+        "quote": "répond parfaitement à toutes les natures de cheveux et aux besoins de toutes les femmes et de tous les hommes grâce à ses compositions spécifiques aux multiples bienfaits et ses complexes vitaminés qui pénètrent en profondeur",
+        "sourceUrl": "https://pascalcostecoiffure.com/gamme-pascal-coste",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 36,
+    "sourcesFetched": 28,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:58:57.804Z"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "cachedAt": "2026-09-21T08:01:51.109Z",
+  "data": {
+    "brand": "Sephora",
+    "parentCompany": "LVMH",
+    "overview": "Independent cruelty-free trackers (PETA, Bunny Search) list Sephora as not cruelty-free, noting it appears on PETA's \"DO TEST\" list and is not Leaping Bunny certified, partly linked to sales in mainland China and parent company LVMH. Ethical raters give Sephora poor overall scores citing environmental violations and low customer-satisfaction ratings, while its own materials promote \"Clean + Planet Aware\" and Global Impact commitments. Independent review aggregators report consistently low customer ratings around 2.3–2.6/5.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Sephora highlights brands that have made environmental commitments and products formulated with carefully selected ingredients under its Planet Aware and Clean labels.",
+        "quote": "Beauty backed by environmental commitments and formulated with carefully selected ingredients.",
+        "sourceUrl": "https://www.sephora.com/beauty/clean-planet-aware",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/sephora"
+          },
+          {
+            "publisher": "PETA",
+            "sourceUrl": "https://crueltyfree.peta.org/company/sephora-cosmetics/"
+          },
+          {
+            "publisher": "Green Glow Vibes",
+            "sourceUrl": "https://greenglowvibes.com/is-sephora-collection-cruelty-free-a-deep-dive/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/sephora"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "BrandScore",
+            "sourceUrl": "https://brandscore.org/companies/sephora"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "BrandScore",
+            "sourceUrl": "https://brandscore.org/companies/sephora"
+          },
+          {
+            "publisher": "CheckThat.ai",
+            "sourceUrl": "https://checkthat.ai/brands/sephora/reviews"
+          },
+          {
+            "publisher": "Top Consumer Reviews",
+            "sourceUrl": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora.php"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Sephora Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/sephora",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "vegan"
+        ],
+        "summary": "Bunny Search, aggregating data from PETA, Leaping Bunny and Cruelty Free International, lists Sephora as not cruelty-free, noting it appears on PETA's 'DO TEST' list and is not Leaping Bunny certified. It cites selling in markets like mainland China where animal testing may be required. It has no vegan certification data for Sephora.",
+        "findings": [
+          {
+            "text": "Sephora appears on PETA's animal testing list, indicating it may test or sell where testing is mandated.",
+            "quote": "According to PETA, Sephora is on their animal testing list. This typically indicates the company may test on animals directly, use suppliers that test on animals, or sell in markets where animal testing is required by law",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Sephora is not Leaping Bunny certified.",
+            "quote": "Sephora is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is Sephora Cosmetics Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/sephora-cosmetics/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing"
+        ],
+        "summary": "PETA lists Sephora Cosmetics as not cruelty-free, stating it does test on animals whether directly, through suppliers, or via third parties, and may sell in regions where animal testing is legally mandated.",
+        "findings": [
+          {
+            "text": "PETA states Sephora Cosmetics does test on animals directly, through suppliers, or third parties.",
+            "quote": "Sephora Cosmetics does test on animals. They might conduct animal testing directly, rely on their suppliers to do so, or outsource it to a third party.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Sephora Collection Cruelty Free? A Deep Dive",
+        "publisher": "Green Glow Vibes",
+        "sourceUrl": "https://greenglowvibes.com/is-sephora-collection-cruelty-free-a-deep-dive/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "parent-company",
+          "transparency"
+        ],
+        "summary": "This analysis concludes Sephora Collection is not certified cruelty-free by PETA or Leaping Bunny, and while it says it doesn't test finished products on animals, its sales in mainland China and parent company LVMH's practices complicate the claim. It notes limited transparency on animal testing policies.",
+        "findings": [
+          {
+            "text": "Sephora Collection lacks cruelty-free certification and its China sales complicate its claim.",
+            "quote": "Sephora Collection lacks cruelty-free certification from organizations like PETA and Leaping Bunny, raising questions about its ethical practices.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Parent company LVMH engages in animal testing where required by law.",
+            "quote": "As Sephora Collection's parent company, LVMH engages in animal testing where required by law, which raises concerns about its commitment to cruelty-free standards.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Sephora: Is Sephora a Good Company? Ethics, Sustainability & Ratings",
+        "publisher": "BrandScore",
+        "sourceUrl": "https://brandscore.org/companies/sephora",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "environment",
+          "governance",
+          "labour",
+          "customer-satisfaction"
+        ],
+        "summary": "BrandScore gives Sephora a 'D' overall (Very Poor), with failing environment and governance grades citing at least two environmental violations including hazardous waste handling, but a B+ social grade for being Great Place to Work certified. It notes a poor Trustpilot rating of 2.6/5.",
+        "findings": [
+          {
+            "text": "BrandScore rates Sephora poorly overall, citing environmental violations.",
+            "quote": "At least 2 environmental violations found, including hazardous waste handling",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Sephora has a low customer satisfaction rating on Trustpilot.",
+            "quote": "Trustpilot rating of 2.6/5, indicating poor customer satisfaction",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Sephora is Great Place to Work certified.",
+            "quote": "Great Place to Work certified, indicating a positive work environment",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          },
+          {
+            "category": "quality",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Sephora Reviews 2026: What Customers Really Think",
+        "publisher": "CheckThat.ai",
+        "sourceUrl": "https://checkthat.ai/brands/sephora/reviews",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "customer-satisfaction",
+          "product-selection",
+          "customer-service",
+          "fulfillment"
+        ],
+        "summary": "Synthesizing Trustpilot, Sitejabber, BBB and other platforms, this analysis reports consistently low satisfaction scores (averaging 2.3/5) for Sephora, citing unresponsive customer service, shipping delays, and fulfillment errors, while praising its extensive prestige brand selection and knowledgeable in-store staff.",
+        "findings": [
+          {
+            "text": "Independent review platforms give Sephora consistently low ratings averaging 2.3/5.",
+            "quote": "Despite consistently low ratings across independent review platforms (averaging 2.3/5 stars), Sephora maintains strong loyalty among its core customer base",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Customers report unresponsive customer service and severe shipping delays.",
+            "quote": "Unresponsive customer service (3-7 day email delays, unavailable chat, unresponsive phone support)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Sephora is praised for its extensive selection of prestige brands.",
+            "quote": "Extensive product selection (340+ prestige brands)",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Sephora Review: Beauty Stores",
+        "publisher": "Top Consumer Reviews",
+        "sourceUrl": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora.php",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-satisfaction",
+          "returns"
+        ],
+        "summary": "Top Consumer Reviews rates Sephora 4.5/5, praising its 340+ high-quality brands, free shipping, and generous return policy, while noting an 'A-' BBB rating and negative customer reviews largely tied to pressured in-store experiences and high prices.",
+        "findings": [
+          {
+            "text": "Sephora curates high-quality, well-known prestige brands.",
+            "quote": "They don't sell any cheap garbage, but rather they've compiled some of the best, highest quality, most well-known brands for people to shop in one place.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Sephora allows returns of new or gently-used products for a full refund within 30 days.",
+            "quote": "they'll allow you to return your new or gently used products for a full refund to your original payment method within 30 days",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Sephora 2024 Global Impact Report",
+        "publisher": "Sephora (via Scribd)",
+        "sourceUrl": "https://www.scribd.com/document/915888231/Sephora-2024-Impact-Report-Digital-Vdef-0",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "community",
+          "recycling",
+          "philanthropy"
+        ],
+        "summary": "Sephora's 2024 Global Impact Report outlines the company's social responsibility and sustainability commitments, highlighting €11.8 million donated to communities and nearly 100 tons of empty beauty products collected for recycling.",
+        "findings": [
+          {
+            "text": "Sephora reports donating €11.8 million to communities and recycling nearly 100 tons of empty products.",
+            "quote": "donating €11.8 million to communities in need and collecting nearly 100 tons of empty beauty products for recycling",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 36,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:01:51.109Z"
+  }
+}

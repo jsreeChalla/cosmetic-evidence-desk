@@ -1,0 +1,193 @@
+{
+  "cachedAt": "2026-09-21T09:20:43.405Z",
+  "data": {
+    "brand": "H&M",
+    "parentCompany": "H&M Group (H & M Hennes & Mauritz AB)",
+    "overview": "H&M Group publishes detailed sustainability, materials and working-conditions disclosures, claiming 80% recycled or sustainably sourced materials in its 2025 commercial products and early signatory status to the Bangladesh safety accord. Independent raters are split: BrandScore gives a \"Satisfactory\" overall grade while flagging product recalls, and Good On You rates H&M \"Not Good Enough,\" citing its fast fashion model and an unmet living-wage pledge. H&M has also faced US \"greenwashing\" class actions over its \"Conscious Choice\" and recycled/organic marketing.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "H&M Group states that the majority of materials in its commercial products are recycled or sustainably sourced.",
+        "quote": "80 % recycled or sustainably sourced materials in our commercial products, including 32 percent recycled materials in 2025",
+        "sourceUrl": "https://hmgroup.com/about-us/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "material-sourcing",
+        "claim": "H&M Group aims to reach 100 percent recycled or sustainably sourced materials in commercial products by 2030.",
+        "quote": "Increase the use of recycled or sustainably sourced materials* in commercial products to 100 percent, with the aim of reaching 50 percent recycled materials.",
+        "sourceUrl": "https://hmgroup.com/sustainability/circularity-and-climate/materials/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "H&M Group says it seeks to secure decent, safe working conditions for the garment workers in its supply chain.",
+        "quote": "Everyone should have access to decent, meaningful jobs with adequate wages and benefits, in safe and secure workplaces that are free from discrimination",
+        "sourceUrl": "https://hmgroup.com/sustainability/fair-and-equal/working-conditions/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-hm/"
+          },
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/hm-hennes-mauritz-ab"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "claim": "H&M Group states it was an early signatory to the Bangladesh fire and building safety accord and continues legally binding safety commitments.",
+        "quote": "We were one of the first signatories of the Accord on Fire and Building Safety in Bangladesh, which was signed in 2013.",
+        "sourceUrl": "https://hmgroup.com/sustainability/fair-and-equal/working-conditions/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is H&M a Good Company? Ethics, Sustainability & Ratings",
+        "publisher": "BrandScore",
+        "sourceUrl": "https://brandscore.org/companies/handm",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "product-safety",
+          "sustainability",
+          "governance"
+        ],
+        "summary": "BrandScore gives H&M an overall 'Satisfactory' B grade, with A+ for environment and A for social, citing Cradle to Cradle Gold and ISO 14001 certifications. However it grades product 'F' due to at least six confirmed product recalls for safety issues and governance 'D' partly over GDPR fines, plus a poor Trustpilot customer rating.",
+        "findings": [
+          {
+            "text": "H&M holds environmental and sustainability certifications including Cradle to Cradle Gold and ISO 14001.",
+            "quote": "✓ Cradle to Cradle Certified Gold for sustainability. ✓ ISO 14001 certified for environmental management. ✓ Active participant in UN Global Compact LEAD since 2001.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "H&M's product score is weak, with multiple confirmed safety recalls flagged.",
+            "quote": "product safety recalls and GDPR fines highlight areas for improvement",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "At least six confirmed product recalls for safety issues were identified.",
+            "quote": "! At least 6 confirmed product recalls for safety issues.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "How Ethical Is H&M?",
+        "publisher": "Good On You",
+        "sourceUrl": "https://goodonyou.eco/how-ethical-is-hm/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "labour-ethics",
+          "living-wage",
+          "fast-fashion",
+          "climate"
+        ],
+        "summary": "Good On You rates H&M 'Not Good Enough', its second-lowest rating, arguing its take-make-waste fast fashion model is not addressed by minor circular initiatives. It notes H&M set a science-based emissions target but has no evidence of being on track, and criticizes a failed promise to pay 850,000 workers a living wage by 2018.",
+        "findings": [
+          {
+            "text": "Good On You downgraded H&M to its second-lowest rating over its unaddressed fast fashion model.",
+            "quote": "the brand has fallen even further from our middling “It’s a Start” to our second-lowest rating",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "H&M failed to deliver on a pledge to pay 850,000 workers a living wage by 2018.",
+            "quote": "they also promised to pay 850,000 workers a living wage by 2018, a promise they spectacularly faile",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "H&M has a science-based emissions target but no evidence it is on track to meet it.",
+            "quote": "H&M has set a science-based target to reduce greenhouse gas emissions generated from its own operations and supply chain by 2030, but there is no evidence it is on track to meet its target.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Company ethical profile: H&M Hennes & Mauritz AB",
+        "publisher": "Ethical Consumer",
+        "sourceUrl": "https://www.ethicalconsumer.org/company-profile/hm-hennes-mauritz-ab",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "labour-ethics",
+          "animal-welfare",
+          "climate",
+          "supply-chain"
+        ],
+        "summary": "Ethical Consumer highlights several ethical issues with H&M and its brands, including labour abuse allegations in Myanmar, claims of rising emissions despite climate targets, and criticism over animal-product sourcing. It notes positive steps on emissions, including reducing coal-reliant suppliers.",
+        "findings": [
+          {
+            "text": "Ethical Consumer flags labour abuse allegations in Myanmar and animal-welfare concerns in H&M's sourcing.",
+            "quote": "These include allegations of labour abuse in Myanmar, claims that its emissions are rising despite climate targets, and criticisms for sourcing animal products associated with major welfare issues.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "H&M reduced the number of coal-reliant suppliers it works with.",
+            "quote": "The company has stopped working with new suppliers that rely on coal, working with 21 fewer suppliers using coal in 2022 compared to 2021",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "animal-welfare",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "Lizama et al. v. H&M Hennes & Mauritz LP (Conscious Choice greenwashing)",
+        "entity": "H&M Hennes & Mauritz LP",
+        "status": "decided",
+        "year": 2022,
+        "summary": "A 2022 class action alleging H&M's 'Conscious Choice' collection was deceptively marketed as sustainable was dismissed by a federal judge in May 2023.",
+        "sourceUrl": "https://www.classaction.org/news/handm-hit-with-another-greenwashing-class-action-over-allegedly-false-conscious-choice-sustainability-claims",
+        "quote": "A class action claims that clothing in H&M’s “Conscious Choice” collection is misrepresented as sustainable given that the items are made from environmentally harmful materials.",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "Greenwashing suit over recycled and organic clothing claims allowed to proceed",
+        "entity": "H&M",
+        "status": "pending",
+        "year": 2026,
+        "summary": "A federal judge in Missouri ruled that a greenwashing suit accusing H&M of false statements about its recycled and organic products can move forward.",
+        "sourceUrl": "https://www.law.com/2026/02/23/greenwashing-allegations-against-hm-over-recycled-clothing-claim-can-proceed-fed-judge-rules/",
+        "quote": "A greenwashing suit accusing clothing company H&M of making false and misleading statements about its recycled and organic products is moving forward after a federal judge in Missouri determined a customer sufficiently alleged claims",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 29,
+    "sourcesFetched": 19,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:20:43.404Z"
+  }
+}

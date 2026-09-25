@@ -1,0 +1,43 @@
+{
+  "cachedAt": "2026-09-21T09:22:41.437Z",
+  "data": {
+    "brand": "Hewlett-Packard (HP)",
+    "overview": "HP Inc. publishes extensive self-reported sustainability and supply-chain material, including a Planet Partners recycling program, an SBTi-validated 2040 net-zero target, a Supplier Code of Conduct, and supplier audit disclosures. Independent third parties rate HP's ethics and sustainability favorably overall, though HP has faced repeated consumer litigation over its \"Dynamic Security\" firmware that blocks third-party ink cartridges; a 2025 U.S. class action was dismissed (without prejudice) and a related 2024 case was settled with no monetary relief.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "e-waste-recyclability",
+        "claim": "HP operates a consumer recycling program for its end-of-life equipment and printing supplies to support a circular economy.",
+        "quote": "HP helps power a circular economy. HP Planet Partners is our consumer recycling program for HP end-of-life equipment and printing supplies.",
+        "sourceUrl": "https://www.hp.com/us-en/sustainable-impact/planet-product-recycling.html",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "HP incorporates its supplier labour, health, safety and environmental guidelines as a formal part of its procurement policy.",
+        "quote": "HP's supplier labour, occupational health & safety and environmental guidelines are a formal part of HP's procurement policy.",
+        "sourceUrl": "https://sustainability.ext.hp.com/en/support/solutions/folders/35000201802",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [
+      {
+        "title": "HP Dynamic Security firmware class action settlement",
+        "entity": "HP Inc.",
+        "status": "settled",
+        "year": 2024,
+        "summary": "In a 2024 case, HP settled a related class action allowing users to decline Dynamic Security firmware updates, paying no monetary relief to consumers.",
+        "sourceUrl": "https://www.globallawtoday.com/law/legal-news/2025/10/hp-wins-dismissal-in-u-s-consumer-suit-over-ink-cartridge-lock‑in/",
+        "quote": "In one 2024 case, HP settled a related class action in the Northern District of California, agreeing to allow users of certain printers to decline firmware updates that introduce Dynamic Security",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 26,
+    "sourcesFetched": 15,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:22:41.437Z"
+  }
+}

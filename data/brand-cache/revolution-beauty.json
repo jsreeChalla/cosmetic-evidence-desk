@@ -1,0 +1,317 @@
+{
+  "cachedAt": "2026-09-21T06:35:15.217Z",
+  "data": {
+    "brand": "Revolution Beauty",
+    "parentCompany": "Revolution Beauty Group plc",
+    "overview": "Revolution Beauty (Revolution Beauty Group plc) is PETA-certified cruelty-free with independent verification from PETA, Bunny Search, and Conscious Bunny, but is not 100% vegan and not Leaping Bunny certified. Independent ethical ratings are mixed: The Good Shopping Guide places it just below its benchmark and criticises a weak environmental report and packaging, while corporate disclosures reveal serious historical governance, accounting and audit failures around FY22 that led to a share suspension and management departures.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "Revolution Beauty states all its products are cruelty-free and PETA-certified with no animal testing at any development stage.",
+        "quote": "Everything we produce is cruelty-free and always has been. We're certificated to PETA and never allow animal testing at any stage of development for both ingredients and final products.",
+        "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/revolutionbeauty"
+          },
+          {
+            "publisher": "PETA",
+            "sourceUrl": "https://crueltyfree.peta.org/company/revolution-beauty/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "Revolution Beauty says its mission is to make all Revolution Skincare 100% vegan by 2025 and to increase vegan products across its brands.",
+        "quote": "Our mission is to become 100% vegan for all Revolution Skincare by 2025. We are working to increase the amount of vegan products we have across all our brands going forward.",
+        "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/revolutionbeauty"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "claim": "Revolution Beauty claims to have reduced plastic consumption by over 50 tonnes and switched over a million fixing spray bottles to 100% recycled plastic.",
+        "quote": "reducing plastic consumption by over 50 tonnes in our 2020 Gift collection. That's equal to roughly 3 million plastic water bottles. In early 2021 we switched our Fixing Spray bottles - over one million of them - to 100% recycled plastic.",
+        "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Revolution Beauty says all products are assessed for safety against regulations in numerous markets and its factories comply with Good Manufacturing Practices.",
+        "quote": "all our products are assessed for safety against regulations in EU, UK, US, Canada, Australia, New Zealand, South Africa, Middle East and most major South American countries. All our factories comply with Good Manufacturing Practices (GMP).",
+        "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Revolution Beauty says its suppliers must maintain an environmental management system in line with ISO 14001:2015 standards.",
+        "quote": "Suppliers to Revolution Beauty must be committed to achieving the highest standard of environmental management and control through the development and long-term maintenance of an Environmental Management System in line with the requirements and objectives of ISO 14001:2015.",
+        "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/revolution/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Revolution Beauty Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "PETA-certification"
+        ],
+        "summary": "Conscious Bunny verifies Revolution Beauty as cruelty-free and PETA-certified, confirming neither finished products nor ingredients are tested on animals, and that the brand is not owned by an animal-testing parent company or sold where animal testing is legally required. However, it states Revolution Beauty is not 100% vegan, as some products contain animal-derived ingredients.",
+        "findings": [
+          {
+            "text": "Revolution Beauty is verified cruelty-free and PETA-certified, with no animal testing by the brand, suppliers, or third parties.",
+            "quote": "Yes, Revolution Beauty is cruelty-free.They don’t test their finished products or ingredients on animals, and neither do their suppliers or any third-parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Revolution Beauty is not fully vegan because some products contain animal-derived ingredients.",
+            "quote": "Revolution Beauty is cruelty-free but not 100% vegan, meaning that some of their products contain animal-derived ingredients.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Revolution Beauty Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/revolutionbeauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "PETA-certification",
+          "vegan",
+          "Leaping Bunny"
+        ],
+        "summary": "Bunny Search, aggregating data from PETA, Leaping Bunny and other certifiers, confirms Revolution Beauty is PETA-approved cruelty-free with no animal testing of finished products or ingredients. It notes the brand is not Leaping Bunny certified and that no vegan certification data is available.",
+        "findings": [
+          {
+            "text": "Revolution Beauty appears on PETA's cruelty-free list and does not test on animals per PETA.",
+            "quote": "According to PETA, Revolution Beauty is cruelty-free. Based on their standards, this means the brand doesn't test finished products or ingredients on animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Revolution Beauty is not currently Leaping Bunny certified.",
+            "quote": "Revolution Beauty is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status - they may be listed by other organizations like PETA",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is Revolution Beauty Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/revolution-beauty/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "certification"
+        ],
+        "summary": "PETA lists Revolution Beauty as cruelty-free, confirming that neither its ingredients nor finished products are tested on animals and that its suppliers and third parties follow the same standard.",
+        "findings": [
+          {
+            "text": "PETA confirms Revolution Beauty is cruelty-free across ingredients, finished products, suppliers and third parties.",
+            "quote": "Yes, Revolution Beauty is cruelty-free. They ensure that neither their ingredients nor finished products are tested on animals, and their suppliers and third parties follow the same standard.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Revolution - Make Up: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/revolution/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "sustainability",
+          "packaging",
+          "environmental-report",
+          "animal-welfare"
+        ],
+        "summary": "The Good Shopping Guide rates Revolution below its category benchmark but as passing the ethical benchmark. It performs well on People criteria and refuses to post retouched social media photos, but scores poorly on its environmental report, organic sourcing and packaging, which drag down its overall score.",
+        "findings": [
+          {
+            "text": "Revolution scores below the Good Shopping Guide category benchmark, scoring 57 against a benchmark of 67.",
+            "quote": "The brand receives a below benchmark Good Shopping Guide ethical score in our Ethical Make Up Ratings Table and therefore passes our ethical benchmark as a good ethical brand.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Revolution scores poorly on its environmental report, which lacks detail.",
+            "quote": "To achieve our Ethical Accreditation, Revolution could improve its Environmental Report. Currently, Revolution’s report lacks detail, earning this brand a low score for this criteria.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Revolution will not post retouched photos to social media as this is misleading to consumers about product capabilities.",
+            "quote": "This make-up brand also will not post photos to its social media accounts that appear retouched, as this is misleading to consumers about the true capabilities of the product",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Revolution Beauty Group plc - Climate Data, Carbon Emissions & Sustainability Report",
+        "publisher": "Climate Change Data",
+        "fundingDisclosure": "Data source stated as company sustainability reports; third-party assurance by BDO LLP for FY22 reporting.",
+        "sourceUrl": "https://climatechange.biz/companies/zhsqUQ",
+        "independence": "unclear",
+        "scope": "parent-company",
+        "topics": [
+          "carbon-emissions",
+          "governance",
+          "accounting",
+          "audit",
+          "sustainability"
+        ],
+        "summary": "This aggregated report on Revolution Beauty Group plc details environmental metrics and achievements such as certified paper packaging and a Reef Safe policy, but also documents serious FY22 governance and accounting failures, including a share suspension, management departures, audit-evidence concerns, and large inventory and revenue adjustments.",
+        "findings": [
+          {
+            "text": "Revolution Beauty faced serious delays publishing its annual report, a share suspension and departure of previous management.",
+            "quote": "Serious delays to the publication of the Company’s annual report, a suspension of its shares and the departure of previous management",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The FY22 audit raised concerns over the Group's ability to provide sufficient audit evidence and the validity of certain commercial arrangements.",
+            "quote": "the Group’s ability to provide sufficient and accurate audit evidence in respect of a number of key audit areas and the validity of certain commercial arrangements entered into by the Company. Accounting, governance and control issues identified.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Approximately £9.6m of sales in February 2022 did not represent revenue, and undisclosed director loans to distributors were identified.",
+            "quote": "Sales of approximately £9.6m made in February 2022 to three distributors did not represent revenue as they did not satisfy all elements of IFRS15",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Revolution Beauty Group plc - Carbon Emissions & Sustainability Report 2024",
+        "publisher": "polluer.com",
+        "fundingDisclosure": "Data source stated as company sustainability reports, processed via AI for public access; assurance by MHA.",
+        "sourceUrl": "https://polluer.com/companies/MzQ1Nzg4NjgwMQ",
+        "independence": "unclear",
+        "scope": "parent-company",
+        "topics": [
+          "carbon-emissions",
+          "packaging",
+          "sustainability",
+          "ethical-sourcing"
+        ],
+        "summary": "This aggregated report on Revolution Beauty Group plc reports 2024 carbon emissions of 96.23 tCO2e/year, a 44.4% reduction since 2022, and lists achievements including certified paper packaging and maximised sea freight. ESG focus areas include sustainability, human rights and ethical sourcing.",
+        "findings": [
+          {
+            "text": "Revolution Beauty Group reduced carbon emissions by 44.4% since 2022, reaching 96.23 tCO2e/year in 2024.",
+            "quote": "💨 CO₂ Emissions 96.23 tCO2e/year 2024 📉 Reduction 44.4% since 2022",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Environmental achievements include certified paper packaging and maximised sea freight for imported goods.",
+            "quote": "Implemented certified paper packaging Maximised sea freight for imported goods",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "FY22 audit, accounting and governance failures leading to share suspension",
+        "entity": "Revolution Beauty Group plc",
+        "status": "decided",
+        "year": 2022,
+        "summary": "An independent investigation into FY22 accounting, governance and control irregularities led to changes in business processes, board restructuring and management departures.",
+        "sourceUrl": "https://climatechange.biz/companies/zhsqUQ",
+        "quote": "Appointment of Macfarlanes LLP and Forensic Risk Alliance to commence an independent investigation into the matters raised by BDO and any other matters that may become relevant during the course of their review.",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "Undisclosed director and management loans to distributors",
+        "entity": "Revolution Beauty Group plc",
+        "status": "decided",
+        "year": 2022,
+        "summary": "Personal loans made by directors, certain non-executive directors and senior managers to two distributors were not disclosed to the board at the relevant time.",
+        "sourceUrl": "https://climatechange.biz/companies/zhsqUQ",
+        "quote": "Personal loans had been made by Directors to two distributors, certain of the Group’s Non-Executive Directors (at the time) and a number of senior managers. None of these loans were disclosed to the Board at the relevant time.",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 28,
+    "degraded": true,
+    "generatedAt": "2026-09-21T06:35:15.217Z"
+  }
+}

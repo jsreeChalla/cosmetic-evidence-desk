@@ -1,0 +1,82 @@
+{
+  "cachedAt": "2026-09-16T12:09:11.193Z",
+  "data": {
+    "brand": "Hairburst",
+    "overview": "Hairburst is a UK-registered hair-care and supplement brand (company number 08898301) that publishes its own claims about vegan formulation, sustainable manufacturing, and product safety. An independent evidence review notes that its ingredient and policy transparency is a genuine strength, but that its biggest outcome claims (e.g. visible results in 90 days) remain unverified brand claims rather than independent proof. No brand-specific legal matters or independent ethical ratings for Hairburst appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "vegan",
+        "claim": "Hairburst states that all its cosmetic products are vegan and that any product marked vegan contains no animal-origin ingredients.",
+        "quote": "100% of our Cosmetics are Vegan, SLS & Paraben Free",
+        "sourceUrl": "https://us.hairburst.com/pages/manufacturing-and-sustainability",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "claim": "Hairburst says the majority of its cosmetic products are made at a 100% carbon neutral facility and its parcel boxes are FSC certified and fully recyclable.",
+        "quote": "The majority of our cosmetic products are made at a 100% carbon neutral facility which we are extremely proud to work with.",
+        "sourceUrl": "https://www.hairburst.com/pages/our-factories",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Hairburst states all products undergo stability, compatibility and safety testing before being sold.",
+        "quote": "All products are put through necessary stability, compatibility and safety testing before being sold to customers",
+        "sourceUrl": "https://www.hairburst.com/pages/our-factories",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Hairburst says it recognises responsibility to everyone involved in production and only works with GMP-certified facilities.",
+        "quote": "We recognise our responsibility to everyone involved in the production of our products, including those we both directly and indirectly employ.",
+        "sourceUrl": "https://www.hairburst.com/pages/our-factories",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Hairburst Review: What the Evidence Really Shows",
+        "publisher": "Cherry Picks",
+        "sourceUrl": "https://www.cherrypicksreviews.com/blog/hairburst-review",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ingredient-transparency",
+          "efficacy-claims",
+          "supplements",
+          "refund-policy"
+        ],
+        "summary": "This evidence review credits Hairburst for detailed ingredient and policy publishing, noting its vitamin page lists 23 nutrients with specific serving amounts. However, it finds the biggest outcome claims still come from Hairburst itself rather than independent proof, and flags that the published formula contains fish/marine collagen, making it unsuitable for those avoiding fish-derived ingredients.",
+        "findings": [
+          {
+            "text": "Hairburst's strongest evidence is its ingredient and policy transparency, while its efficacy claims remain unverified brand claims.",
+            "quote": "The strongest current evidence is its detailed ingredient and policy publishing; the weakest part is that the biggest outcome claims still come from Hairburst itself rather than independent proof.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The vitamin formula contains fish collagen, so it is not suitable for people avoiding fish-derived ingredients.",
+            "quote": "It also lists fish collagen , so this product is not suitable for someone avoiding fish-derived ingredients. That level of label transparency is a real plus.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Hairburst markets the formula as science-backed with results in 90 days, but this remains a brand claim not independently verified.",
+            "quote": "Hairburst markets the formula as science-backed and says visible results can appear within 90 days on the product page . That is still a brand claim .",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 30,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:09:11.192Z"
+  }
+}

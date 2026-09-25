@@ -1,0 +1,317 @@
+{
+  "cachedAt": "2026-09-21T09:19:47.588Z",
+  "data": {
+    "brand": "Nike",
+    "overview": "Nike, Inc. publishes extensive sustainability and labour-compliance commitments (Move to Zero, science-based emissions targets, a Facility Code of Conduct, a public Manufacturing Map, and forced/child labour prohibitions), while independent sources rate the brand \"It's a Start\" / \"Not Good Enough\" on labour and flag documented wage and working-condition problems in its supply chain. A U.S. EEOC subpoena enforcement action over alleged DEI-related race discrimination was filed in February 2026 and dismissed in August 2026 after Nike supplied the requested information.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Nike claims its Move to Zero program is its journey toward zero carbon and zero waste.",
+        "quote": "MOVE TO ZERO IS NIKE’S JOURNEY TOWARD ZERO CARBON AND ZERO WASTE, HELPING TO PROTECT THE FUTURE OF SPORT.",
+        "sourceUrl": "https://www.nike.com/Sustainability/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Nike says every facility making its products must meet compliance requirements grounded in respect for workers and their safety.",
+        "quote": "Every facility that makes and moves products for NIKE, Inc. must meet a rigorous set of compliance requirements.",
+        "sourceUrl": "https://about.nike.com/en/resources/sustainability-policies",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Fashion by Passion",
+            "sourceUrl": "https://fashionbypassion.com/nikes-ethical-stance-an-in-depth-analysis-of-its-its-a-start-sustainability-rating/"
+          },
+          {
+            "publisher": "Fashion by Passion",
+            "sourceUrl": "https://fashionbypassion.com/nikes-ethical-footprint-a-comprehensive-review-of-its-its-a-start-rating-amidst-persistent-sustainability-and-labor-concerns/"
+          },
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc"
+          },
+          {
+            "publisher": "Grokipedia",
+            "sourceUrl": "https://grokipedia.com/page/Labor_conditions_in_Nike's_supply_chain"
+          }
+        ]
+      },
+      {
+        "category": "material-sourcing",
+        "claim": "Nike claims its Raw Materials Standards aim for traceability of all products, including guidance on animal-derived materials and restricted biomes for leather.",
+        "quote": "including specific guidance on animal-derived materials and restricted biomes for leather sourcing. It aims to support cultivation of a world-class supply chain, achieve traceability of all products",
+        "sourceUrl": "https://about.nike.com/en/resources/sustainability-policies",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc"
+          }
+        ]
+      },
+      {
+        "category": "conflict-minerals",
+        "claim": "Nike says its Conflict Minerals Policy expects suppliers to source responsibly using Responsible Minerals Initiative conformant smelters and refiners.",
+        "quote": "NIKE, Inc.'s Conflict Minerals Policy expects suppliers to support the responsible sourcing of conflict minerals using Responsible Minerals Initiative conformant smelters and refiners.",
+        "sourceUrl": "https://about.nike.com/en/resources/sustainability-policies",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Nike's Ethical Stance: An In-Depth Analysis of its 'It's a Start' Sustainability Rating",
+        "publisher": "Fashion by Passion",
+        "sourceUrl": "https://fashionbypassion.com/nikes-ethical-stance-an-in-depth-analysis-of-its-its-a-start-sustainability-rating/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "labour-ethics",
+          "ethical-rating",
+          "supply-chain",
+          "worker-compensation"
+        ],
+        "summary": "Reports Nike's 'It's a Start' rating from Good On You and a 'Not Good Enough' labour rating, tracing sweatshop allegations since the 1970s. Notes it took five years of pressure before Nike agreed to compensate roughly 3,300 workers at Thai supplier Hong Seng Knitting, and cites Nike's 2017 withdrawal from the Worker Rights Consortium as curtailing independent monitoring.",
+        "findings": [
+          {
+            "text": "Nike carries an 'It's a Start' overall rating and a 'Not Good Enough' labour rating from Good On You.",
+            "quote": "Nike’s labor rating has seen a regrettable decline, now standing at \"Not Good Enough\" according to Good On You’s latest review.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike took five years of pressure before compensating around 3,300 workers at a Thai supplier factory.",
+            "quote": "before Nike committed to compensating approximately 3,300 workers at its Thai supplier factory, Hong Seng Knitting. These workers had allegedly been pressured into taking unpaid leave during the pandemic",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike withdrew from the Worker Rights Consortium in 2017, curtailing independent factory monitoring.",
+            "quote": "A significant setback occurred in 2017 when the International Labor Rights Forum reported Nike’s decision to withdraw from its commitment to the Worker Rights Consortium (WRC).",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Nike's Ethical Footprint: A Comprehensive Review of Its 'It's a Start' Rating",
+        "publisher": "Fashion by Passion",
+        "sourceUrl": "https://fashionbypassion.com/nikes-ethical-footprint-a-comprehensive-review-of-its-its-a-start-rating-amidst-persistent-sustainability-and-labor-concerns/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "labour-ethics",
+          "ethical-rating",
+          "supply-chain"
+        ],
+        "summary": "A January 2026 Good On You assessment gives Nike an 'It's a Start' rating with significant improvement needed across people, planet and animals. Details the 1990s sweatshop controversy following Jeffrey Ballinger's 1992 Harper's exposé of Indonesian factories, and notes Nike's labour rating declined to 'Not Good Enough' partly due to its 2017 withdrawal from the Worker Rights Consortium.",
+        "findings": [
+          {
+            "text": "Nike received an 'It's a Start' rating indicating significant improvement areas across people, planet and animals.",
+            "quote": "a recent assessment, published in January 2026, assigns Nike an \"It’s a Start\" rating, indicating significant areas for improvement across its operations concerning people, planet, and animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike's labour rating declined to 'Not Good Enough' in recent reviews.",
+            "quote": "Despite historical reforms, Nike’s labor rating has seen a decline in recent reviews, now standing at \"Not Good Enough.\"",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "How ethical is Nike? — Company profile",
+        "publisher": "Ethical Consumer",
+        "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "labour-ethics",
+          "material-sourcing",
+          "wage-theft",
+          "tax-conduct"
+        ],
+        "summary": "Ethical Consumer's profile highlights allegations of wage theft in Nike's supply chain and says the company is failing to switch to more sustainable fabrics, while also noting tax-avoidance accusations and high director pay. It acknowledges Nike has a relatively strong code of conduct on workers' rights but has drawn multiple recent criticisms over supply-chain abuses.",
+        "findings": [
+          {
+            "text": "Ethical Consumer cites wage-theft allegations in Nike's supply chain and a failure to shift to sustainable fabrics.",
+            "quote": "Our research highlights allegations of wage theft in Nike’s supply chain and suggests that the company is failing to switch to more sustainable fabrics.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike has a relatively strong workers' rights code but faces multiple recent supply-chain criticisms.",
+            "quote": "While the company has a relatively strong code of conduct on workers’ rights, Nike has received multiple criticisms in recent years over abuses in its supply chain.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "material-sourcing",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Labor conditions in Nike's supply chain",
+        "publisher": "Grokipedia",
+        "sourceUrl": "https://grokipedia.com/page/Labor_conditions_in_Nike's_supply_chain",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "labour-ethics",
+          "supply-chain",
+          "wages",
+          "worker-safety",
+          "forced-labour"
+        ],
+        "summary": "Documents Nike's contract manufacturing base of over 1.1 million workers across 541 factories in 37 countries, noting a Code of Conduct aligned with ILO conventions. Empirical investigations find wages often fall short of living costs, excessive hours, mass fainting incidents in Cambodian factories, and disputes over unpaid severance at Vietnam's Violet Apparel and forced-labour ties in Uzbek cotton.",
+        "findings": [
+          {
+            "text": "Only 1% of workers in sampled Cambodian facilities reached Nike's claimed average wage.",
+            "quote": "with only 1% of workers in sampled Cambodian facilities achieving claimed averages.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Excessive working hours and heat-related mass fainting incidents persist in Cambodian factories producing for Nike.",
+            "quote": "Excessive hours beyond 48 per week remain common, contributing to health risks such as recurrent mass fainting incidents from heat, humidity, and inadequate ventilation in Cambodian garment factories",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Recent disputes include unpaid severance in factory closures and indirect ties to forced labour in Uzbek cotton.",
+            "quote": "Recent disputes encompass unpaid severance in factory closures like Vietnam's Violet Apparel, alleged wage theft and discrimination in Indonesian suppliers paying around $1 per hour, and indirect ties to forced labour in Uzbekistan's cotton sector",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Nike - Human Rights and Labor Compliance Standards",
+        "publisher": "NIKE, Inc.",
+        "sourceUrl": "https://about.nike.com/en/resources/human-rights-and-labor-compliance-standards",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "labour-ethics",
+          "supply-chain",
+          "transparency",
+          "child-labour",
+          "forced-labour"
+        ],
+        "summary": "Nike's own statement of its human-rights approach, citing alignment with the UDHR, ILO principles and UN Guiding Principles. Nike says it forbids child labour (workers must be at least 16), prohibits forced/bonded labour, was among the first to ban migrant-worker recruitment fees in 2008, and in 2005 became the first footwear/apparel company to voluntarily disclose its contract manufacturing base.",
+        "findings": [
+          {
+            "text": "Nike says it was the first footwear and apparel company to voluntarily disclose its contract manufacturing base in 2005.",
+            "quote": "In 2005, NIKE, Inc. became the first company in the footwear and apparel industry to voluntarily disclose its contract manufacturing base, publishing the names and locations of factories",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike's Code of Conduct age requirement of 16 exceeds the ILO minimum.",
+            "quote": "Our Code of Conduct age requirements exceed those of the International Labour Organization (15 years of age, and 14 years of age in some developing countries).",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike says it was one of the first companies to prohibit workers paying recruitment fees, in 2008.",
+            "quote": "In 2008, NIKE, Inc. was one of the first companies to establish a supply chain policy with explicit requirements on the employment of foreign migrant workers, including the prohibition on workers paying recruitment fees",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "Nike - Sustainability (NIKE, Inc.)",
+        "publisher": "NIKE, Inc.",
+        "sourceUrl": "https://about.nike.com/en/mission/focus-areas/sustainability",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "emissions",
+          "circularity",
+          "materials",
+          "waste"
+        ],
+        "summary": "Nike's corporate sustainability page reports FY20–FY25 progress including a 77% absolute emissions reduction in its own operations, 100% renewable electricity, 51% environmentally preferred materials usage, and 98% waste diverted from landfill. It states restated science-based targets to cut Scope 1&2 emissions 75% and Scope 3 by 35% by 2030 from an FY20 baseline.",
+        "findings": [
+          {
+            "text": "Nike reports a 77% absolute emissions reduction in its own operations and 100% renewable electricity.",
+            "quote": "77% Absolute emissions reduction in NIKE, Inc. operations 47% Absolute emissions reduction in manufacturing and transportation 100% Renewable electricity in NIKE, Inc. operations",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nike targets a 75% Scope 1&2 and 35% Scope 3 emissions cut by 2030 from an FY20 baseline.",
+            "quote": "reduce GHG emissions in our NIKE, Inc. owned and operated facilities (Scope 1 & 2) by 75 percent and in our extended supply chain (Scope 3) by 35 percent by 2030 from an FY20 baseline",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "EEOC Subpoena Enforcement Action Against Nike (DEI race discrimination)",
+        "entity": "NIKE, Inc.",
+        "status": "settled",
+        "year": 2026,
+        "summary": "The EEOC filed a federal court action in February 2026 to compel Nike to produce information in a systemic investigation alleging DEI-related race discrimination against white workers.",
+        "sourceUrl": "https://www.eeoc.gov/newsroom/eeoc-files-subpoena-enforcement-action-against-nike",
+        "quote": "the federal agency filed an action in federal court to compel NIKE, Inc. to produce information related to allegations that the company discriminated against white workers, including as a result of NIKE’s Diversity, Equity, and Inclusion-related 2025 Targets",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "EEOC, Nike Settle Subpoena Enforcement Lawsuit",
+        "entity": "NIKE, Inc.",
+        "status": "settled",
+        "year": 2026,
+        "summary": "A federal district court dismissed the EEOC's subpoena enforcement action against Nike in August 2026 after Nike provided the information the agency sought.",
+        "sourceUrl": "https://hrdailyadvisor.hci.org/2026/09/10/eeoc-nike-settle-subpoena-enforcement-lawsuit/",
+        "quote": "On August 12, a federal district court dismissed the Equal Employment Opportunity Commission’s (EEOC) subpoena enforcement action against Nike at the EEOC’s request. The EEOC said Nike had provided it with the information it sought",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "Inside the EEOC's Sweeping Subpoena in the Nike DEI Investigation",
+        "entity": "NIKE, Inc.",
+        "status": "settled",
+        "year": 2026,
+        "summary": "Legal analysis noting Nike had signed a January 2025 settlement with the EEOC that the agency later unilaterally rescinded, before pursuing an expansive subpoena over Nike's D&I practices.",
+        "sourceUrl": "https://www.laborandemploymentlawinsights.com/2026/02/fair-is-foul-inside-the-eeocs-sweeping-subpoena-in-the-nike-dei-pattern-or-practice-discrimination-investigation-and-what-employers-should-know/",
+        "quote": "As of January 2, 2025, Nike received a settlement agreement with the EEOC and signed it without modification on January 9, 2025. However, on February 19, 2025, Nike learned that the EEOC reassigned the investigation",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 26,
+    "sourcesFetched": 17,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:19:47.588Z"
+  }
+}

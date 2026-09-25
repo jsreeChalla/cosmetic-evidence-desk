@@ -1,0 +1,274 @@
+{
+  "cachedAt": "2026-09-21T09:18:32.998Z",
+  "data": {
+    "brand": "Adidas",
+    "overview": "Adidas AG, the German sportswear giant (revenue €23.683 billion in 2024, HQ Herzogenaurach), publishes extensive company sustainability disclosures including CSRD/ESRS-aligned annual reports, a Restricted Substances Policy, animal-derived materials standards, and binding supplier Workplace Standards. Independent assessments are mixed: Good On You rated Adidas \"Not Good Enough,\" citing a 2021 French greenwashing ruling and labour concerns, and Ethical Consumer flags workers'-rights and animal-welfare issues, while BrandScore gives it a \"B+ Good\" overall score.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "safety",
+        "claim": "Adidas maintains a Restricted Substances Policy prohibiting chemicals considered harmful or toxic and reviews it annually.",
+        "quote": "we adopted a comprehensive and detailed Restricted Substances Policy (\"A-01 Requirements\") for product materials, prohibiting the use of chemicals considered as harmful or toxic",
+        "sourceUrl": "https://www.adidas-group.com/en/sustainability/transparency/policies?tag=Nature",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "animal-welfare",
+        "claim": "Adidas aims to source animal-derived materials humanely and ethically, considering animal welfare and species conservation.",
+        "quote": "adidas aims to source materials of animal origin in a humane, ethical, and sustainable manner concerning animal welfare and species conservation",
+        "sourceUrl": "https://www.adidas-group.com/en/sustainability/transparency/policies?tag=Nature",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+          }
+        ]
+      },
+      {
+        "category": "material-sourcing",
+        "claim": "Adidas commits to no deforestation, conversion or degradation in the supply chains it sources from.",
+        "quote": "adidas is committed to no deforestation, conversion and degradation in the supply chains which we source from, and to the protection and restoration of biodiversity and ecosystems",
+        "sourceUrl": "https://www.adidas-group.com/en/sustainability/transparency/policies?tag=Nature",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+          },
+          {
+            "publisher": "BrandScore",
+            "sourceUrl": "https://brandscore.org/companies/adidas"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Adidas imposes contractually binding Workplace Standards on suppliers covering health, safety, and labour rights, and has a zero-tolerance stance on forced labour.",
+        "quote": "The Workplace Standards are contractually binding requirements applicable for our suppliers’ factories, covering health and safety, labor rights and environmental protection.",
+        "sourceUrl": "https://www.adidas-group.com/en/sustainability/transparency/policies?tag=Supply+Chain",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+          },
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+          },
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+          },
+          {
+            "publisher": "BrandScore",
+            "sourceUrl": "https://brandscore.org/companies/adidas"
+          },
+          {
+            "publisher": "sustainablereports.org",
+            "sourceUrl": "https://sustainablereports.org/en/brand-reports/adidas-sustainability-report-2025"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "How Ethical Is Adidas?",
+        "publisher": "Good On You",
+        "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "environmental-impact",
+          "greenwashing",
+          "labour-rights",
+          "materials",
+          "carbon-targets"
+        ],
+        "summary": "Good On You's April 2024 rating (based on a November 2023 'Not Good Enough' assessment) found Adidas set a science-based emissions target but is not on track to meet it, lacks published biodiversity and deforestation policies, and was penalised for a 2021 French advertising ruling that its '50% recycled' Stan Smith campaign misled consumers. Its labour rating dropped to 'Not Good Enough'.",
+        "findings": [
+          {
+            "text": "Adidas has set a science-based emissions target but is not on track to meet it.",
+            "quote": "while Adidas has set a target to reduce greenhouse gas emissions generated from its own operations and supply chain, it’s not on track to meet this target",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A French advertising jury ruled Adidas's '50% recycled' Stan Smith campaign misled consumers, a case Good On You calls greenwashing.",
+            "quote": "Adidas’ “Stan Smith Forever. 100% iconic, 50% recycled” campaign broke advertising rules and misled consumers",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You found no evidence Adidas has policies to protect biodiversity in its supply chain.",
+            "quote": "We also found no evidence Adidas has policies to protect biodiversity in its supply chain—another key issue in our methodology.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Adidas's labour rating dropped from 'It's a Start' to 'Not Good Enough' in its most recent rerate.",
+            "quote": "Adidas’s labour rating has unfortunately dropped from “It’s a Start” to “Not Good Enough” in its most recent rerate, indicating it’s falling behind on critical industry issues.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "material-sourcing",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "How ethical is Adidas AG?",
+        "publisher": "Ethical Consumer",
+        "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "workers-rights",
+          "wages",
+          "tax-avoidance",
+          "greenwashing",
+          "animal-welfare"
+        ],
+        "summary": "Ethical Consumer's profile (last updated November 2025) flags several ethical issues with Adidas, including paying high executive wages while garment workers earn below basic needs, likely tax-avoidance strategies, greenwashing accusations, and animal-welfare concerns. It cites Covid-era factory non-payment and a 2021 Public Eye report on Cambodian garment workers.",
+        "findings": [
+          {
+            "text": "Adidas is criticised for high executive pay while supply-chain garment workers are not paid enough for basic needs.",
+            "quote": "paying excessively high wages to executives, while failing to pay garment workers in the supply chain enough to cover even basic needs",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Adidas was linked to factories refusing to pay workers when they shut during the Covid-19 pandemic.",
+            "quote": "The company was linked to major violations during the Covid-19 pandemic, after factories refused to pay workers when they shut down due to the pandemic.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Ethical Consumer notes likely tax-avoidance strategies and animal-welfare concerns.",
+            "quote": "Other issues include likely use of tax avoidance strategies, accusations of greenwashing and concerns over animal welfare.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "animal-welfare",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Adidas a Good Company? Ethics, Sustainability & Ratings (2026)",
+        "publisher": "BrandScore",
+        "sourceUrl": "https://brandscore.org/companies/adidas",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "esg-rating",
+          "certifications",
+          "greenwashing",
+          "customer-satisfaction"
+        ],
+        "summary": "BrandScore gives Adidas an overall 'B+ Good' score, praising ISO 14001 certification since 2010, UN Global Compact participation, and product certifications (FSC, RDS, RWS). It flags at least three environmental violations related to greenwashing claims and a Trustpilot rating of 1.5/5 indicating poor customer satisfaction.",
+        "findings": [
+          {
+            "text": "Adidas holds ISO 14001 certification since 2010 and participates in the UN Global Compact.",
+            "quote": "ISO 14001 certified since 2010, indicating strong environmental management. ✓ Active participant in the UN Global Compact, showing commitment to sustainability.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "BrandScore found at least three environmental violations related to greenwashing claims.",
+            "quote": "At least 3 environmental violations found related to greenwashing claims. ! Trustpilot rating of 1.5/5 indicates poor customer satisfaction.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Adidas holds product certifications including FSC, RDS and RWS for responsible sourcing.",
+            "quote": "Holds multiple product certifications like FSC, RDS, and RWS, ensuring responsible sourcing.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "material-sourcing",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "adidas Sustainability Report 2025 breakdown",
+        "publisher": "sustainablereports.org",
+        "sourceUrl": "https://sustainablereports.org/en/brand-reports/adidas-sustainability-report-2025",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "disclosure-quality",
+          "circularity",
+          "climate",
+          "supply-chain",
+          "auditability"
+        ],
+        "summary": "This plain-English review concludes Adidas is one of the more auditable large-scale sportswear companies in 2025, publishing a downloadable, report-grade Sustainability Statement that makes claims easier to trace. However, it stresses Adidas remains a high-volume, high-footprint business, so 'credible disclosure' is not the same as 'low impact,' and decoupling volume from footprint is not yet proven.",
+        "findings": [
+          {
+            "text": "Adidas is described as more auditable than many footwear peers due to its structured, downloadable disclosure package.",
+            "quote": "adidas is one of the more auditable large-scale sportswear companies in 2025 reporting, but it still operates a high-volume, high-footprint model",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The review notes strong disclosure does not offset the large absolute footprint of high-volume footwear.",
+            "quote": "even strong climate disclosure cannot hide the fact that high-volume footwear has a large absolute footprint",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It flags that Adidas has not yet proven product volume and absolute footprint are decoupling.",
+            "quote": "clearer proof that product volume and absolute footprint are decoupling stronger, more legible circularity systems beyond limited programs",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "French JDP ruling on 'Stan Smith Forever' recycled claim",
+        "entity": "Adidas",
+        "status": "decided",
+        "year": 2021,
+        "summary": "France's advertising jury (JDP) ruled that Adidas's '50% recycled' Stan Smith campaign broke advertising rules and misled consumers over recycled content.",
+        "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
+        "quote": "According to the French Jury de Déontologie Publicitaire (JDP), Adidas’ “Stan Smith Forever. 100% iconic, 50% recycled” campaign broke advertising rules and misled consumers.",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 30,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:18:32.998Z"
+  }
+}

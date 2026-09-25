@@ -1,0 +1,282 @@
+{
+  "cachedAt": "2026-09-02T10:22:52.926Z",
+  "data": {
+    "brand": "Aroma-Zone",
+    "overview": "Aroma-Zone's own published pages describe an in-house toxicology and R&D operation that uses reconstructed human skin models (its certified-vegan AlternaSkin) and external clinical tests rather than animal testing, plus eco-design, PFAS-free, organic-sourcing and supplier CSR commitments. No independent brand-specific assessment of these claims was found in the fetched sources; cruelty-free/vegan certification trackers list the brand's status as unknown. No legal or regulatory matters naming Aroma-Zone appear in the sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "safety",
+        "claim": "Aroma-Zone says it guarantees maximum safety for all its products via an in-house toxicology department analysing every ingredient and formula.",
+        "quote": "to offer you ultra-high-performance skincare products with **100% guaranteed benefits and maximum safety** for your health, under normal conditions of use",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/we-guarantee-maximum-safety-for-all-our-products",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "claim": "Aroma-Zone claims to have never used PFAS and to verify their absence in finished products, formulas and packaging via independent labs.",
+        "quote": "**We have never used PFAS** and we have even taken things a step further. We have chosen to plan ahead for future regulations",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/our-commitment-to-climate-and-biodiversity",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "vegan",
+        "claim": "Aroma-Zone states its reconstructed skin model used for safety testing is certified vegan.",
+        "quote": "Non-invasive and certified vegan, it gives our brand a considerable advantage.",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/how-can-i-assess-the-effectiveness-and-safety-of-an-aroma-zone-product",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/hyteckaromazone"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Aroma-Zone says its Code of Conduct requires suppliers to comply with standards on safety, working conditions and fair treatment of employees.",
+        "quote": "The **Code of Conduct** sets out regulatory standards relating to safety, working conditions, fair and respectful treatment of employees, and ethical practices.",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/our-responsible-sourcing-approach",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "We guarantee maximum safety for all our products",
+        "publisher": "Aroma-Zone",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/we-guarantee-maximum-safety-for-all-our-products",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "toxicology",
+          "product-safety",
+          "endocrine-disruptors",
+          "animal-testing",
+          "essential-oils"
+        ],
+        "summary": "Aroma-Zone's own page describes an in-house toxicology department led by a Eurotox-certified pharmacist that analyses every ingredient and formula for endocrine disruptors, carcinogenicity, genotoxicity and systemic toxicity. It states products follow COSMOS guidelines, are free from PFAS, and are tested via in vitro reconstructed human epidermis and independent clinical labs rather than on animals.",
+        "findings": [
+          {
+            "text": "The brand claims an in-house toxicology team assesses every product for zero risk from endocrine disruptors and other hazards.",
+            "quote": "Endocrine disruptors, carcinogenic substances, genotoxicity, systemic toxicity (on organs): all the ingredients we use, all our products and all our formulas are analysed to ensure zero risks",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Aroma-Zone uses 3D reconstructed human epidermis, described as certified vegan, for its safety and tolerance testing.",
+            "quote": "We carry out in vitro tests on human epidermis that has been reconstructed in 3 dimensions. These models have a physiological structure close to human skin, are reproducible, robust",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand says it follows COSMOS guidelines and applies a formulation charter stricter than EU regulations, excluding PFAS.",
+            "quote": "By scrupulously following the COSMOS guidelines, we are also free from the most problematic ingredients (PFAS, etc). Our formulation charter is more demanding than European regulations",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "How can I assess the effectiveness and safety of an Aroma-Zone product?",
+        "publisher": "Aroma-Zone",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/how-can-i-assess-the-effectiveness-and-safety-of-an-aroma-zone-product",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "product-safety",
+          "clinical-testing",
+          "in-vitro-testing",
+          "AlternaSkin",
+          "animal-testing"
+        ],
+        "summary": "Aroma-Zone describes its product testing process, including reconstructed skin models at its own laboratories and 28-day clinical tests on volunteer panels run by independent labs. It presents its AlternaSkin reconstructed human epidermis model, described as non-invasive and certified vegan, developed to assess serum irritation potential without animal testing.",
+        "findings": [
+          {
+            "text": "The brand's reconstructed skin models are presented as replacing animal testing for cosmetic safety assessment.",
+            "quote": "Reconstructed skin models are an effective method for ensuring the safety of our cosmetics without resorting to animal testing.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Aroma-Zone runs 28-day clinical tests via independent laboratories supervised by healthcare professionals.",
+            "quote": "They are performed by independent testing laboratories, under the supervision of a healthcare professional (such as a dermatologist, ophthalmologist, or paediatrician)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The AlternaSkin model developed by the brand is described as non-invasive and certified vegan.",
+            "quote": "Non-invasive and certified vegan, it gives our brand a considerable advantage.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "unclear"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Our commitment to quality, fair prices and respect for nature",
+        "publisher": "Aroma-Zone",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/requirement-quality-aroma-zone-best-of-nature",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "quality",
+          "organic-farming",
+          "traceability",
+          "sourcing",
+          "fair-pricing"
+        ],
+        "summary": "Aroma-Zone describes a direct, no-intermediary business model, a preference for organic/ecological cultivation to avoid pesticides, and quality control via physico-chemical analysis and gas chromatography. It cites independent audits of its producer partners as part of a global quality approach.",
+        "findings": [
+          {
+            "text": "The brand says it favours organic/ecological cultivation to guarantee absence of pesticides and prevent pollution.",
+            "quote": "we always choose to **grow our products organically or ecologically**. This is both to **guarantee the absence of pesticides** in your care and to **prevent and avoid pollution.**",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Aroma-Zone cites independent audits of partner producers as part of its quality guarantee.",
+            "quote": "the independent audits carried out on our partners' premises and the results of accredited laboratories on the quality of our products all go hand in hand to guarantee a global quality approach",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "Climate and Biodiversity, our actions",
+        "publisher": "Aroma-Zone",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/our-commitment-to-climate-and-biodiversity",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "eco-design",
+          "packaging",
+          "PFAS",
+          "carbon-footprint",
+          "organic-farming",
+          "SBTi"
+        ],
+        "summary": "Aroma-Zone lists eco-design targets: 96% of products with no secondary packaging, 95% with recyclable packaging, an SBTi-validated carbon-neutral-by-2030 trajectory, and 70% organic plant supply chains (target 80% by 2030). It states it has never used PFAS and verifies their absence via independent labs.",
+        "findings": [
+          {
+            "text": "The brand reports specific packaging figures including 96% of products with no secondary packaging and 95% recyclable packaging.",
+            "quote": "**96%** of our products have no secondary packaging.\n\n- **95%** of our products have recyclable packaging.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Aroma-Zone says its 2030 carbon-neutral trajectory has been validated by the Science Based Targets initiative.",
+            "quote": "we have had our carbon-neutral trajectory for all our activities by 2030 scientifically validated by SBTi (Science Based Target initiative)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand states 70% of its plant supply chains are organic, with an 80% target for 2030.",
+            "quote": "**70%** of our plant supply chains are organic\n\n- **80%** organic: our target for 2030",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "Our Sustainable Procurement Approach",
+        "publisher": "Aroma-Zone",
+        "sourceUrl": "https://www.aroma-zone.com/en/content/our-responsible-sourcing-approach",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "supply-chain",
+          "CSR",
+          "EcoVadis",
+          "code-of-conduct",
+          "supplier-audits",
+          "traceability"
+        ],
+        "summary": "Aroma-Zone describes a 2023-launched responsible sourcing program built on a Sustainable Procurement Policy and supplier Code of Conduct, third-party CSR assessment via EcoVadis, and on-site audits of strategic or risky suppliers. It emphasises traceable, often local, supply chains with direct producer relationships.",
+        "findings": [
+          {
+            "text": "The brand uses EcoVadis, a third-party CSR assessor, to evaluate suppliers across environment, social/human rights, ethics and procurement.",
+            "quote": "Aroma-Zone uses [EcoVadis](https://ecovadis.com/), a globally recognised leading CSR assessment body (international standards), to evaluate the sustainability performance of our suppliers.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Aroma-Zone conducts on-site audits of strategic or risky supply sources to verify ethical and environmental standards.",
+            "quote": "It is therefore essential to schedule on-site audits for the most strategic supply sources or those that may be identified as risky, regarding the criteria we have defined.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is HYTECK/AROMA-ZONE Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/hyteckaromazone",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "certification"
+        ],
+        "summary": "Bunny Search, which aggregates data from PETA, Leaping Bunny and Cruelty Free International, reports no cruelty-free, animal-testing or vegan certification data for HYTECK/AROMA-ZONE. The brand is not listed by the certification organizations it tracks, and no parent company information is held.",
+        "findings": [
+          {
+            "text": "No cruelty-free certification data is held for the brand by the tracked organizations.",
+            "quote": "**We don't have cruelty-free certification data for HYTECK/AROMA-ZONE .**\nThis brand isn't currently listed by the certification organizations we track (PETA, Leaping Bunny, etc.).",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "No vegan certification data is held for the brand.",
+            "quote": "**We don't have vegan certification data for HYTECK/AROMA-ZONE from the organizations we track.**",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand is not currently Leaping Bunny certified nor listed in PETA's database.",
+            "quote": "**HYTECK/AROMA-ZONE is not currently Leaping Bunny certified.**",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "unclear"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 24,
+    "sourcesFetched": 24,
+    "degraded": false,
+    "generatedAt": "2026-09-02T10:22:52.922Z"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "cachedAt": "2026-09-21T07:40:42.144Z",
+  "data": {
+    "brand": "Galeries Lafayette",
+    "overview": "Galeries Lafayette publicly promotes its \"Go for Good\" selection of responsible products, solidarity partnerships, and diversity commitments on its own site, but provides limited concrete supply-chain evidence. The independent Good On You rating assesses the Galeries Lafayette house apparel brand as \"Not Good Enough\" across planet, people, and animals, citing extreme labour-abuse risk in sourcing countries and lack of evidence on living wages, textile waste, and animal welfare.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Galeries Lafayette says it is committed to more responsible fashion through its Go for Good selection highlighting products with less environmental impact.",
+        "quote": "Galeries Lafayette has been committed to more responsible fashion, with its Go for Good selection, but also with a number of actions and services to help make fashion more virtuous.",
+        "sourceUrl": "https://haussmann.galerieslafayette.com/en/our-sustainability-commitments/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/galeries-lafayette"
+          },
+          {
+            "publisher": "Business and Human Rights Resource Centre",
+            "sourceUrl": "https://www.business-humanrights.org/en/companies/galeries-lafayette/"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Review Gorilla",
+            "sourceUrl": "https://www.reviewgorilla.fr/galeries-lafayette-avis/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Galeries Lafayette - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/galeries-lafayette",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour",
+          "supply-chain",
+          "animal-welfare"
+        ],
+        "summary": "Good On You rates the Galeries Lafayette house apparel brand \"Not Good Enough\" overall, scoring 2 out of 5 on planet, people and animals. It notes use of some organic cotton but no evidence of textile-waste minimisation, water action, or living wages, and flags sourcing from countries with extreme labour-abuse risk. It appears to use leather, down and exotic animal hair with no animal welfare policy.",
+        "findings": [
+          {
+            "text": "The brand sources final-stage production from countries with extreme labour-abuse risk and shows no evidence of paying living wages.",
+            "quote": "It sources its final stage of production from countries with extreme risk of labour abuse. There’s no evidence it provides financial security to its suppliers",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Galeries Lafayette claims to audit some of its supply chain but does not specify what percentage.",
+            "quote": "The brand claims to audit some of its supply chain but doesn’t specify what percentage. There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand has no evidence of an animal welfare policy and appears to use leather, down and exotic animal hair.",
+            "quote": "There’s no evidence it has an animal welfare policy. It appears to use leather, down, and exotic animal hair.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence the brand minimises textile waste or takes meaningful action to reduce water use.",
+            "quote": "There’s no evidence it minimises textile waste in its supply chain . There’s no evidence it’s taking meaningful action to reduce water use.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Fashion Integrity By Galeries Lafayette - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/fashion-integrity-by-galeries-lafayette",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "ethical-ratings"
+        ],
+        "summary": "Good On You lists a separate Galeries Lafayette line, \"Fashion Integrity By Galeries Lafayette,\" rated \"Good,\" though the page warns the rating may be outdated and provides no detailed breakdown of the criteria behind the score.",
+        "findings": [
+          {
+            "text": "The Fashion Integrity line by Galeries Lafayette carries a \"Good\" rating, but the listing is flagged as potentially outdated.",
+            "quote": "Warning: Fashion Integrity By Galeries Lafayette ratings might be outdated",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Galeries Lafayette - Business and Human Rights Centre",
+        "publisher": "Business and Human Rights Resource Centre",
+        "sourceUrl": "https://www.business-humanrights.org/en/companies/galeries-lafayette/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "supply-chain",
+          "labour-rights",
+          "forced-labour",
+          "child-labour"
+        ],
+        "summary": "The Business and Human Rights Resource Centre maintains a company profile for Galeries Lafayette, associating it with top issues including supply chains, labour rights, child labour, and forced labour and modern slavery. The page records no logged response requests or lawsuit profiles at time of capture.",
+        "findings": [
+          {
+            "text": "BHRC associates Galeries Lafayette with supply-chain and labour-rights issues including child labour and forced labour.",
+            "quote": "Associated top issues Supply Chains Human rights monitoring Labour Rights Child labour Forced Labour & Modern Slavery",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Galeries Lafayette avis, critiques et expériences",
+        "publisher": "Review Gorilla",
+        "sourceUrl": "https://www.reviewgorilla.fr/galeries-lafayette-avis/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-reviews"
+        ],
+        "summary": "Review Gorilla gives Galeries Lafayette a 9/10 based on a single customer review, rating ordering, price, delivery and service, and describes it as a reliable company with a secure SSL-certified website and a good online reputation on the French market.",
+        "findings": [
+          {
+            "text": "Galeries Lafayette scores 9/10 on Review Gorilla, though based on only one customer review.",
+            "quote": "Galeries Lafayette a 1 avis avec une moyenne de 9 comme note du client. En outre, 100% de tous les commentaires indiquent qu'ils achèteraient à nouveau ici.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "unclear"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 22,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:40:42.143Z"
+  }
+}

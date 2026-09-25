@@ -1,0 +1,154 @@
+{
+  "cachedAt": "2026-09-21T07:38:46.813Z",
+  "data": {
+    "brand": "Fleurance Nature",
+    "overview": "Fleurance Nature is a French maker of organic-certified food supplements and cosmetics, based in Fleurance (Gers) and operating since 1972. The brand emphasises organic certification, French manufacturing, eco-conscious packaging and fair-trade sourcing, and holds Fair for Life / For Life certification (first certified 2013, last 2025) as a fair trade partner and brand holder. Independent user-review aggregators note gentle, moisturising products but flag fragrance-preference variability, occasional irritation and a high price point.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Fleurance Nature says its packaging uses vegetable inks on FSC-certified paper and environmentally friendly PET bottles.",
+        "quote": "Our packaging and communication materials are printed with vegetable inks on paper and cardboard from FSC-certified sustainably managed forests",
+        "sourceUrl": "https://www.fleurancenature.com/en/our-philosophy.html",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Fair for Life",
+            "sourceUrl": "https://www.fairforlife.org/en/partenaire/fleurance-nature-2/"
+          },
+          {
+            "publisher": "Hwahae",
+            "sourceUrl": "https://www.hwahae.com/en/brand/Fleurance nature"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "claim": "Fleurance Nature says its scientific team formulates natural and organic products that are both effective and safe under French and European regulations.",
+        "quote": "the team aims to formulate natural and organic products that are both effective and safe, in accordance with French and European regulations",
+        "sourceUrl": "https://www.fleurancenature.com/en/our-philosophy.html",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Hwahae",
+            "sourceUrl": "https://www.hwahae.com/en/brand/Fleurance nature"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Fleurance Nature says fair trade is central to its ethical approach, with three Fair for Life certified supply chains.",
+        "quote": "Fair trade is at the very heart of the Fleurance Nature ethical approach... We currently have 3 FFL (Fair for life, fair trade) chains.",
+        "sourceUrl": "https://www.fleurancenature.com/en/our-committments.html",
+        "quoteVerification": "flagged",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Fair for Life",
+            "sourceUrl": "https://www.fairforlife.org/en/partenaire/fleurance-nature-2/"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Fleurance Nature states its products are not tested on animals.",
+        "quote": "Nos produits sont garantis sans : Parabène Phénoxyéthanol Silicones Pesticides de synthèse Phtalates PEG, PPG Antibiotiques Hormones de croissance Irradiation OGM Non testé sur les animaux",
+        "sourceUrl": "https://www.fleurancenature.fr/beaute",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Hwahae",
+            "sourceUrl": "https://www.hwahae.com/en/brand/Fleurance nature"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Fleurance Nature – Fair for Life certified partner",
+        "publisher": "Fair for Life",
+        "sourceUrl": "https://www.fairforlife.org/en/partenaire/fleurance-nature-2/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "fair-trade",
+          "labour-ethics",
+          "certification",
+          "supply-chain"
+        ],
+        "summary": "The Fair for Life certifier lists Fleurance Nature (Fleurance, France) as a certified partner under its Fair for Life and For Life programs, first certified in 2013 with the most recent certification dated 2025-10-13. Fleurance Nature is recognised as a Fair Trade Partner for the Argan supply chain and as a Brand Holder marketing Fair for Life-certified products.",
+        "findings": [
+          {
+            "text": "Fleurance Nature has been continuously certified under Fair for Life and For Life since 2013, most recently in October 2025.",
+            "quote": "Certification programs : Fair for Life, For Life Brand : Fleurance Nature Location : Fleurance, FR Certified partner : Fair for Life Certification dates : First : 2013 Last : 2025-10-13",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Fleurance Nature acts as a Fair Trade Partner for the Argan supply chain, undertaking to guarantee a fair price and contribute to a development fund.",
+            "quote": "it undertakes to guarantee a fair price, to contribute to the development fund and to respect forecast purchase volumes... I act as a Fair Trade Partner for the following supply chain(s): Argan",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "All Fleurance nature Products Ranked by User Reviews",
+        "publisher": "Hwahae",
+        "sourceUrl": "https://www.hwahae.com/en/brand/Fleurance nature",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-reviews",
+          "organic",
+          "animal-testing"
+        ],
+        "summary": "This review aggregator ranks 55 Fleurance Nature products with an average rating of 3.75 across 85 reviews. Users praise gentle, natural-derived ingredients and moisturising creams, but report significant fragrance-preference differences, occasional skin irritation or dryness (notably from micellar water and aloe vera gel), and a frequently mentioned high price point. It notes the brand opposes animal testing and holds Cosmébio/ECOCERT organic certification.",
+        "findings": [
+          {
+            "text": "Fleurance Nature products average 3.75 across 85 reviews, praised for moisturising power but criticised on fragrance and price.",
+            "quote": "there are significant individual differences in fragrance preferences, and the functionality and price of some products should be considered",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Some products reportedly caused skin irritation or dryness despite the brand's gentle positioning.",
+            "quote": "some micellar water and aloe vera gel products reported skin irritation or dryness. The high price point is also frequently mentioned as a drawback",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The aggregator states the brand adheres to avoiding harmful ingredients and opposes animal testing.",
+            "quote": "adhering to principles of avoiding harmful ingredients (silicone, SLS, phenoxyethanol, parabens, dyes, synthetic fragrances, etc.) and opposing animal testing",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 33,
+    "sourcesFetched": 26,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:38:46.810Z"
+  }
+}

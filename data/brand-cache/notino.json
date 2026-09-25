@@ -1,0 +1,103 @@
+{
+  "cachedAt": "2026-09-16T12:10:50.440Z",
+  "data": {
+    "brand": "Notino",
+    "overview": "Notino is a Czech-founded, Europe-wide e-commerce retailer of beauty and health products, operating in 27 countries with over €1.1 billion in fiscal 2023 turnover. Independent ethics rater Good On You gives Notino its lowest overall rating (\"We avoid\"), citing insufficient disclosure about its impacts on people, the planet, and animals. The brand's own sustainability statements are limited mainly to packaging efficiency claims.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Notino says its automated packaging line handles a large share of orders and reduces plastic waste.",
+        "quote": "We handle up to 40% of all orders with an automatic packaging line, which saves up to 90% of plastic waste thanks to the vacuum and shrink film",
+        "sourceUrl": "https://business-review.eu/lifestyle/beauty-fashion/notino-marks-20th-anniversary-achieves-record-e1-1-billion-turnover-last-fiscal-year-269169",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/notino-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/notino-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Notino Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/notino-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "transparency",
+          "animal welfare",
+          "labour"
+        ],
+        "summary": "Good On You rates Notino \"We Avoid\" overall, its lowest rating, scoring Planet 2/5, People 1/5, and Animals 1/5. The rater concludes Notino provides insufficient information about the actions it takes to address its impacts on people, the planet, and animals, reflecting a lack of transparency rather than verified good practice.",
+        "findings": [
+          {
+            "text": "Notino receives the lowest overall ethics rating from Good On You due to insufficient disclosure.",
+            "quote": "Unfortunately, Notino provides insufficient information about the actions it’s taking to address its impacts on people, the planet, and animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Notino scores poorly across all three of Good On You's rating dimensions.",
+            "quote": "Notino sustainability rating Planet 2 out of 5 People 1 out of 5 Animals 1 out of 5 Overall rating: We avoid",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Notino marks 20th anniversary, achieves record €1.1 billion turnover last fiscal year",
+        "publisher": "Business Review",
+        "sourceUrl": "https://business-review.eu/lifestyle/beauty-fashion/notino-marks-20th-anniversary-achieves-record-e1-1-billion-turnover-last-fiscal-year-269169",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "turnover",
+          "logistics",
+          "packaging",
+          "expansion"
+        ],
+        "summary": "This trade report covers Notino's record fiscal 2023 turnover of €1.1 billion across 27 European markets and its logistics expansion. It relays company statements about automated packaging reducing plastic waste, but relies heavily on quotes from Notino executives rather than independent verification.",
+        "findings": [
+          {
+            "text": "Notino exceeded €1.1 billion in turnover across 27 European markets in fiscal 2023.",
+            "quote": "Operating in 27 European markets, Notino once again exceeded a record billion euros in fiscal year 2023 (May 2023 to April 2024).",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Notino attributes plastic-waste savings to its automated packaging line.",
+            "quote": "We handle up to 40% of all orders with an automatic packaging line, which saves up to 90% of plastic waste thanks to the vacuum and shrink film.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 29,
+    "sourcesFetched": 26,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:10:50.440Z"
+  }
+}

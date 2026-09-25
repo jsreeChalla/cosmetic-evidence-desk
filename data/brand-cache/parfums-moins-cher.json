@@ -1,0 +1,24 @@
+{
+  "cachedAt": "2026-09-21T07:58:24.625Z",
+  "data": {
+    "brand": "Parfums moins cher",
+    "overview": "ParfumsMoinsChers.com is a French online discount perfumery selling what it describes as 100% authentic branded fragrances at reduced prices, claiming 250,000 French customers and over 4,500-5,000 references. The fetched sources provide no independent brand-specific evidence on safety, sustainability, or ethics; the only self-published claims relate to product authenticity. No fetched source establishes a parent-company relationship for this specific brand.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "The brand states it sells only genuine, authentic branded perfumes and never imitations.",
+        "quote": "Nous tenons &agrave; pr&eacute;ciser que tous nos parfums sont neufs et 100% Authentiques. Les imitations ne font pas parties de nos stocks.",
+        "sourceUrl": "https://www.parfumsmoinschers.com/0-",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 8,
+    "sourcesFetched": 5,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:58:24.625Z"
+  }
+}

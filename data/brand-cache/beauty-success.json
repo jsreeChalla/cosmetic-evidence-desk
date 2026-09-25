@@ -1,0 +1,84 @@
+{
+  "cachedAt": "2026-09-21T07:34:16.028Z",
+  "data": {
+    "brand": "Beauty Success",
+    "parentCompany": "Groupe NOVI",
+    "overview": "Beauty Success is a France-based cosmetics brand owned by Groupe NOVI. The only brand-specific evidence in the fetched sources is Good On You's sustainability rating, which places Beauty Success at \"We Avoid\" overall, citing weak environmental disclosure, poor labour-rights transparency, and no anti-animal-testing policy. No company-published claims or legal matters appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/beauty-success-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/beauty-success-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Beauty Success - Sustainability Rating",
+        "publisher": "Good On You",
+        "year": 2025,
+        "sourceUrl": "https://directory.goodonyou.eco/brand/beauty-success-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-ethics",
+          "animal-welfare",
+          "packaging",
+          "ingredients"
+        ],
+        "summary": "Good On You rates Beauty Success \"We Avoid\" overall, with a Planet score of 2/5, People 1/5, and Animals 1/5. It notes some use of organic and recycled materials but no ingredient breakdown, no biodegradability policy, no Code of Conduct, no supplier audits, no living-wage evidence, and no policy against animal testing in its supply chain.",
+        "findings": [
+          {
+            "text": "Beauty Success is owned by Groupe NOVI and rated \"We Avoid\" overall.",
+            "quote": "Beauty Success is owned by Groupe NOVI. Our “Planet” rating evaluates brands based on the environmental policies in their supply chains, from carbon emissions to wastewater",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It uses some organic and recycled materials but does not publish an aggregate breakdown of ingredients used.",
+            "quote": "It uses some lower-impact ingredients including organic ingredients, but it does not publish an aggregate breakdown of ingredients used. It uses some recycled packaging.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence of a Code of Conduct, supplier audits, or living-wage assurance in its supply chain.",
+            "quote": "There’s no evidence it has a Code of Conduct. There's no evidence it audits its suppliers. There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It has no certification, policy, or statement against animal testing in its supply chains.",
+            "quote": "It does not have a certification, policy, or statement against the use of animal testing in its supply chains.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 36,
+    "sourcesFetched": 31,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:34:16.028Z"
+  }
+}

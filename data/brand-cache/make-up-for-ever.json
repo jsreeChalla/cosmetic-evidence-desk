@@ -1,0 +1,222 @@
+{
+  "cachedAt": "2026-09-21T07:48:18.526Z",
+  "data": {
+    "brand": "Make Up For Ever",
+    "parentCompany": "LVMH",
+    "overview": "Make Up For Ever, a professional makeup brand owned by LVMH, is consistently rated as not cruelty-free by independent watchdogs (Cruelty-Free Kitty, PETA, Conscious Bunny) because it sells in mainland China where products can be subject to state-required animal testing. The brand's own materials emphasize commitments to safety testing, eco-conceived packaging, and the Responsible Mica Initiative against child labour. Independent user reviews praise product performance (especially powders and foundation) but flag high prices, fragile packaging, and poor customer service.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "The brand says it does not test its products on animals and has been committed to eliminating animal testing since 1989.",
+        "quote": "We do not test our products on animals. Since 1989 we have been deeply committed to the elimination of animal testing, long before the 2013 European Union ban.",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/make-up-for-ever/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/make-up-for-ever/"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/makeup-forever/"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "claim": "The brand states all its formulas are rigorously tested for safety and performance and its raw materials are checked by regulatory experts and toxicologists.",
+        "quote": "100% of our formulas are rigourously tested to ensure safety & performance - 100% of our raw materials are checked by our regulatory experts & toxicologists",
+        "sourceUrl": "https://www.makeupforever.com/kr/en/committed-sustainable-beauty.html",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "claim": "The brand says it is working to reduce its environmental footprint, including eco-conceived packaging and reduced air transport.",
+        "quote": "Today, 100% of e-commerce boxes are eco-conceived with responsibly sourced paper . - 100% of our shopping bags are plastic free",
+        "sourceUrl": "https://www.makeupforever.com/kr/en/committed-sustainable-beauty.html",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "The brand says it joined the Responsible Mica Initiative to help eradicate child labour in the Indian mica supply chain.",
+        "quote": "has also joined the RMI Initiative (responsible mica initiative...) aimed at eradicating child labour and unacceptable working conditions in the indian mica supply chain.",
+        "sourceUrl": "https://www.makeupforever.com/kr/en/committed-sustainable-beauty.html",
+        "quoteVerification": "flagged",
+        "match": "no-data"
+      },
+      {
+        "category": "quality",
+        "claim": "The brand claims to use only the highest quality ingredients selected for functional benefits that enhance product performance.",
+        "quote": "We only use ingredients of the highest quality in the composition of our cosmetics, respecting both the strictest international regulations and best practices in terms of quality and sustainability",
+        "sourceUrl": "https://www.makeupforever.com/kr/en/committed-sustainable-beauty.html",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Hwahae",
+            "sourceUrl": "https://www.hwahae.com/en/brand/MAKEUPFOREVER"
+          },
+          {
+            "publisher": "AllReviews",
+            "sourceUrl": "https://allreviews.ca/online-shopping/make-up-for-ever-reviews"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Make Up For Ever Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/make-up-for-ever/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China",
+          "vegan"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Make Up For Ever is not cruelty-free because it exports to China where products are made available for state-required animal testing. It notes the brand admits third parties test products on its behalf in China, does not address its ingredients or suppliers, and has no animal testing statement on its own website. Parent company is identified as LVMH.",
+        "findings": [
+          {
+            "text": "The brand is not cruelty-free and may test on animals through third parties where required by law.",
+            "quote": "No, Make Up For Ever is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand admits third parties test its products on animals in China on its behalf.",
+            "quote": "They do however admit that third parties test their products on animals on their behalf in China. For these reasons, this brand is not cruelty-free.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand does not share an animal testing statement on its own website despite a 50+ question FAQ.",
+            "quote": "Make Up For Ever doesn’t share an animal testing statement on their website. They do have a FAQ, which contains over 50 questions, however none of them address animal testing",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Makeup Forever Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/makeup-forever/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "China",
+          "parent-company",
+          "certification"
+        ],
+        "summary": "Conscious Bunny rates Makeup Forever as not cruelty-free because it sells in China where authorities require animal testing for registration. It notes the brand is not certified by any organization and is owned by LVMH, a parent company that tests on animals where required by law.",
+        "findings": [
+          {
+            "text": "The brand is not cruelty-free due to China market sales requiring state-lab testing.",
+            "quote": "Makeup Forever is not cruelty-free. The brand states: “Makeup Forever exports its products worldwide, including to China, where the authorities require us to make our products available to be tested",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand is owned by LVMH, which tests on animals where required by law.",
+            "quote": "The parent company is LVMH, and this is not a cruelty-free company. LVMH states that they do tests on animals where required by law.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand holds no cruelty-free certification from any organization.",
+            "quote": "No, Makeup Forever is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "All MAKEUPFOREVER Products Ranked by User Reviews",
+        "publisher": "Hwahae",
+        "sourceUrl": "https://www.hwahae.com/en/brand/MAKEUPFOREVER",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "user-reviews",
+          "performance"
+        ],
+        "summary": "Based on over 10,000 user reviews averaging 3.97, Hwahae reports Make Up For Ever's powder line is praised for oil control, longevity, and pore/texture correction, especially for oily skin. Common concerns include high price, lack of included applicators, and fragile powder cases prone to breaking.",
+        "findings": [
+          {
+            "text": "Users praise the powder line for oil control and long-lasting wear.",
+            "quote": "The excellent oil control ability and long-lasting power are positively evaluated by many users as makeup remains clean without shine.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Users cite high price and fragile packaging as main drawbacks.",
+            "quote": "opinions about the high price point and the lack of included puffs or brushes requiring separate purchases are noted as main drawbacks. Some users also mentioned that the powder case is fragile",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Make Up For Ever - Reviews and experiences",
+        "publisher": "AllReviews",
+        "sourceUrl": "https://allreviews.ca/online-shopping/make-up-for-ever-reviews",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-service",
+          "user-reviews"
+        ],
+        "summary": "Across 16 voluntary reviews averaging 6.0/10, customers report mixed experiences: some praise foundation performance while others report allergic reactions, wrong shades shipped, difficult returns, and unresponsive customer service.",
+        "findings": [
+          {
+            "text": "A customer reported an allergic reaction to a concealer and poor customer service handling.",
+            "quote": "I had this crazy allergic reaction to a concealer I bought, and it was, like, the worst. And when I reached out to customer service to, like, complain about it, they were just awful.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A customer reported receiving the wrong foundation shade with no return label provided.",
+            "quote": "I asked for the $80 Light Beige foundation, and what do I get? A totally different shade! On top of that, there's no return label.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 27,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:48:18.525Z"
+  }
+}

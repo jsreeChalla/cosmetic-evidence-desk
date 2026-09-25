@@ -1,0 +1,407 @@
+{
+  "cachedAt": "2026-09-21T07:44:36.633Z",
+  "data": {
+    "brand": "Lancôme",
+    "parentCompany": "L'Oréal",
+    "overview": "Lancôme, a French luxury beauty house owned by L'Oréal, is consistently rated as not cruelty-free by PETA, Cruelty Free Kitty, Bunny Search and Conscious Bunny because it sells in mainland China and permits animal testing where required by law. Good On You gives it a middling overall \"It's a start\" rating (strong on planet, weak on animals), while independent product reviewers rate its makeup performance highly but flag its skincare as overpriced and not clean or vegan.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "safety",
+        "claim": "Lancôme states every ingredient and product formulation is reviewed and tested for safety by its internal safety team before marketing.",
+        "quote": "Each and every ingredient used in our products has been thoroughly reviewed and tested by our internal safety team made up of toxicologists, clinicians, pharmacists and physicians.",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Lancôme claims it does not conduct or commission animal testing except where required by law.",
+        "quote": "We at Lancôme do not conduct animal testing on our products or ingredients, nor ask others to test on our behalf, except when required by law",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/"
+          },
+          {
+            "publisher": "PETA",
+            "sourceUrl": "https://crueltyfree.peta.org/company/lancome-loreal/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/lancome"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/lancome-beauty"
+          },
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/"
+          },
+          {
+            "publisher": "Insider Beauty",
+            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/lancome/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/lancome"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/lancome-beauty"
+          },
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/lancome-beauty"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Insider Beauty",
+            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome"
+          },
+          {
+            "publisher": "The Dermatology Review",
+            "sourceUrl": "https://thedermreview.com/lancome-skin-care/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Lancôme Cruelty-Free & Vegan in 2026? THE TRUTH",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "animal-testing",
+          "cruelty-free",
+          "China"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Lancôme is not cruelty-free because it tests on animals where required by law and sells cosmetics in mainland China stores, where products were likely tested on animals. It reproduces Lancôme's own animal-testing policy and notes the policy is hidden in the website FAQ.",
+        "findings": [
+          {
+            "text": "Lancôme is judged not cruelty-free because it sells in mainland China where animal testing was likely performed.",
+            "quote": "They also sell cosmetics in stores in mainland China, which means that they products were likely tested on animals in the country.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme's animal-testing policy is difficult to find, buried in the website FAQ rather than clearly answered.",
+            "quote": "Lancôme’s animal testing policy is displayed on their website, although you do have to dig for it in the FAQ",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Lancôme (L'Oreal) Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/lancome-loreal/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "animal-testing",
+          "cruelty-free"
+        ],
+        "summary": "PETA lists Lancôme (L'Oreal) on its companies-to-avoid list, stating the brand does test on animals directly, through suppliers, or via third parties, and may sell in regions where animal testing is legally mandated.",
+        "findings": [
+          {
+            "text": "PETA places Lancôme on its not cruelty-free list, saying it tests on animals directly or through suppliers/third parties.",
+            "quote": "Lancôme (L’Oreal) does test on animals. They might conduct animal testing directly, rely on their suppliers to do so, or outsource it to a third party.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Lancôme Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/lancome",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "animal-testing",
+          "cruelty-free",
+          "vegan"
+        ],
+        "summary": "Bunny Search aggregates certification data and lists Lancôme as not cruelty-free, appearing on PETA's and Ethical Elephant's animal-tested lists, and notes it is not Leaping Bunny certified. It has no vegan certification data for the brand.",
+        "findings": [
+          {
+            "text": "Lancôme appears on both PETA's 'DO TEST' list and Ethical Elephant's animal-tested list.",
+            "quote": "According to PETA and Ethical Elephant, Lancôme is on their animal testing list.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search has no vegan certification data for Lancôme from the organizations it tracks.",
+            "quote": "We don't have vegan certification data for Lancôme from the organizations we track.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Lancôme - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/lancome-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour",
+          "animal-welfare",
+          "supply-chain"
+        ],
+        "summary": "Good On You rates Lancôme (owned by L'Oréal) 'It's a start' overall, with a good Planet score, a 'People' score of 3/5, and a very poor Animals rating. It cites lower-impact ingredients and RSPO palm oil but weak supply-chain financial security, animal-derived ingredients and possible animal testing.",
+        "findings": [
+          {
+            "text": "Lancôme has set a science-based emissions target but there is no evidence it is on track.",
+            "quote": "It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "All of Lancôme's palm oil is RSPO-certified and it uses some recycled packaging.",
+            "quote": "It uses some recycled packaging. It’s set a science-based target to reduce greenhouse gas emissions",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme uses animal-derived ingredients including lanolin from farmed animals and has made no commitment to eliminate them.",
+            "quote": "It appears to use ingredients derived from farmed animals, including lanolin. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence Lancôme provides financial security to suppliers, risking poor working conditions and wages.",
+            "quote": "There’s no evidence it provides financial security to its suppliers, which can result in poor working conditions and wages.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Lancôme - Make Up: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-rating",
+          "animal-welfare",
+          "vegan"
+        ],
+        "summary": "The Good Shopping Guide assigns Lancôme a low ethical score, largely due to parent company L'Oréal's practices. Lancôme receives bottom ratings for Animal Welfare, Organic and Vegetarian/Vegan Verified categories as it has no organic or vegan products and L'Oréal allows animal testing.",
+        "findings": [
+          {
+            "text": "Lancôme receives bottom ratings for organic and vegan verification because it has no organic or vegan products.",
+            "quote": "Lancôme receives a bottom rating in the Organic and Vegetarian/Vegan Verified categories, as it does not have any organic or vegan products.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme gets a bottom Animal Welfare rating because parent L'Oréal allows animal testing.",
+            "quote": "as L’Oréal allows animal testing on its products, Lancôme receives a bottom rating for Animal Welfare.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Lancôme Review 2026: What's Worth It, What to Skip",
+        "publisher": "Insider Beauty",
+        "sourceUrl": "https://www.insiderbeauty.com/brands/lancome",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "efficacy",
+          "pricing",
+          "cruelty-free"
+        ],
+        "summary": "Insider Beauty rates Lancôme's makeup highly on performance — its Lash Idôle mascara and Teint Idole foundation hold 4.5/5 or better across tens of thousands of Ulta reviews — but warns the Advanced Génifique serum is overpriced versus dupes. It notes Lancôme is not certified cruelty-free and is not clean beauty.",
+        "findings": [
+          {
+            "text": "Lancôme's makeup performs well, with three of four flagship products holding 4.5/5 or better at Ulta.",
+            "quote": "Three of the four flagship products we track hold 4.5/5 or better at Ulta as of August 2026, and the numbers behind them are not small-sample noise.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme is not certified cruelty-free and does not position itself as clean beauty.",
+            "quote": "It is not certified cruelty-free by Leaping Bunny or PETA, and it has never positioned itself as clean beauty; Génifique carries denatured alcohol and fragrance on its ingredient list.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Advanced Génifique serum is flagged as overpriced, with its key ferment sold far cheaper elsewhere.",
+            "quote": "the ferment doing most of the work in that bottle is sold elsewhere for a fifth of the per-ml price.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Lancôme Skin Care Review",
+        "publisher": "The Dermatology Review",
+        "sourceUrl": "https://thedermreview.com/lancome-skin-care/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "ingredients",
+          "pricing"
+        ],
+        "summary": "The Dermatology Review examines Lancôme's skincare, noting core ingredients of vitamin C, retinol and probiotics, but concludes the products are not worth the money because similar, cheaper alternatives exist. It highlights popular products like Advanced Génifique but recommends other brands.",
+        "findings": [
+          {
+            "text": "The reviewer concludes Lancôme skincare is not worth the cost given cheaper comparable alternatives.",
+            "quote": "In our opinion, Lancôme Skincare products aren’t worth the money, simply because there are other skincare brands that offer similar products that are less expensive.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme's core skincare ingredients are vitamin C, retinol and probiotics.",
+            "quote": "Vitamin C, retinol, and probiotics make up the core ingredients for the Lancôme skincare line.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Lancome Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/lancome/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "animal-testing",
+          "cruelty-free",
+          "China",
+          "parent-company"
+        ],
+        "summary": "Conscious Bunny concludes Lancôme is not cruelty-free and is not certified by any organization. It notes Lancôme is owned by L'Oréal, which it says agrees to and pays for third parties to test products on animals, and that Lancôme is sold in countries with mandatory animal testing.",
+        "findings": [
+          {
+            "text": "Conscious Bunny states Lancôme is not cruelty-free and may test on animals directly, via suppliers or third parties.",
+            "quote": "Lancôme is not cruelty-free. They may test on animals, either themselves, through their suppliers, or a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lancôme is sold in countries with mandatory animal testing, meaning its products were likely tested on animals.",
+            "quote": "Lancôme is available for sale in countries with mandatory animal testing, which means that its products were likely tested on animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Conscious Bunny says parent L'Oréal pays third parties to test its products on animals despite its no-testing claim.",
+            "quote": "L’Oreal states that they do not test on animals, but L’Oreal agrees on & pays for third parties to test their products on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:44:36.632Z"
+  }
+}

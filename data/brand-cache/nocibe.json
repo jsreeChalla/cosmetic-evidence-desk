@@ -1,0 +1,92 @@
+{
+  "cachedAt": "2026-09-02T09:51:08.319Z",
+  "data": {
+    "brand": "Nocibé",
+    "parentCompany": "Douglas Group",
+    "overview": "Nocibé is a French beauty retailer owned by the Douglas Group. Douglas's own reporting highlights Nocibé's participation in a French circular-economy alliance and a reusable-packaging pilot (\"la boucle beauté\") in 22 Northern France stores. Independent rater Good On You gives Nocibé an overall \"We avoid\" rating, scoring it low across planet, people, and animals.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Nocibé is testing a reusable/deposit packaging system by accepting empty cosmetic packaging in 22 Northern France stores as part of a circular-economy alliance.",
+        "quote": "NOCIBÈ has launched the pilot project “la boucle beauté” in 22 of its stores located in Northern France. Since mid-January, these stores have been accepting empty cosmetic packaging",
+        "sourceUrl": "https://douglas.group/en/stories/details/reuseable-beauty-nocibe-researches-a-deposit-system-for-cosmetic-products",
+        "quoteVerification": "verified",
+        "match": "contradicted"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Reuseable Beauty: NOCIBÉ researches a deposit system for cosmetic products",
+        "publisher": "Douglas Group",
+        "sourceUrl": "https://douglas.group/en/stories/details/reuseable-beauty-nocibe-researches-a-deposit-system-for-cosmetic-products",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability-packaging",
+          "circular-economy",
+          "reusable-packaging"
+        ],
+        "summary": "Douglas Group's own story describes Nocibé, its French subsidiary, joining a French circular-economy alliance led by Circul'R alongside brands such as L'Oréal, Chanel and retailer Sephora. Nocibé launched a reusable-packaging pilot called 'la boucle beauté' in 22 Northern France stores, accepting returned empty cosmetic packaging to gather data on customer acceptance of a deposit system.",
+        "findings": [
+          {
+            "text": "Nocibé joined an eleven-company French alliance researching a deposit system for reusable cosmetic packaging, operational since December 2023.",
+            "quote": "NOCIBÉ has joined an alliance of eleven French companies from the cosmetics industry that are researching the opportunities and challenges of introducing a deposit system for cosmetic products.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Nocibé's pilot in 22 Northern France stores accepts empty cosmetic packaging returned by customers to test a reusable deposit system.",
+            "quote": "these stores have been accepting empty cosmetic packaging of the participating brands returned by customers. The project aims to gather valuable data on customer behavior and acceptance of the deposit system",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Nocibé - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/nocibe-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "sustainability",
+          "animal-welfare",
+          "labour"
+        ],
+        "summary": "Good On You rates Nocibé 'We avoid', its lowest overall rating, and confirms Nocibé is owned by Douglas Group. The brand scores 2/5 on Planet, 2/5 on People, and 1/5 on Animals, with its 'Planet' rating described as 'Not Good Enough'.",
+        "findings": [
+          {
+            "text": "Nocibé receives Good On You's lowest overall rating, 'We avoid', with weak scores across planet, people and animals.",
+            "quote": "Rated:We avoid",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nocibé scores lowest on animal welfare, receiving 1 out of 5 on Good On You's Animals dimension.",
+            "quote": "#### Animals\n\n1 out of 5",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You rates Nocibé's environmental performance as 'Not Good Enough'.",
+            "quote": "Here we rate Nocibé “Not Good Enough”. These are a few factors influencing its score:",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 25,
+    "sourcesFetched": 25,
+    "degraded": false,
+    "generatedAt": "2026-09-02T09:51:08.318Z"
+  }
+}

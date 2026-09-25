@@ -1,0 +1,25 @@
+{
+  "cachedAt": "2026-09-21T07:47:17.352Z",
+  "data": {
+    "brand": "M·A·C Cosmetics",
+    "parentCompany": "The Estée Lauder Companies",
+    "overview": "MAC Cosmetics, owned by The Estée Lauder Companies, is consistently rated poorly on animal welfare by independent reviewers: PETA lists it as a company that tests on animals, and Good On You, Conscious Bunny and Bunny Search all flag it as not cruelty-free, largely due to sales in markets where animal testing may be required by law. Sustainability raters give mixed-to-poor scores, crediting some ingredient commitments, FSC packaging and a Back-To-MAC takeback program, while noting reliance on virgin plastics and animal-derived ingredients such as lanolin.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "MAC states it commits to avoiding certain ingredients such as parabens and microplastics to reduce its environmental impact.",
+        "quote": "MAC Cosmetics has committed to avoid certain ingredients to lower its environmental impact , including parabens , phthalates , other petrochemical -based ingredients , uncertified palm oil",
+        "sourceUrl": "https://www.maccosmetics.com/pages/conscious-beauty",
+        "quoteVerification": "flagged",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 36,
+    "sourcesFetched": 31,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:47:17.352Z"
+  }
+}

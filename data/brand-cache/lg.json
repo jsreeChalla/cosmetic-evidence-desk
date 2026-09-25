@@ -1,0 +1,181 @@
+{
+  "cachedAt": "2026-09-21T09:23:32.570Z",
+  "data": {
+    "brand": "LG",
+    "overview": "LG Electronics faces documented consumer-safety and privacy scrutiny: a February 2025 class action followed the recall of ~500,000 electric ranges over a knob defect linked to fires, and 2025-2026 reporting alleges data breaches via contractors plus \"egregious\" smart-TV data collection. LG publishes its own take-back/recycling network, conflict-minerals policy, and (via LG Chem) responsible-sourcing commitments. Independent evidence on privacy and product safety is mixed-to-concerning.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "e-waste-recyclability",
+        "claim": "LG says it collects end-of-life e-waste in line with WEEE regulations worldwide and recycles collected products in an environmentally sound manner via certified partners.",
+        "quote": "All electronic products collected under the LG Electronics Recycling Program are recycled in an environmentally sound manner.",
+        "sourceUrl": "https://www.lg.com/global/take-back-recycling-global-network-north-america",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "conflict-minerals",
+        "claim": "LG states that conflict minerals in its products must not be sourced in ways that finance or benefit armed groups in the DRC or adjoining countries.",
+        "quote": "LG Electronics has a policy that conflict minerals contained in our products shall not be derived from sources that finance or benefit armed groups in the DRC or adjoining countries.",
+        "sourceUrl": "https://www.lg.com/global/conflict-minerals-business-partner",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "data-privacy",
+        "claim": "LG offers consumers data-destruction guidance and its recycling partners provide data destruction on returned devices.",
+        "quote": "LG encourages consumers to take additional steps to destroy all personal and confidential data contained on computers, data storage devices, and hard drives.",
+        "sourceUrl": "https://www.lgrecyclingprogram.com/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "BreachHistory",
+            "sourceUrl": "https://breachhistory.com/blog/lg-electronics-data-breaches-full-timeline-through-2026"
+          },
+          {
+            "publisher": "PrivacySavvy",
+            "sourceUrl": "https://privacysavvy.com/news/cybersecurity/alleged-lg-secret-code-leak/"
+          },
+          {
+            "publisher": "The Register",
+            "sourceUrl": "https://www.theregister.com/security/2026/09/08/lg-accused-of-egregious-invasion-of-privacy-over-tv-data-collection/5294956"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "LG Electronics Data Breaches: Full Timeline Through 2026",
+        "publisher": "BreachHistory",
+        "sourceUrl": "https://breachhistory.com/blog/lg-electronics-data-breaches-full-timeline-through-2026",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "data-privacy",
+          "data-breach",
+          "supply-chain"
+        ],
+        "summary": "BreachHistory indexes two LG Electronics-linked incidents: a late-2025 intrusion at subcontractor Ninefive exposing roughly 584 employees' names, mobile numbers and corporate emails, and a 2024 case where a contractor allegedly exfiltrated HR and customer contact data, triggering multi-state consumer notices. Both are characterized as supply-chain or trusted-party exposures rather than direct attacks on LG's core systems.",
+        "findings": [
+          {
+            "text": "A late-2025 breach at subcontractor Ninefive was connected by LG to the leak of around 584 workforce records.",
+            "quote": "Korea trade press reported a late-2025 intrusion against electronics subcontractor Ninefive that LG publicly connected to the leak of roughly five hundred eighty workforce names, mobile numbers, and corporate emails",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "LG Electronics U.S.A. issued 2024 breach notices after a contractor allegedly stole business contact and HR data.",
+            "quote": "LG Electronics U.S.A. issued 2024 breach notices after a contractor allegedly exfiltrated business contact and human-resources data",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "data-privacy",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Hackers Allegedly Dump LG's Secret Code on Dark Web in Major Leak",
+        "publisher": "PrivacySavvy",
+        "sourceUrl": "https://privacysavvy.com/news/cybersecurity/alleged-lg-secret-code-leak/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "data-privacy",
+          "data-breach",
+          "source-code"
+        ],
+        "summary": "A hacker known as \"888\" claimed on November 16, 2025 to have dumped source code, SQL databases, hardcoded credentials and SMTP details allegedly stolen from LG Electronics. Initial analysis suggested the breach originated from a contractor's access point rather than a direct attack on LG, and the article notes LG Uplus separately confirmed a customer-data breach in October.",
+        "findings": [
+          {
+            "text": "A hacker claimed to have leaked LG source code, databases and hardcoded credentials via a contractor's access point.",
+            "quote": "It seems to have originated from a contractor's access point. This points to a classic supply chain vulnerability. A single weak link in a third party provider can cascade into a massive corporate breach.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "LG's telecom arm LG Uplus confirmed a separate customer-data breach in October, and LG Electronics had not commented on the code leak.",
+            "quote": "in October, LG's telecom arm, LG Uplus, confirmed a different breach . That hack affected customer data directly.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "data-privacy",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "LG accused of 'egregious invasion of privacy' over TV data collection",
+        "publisher": "The Register",
+        "sourceUrl": "https://www.theregister.com/security/2026/09/08/lg-accused-of-egregious-invasion-of-privacy-over-tv-data-collection/5294956",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "data-privacy",
+          "smart-tv",
+          "ACR",
+          "advertising"
+        ],
+        "summary": "Gamers Nexus researchers claim LG smart TVs continued capturing audio after voice recognition was activated, even in standby, and collected IP addresses, location data and details of nearby Wi-Fi networks and unpaired devices. LG says its TVs do not store ambient conversations and that voice recognition is optional. LG also deploys automatic content recognition feeding its LG Ads Solutions business.",
+        "findings": [
+          {
+            "text": "Researchers say LG TVs collected IP addresses, location data and enumerated nearby Wi-Fi networks and unpaired local devices.",
+            "quote": "The Gamers Nexus crew said it observed the TV collecting IP addresses, location data, and the names, signal strengths, and channel numbers of nearby Wi-Fi networks.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "LG deployed automatic content recognition across 27 countries with insights available to its advertising business.",
+            "quote": "it announced that automatic content recognition (ACR) technology previously limited to its US smart TVs would be deployed in sets sold across 27 countries, with the resulting insights available through its advertising business",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "LG denies capturing ambient conversations and says voice recognition is optional and only active when triggered.",
+            "quote": "LG previously told other publications that its TVs do not \"collect, record, or store ambient conversations,\" and that voice recognition is an optional feature that processes voice data only when activated by the user.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "data-privacy",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "Solari v. LG Electronics USA Inc. (electric range knob defect)",
+        "entity": "LG Electronics U.S.A., Inc.",
+        "status": "pending",
+        "year": 2025,
+        "summary": "A proposed class action was filed in February 2025 after LG recalled around 500,000 electric ranges whose front-mounted knobs could be turned on by accidental contact, posing a fire hazard.",
+        "sourceUrl": "https://www.classaction.org/news/lg-electric-range-recall-class-action-lawsuit-filed-over-alleged-knob-defect",
+        "quote": "LG Electronics USA Inc. faces a proposed class action lawsuit after it recalled around 500,000 electric ranges with front-mounted knobs that can be turned on by accidental contact, inadvertently activating the cooktop and posing a fire hazard.",
+        "quoteVerification": "verified"
+      },
+      {
+        "title": "LG electric range recall — reported fires and injuries",
+        "entity": "LG Electronics U.S.A., Inc.",
+        "status": "pending",
+        "year": 2025,
+        "summary": "According to the complaint, the CPSC received 86 unintentional activation reports and 28 fires with injuries and pet deaths tied to the recalled LG ranges.",
+        "sourceUrl": "https://www.classaction.org/news/lg-electric-range-recall-class-action-lawsuit-filed-over-alleged-knob-defect",
+        "quote": "the CPSC has received 86 reports of \"unintentional activation\" incidents associated with the LG ranges . A total of 28 fires have been reported, with eight minor injuries and three fires resulting in pet deaths",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 16,
+    "sourcesFetched": 10,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:23:32.570Z"
+  }
+}

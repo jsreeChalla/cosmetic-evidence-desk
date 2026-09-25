@@ -1,0 +1,214 @@
+{
+  "cachedAt": "2026-09-21T06:50:49.481Z",
+  "data": {
+    "brand": "KIKO Milano",
+    "parentCompany": "L Catterton",
+    "overview": "KIKO Milano (rated by Good On You as owned by L Catterton) is an Italian cosmetics brand that states its products are clinically but never animal-tested and operates under EU Cosmetics Regulation 1223/2009. Independent cruelty-free reviewers (Conscious Bunny, Cruelty-Free Kitty) rate it cruelty-free but not certified and not vegan, while Good On You rates its overall sustainability \"Not good enough.\" Customer reviews and third-party sources raise quality and customer-service concerns.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "KIKO Milano says its products are clinically tested but never tested on animals.",
+        "quote": "Fully clinically tested, but never on animals.",
+        "sourceUrl": "https://www.kikocosmetics.com/en-gb/about-kiko/kiko-respects-animals/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/kiko/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/kiko-milano"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "KIKO Milano states that conducting business ethically is a top priority across all its levels and markets.",
+        "quote": "Conducting business with ethics is a TOP priority in KIKO Milano at all levels and markets.",
+        "sourceUrl": "https://www.kikocosmetics.com/en-gb/about-kiko/governance/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "BritainReviews",
+            "sourceUrl": "https://britainreviews.co.uk/online-shopping/kiko-milano-reviews"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is KIKO Milano Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "certification"
+        ],
+        "summary": "Conscious Bunny concludes KIKO Milano is cruelty-free, not tested on finished products or ingredients by the brand, its suppliers or third parties, and not owned by an animal-testing parent company. However, it holds no cruelty-free certification from PETA or Leaping Bunny, is not sold in markets requiring animal testing, and is not vegan.",
+        "findings": [
+          {
+            "text": "KIKO is assessed as cruelty-free at every stage including suppliers and third parties.",
+            "quote": "Yes, KIKO Milano is cruelty-free. They don’t test their finished products or ingredients on animals, and neither do their suppliers or any third parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "KIKO holds no formal cruelty-free certification.",
+            "quote": "No, Kiko is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "KIKO is not sold in China or other markets where animal testing is legally required.",
+            "quote": "Kiko is not sold in China or any other countries where animal testing is required by law.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "KIKO is not vegan; some of its products contain animal-derived material.",
+            "quote": "Is Kiko Vegan? Kiko is not vegan, meaning that some of its produc",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is KIKO Milano Cruelty-Free?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/kiko/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "parent-company"
+        ],
+        "summary": "Cruelty-Free Kitty rates KIKO Milano cruelty-free, stating it does not test finished products or ingredients on animals, nor do its suppliers or third parties, and that its products are verified not tested anywhere including mainland China. It is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "KIKO is verified cruelty-free worldwide, including mainland China.",
+            "quote": "It's also verified that their products are not tested on animals anywhere in the world, including mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "KIKO is not owned by a parent company that tests on animals.",
+            "quote": "KIKO Milano is not owned by any parent company that tests on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Is KIKO Milano Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/kiko-milano",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "certification",
+          "vegan"
+        ],
+        "summary": "Bunny Search, which aggregates data from certification organizations, lists KIKO Milano's cruelty-free status as unknown because it is not listed by PETA, Leaping Bunny or the other bodies it tracks. It notes this does not necessarily mean the brand tests on animals, and it has no vegan certification data.",
+        "findings": [
+          {
+            "text": "KIKO is not listed by the certification organizations Bunny Search tracks.",
+            "quote": "This brand isn't currently listed by the certification organizations we track (PETA, Leaping Bunny, etc.). This doesn't necessarily mean they test on animals - they may simply not have applied for certification.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "KIKO is not currently Leaping Bunny certified.",
+            "quote": "KIKO Milano is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status - they may be listed by other organizations like PETA",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Kiko Milano Reviews 2026",
+        "publisher": "BritainReviews",
+        "sourceUrl": "https://britainreviews.co.uk/online-shopping/kiko-milano-reviews",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-service",
+          "delivery"
+        ],
+        "summary": "Across 33 genuine reviews on BritainReviews, only 36% would buy again, with low scores for service and delivery. Customers report damaged goods, unresponsive customer service, undelivered packages, and one report of eyelid irritation from a liquid eyeshadow, though some praise the lip products.",
+        "findings": [
+          {
+            "text": "Only 36% of reviewers would buy from KIKO again, with poor service and delivery scores.",
+            "quote": "33 reviews 36% Would buy here again Ordering 6.8 Service 5.4 Pricing 7 Delivery 5.4 This score is based on 33 genuine reviews submitted via BritainReviews since 2018.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A customer reported a severe adverse reaction to a KIKO liquid eyeshadow.",
+            "quote": "Once I put it on, my eyelids started feeling like they were on fire, and I had to quickly take it all off because my eyelids ended up swollen.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 33,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-21T06:50:49.479Z"
+  }
+}

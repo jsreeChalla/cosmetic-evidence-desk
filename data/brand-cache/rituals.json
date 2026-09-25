@@ -1,0 +1,310 @@
+{
+  "cachedAt": "2026-09-10T12:19:09.299Z",
+  "data": {
+    "brand": "Rituals",
+    "overview": "Rituals (Rituals Cosmetics B.V.) publishes extensive self-reported sustainability claims via its own FAQ pages and 2024 Sustainability Report, including B Corp certification, a 10% profit pledge, refill programs, SBTi-validated emissions targets, and a no-animal-testing stance since 2000. Independent assessment is mixed: Good On You rates Rituals \"Not Good Enough\" overall (2/5 across Planet, People, Animals), while cruelty-free trackers confirm the brand does not test on animals though it is not Leaping Bunny or PETA certified.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "Rituals states it has been against animal testing since its founding in 2000 and never tests ingredients or finished products on animals, nor works with suppliers that do.",
+        "quote": "Rituals Cosmetics is against animal testing and has been since we were founded in 2000. We have never tested any of our individual ingredients or finished products on animals",
+        "sourceUrl": "https://www.rituals.com.sg/faq-sustainability.html",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/rituals-beauty"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/rituals/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/rituals"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "Rituals says most of its products are vegan-friendly as they contain no animal-derived ingredients.",
+        "quote": "Most of our products are vegan-friendly as they have not been developed with any animal-derived ingredients.",
+        "sourceUrl": "https://www.rituals.com.sg/faq-sustainability.html",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/rituals-beauty"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/rituals"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "claim": "Rituals commits 10% of its annual net profit to causes that improve the wellbeing of people and planet.",
+        "quote": "we guarantee that 10% of our annual net profit will be used as a force for good, to support causes that improve the wellbeing of people and planet.",
+        "sourceUrl": "https://sustainability.rituals.com/2024/home",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Rituals is a founding partner and sponsor of Tiny Miracles, employing women in Mumbai to handmake bags and bracelets for income.",
+        "quote": "Making these bags provides them with life-changing income, which allows them to provide housing, health care and education for themselves and their families.",
+        "sourceUrl": "https://sustainability.rituals.com/2024/home",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/rituals-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Rituals Sustainability Report 2024 - Home",
+        "publisher": "Rituals Cosmetics B.V.",
+        "sourceUrl": "https://sustainability.rituals.com/2024/home",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "refills",
+          "B Corp",
+          "profit pledge",
+          "suppliers",
+          "employee engagement"
+        ],
+        "summary": "Rituals' own 2024 annual progress report describes over 8 million refills sold, B Corp certification, a guaranteed 10% profit pledge since 2025, over 90% natural origin ingredients in most personal care formulas, longstanding supplier relationships averaging 10+ years, and an employee engagement score of 8.3 above a 7.5 benchmark. It also details the Tiny Miracles social procurement initiative employing women in Mumbai.",
+        "findings": [
+          {
+            "text": "Rituals reports having sold over 8 million refills worldwide as part of its circularity strategy.",
+            "quote": "> 8 million Refills sold worldwide Refill Highlights As part of our circularity strategy, we offer a wide range of refillable products.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Rituals claims B Corp certification reflecting standards for social and environmental performance, transparency and accountability.",
+            "quote": "As a certified B Corporation, we join a global movement of changemakers using business to shape a more positive future for all of us.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Rituals reports over 90% natural origin ingredients in most personal care formulas, using synthetics where deemed best for safety or environment.",
+            "quote": "In some cases, synthetic ingredients are still the best option for product safety, usability, and environmental impact.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Rituals Sustainability Report 2024 - Environment",
+        "publisher": "Rituals Cosmetics B.V.",
+        "sourceUrl": "https://sustainability.rituals.com/2024/environment",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "emissions",
+          "packaging",
+          "refills",
+          "palm oil",
+          "microplastics"
+        ],
+        "summary": "Rituals' own environmental report states its emissions reduction targets were validated by SBTi in September 2024, reports total emissions of 277,765 TCO2 with packaging as the largest share, and details Reduce/Recycle/Refill packaging goals. It reports 99.8% RSPO-certified palm oil and states it does not use microbeads.",
+        "findings": [
+          {
+            "text": "Rituals reports its refills save 1.3 million kg of packaging material.",
+            "quote": "Our refills save 1.3 million kg of packaging material Environment At Rituals, we aim to reduce the impact we have on the environment.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Rituals says its emissions reduction targets were validated by the Science Based Targets Initiative in September 2024.",
+            "quote": "in September 2024, our targets were validated by the Science Based Targets Initiative (SBTi)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Rituals states 99.8% of its palm oil and palm kernel oil-derived ingredients in 2024 were RSPO certified.",
+            "quote": "99.8% of the palm oil and palm kernel oil-derived ingredients used in Rituals' products in 2024 were from certified sustainable sources (RSPO).",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Rituals states it does not use microbeads, opting for natural alternatives instead.",
+            "quote": "We do not use microbeads in any of our products. Instead, we use natural alternatives such as sea salt, sugar, pumice (volcanic rock), and bamboo.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "Rituals - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/rituals-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "environment",
+          "labour rights",
+          "animal welfare",
+          "refills",
+          "palm oil"
+        ],
+        "summary": "Good On You rates Rituals \"Not Good Enough\" overall, scoring 2 out of 5 on Planet, People and Animals. It notes no evidence of lower-impact ingredients or biodiversity action, a science-based emissions target without evidence of being on track, use of animal-derived ingredients including keratin, and an uncertified no-animal-testing claim, while acknowledging RSPO palm oil, refills and SMETA-audited production.",
+        "findings": [
+          {
+            "text": "Good On You found no evidence Rituals uses lower-impact ingredients or protects biodiversity in its supply chain.",
+            "quote": "There’s no evidence it uses any lower-impact ingredients. It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You found no evidence Rituals ensures living wages in its supply chain despite some SMETA-audited production.",
+            "quote": "There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You notes Rituals uses animal-derived ingredients including keratin and has not committed to eliminating them.",
+            "quote": "It appears to use ingredients derived from farmed animals, including keratin. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You notes Rituals claims not to test on animals but is not certified.",
+            "quote": "It claims to not test its ingredients or finished products on animals, but it is not certified.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "mixed"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Rituals Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/rituals/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal testing",
+          "China",
+          "parent company"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Rituals is cruelty-free, stating it does not test finished products or ingredients on animals, nor do its suppliers or third parties, and that its products are not tested on animals anywhere including mainland China. It also states Rituals is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "Cruelty-Free Kitty verifies Rituals does not test on animals anywhere in the world, including mainland China.",
+            "quote": "It’s also verified that their products are not tested on animals anywhere in the world, including mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Cruelty-Free Kitty states Rituals is not owned by a parent company that tests on animals.",
+            "quote": "Rituals is not owned by any parent company that tests on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Is Rituals Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/rituals",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "certification",
+          "vegan"
+        ],
+        "summary": "Bunny Search reports that according to Ethical Elephant, Rituals is cruelty-free and does not test on animals, but notes Rituals is not currently PETA-listed nor Leaping Bunny certified. It has no vegan certification data for the brand.",
+        "findings": [
+          {
+            "text": "Bunny Search reports Rituals is on Ethical Elephant's cruelty-free list but is not Leaping Bunny certified or PETA-listed.",
+            "quote": "Rituals is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status - they may be listed by other organizations like PETA",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search has no vegan certification data for Rituals from tracked organizations.",
+            "quote": "We don't have vegan certification data for Rituals from the organizations we track. This doesn't mean the brand doesn't have vegan products",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Rituals - Soap & Shower Gel: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/rituals/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical rating",
+          "fossil fuels",
+          "political donations",
+          "certification"
+        ],
+        "summary": "The Good Shopping Guide rates Rituals with a GSG score of 81 against a category benchmark of 67, considering it an ethical brand in the Soap & Shower Gel sector. It gives top ratings in Fossil Fuels, Armaments and Political Donations criteria, but encourages Rituals to gain Organic and Vegetarian certification to improve.",
+        "findings": [
+          {
+            "text": "The Good Shopping Guide scores Rituals 81, above the category benchmark of 67, considering it an ethical brand.",
+            "quote": "Rituals is a brand of toiletries which has a good score on The Good Shopping Guide’s Ethical Soap & Shower Gel Ratings Table . With a high GSG score, Rituals can be considered an ethical brand.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Good Shopping Guide gives Rituals top ratings in Fossil Fuels, Armaments and Political Donations criteria.",
+            "quote": "Rituals receives a top rating in the Fossil Fuels and Armaments categories, as it has not been linked with any of these controversial industries.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 27,
+    "sourcesFetched": 20,
+    "degraded": true,
+    "generatedAt": "2026-09-10T12:19:09.292Z"
+  }
+}

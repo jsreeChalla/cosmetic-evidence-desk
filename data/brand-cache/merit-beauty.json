@@ -1,0 +1,97 @@
+{
+  "cachedAt": "2026-09-21T07:49:27.224Z",
+  "data": {
+    "brand": "MERIT Beauty",
+    "overview": "MERIT is a modern \"clean beauty\" brand founded in 2021, selling minimalist makeup and clinically-proven skincare, with teams in New York, Los Angeles, Toronto, London, and Paris. Independent cruelty-free trackers (Bunny Search, citing Ethical Elephant and Leaping Bunny) report MERIT is Leaping Bunny certified and offers vegan products. Good On You rates MERIT overall \"Not good enough,\" scoring it low on planet and people but top marks on animals.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "MERIT states its skincare formulas are clinically proven to cleanse, treat, and moisturize.",
+        "quote": "Skincare Clinically proven formulas designed to cleanse, treat, and moisturize — in three steps.",
+        "sourceUrl": "https://www.meritbeauty.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "MERIT positions itself as a clean beauty brand.",
+        "quote": "MERIT Clean Beauty & Minimalist Makeup | MERIT Official Site",
+        "sourceUrl": "https://www.meritbeauty.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/merit-beauty-beauty"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/merit-beauty-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/merit-beauty-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Merit Beauty - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/merit-beauty-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "ethical rating",
+          "planet",
+          "people",
+          "animals"
+        ],
+        "summary": "Good On You gives Merit Beauty an overall rating of 'Not good enough,' scoring it 1 out of 5 on both planet and people, but 5 out of 5 on animals. The rating was last updated in September 2024, and a detailed rating summary is noted as forthcoming.",
+        "findings": [
+          {
+            "text": "Good On You rates Merit Beauty 'Not good enough' overall, with low planet and people scores but a top animals score.",
+            "quote": "Merit Beauty sustainability rating Planet 1 out of 5 People 1 out of 5 Animals 5 out of 5 Overall rating: Not good enough",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 29,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:49:27.224Z"
+  }
+}

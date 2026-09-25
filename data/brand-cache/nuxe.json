@@ -1,0 +1,264 @@
+{
+  "cachedAt": "2026-09-02T11:44:01.450Z",
+  "data": {
+    "brand": "Nuxe",
+    "overview": "Nuxe (Nuxe Group), an independent French natural-origin skincare company founded in 1991, publishes extensive sustainability commitments around responsible sourcing, ingredient traceability, and reduced-plastic packaging. Multiple independent cruelty-free assessors flag Nuxe as not cruelty-free because it sells in mainland China where imported cosmetics can be subject to animal testing; Nuxe itself acknowledges this while stating it does not test its own products or raw materials on animals in Europe.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Nuxe says it promotes sustainable and responsible sourcing of ingredients beyond current regulations without compromising quality and safety.",
+        "quote": "By taking action beyond that of current regulations, NUXE promotes the sustainable and responsible sourcing of ingredients, without compromising quality and safety.",
+        "sourceUrl": "https://us.nuxe.com/pages/our-engagments",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Nuxe says it evaluates suppliers via the independent rating organisation EcoVadis, with selected partners signing its ethical charter.",
+        "quote": "The company evaluates its suppliers using the independent rating organisation Ecovadis. The partners selected then sign our ethical charter, which they undertake to respect.",
+        "sourceUrl": "https://us.nuxe.com/pages/our-engagments",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/nuxe/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nuxe/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/nuxe"
+          },
+          {
+            "publisher": "PETA",
+            "sourceUrl": "https://crueltyfree.peta.org/company/nuxe/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/nuxe"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Nuxe Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/nuxe/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China",
+          "vegan"
+        ],
+        "summary": "Conscious Bunny concludes Nuxe is not cruelty-free because since 2018 a selection of its products has been sold in China, where some imported cosmetics are tested on animals. Nuxe is not cruelty-free certified by PETA or Leaping Bunny. The review notes Nuxe states it does not itself test products or raw materials on animals in compliance with European regulations.",
+        "findings": [
+          {
+            "text": "Nuxe is judged not cruelty-free because it distributes products in China where imported cosmetics may face animal testing.",
+            "quote": "Since 2018, a selection of Nuxe products has been distributed in China. China has different regulations from the other countries where we operate: some imported cosmetics are tested on animals",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nuxe holds no cruelty-free certification from any organization.",
+            "quote": "No, NUXE is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Nuxe Cruelty-Free?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/nuxe/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Cruelty-Free Kitty states Nuxe is not cruelty-free because it is sold in China and tests on animals where required by law. It reproduces Nuxe's official policy that it does not test products or raw materials on animals in compliance with European regulations, and notes Nuxe is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "Cruelty-Free Kitty flags Nuxe as not cruelty-free, citing sales in China with animal testing where legally required.",
+            "quote": "NUXE does not test any of its products or raw materials on animals and thus complies with European regulations. NUXE is sold in China and tests on animals where required by law.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Nuxe Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/nuxe",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Bunny Search, aggregating data from PETA, Leaping Bunny, Cruelty Free International and others, lists Nuxe as not cruelty-free, citing Ethical Elephant's animal-tested list and typical reasons such as selling in mainland China. It reports no vegan certification data and no Leaping Bunny or PETA listing for Nuxe.",
+        "findings": [
+          {
+            "text": "Nuxe appears on Ethical Elephant's animal-tested list per Bunny Search's aggregation.",
+            "quote": "According to Ethical Elephant, Nuxe is on their animal testing list. This typically indicates the company may test on animals directly, use suppliers that test on animals, or sell in markets where animal testing is required by law",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search has no vegan certification data for Nuxe from tracked organizations.",
+            "quote": "We don't have vegan certification data for Nuxe from the organizations we track. This doesn't mean the brand doesn't have vegan products - many brands offer vegan options without formal certification.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is NUXE Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/nuxe/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "certification"
+        ],
+        "summary": "PETA lists NUXE as a company that may not be cruelty-free because it has not signed PETA's statement of assurance to be included on its Ultimate Cruelty-Free List.",
+        "findings": [
+          {
+            "text": "NUXE has not signed PETA's cruelty-free statement of assurance and is not on its certified list.",
+            "quote": "NUXE may not be cruelty-free. This company hasn't signed PETA’s statement of assurance to join the gold standard for cruelty-free certifications and be listed in our database.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Nuxe reinforces long-standing commitment to sustainable beauty through wide-ranging CSR strategy",
+        "publisher": "The Moodie Davitt Report",
+        "sourceUrl": "https://moodiedavittreport.com/nuxe-reinforces-long-standing-commitment-to-sustainable-beauty-through-wide-ranging-csr-strategy/",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "packaging",
+          "sourcing",
+          "microbeads"
+        ],
+        "summary": "This trade-press article reports Nuxe's sustainability commitments: eliminating plastic microbeads in favour of biodegradable alternatives, targeting 90% ingredient traceability by 2025 and 100% recyclable packaging by 2030, monitoring suppliers via EcoVadis, and co-founding the TRASCE traceability consortium in 2023.",
+        "findings": [
+          {
+            "text": "Nuxe replaced polyethylene and polypropylene microbeads with biodegradable alternatives such as rice, bamboo and apricot kernel powder.",
+            "quote": "The brand has eliminated polyethylene and polypropylene microbeads from exfoliating and rinse-off products, replacing them with biodegradable alternatives such as rice powder, bamboo powder and apricot kernel powder.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nuxe targets 100% recyclable packaging by 2030, with 90% currently manufactured in Europe.",
+            "quote": "Currently, 90% of Nuxe packaging is manufactured in Europe to reduce transport-related emissions, with an ambition to achieve 100% recyclable packaging by 2030.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nuxe Sun sunscreens are tested against marine algae and bacteria to check for ecosystem disruption.",
+            "quote": "Nuxe Sun sunscreens are tested on the algae and bacteria representative of marine life to ensure they do not disrupt aquatic ecosystems.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "Nuxe Group announces sustainability milestones on 'path of positive transformation'",
+        "publisher": "The Moodie Davitt Report",
+        "sourceUrl": "https://moodiedavittreport.com/nuxe-group-announces-sustainability-milestones-on-path-of-positive-transformation/",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "B Corp",
+          "traceability",
+          "vegan",
+          "packaging"
+        ],
+        "summary": "This trade-press article outlines Nuxe Group's 2025 and 2030 sustainability goals, including a further 20% plastic reduction, 100% ingredient traceability, genetic tracing of plant actives, and pursuit of B Corp certification. It notes Nuxe's Super Serum (10) uses a vegan-compliant formula with 95% natural-origin ingredients.",
+        "findings": [
+          {
+            "text": "Nuxe Group is pursuing B Corp certification and set 2025/2030 sustainability milestones.",
+            "quote": "Another noteworthy effort on Nuxe’s sustainability journey is its progress towards B Corp certification from B Lab , a reputable non-profit organisation established in 2006.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nuxe's Super Serum (10) uses a vegan-compliant formula made from 95% natural-origin ingredients.",
+            "quote": "Nuxe Super Serum (10) is formulated with a vegan-compliant formula made from 95% natural-origin ingredients",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nuxe aims for 100% ingredient traceability, genetically tracing plant assets with DNA Gensee.",
+            "quote": "the skincare brand aims to ensure 100% traceability of its ingredients to guarantee responsible sourcing",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:44:01.450Z"
+  }
+}

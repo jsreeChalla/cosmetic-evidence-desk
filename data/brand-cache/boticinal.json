@@ -1,0 +1,65 @@
+{
+  "cachedAt": "2026-09-21T08:16:56.597Z",
+  "data": {
+    "brand": "Boticinal",
+    "overview": "The fetched sources contain little brand-specific evidence directly about Boticinal. An independent review aggregator (AllReviews) rates the Boticinal online store 8.6/10 across 10 unverified customer reviews, praising delivery and service while noting some damaged-item and delivery-delay complaints. Boticinal's own site appears only as a product-listing page with no self-published safety, sustainability, cruelty-free, vegan, or labour claims, so no company claims could be extracted.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "AllReviews",
+            "sourceUrl": "https://allreviews.ca/online-shopping/boticinal-reviews"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Boticinal Customer Reviews",
+        "publisher": "AllReviews",
+        "sourceUrl": "https://allreviews.ca/online-shopping/boticinal-reviews",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "delivery",
+          "customer-service"
+        ],
+        "summary": "AllReviews aggregates 10 voluntary customer reviews of Boticinal (boticinal.com) from March–June 2026, with an average rating of 8.6/10. Reviewers generally praised fast delivery and helpful customer service, though some noted damaged or squashed items on arrival and occasionally slow delivery. Reviews are unverified voluntary submissions with basic anti-abuse checks.",
+        "findings": [
+          {
+            "text": "Boticinal holds an 8.6/10 average across 10 reviews, with most reviewers reporting they would buy again.",
+            "quote": "Average rating 8.6 /10 Based on 10 reviews Mar 2026-Jun 2026 Star distribution 5 0 4 7x 3 3x 2 0 1 0",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Some customers reported items arriving damaged, though customer service resolved the issues.",
+            "quote": "Sorted eventually — some items arrived damaged last week when I opened the box, customer service fixed it, still a little messy.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Reviewers frequently praised delivery speed and customer service quality.",
+            "quote": "Delivery was quick, packaging neat. Customer service helpful — would order again, maybe try a promo.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 36,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:16:56.597Z"
+  }
+}

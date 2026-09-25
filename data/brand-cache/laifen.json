@@ -1,0 +1,65 @@
+{
+  "cachedAt": "2026-09-10T11:33:43.208Z",
+  "data": {
+    "brand": "Laifen",
+    "overview": "Laifen is a consumer grooming-appliance brand (hair dryers, electric toothbrushes, shavers and beauty tools) that markets itself on product performance and a large user base. The only independent brand-specific evidence in the fetched sources is a 2025 Red Dot Design Award recognizing the recyclable, plant-fibre packaging of the Laifen Wave Electric Toothbrush, which also identifies the manufacturer as Dongguan Laifen Electronic Technology Co., Ltd. No independent safety, labour, cruelty-free or vegan assessments of the brand appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Laifen states its Wave toothbrush packaging is recyclable and offers 360-degree product protection.",
+        "quote": "Laifen Wave Travel Case 0 Bulk Travel 360° Protection",
+        "sourceUrl": "https://www.laifentech.com/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Red Dot Design Award",
+            "sourceUrl": "https://www.red-dot.org/project/laifen-wave-electric-toothbrush-82765"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Red Dot Design Award: Laifen Wave Electric Toothbrush",
+        "publisher": "Red Dot Design Award",
+        "year": 2025,
+        "sourceUrl": "https://www.red-dot.org/project/laifen-wave-electric-toothbrush-82765",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "packaging",
+          "recyclable materials",
+          "circular economy",
+          "product design"
+        ],
+        "summary": "Red Dot awarded the Laifen Wave Electric Toothbrush a 2025 Product Design award for its packaging, which is made from 100 per cent plant fibres and can be repurposed as a planter. The jury praised the recyclable packaging for combining ecological materials with minimalist design, functionality and aesthetics. The listing identifies the manufacturer as Dongguan Laifen Electronic Technology Co., Ltd.",
+        "findings": [
+          {
+            "text": "The toothbrush packaging is made entirely from plant fibres and can be reused as a planter, supporting a circular-economy concept.",
+            "quote": "Made from 100 per cent plant fibres, the box can be repurposed as a planter after unpacking and thus contributes to the concept of the circular economy.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The jury judged that the packaging shows sustainable design can align with functionality and aesthetics.",
+            "quote": "The packaging of the Laifen Wave Electric Toothbrush impressively demonstrates how sustainable design can harmonise with functionality and aesthetics.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The product is manufactured by Dongguan Laifen Electronic Technology Co., Ltd. in China.",
+            "quote": "Manufacturer Dongguan Laifen Electronic Technology Co., Ltd., Dongguan, China Design Shenzhen Shuye Technology Co., Ltd.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 27,
+    "sourcesFetched": 21,
+    "degraded": true,
+    "generatedAt": "2026-09-10T11:33:43.207Z"
+  }
+}

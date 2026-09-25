@@ -1,0 +1,32 @@
+{
+  "cachedAt": "2026-09-21T07:41:19.898Z",
+  "data": {
+    "brand": "Greenweez",
+    "overview": "The only brand-specific source with usable text is Greenweez's own website, which describes it as an eco-responsible online organic store and marketplace carrying over 150,000 bio and ecological products and citing a 4.6/5 Trustpilot rating. No independent brand-specific assessments, legal matters, or parent-company documents with quotable text were available among the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Greenweez presents itself as an eco-responsible online organic store and marketplace offering bio and ecological products.",
+        "quote": "Greenweez : Magasin bio en ligne et Marketplace écoresponsable",
+        "sourceUrl": "https://legacy.greenweez.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "quality",
+        "claim": "Greenweez cites an excellent customer rating on Trustpilot as evidence of product/service quality.",
+        "quote": "Excellent 4,6/5 sur Trustpilot",
+        "sourceUrl": "https://legacy.greenweez.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:41:19.898Z"
+  }
+}

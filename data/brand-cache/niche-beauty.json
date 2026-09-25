@@ -1,0 +1,40 @@
+{
+  "cachedAt": "2026-09-10T11:54:50.143Z",
+  "data": {
+    "brand": "Niche Beauty",
+    "overview": "The fetched brand-owned sources present two distinct entities: \"Niche Beauty,\" a European multi-brand online retailer (niche-beauty.com), and \"Niche Beauty Lab,\" a Spain-based skincare producer (nichebeautylab.com). Niche Beauty Lab makes self-published claims that its formulas are vegan and cruelty-free, that ~90% of raw materials are locally sourced in Spain, and that it aims to eliminate plastic packaging. No independent brand-specific assessments, third-party certifications, or legal matters were found in the fetched sources for either entity.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Niche Beauty Lab sources most raw materials locally and minimizes plastic in its packaging, aiming for zero plastic consumption.",
+        "quote": "Today, 90% of the raw materials we use to manufacture our products are locally sourced and only 10% of our packaging is made of plastic.",
+        "sourceUrl": "https://nichebeautylab.com/en/pages/sustainable",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Niche Beauty Lab does not test on animals or work with suppliers who do.",
+        "quote": "all of our formulas are vegan and animal cruelty free. We do not test on animals or work with suppliers who do.",
+        "sourceUrl": "https://nichebeautylab.com/en/pages/sustainable",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "vegan",
+        "claim": "Niche Beauty Lab states that all of its formulas are vegan.",
+        "quote": "At Niche Beauty Lab all of our formulas are vegan and animal cruelty free.",
+        "sourceUrl": "https://nichebeautylab.com/en/pages/sustainable",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 27,
+    "degraded": true,
+    "generatedAt": "2026-09-10T11:54:50.142Z"
+  }
+}

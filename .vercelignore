@@ -1,0 +1,12 @@
+# Never upload local secrets — set them in Vercel → Settings → Environment Variables.
+.env
+.env.*
+!.env.example
+# Local build output and bundles (Vercel builds from source).
+node_modules
+dist
+.output
+.vercel
+scripts/_bundled-*.mjs
+.claude
+cached_ids.txt

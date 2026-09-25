@@ -141,3 +141,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# --- Evidence Desk project ---
+node_modules
+scripts/_bundled-research-server.mjs
+scripts/_bundled-refresh-entry.mjs
+.vinxi
+.vite
+*.local
+.DS_Store
+logs/
+.vercel
+.env*.local

@@ -1,0 +1,167 @@
+{
+  "cachedAt": "2026-09-21T09:24:24.622Z",
+  "data": {
+    "brand": "Lidl",
+    "parentCompany": "Schwarz Group",
+    "overview": "Lidl, a discount supermarket brand owned by Germany's Schwarz Group, publishes CSR commitments on climate, resources, fair sourcing and health, with its US arm reporting a 63% Scope 1-2 emissions cut and third-party certification for private-label palm oil, chocolate and fish. Independent assessments are mixed: Ethical Consumer flags alleged workers' rights issues, meat-and-dairy emissions and weak animal welfare, while a German court ruled a 2025 Lidl price-cut advertising campaign misleading.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Lidl states it uses renewable electricity, its own solar installations, lower-emission logistics and more plant-based alternatives to reduce emissions.",
+        "quote": "we rely on electricity from renewable sources, our own solar installations, lower-emission logistics and a broader range of plant-based alternatives to animal products in our assortment",
+        "sourceUrl": "https://info.lidl/en/our-responsibility",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "material-sourcing",
+        "claim": "Lidl GB says it sources all its own-brand tea, cocoa and palm oil from third-party sustainable or certified sources.",
+        "quote": "since April 2017, 100% of the cocoa we have sold has come from third party sustainably certified sources",
+        "sourceUrl": "https://corporate.lidl.co.uk/sustainability",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "animal-welfare",
+        "claim": "Lidl GB says it sources in a fair and sustainable way that improves the lives of people and animals.",
+        "quote": "Sourcing in a fair and sustainable way which improves the lives of people and animals, promotes long-term food production and strengthens relationships",
+        "sourceUrl": "https://corporate.lidl.co.uk/sustainability",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Lidl US says it provided over one million training hours to empower its team members since 2021.",
+        "quote": "Provided more than one million training hours to elevate and empower Lidl US team members since 2021",
+        "sourceUrl": "https://mediacenter.lidl.com/pressreleases/2023/231130_csr-report",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Ethical Consumer",
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "How ethical is Lidl Great Britain Limited?",
+        "publisher": "Ethical Consumer",
+        "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "workers-rights",
+          "animal-welfare",
+          "emissions",
+          "supply-chain"
+        ],
+        "summary": "Ethical Consumer flags several ethical issues with Lidl including alleged workers' rights problems, failure to tackle emissions from its meat and dairy sales, and inadequate animal welfare policies. It also credits Lidl for publishing its direct suppliers and outlining supply-chain expectations such as respecting trade union rights and prohibiting discrimination.",
+        "findings": [
+          {
+            "text": "Ethical Consumer identifies workers' rights allegations, emissions from meat and dairy, and weak animal welfare policies as concerns.",
+            "quote": "several ethical issues with Lidl, including allegations of workers’ rights issues , failure to tackle emissions from its meat and dairy sales , and inadequate animal welfare policies",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lidl has published its direct suppliers and some indirect suppliers as a transparency step allowing advocacy groups to hold it to account.",
+            "quote": "It has also published its direct suppliers and some indirect suppliers - a vital step towards transparency, and to ensure that advocacy groups and workers’ rights organisations can hold it to account",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          },
+          {
+            "category": "animal-welfare",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Lidl US Releases First Corporate Social Responsibility Report",
+        "publisher": "Lidl US",
+        "sourceUrl": "https://mediacenter.lidl.com/pressreleases/2023/231130_csr-report",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "emissions",
+          "renewable-energy",
+          "food-donation",
+          "sourcing"
+        ],
+        "summary": "Lidl US's first CSR report reports a 63% reduction in Scope 1 and 2 emissions versus a 2019 baseline, 100% renewable electricity via certificates since 2022, over three million pounds of food donated to Feeding America, and third-party certification requirements for private-label palm oil, chocolate and fish.",
+        "findings": [
+          {
+            "text": "Lidl US reported a 63% reduction in Scope 1 and 2 greenhouse gas emissions by year-end 2022 against a 2019 baseline.",
+            "quote": "Reduced Scope 1 and Scope 2 greenhouse gas emissions by 63% as of year-end 2022 (compared to a 2019 baseline)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Lidl US set third-party certification requirements for all private label palm oil, chocolate, and fish and shellfish items.",
+            "quote": "Lidl set third-party certification requirement for all private label palm oil, chocolate, and fish and shellfish items. All Lidl private label chocolate, for example, is Fairtrade certified",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      },
+      {
+        "title": "Is Lidl a Good Company? Ethics, Sustainability & Ratings",
+        "publisher": "BrandScore",
+        "sourceUrl": "https://brandscore.org/companies/lidl",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "esg-rating",
+          "certifications",
+          "employee-satisfaction",
+          "customer-satisfaction"
+        ],
+        "summary": "BrandScore gives Lidl a B+ overall, praising Cradle to Cradle certification, UN Global Compact participation since 2020, and ISO 27001/9001 certification, while flagging a low Glassdoor rating of 2.8/5 and a Trustpilot rating of 1.8/5 as areas for improvement.",
+        "findings": [
+          {
+            "text": "BrandScore rates Lidl B+ overall with strengths in certifications but notes weak employee and customer satisfaction.",
+            "quote": "Glassdoor rating of 2.8/5 indicates employee dissatisfaction. ! Trustpilot rating of 1.8/5 suggests poor customer experience",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "BrandScore notes Lidl is Cradle to Cradle certified and a UN Global Compact participant since 2020.",
+            "quote": "Cradle to Cradle certified with Gold and Silver levels. ✓ Active participant in the UN Global Compact since 2020",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "\"500 products permanently cheaper\" advertising lawsuit",
+        "entity": "Lidl",
+        "status": "decided",
+        "year": 2026,
+        "summary": "The Heilbronn Regional Court ruled Lidl's \"500 products permanently cheaper\" advertising campaign misleading after a consumer group lawsuit, barring Lidl from continuing it.",
+        "sourceUrl": "https://recht24-7.de/en/500-produkte-dauerhaft-guenstiger-lidl-verliert-prozess-um-werbeversprechen/",
+        "quote": "the Heilbronn Regional Court has now put a stop to this. The Hamburg Consumer Advice Center had filed a lawsuit and won: the campaign was deemed misleading, and Lidl is not allowed to continue this advertising",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 20,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:24:24.622Z"
+  }
+}

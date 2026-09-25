@@ -1,0 +1,24 @@
+{
+  "cachedAt": "2026-09-17T10:09:10.004Z",
+  "data": {
+    "brand": "SeventyOne",
+    "overview": "The only brand-specific sources fetched are SeventyOne's own website pages, which present it as a French natural, eco-responsible sunscreen and cosmetics brand emphasizing consumer respect and the fight against climate change. No independent assessments, legal matters, or third-party evaluations specific to SeventyOne appear in the fetched sources. The remaining sources concern unrelated companies (7-Eleven), general certification programs, or sector-wide ingredient/rating topics that do not name the brand.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "SeventyOne positions itself as offering natural, eco-responsible cosmetics with fighting climate change as a core value.",
+        "quote": "At SeventyOne, respect for our consumers and the fight against climate change are",
+        "sourceUrl": "https://www.seventyone-percent.com/en/pages/raison-d-etre",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 26,
+    "degraded": true,
+    "generatedAt": "2026-09-17T10:09:10.003Z"
+  }
+}

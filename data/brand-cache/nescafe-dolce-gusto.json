@@ -1,0 +1,183 @@
+{
+  "cachedAt": "2026-09-21T09:30:15.048Z",
+  "data": {
+    "brand": "Nescafé Dolce Gusto",
+    "parentCompany": "Nestlé",
+    "overview": "Nescafé Dolce Gusto is a coffee-pod brand owned by Nestlé (marketed as a registered trademark of Société de Produits Nestlé S.A.). The brand's own sites emphasize responsible coffee sourcing via the Nescafé Plan, regenerative agriculture, and packaging plastic reduction. Independent assessments are more critical: The Good Shopping Guide rates the Nescafé brand very poorly on ethics, with bottom ratings for Organic, Fairtrade and Animal Welfare, and a food-industry benchmark scored Nestlé below 40 on forced-labour risk.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "The brand says it has reduced virgin plastic in its capsules and machines and uses recycled materials.",
+        "quote": "Since 2022, we have reduced the amount of polypropylene in our capsules by 13% without compromising on the quality of our coffee and beverages.",
+        "sourceUrl": "https://www.dolce-gusto.co.uk/sustainability",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "material-sourcing",
+        "claim": "The brand claims its coffee is sourced via the Nescafé Plan and is traceable to farms meeting external sustainability standards.",
+        "quote": "This ensures our coffee is traceable to group of farms that meet external program sustainability standards, covering social and environmental practices, including farmers' working conditions",
+        "sourceUrl": "https://www.dolce-gusto.co.uk/sustainability",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "ESG Today",
+            "sourceUrl": "https://www.esgtoday.com/nestle-launches-project-to-improve-human-rights-in-coffee-supply-chain/"
+          },
+          {
+            "publisher": "CXTMS Insights",
+            "sourceUrl": "https://cxtms.com/blog/coffee-supply-chain-labor-rights-logistics-compliance"
+          }
+        ]
+      },
+      {
+        "category": "sourcing-organic",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/"
+          }
+        ]
+      },
+      {
+        "category": "animal-welfare",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Nescafé - Coffee: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "ethical rating",
+          "organic",
+          "fairtrade",
+          "animal welfare"
+        ],
+        "summary": "The Good Shopping Guide rates the Nestlé-owned Nescafé brand poorly overall, giving it bottom ratings in the Organic and Fairtrade categories because it lacks Fairtrade-certified or organic-certified products, and a bottom rating for Animal Welfare due to Nestlé's involvement in animal testing. It scored well only for Fossil Fuels and Armaments.",
+        "findings": [
+          {
+            "text": "Nescafé received bottom ratings for Organic and Fairtrade because it lacks certified products.",
+            "quote": "Nescafé receives a bottom rating in the Organic and Fairtrade categories, as it does not have any products approved by the Fairtrade Foundation or any organic certifying organisations",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nescafé got a bottom rating for Animal Welfare tied to Nestlé's animal testing.",
+            "quote": "Nescafé also has a bottom rating for Animal Welfare, due to Nestlé’s involvement in animal testing.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand scored very poorly overall in the ethical coffee ratings.",
+            "quote": "The brand scored very poorly in The GOOD Shopping Guide’s Ethical Coffee Ratings Table and requires significant improvement to be considered an ethical brand in the future.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "sourcing-organic",
+            "verdict": "concerning"
+          },
+          {
+            "category": "animal-welfare",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Nestlé Launches Project to Improve Human Rights in the Coffee Supply Chain",
+        "publisher": "ESG Today",
+        "sourceUrl": "https://www.esgtoday.com/nestle-launches-project-to-improve-human-rights-in-coffee-supply-chain/",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "labour rights",
+          "coffee supply chain",
+          "Nescafé Plan"
+        ],
+        "summary": "ESG Today reports Nestlé and the ILO launched a two-year project supported by the Nescafé Plan to advance worker rights in coffee supply chains in Brazil, Colombia and Mexico. The report notes Nestlé's Nescafé Plan 2030 committed more than $1 billion to sustainable coffee farming, while noting around 80% of coffee-farming families live at or below the poverty line.",
+        "findings": [
+          {
+            "text": "Nestlé and the ILO launched a two-year project supported by the Nescafé Plan to protect coffee workers' rights.",
+            "quote": "the launch of a new two-year project, aimed at advancing the protection of rights for workers in coffee supply chains in Brazil, Colombia and Mexico",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nestlé's updated Nescafé Plan 2030 committed over $1 billion to sustainable coffee farming.",
+            "quote": "updated it in 2022 with a new Nescafé Plan 2030 , which included a commitment of more than $1 billion to improve the sustainability of coffee farming",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Around 80% of coffee-farming families live at or below the poverty line.",
+            "quote": "Approximately 125 million people depend on coffee for their livelihoods, with around 80% of coffee-farming families living at or below the poverty line.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Coffee Supply Chains Are Getting a Labor-Rights Audit",
+        "publisher": "CXTMS Insights",
+        "sourceUrl": "https://cxtms.com/blog/coffee-supply-chain-labor-rights-logistics-compliance",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "labour rights",
+          "forced labour benchmark",
+          "regenerative agriculture",
+          "traceability"
+        ],
+        "summary": "This logistics-industry analysis cites Supply Chain Dive reporting that Nestlé scored below 40 out of 100 on a benchmark of 45 major food companies' efforts to address forced-labour risk, with only two firms scoring above 50. It also notes Nestlé claimed 32% of Nescafé coffee in 2024 came from regenerative-agriculture farmers, beating its 2025 goal of 20%.",
+        "findings": [
+          {
+            "text": "Nestlé scored below 40 out of 100 on a food-industry forced-labour benchmark.",
+            "quote": "a recent benchmark covering 45 of the world’s largest food and beverage companies found that only two scored above 50 out of 100 on efforts to prevent and address forced-labor risks. Nestlé scored below 40",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Nestlé reported 32% of Nescafé coffee in 2024 came from regenerative-agriculture farmers, beating its 2025 goal.",
+            "quote": "the company said 32% of Nescafé coffee in 2024 came from farmers using regenerative agriculture practices, beating its 2025 goal of 20%",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 23,
+    "sourcesFetched": 19,
+    "degraded": true,
+    "generatedAt": "2026-09-21T09:30:15.045Z"
+  }
+}

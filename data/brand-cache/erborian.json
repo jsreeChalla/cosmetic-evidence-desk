@@ -1,0 +1,134 @@
+{
+  "cachedAt": "2026-09-16T12:23:57.067Z",
+  "data": {
+    "brand": "Erborian",
+    "parentCompany": "L'Occitane",
+    "overview": "Erborian, a K-beauty brand owned by L'Occitane, publicly states it does not test on animals and uses no animal-origin ingredients other than bee by-products such as honey and beeswax. Independent cruelty-free trackers diverge: Cruelty-Free Kitty verifies Erborian as cruelty-free while noting its parent company L'Occitane is not, whereas Bunny Search lists its status as unknown due to lack of certification data. Erborian holds no Leaping Bunny or PETA certification.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "Erborian states it has never tested its products, active ingredients, or raw materials on animals at any point in development or manufacturing.",
+        "quote": "ERBORIAN does not and has never tested its products, its active ingredients or its raw materials on animals at any point in the product development or manufacturing process.",
+        "sourceUrl": "https://www.erborian.com/faq-brand",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/erborian/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/erborian"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "Erborian says it uses no animal-origin ingredients other than bee by-products such as honey and beeswax.",
+        "quote": "At Erborian we do not use products of animal origin other than bee bi-products such as Honey. This is identifiable on the product ingredients list as Honey extract or Beeswax.",
+        "sourceUrl": "https://www.erborian.com/faq-brand",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/erborian"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "claim": "Erborian states it uses no parabens in its preservative system and tries to minimize preservatives while ensuring safety.",
+        "quote": "We don’t use any parabens in our preservatives system today and we try to minimize our preservatives, still by offering the best possible safety for our customers",
+        "sourceUrl": "https://www.erborian.com/faq-brand",
+        "quoteVerification": "flagged",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Erborian Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/erborian/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal testing",
+          "parent company"
+        ],
+        "summary": "Cruelty-Free Kitty verifies Erborian as cruelty-free, stating the brand does not test finished products or ingredients on animals, nor do its suppliers or third parties, including in mainland China. However, it notes Erborian is owned by L'Occitane, which is not a cruelty-free company, and advises consumers who avoid such parent companies to avoid Erborian.",
+        "findings": [
+          {
+            "text": "Cruelty-Free Kitty verifies Erborian does not test on animals anywhere, including mainland China.",
+            "quote": "It's also verified that their products are not tested on animals anywhere in the world, including mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Erborian is owned by L'Occitane, which the tracker states is not a cruelty-free brand.",
+            "quote": "Erborian is owned by L'Occitane which is not a cruelty-free brand. If you prefer avoiding brands owned by a company that tests on animals, we recommend avoiding Erborian.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Is Erborian Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/erborian",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "certification",
+          "parent company"
+        ],
+        "summary": "Bunny Search, which aggregates data from PETA, Leaping Bunny, Cruelty Free International and others, lists Erborian's cruelty-free status as unknown because it is not listed by the certification organizations it tracks. It notes Erborian has no vegan certification data and is owned by L'Occitane.",
+        "findings": [
+          {
+            "text": "Erborian is not listed by the certification organizations Bunny Search tracks, so its status is unknown.",
+            "quote": "This brand isn't currently listed by the certification organizations we track (PETA, Leaping Bunny, etc.). This doesn't necessarily mean they test on animals - they may simply not have applied for certification.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search has no vegan certification data for Erborian.",
+            "quote": "We don't have vegan certification data for Erborian from the organizations we track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search states Erborian is owned by L'Occitane.",
+            "quote": "Erborian is owned by L’Occitane. It's worth noting that a brand's cruelty-free status can differ from its parent company's policies.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "unclear"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 31,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:23:57.066Z"
+  }
+}

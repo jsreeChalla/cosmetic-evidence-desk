@@ -1,0 +1,237 @@
+{
+  "cachedAt": "2026-09-21T07:52:02.371Z",
+  "data": {
+    "brand": "NYX Professional Makeup",
+    "parentCompany": "L'Oréal",
+    "overview": "NYX Professional Makeup, owned by L'Oréal, is PETA-certified cruelty-free and markets its formulas as vegan and free from animal-derived ingredients. Independent sustainability raters (Good On You, Commons) give it middling-to-low scores, noting a lack of brand-level environmental disclosures, use of ingredients like parabens and microplastics, and reliance on virgin plastic packaging, while crediting its parent company's renewable-energy and emissions targets. Ratings also note NYX still uses animal-derived ingredients such as lanolin and collagen despite its vegan marketing.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "NYX states it has been 100% cruelty-free since its 1999 founding and is PETA certified since 2015, never testing on animals.",
+        "quote": "100% cruelty free since our founding in 1999, we have never tested on animals. Peta Certified since 2015.",
+        "sourceUrl": "https://global.nyxcosmetics.com/en_IN/about-us.html",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/nyx-professional-makeup-beauty"
+          },
+          {
+            "publisher": "PETA",
+            "sourceUrl": "https://crueltyfree.peta.org/company/nyx-professional-makeup-loreal/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nyx/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "NYX claims its formulas are vegan, being free from animal-derived ingredients or byproducts.",
+        "quote": "VEGAN FORMULAS* Settling isn't in our vocab. Committed to being free from animal derived products. *No animal-derived ingredients or byproducts",
+        "sourceUrl": "https://global.nyxcosmetics.com/en_IN/about-us.html",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/nyx-professional-makeup-beauty"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "claim": "NYX claims its pro formulas are curated by makeup pros in Los Angeles for high pigment payoff and performance.",
+        "quote": "PRO FORMULAS Products curated by makeup pros in Los Angeles, for high pigment payoff & epic performance.",
+        "sourceUrl": "https://global.nyxcosmetics.com/en_IN/about-us.html",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Commons",
+            "sourceUrl": "https://brands.thecommons.earth/brand-rating/1540/nyx-professional-makeup"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/nyx-professional-makeup-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "NYX Professional Makeup's Sustainability Rating",
+        "publisher": "Commons",
+        "sourceUrl": "https://brands.thecommons.earth/brand-rating/1540/nyx-professional-makeup",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "packaging",
+          "ingredients",
+          "supply-chain",
+          "emissions"
+        ],
+        "summary": "Commons gives NYX an 'Insufficient' sustainability rating, citing a lack of brand-level disclosures, use of ingredients that threaten the climate (parabens, microplastics, uncertified mica), and reliance on virgin plastic packaging with no refill or takeback options. It credits parent company L'Oréal Groupe for renewable energy use, emissions reporting, and SBTi-approved targets, though L'Oréal is off track on its scope 3 target.",
+        "findings": [
+          {
+            "text": "NYX makes no brand-level ingredient commitments and still uses ingredients that pose a significant climate threat.",
+            "quote": "NYX Professional Makeup still uses many ingredients that pose a significant threat to the climate , including parabens , microplastics , other petrochemical -based ingredients , harmful suncare ingredients , and uncertified mica .",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "NYX relies primarily on virgin petro-based plastic packaging according to its parent company's reporting.",
+            "quote": "it primarily relies on virgin petro -based plastics for its packaging , which greatly increases its emissions and waste footprint .",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Parent company L'Oréal Groupe is on track for some emissions targets but very off track for its scope 3 target.",
+            "quote": "It has reported on its progress within the past year , and is on track for some of its targets , but is very off track for its scope 3 target .",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal Groupe's supplier code of conduct prohibits forced and child labour but does not ensure a living wage.",
+            "quote": "L 'Oreal Groupe publicly shares a supplier code of conduct , which prohibits forced labor , prohibits child labor , establishes grievance mechanisms , and disallows unauthorized subcontracting .",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "NYX Professional MakeUp - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/nyx-professional-makeup-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour",
+          "animal-welfare",
+          "supply-chain",
+          "cruelty-free",
+          "vegan"
+        ],
+        "summary": "Good On You rates NYX 'It's a Start' overall (3/5 across Planet, People, Animals). It notes NYX is owned by L'Oréal, has a science-based emissions target but no evidence it is on track, uses RSPO-certified palm oil, and partly traces and audits its supply chain. Despite vegan marketing, NYX uses animal-derived ingredients including lanolin and collagen, and is PETA test-free though its parent does not exclude animal testing in all circumstances.",
+        "findings": [
+          {
+            "text": "NYX uses animal-derived ingredients such as lanolin and collagen and has made no commitment to eliminate them.",
+            "quote": "It appears to use ingredients derived from farmed animals, including lanolin and collagen. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "NYX is PETA-certified animal test-free but its parent company L'Oréal does not exclude animal testing in all circumstances.",
+            "quote": "It's certified as animal test-free by PETA, but its parent company does not exclude animal testing in all circumstances.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "NYX has set a science-based emissions target but there is no evidence it is on track.",
+            "quote": "It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "NYX ensures some final-stage workers are paid living wages but not throughout its entire supply chain.",
+            "quote": "It ensures some workers in the final production stage are paid living wages, though not through its entire supply chain.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "mixed"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "NYX Professional Makeup (L'Oreal) is Cruelty-Free",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/nyx-professional-makeup-loreal/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing"
+        ],
+        "summary": "PETA confirms NYX Professional Makeup is cruelty-free, stating that neither its ingredients nor finished products are tested on animals and that its suppliers and third parties follow the same standard.",
+        "findings": [
+          {
+            "text": "PETA verifies NYX does not test ingredients or finished products on animals and requires suppliers to follow the same standard.",
+            "quote": "They ensure that neither their ingredients nor finished products are tested on animals, and their suppliers and third parties follow the same standard.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Is NYX Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/nyx/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "ownership",
+          "China"
+        ],
+        "summary": "Cruelty-Free Kitty confirms NYX is cruelty-free, verifying it does not test finished products or ingredients on animals anywhere in the world including mainland China. It notes NYX is owned by L'Oréal, a company that tests on animals, but that NYX has remained cruelty-free and never entered the Chinese market since the 2014 acquisition.",
+        "findings": [
+          {
+            "text": "NYX's products are verified as not tested on animals anywhere in the world, including mainland China.",
+            "quote": "It's also verified that their products are not tested on animals anywhere in the world, including mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Since being acquired by L'Oréal in 2014, NYX has remained cruelty-free and never entered the Chinese market.",
+            "quote": "Since the acquisition, NYX has maintained the same team as well as the same values. They have remained cruelty-free and have never entered the Chinese market.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 33,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:52:02.371Z"
+  }
+}

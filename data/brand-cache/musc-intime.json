@@ -1,0 +1,16 @@
+{
+  "cachedAt": "2026-09-10T10:22:39.282Z",
+  "data": {
+    "brand": "Musc Intime",
+    "overview": "",
+    "hasEvidence": false,
+    "claims": [],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 24,
+    "degraded": true,
+    "retrievalWarning": "Live evidence retrieval returned no accessible sources for this brand. The search provider may be unavailable or blocked for this key/model.",
+    "generatedAt": "2026-09-10T10:22:39.280Z"
+  }
+}

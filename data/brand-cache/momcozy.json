@@ -1,0 +1,87 @@
+{
+  "cachedAt": "2026-09-10T11:53:51.877Z",
+  "data": {
+    "brand": "Momcozy",
+    "overview": "Momcozy is an internet-first maternity and baby-care brand based in Kowloon, China (founded 2017, per Tracxn), which raised a private equity round in December 2023. In a promotional interview the brand states it holds medical device certifications (ISO13485, MDSAP, FDA 510K) for its breast pump, and its own product listings market a \"100% natural\" vegan, lanolin-free nipple cream. No independent safety, sustainability, or labour-ethics assessments of the brand appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "vegan",
+        "claim": "Momcozy states its nipple cream is made from 100% natural, vegan, lanolin-free ingredients.",
+        "quote": "100% natural ingredients - vegan lanolin-free nipple butterNon-greasy for better absorptionEmulsify quickly, and moisturize deeply",
+        "sourceUrl": "https://momcozy.com/collections/all",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Momcozy claims to hold medical device certifications including ISO13485, MDSAP, and FDA 510K approval for its breast pump.",
+        "quote": "obtained relevant certifications, including the medical device ISO13485 certificate, MDSAP certificate, and the FDA 510K approval for our breast pump",
+        "sourceUrl": "https://allwomenstalk.com/momcozy-mission-innovation-interview/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Exclusive Interview with Momcozy - The Beloved Maternity Brand Revolutionizing The Industry",
+        "publisher": "Allwomenstalk",
+        "sourceUrl": "https://allwomenstalk.com/momcozy-mission-innovation-interview/",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "product safety",
+          "medical device certification",
+          "brand mission"
+        ],
+        "summary": "An interview with Momcozy's North American Marketing Manager describes the brand, founded in 2018, as focused on maternity products and rapid, user-feedback-driven innovation. The company states it has established a medical device quality system with ISO13485, MDSAP, and FDA 510K certifications, plus global registrations across the US, Canada, Australia, EU and Middle East. The piece is a promotional interview rather than independent verification.",
+        "findings": [
+          {
+            "text": "Momcozy claims a robust medical device quality system with multiple international certifications for its breast pump.",
+            "quote": "obtained relevant certifications, including the medical device ISO13485 certificate, MDSAP certificate, and the FDA 510K approval for our breast pump",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Momcozy says it conducts over 200 one-on-one interviews with mothers and tests products with them before launch.",
+            "quote": "We conduct over 200 one-on-one interviews with mothers and invite them to be part of our development groups. Before any product launch, we ensure that it has been rigorously tested",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "Momcozy - Company Profile, Funding & Competitors",
+        "publisher": "Tracxn",
+        "sourceUrl": "https://tracxn.com/d/companies/momcozy/__UZ1T8IRsymsRLWu5RGICOjsvbSJr4uaQ4dXav5M23Uc",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ownership",
+          "company profile",
+          "funding"
+        ],
+        "summary": "Tracxn's company profile lists Momcozy as a late-stage, internet-first brand based in Kowloon, China, founded in 2017, offering multi-category products for moms and kids. It notes an undisclosed private equity round in December 2023 and roughly 154 employees, with competitors including Babycare and Grownsy.",
+        "findings": [
+          {
+            "text": "Momcozy is an internet-first brand based in Kowloon, China, founded in 2017.",
+            "quote": "Momcozy is a late stage company based in Kowloon (China), founded in 2017 . It operates as an Internet first brand offering multi-category products for moms and kids",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Momcozy raised a private equity round in December 2023 and had around 154 employees as of mid-2026.",
+            "quote": "Latest Funding Round PE, Dec 19, 2023 , $***** Ranked 1 st among 8 active competitors Employee Count 154 as on Jul 31, 2026",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 19,
+    "degraded": true,
+    "generatedAt": "2026-09-10T11:53:51.877Z"
+  }
+}

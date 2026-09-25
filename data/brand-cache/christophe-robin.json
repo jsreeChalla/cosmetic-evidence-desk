@@ -1,0 +1,177 @@
+{
+  "cachedAt": "2026-09-21T07:37:38.005Z",
+  "data": {
+    "brand": "Christophe Robin",
+    "overview": "Christophe Robin is a France-based luxury haircare brand. Three independent cruelty-free directories (Conscious Bunny, Cruelty-Free Kitty, ethical elephant) consistently assess it as cruelty-free but not fully vegan, though none is certified by Leaping Bunny or PETA. The brand's own site makes quality/efficacy claims (e.g. a clinically proven scalp serum) and publishes a Modern Slavery Statement. No sustainability or safety-specific brand evidence was found.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "The brand states its Fortifying Scalp Serum is clinically proven to boost hair density of new strands by 15%.",
+        "quote": "Clinically proven to boost hair density of new strands by 15%*, working directly on the scalp to strength hair from the roots.",
+        "sourceUrl": "https://www.christopherobin.com/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/christophe-robin/"
+          },
+          {
+            "publisher": "ethical elephant",
+            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/"
+          },
+          {
+            "publisher": "ethical elephant",
+            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Christophe Robin Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "parent-company"
+        ],
+        "summary": "Conscious Bunny assesses Christophe Robin as cruelty-free, stating it does not test finished products or ingredients on animals, nor do its suppliers or third parties. It is not certified by any organization such as PETA or Leaping Bunny, and is not owned by a parent company that tests on animals. It is cruelty-free but not 100% vegan, as some products contain animal-derived ingredients.",
+        "findings": [
+          {
+            "text": "The brand is assessed as cruelty-free at all levels including suppliers and third parties.",
+            "quote": "Yes, Christophe Robin is cruelty-free.They don’t test their finished products or ingredients on animals, and neither do their suppliers or any third-parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Christophe Robin holds no third-party cruelty-free certification.",
+            "quote": "No, Christophe Robin is not certified by any organizations.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand is cruelty-free but not fully vegan, with some products containing animal-derived ingredients.",
+            "quote": "Christophe Robin is cruelty-free but not 100% vegan, meaning that some of their products contain animal-derived ingredients.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Christophe Robin Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/christophe-robin/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China",
+          "parent-company"
+        ],
+        "summary": "Cruelty-Free Kitty states Christophe Robin is cruelty-free, with no animal testing of finished products, ingredients, by suppliers or third parties, and verified not tested anywhere in the world including mainland China. It is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "The brand is verified cruelty-free worldwide including mainland China.",
+            "quote": "It's also verified that their products are not tested on animals anywhere in the world, including mainland China.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Christophe Robin is not owned by a parent company that tests on animals.",
+            "quote": "Christophe Robin is not owned by any parent company that tests on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Is Christophe Robin Cruelty-Free & Vegan in 2023?",
+        "publisher": "ethical elephant",
+        "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "certification"
+        ],
+        "summary": "ethical elephant concludes Christophe Robin is cruelty-free based on brand confirmation that its products, ingredients and suppliers are not tested on animals and it does not sell where animal testing is required by law. It is not certified by Leaping Bunny or PETA, and is not entirely vegan though it offers some vegan options that are marked on its website.",
+        "findings": [
+          {
+            "text": "The brand confirmed no animal testing of products or ingredients anywhere in the world.",
+            "quote": "None of Christophe Robin’s ingredients, formulations, or finished products are tested on animals anywhere in the world.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Christophe Robin is not certified by a third-party cruelty-free accreditation.",
+            "quote": "Christophe Robin is not certified by a third-party cruelty-free accreditation like Leaping Bunny or PETA.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand is not entirely vegan but offers some vegan options marked on its website.",
+            "quote": "Christophe Robin is NOT an entirely vegan brand. But Christophe Robin offers some vegan options that are free of animal products.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 12,
+    "sourcesFetched": 11,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:37:38.004Z"
+  }
+}

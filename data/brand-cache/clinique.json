@@ -1,0 +1,347 @@
+{
+  "cachedAt": "2026-09-18T09:52:25.387Z",
+  "data": {
+    "brand": "Clinique",
+    "parentCompany": "The Estée Lauder Companies",
+    "overview": "Clinique is owned by The Estée Lauder Companies. Independent cruelty-free trackers (Cruelty-Free Kitty, Conscious Bunny, Bunny Search) consistently rate Clinique as not cruelty-free because it sells in mainland China where animal testing may be required by law, and Good On You rates it \"Not Good Enough\" overall with a very poor animal-welfare score for using animal-derived ingredients. Sustainability assessments are mixed: Commons rates it \"Acceptable\" for packaging/ingredient commitments while The Good Shopping Guide gives its parent company a poor ethical rating.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "claim": "Clinique states its Daily Calm product is clinically proven for use on very sensitive skin.",
+        "quote": "Clinique Daily Calm™. Clinically proven on very sensitive skin.",
+        "sourceUrl": "https://www.clinique.com/clinique-philosophy",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/clinique/"
+          },
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/clinique/"
+          },
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/clinique"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/clinique-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Bunny Search",
+            "sourceUrl": "https://bunnysearch.app/brands/clinique"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/clinique-beauty"
+          },
+          {
+            "publisher": "The Good Shopping Guide",
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/clinique-skincare/"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/clinique-beauty"
+          },
+          {
+            "publisher": "Commons",
+            "sourceUrl": "https://brands.thecommons.earth/brand-rating/195/clinique"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Clinique Cruelty-Free & Vegan in 2026? THE TRUTH",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/clinique/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "china",
+          "parent-company"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Clinique is not cruelty-free because it sells products in mainland China where animal testing may occur, and its policy permits testing where required by law. It characterizes the brand's official statement as misleading, noting the brand itself funds these animal tests. Clinique is owned by Estée Lauder.",
+        "findings": [
+          {
+            "text": "Clinique is judged not cruelty-free because it may test on animals directly or via third parties/suppliers.",
+            "quote": "No, Clinique is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Selling in mainland China means Clinique's products were likely tested on animals there, funded by the brand.",
+            "quote": "Since Clinique does sell products in China, their products were most likely tested on animals there. Not only that, but it’s the brand itself who funds these animal experiments.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Clinique Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/clinique/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "china",
+          "certification",
+          "parent-company"
+        ],
+        "summary": "Conscious Bunny finds Clinique is not cruelty-free, is not certified by any organization, and is sold in countries like China where animal testing is required by law. It notes Clinique is owned by Estée Lauder, which also tests on animals where required by law.",
+        "findings": [
+          {
+            "text": "Clinique's own policy allows animal testing when required by law, meaning it is not cruelty-free.",
+            "quote": "We do not conduct animal testing on our products or ingredients, nor ask others to test on our behalf, except when required by law . We evaluate our finished products in clinical tests on volunteer panels.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique is sold in China where mandatory animal testing may be required.",
+            "quote": "Clinique is available for sale in countries, including China, where mandatory animal testing is required.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique is not certified cruelty-free by any organization.",
+            "quote": "No, Clinique is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Clinique Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/clinique",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "china",
+          "peta",
+          "parent-company"
+        ],
+        "summary": "Bunny Search aggregates certification data and reports Clinique appears on PETA's and Ethical Elephant's animal-testing lists, is not Leaping Bunny certified, and is owned by Estée Lauder. It has no vegan certification data for the brand.",
+        "findings": [
+          {
+            "text": "Clinique appears on PETA's list of companies that do test on animals.",
+            "quote": "Clinique appears on PETA's \"Companies That DO Test on Animals\" list. PETA maintains this list for companies that have not committed to ending animal testing based on their criteria.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Bunny Search holds no vegan certification data for Clinique.",
+            "quote": "We don't have vegan certification data for Clinique from the organizations we track. This doesn't mean the brand doesn't have vegan products",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Clinique - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/clinique-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-rights",
+          "animal-welfare",
+          "packaging",
+          "vegan"
+        ],
+        "summary": "Good On You rates Clinique \"Not Good Enough\" overall, with 3/5 for Planet and People and 1/5 for Animals. It notes some recycled packaging and a science-based emissions target but very poor animal welfare due to animal-derived ingredients and possible animal testing where required by law.",
+        "findings": [
+          {
+            "text": "Clinique uses animal-derived ingredients including lanolin and milk-derived ingredients and has not committed to eliminating them.",
+            "quote": "It uses animal-derived ingredients in its products. It appears to use ingredients derived from farmed animals, including lanolin and milk-derived ingredients. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique may conduct animal testing where required by law, such as in China.",
+            "quote": "It may conduct animal testing when required by law (for instance, in China), either by itself, through its suppliers, or through third parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "There is no evidence Clinique ensures workers are paid living wages in its supply chain.",
+            "quote": "There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique has a science-based emissions target but no evidence it is on track.",
+            "quote": "It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Clinique Brand Sustainability Rating",
+        "publisher": "Commons",
+        "sourceUrl": "https://brands.thecommons.earth/brand-rating/195/clinique",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "packaging",
+          "ingredients",
+          "emissions",
+          "supply-chain"
+        ],
+        "summary": "Commons rates Clinique \"Acceptable,\" noting ingredient commitments to avoid parabens, phthalates and uncertified palm oil, plus some recycled packaging. However, it still relies heavily on virgin plastic and uses harmful ingredients like octinoxate. Its parent Estée Lauder has SBTi-approved targets and reports company-level emissions.",
+        "findings": [
+          {
+            "text": "Clinique has committed to avoiding parabens, phthalates and uncertified palm oil but still uses climate-threatening ingredients.",
+            "quote": "Clinique has committed to avoiding select ingredients that pose a threat to the climate , including parabens , phthalates , other petrochemical -based ingredients , and uncertified palm oil",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique still relies heavily on virgin plastic packaging.",
+            "quote": "It has made some efforts to reduce virgin plastic in its product containers , but appears to still heavily rely on virgin plastic , which increases its emissions .",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Parent company Estée Lauder's supplier code of conduct omits living wages, collective bargaining and grievance mechanisms.",
+            "quote": "Its code of conduct doesn 't address : unauthorized subcontracting , ensuring the right to collective bargaining , ensuring living wages , establishing grievance mechanisms , or actionable environmental clauses .",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Clinique - Skincare: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/clinique-skincare/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-rating",
+          "vegan",
+          "animal-welfare",
+          "parent-company"
+        ],
+        "summary": "The Good Shopping Guide gives Clinique (via parent Estée Lauder) a poor ethical rating, scoring 0 against a category benchmark of 67. It highlights that Clinique is not vegan and uses animal-derived substances such as lanolin, and rates animal welfare and packaging poorly.",
+        "findings": [
+          {
+            "text": "Clinique is not vegan and uses animal-derived substances such as lanolin.",
+            "quote": "Clinique is not vegan. Its parent firm, Estée Lauder, obtains a low GOOD Shopping Guide rating in this research category since it does not manufacture or market any vegan or vegetarian items.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Good Shopping Guide gives Clinique's parent company a poor overall ethical rating.",
+            "quote": "The GOOD Shopping Guide gives Estée Lauder Companies Inc., which owns numerous subsidiary brands, including Clinique, a poor ethical rating.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Clinique Sustainable Packaging: Materials, Metrics & Sourcing",
+        "publisher": "PackPrintMatrix",
+        "fundingDisclosure": "Several key metrics are attributed to a confidential Tier-1 convertor source and an internal Estée Lauder TCO model, indicating reliance on industry/company-supplied data.",
+        "sourceUrl": "https://packprintmatrix.com/sustainable-packaging/how-does-clinique-use-sustainable-packaging",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "packaging",
+          "recyclability",
+          "mono-material",
+          "rPET"
+        ],
+        "summary": "PackPrintMatrix, a packaging-industry outlet, describes Clinique's shift to mono-material polypropylene and recycled PET packaging, claiming 92% recyclable-by-design across its primary packaging by FY2024. It details substrate re-engineering and machinery retrofits, though several figures come from confidential or internal Estée Lauder sources.",
+        "findings": [
+          {
+            "text": "Clinique is reported to have achieved 92% recyclable-by-design across its primary packaging by FY2024.",
+            "quote": "Clinique—owned by Estée Lauder Companies—stands among that elite minority, achieving 92% recyclable-by-design across its primary packaging portfolio by FY2024.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clinique's Dramatically Different Moisturizing Lotion+ jar transitioned to 100% post-consumer recycled PET in 2022.",
+            "quote": "jar transitioned from injection-molded PETG (28 g/jar) to rPET (25 g/jar, 100% post-consumer recycled content, certified by ISCC PLUS) in 2022.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "good"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 27,
+    "sourcesFetched": 22,
+    "degraded": true,
+    "generatedAt": "2026-09-18T09:52:25.384Z"
+  }
+}

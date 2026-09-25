@@ -1,0 +1,55 @@
+{
+  "cachedAt": "2026-09-10T10:20:22.012Z",
+  "data": {
+    "brand": "Cult Beauty",
+    "parentCompany": "THG",
+    "overview": "Cult Beauty is a London-based online beauty retailer that markets a \"Cult Conscious\" transparency programme powered by Provenance to surface independently verified sustainability Proof Points across its brands. Company-published sources describe packaging targets (part of THG and the UK Plastics Pact) and a more:trees partnership, while a Provenance case study reports the programme drove higher conversion and shopper sentiment. No independent safety, cruelty-free, vegan, or labour evidence appears in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Cult Beauty runs a transparency initiative called Cult Conscious, powered by Provenance, that logs independently verified impact claims for products.",
+        "quote": "Powered by Provenance, a software solution that uses blockchain technology to log impact claims, this increasingly in-demand program acknowledges a product’s ethical credentials with clear, independently investigated (and verified!) Proof Points.",
+        "sourceUrl": "https://cultbeautycosmetic.com/people-and-planet/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "How Cult Beauty drove +31% higher conversion rates with validated green claims",
+        "publisher": "Provenance",
+        "fundingDisclosure": "Published by Provenance, the software vendor whose claims-validation platform Cult Beauty uses; the source does not state independent funding.",
+        "sourceUrl": "https://www.provenance.org/case-studies/cult-beauty",
+        "independence": "unclear",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "transparency",
+          "green claims",
+          "verified claims"
+        ],
+        "summary": "This Provenance case study describes how Cult Beauty integrated Provenance-validated sustainability Proof Points into its Cult Conscious edit, search filters, and product pages, reporting a +31% conversion rate and +5% shopper sentiment increase from a 23,000-customer survey. Because Provenance is the vendor that supplies the claims-validation platform, the source has a commercial interest in presenting Cult Beauty's outcomes favourably.",
+        "findings": [
+          {
+            "text": "Cult Beauty reports it built its Cult Conscious programme on Provenance's validated Proof Point data across a large portion of its product range.",
+            "quote": "Using Provenance’s Proof Point data, Cult Beauty has delivered its highly successful Cult Conscious edit and beauty box, configured values-based search filters and enhanced PDPs",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The case study attributes measurable commercial gains to Cult Beauty publishing validated sustainability claims.",
+            "quote": "Cult Beauty drove improved post-purchase shopper sentiment by 5% (according to a survey of 23k customers) by publishing transparent, validated sustainability claims.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 12,
+    "sourcesFetched": 11,
+    "degraded": true,
+    "generatedAt": "2026-09-10T10:20:22.010Z"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "cachedAt": "2026-09-10T11:17:11.779Z",
+  "data": {
+    "brand": "YesStyle",
+    "parentCompany": "YesAsia Holdings",
+    "overview": "YesStyle is a Hong Kong-based online marketplace (founded 2006) reselling K-beauty, J-beauty and Asian fashion from hundreds of third-party brands. Multiple independent ethics raters (Good On You, and several sustainability blogs) rate it poorly, citing near-total supply-chain opacity, heavy reliance on synthetic fabrics, and no published labour or animal-welfare policies. One source states its parent company is YesAsia Holdings, though YesStyle publishes no brand-specific sustainability data.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/yesstyle"
+          },
+          {
+            "publisher": "Apartstyle",
+            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion"
+          },
+          {
+            "publisher": "My Eco Closet",
+            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/"
+          },
+          {
+            "publisher": "Your Sustainable Guide",
+            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/"
+          },
+          {
+            "publisher": "Sustainable Selections",
+            "sourceUrl": "https://sustainableselections.co/blog/is-yesstyle-sustainable"
+          },
+          {
+            "publisher": "Ethically Engineered",
+            "sourceUrl": "https://www.ethicallyengineered.com/is-yesstyle-eco-friendly/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/yesstyle"
+          },
+          {
+            "publisher": "Apartstyle",
+            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion"
+          },
+          {
+            "publisher": "My Eco Closet",
+            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/"
+          },
+          {
+            "publisher": "Your Sustainable Guide",
+            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "How Ethical Is YesStyle?",
+        "publisher": "Good On You",
+        "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "transparency",
+          "supply-chain",
+          "overconsumption",
+          "ethical-rating"
+        ],
+        "summary": "Good On You rates YesStyle 'We Avoid', its lowest rating, because the Hong Kong-based fast-fashion marketplace provides insufficient information about its impact on people, the planet and animals. It notes YesStyle advertises 'eco-friendly', 'organic' and 'vegan' products but undermines this by encouraging overconsumption with 'thousands of items added daily' messaging, and calls on it to disclose how, where and by whom items are produced.",
+        "findings": [
+          {
+            "text": "YesStyle is rated 'We Avoid' due to a lack of transparency about its impacts.",
+            "quote": "but it rates “We Avoid” for its lack of transparency. This article is based on the YesStyle rating published in May 2022.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You found insufficient information to assess YesStyle's environmental, labour and animal-welfare practices.",
+            "quote": "YesStyle provides insufficient relevant information about how it reduces its impact on people, the planet, and animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Its 'eco-friendly', 'organic' and 'vegan' product labelling is undercut by promotion of overconsumption.",
+            "quote": "claim to list “eco-friendly”, “organic”, and “vegan” products, but those small efforts are let down by its overwhelming encouragement of overconsumption",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "unclear"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "YesStyle - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/yesstyle",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-rating",
+          "environment",
+          "labour",
+          "animal-welfare"
+        ],
+        "summary": "Good On You's brand directory gives YesStyle an overall rating of 'We avoid', scoring 1 out of 5 on Planet, 1 out of 5 on People and 0 out of 5 on Animals. The Hong Kong retailer is marked down because it does not communicate sufficient information about its environmental and labour policies.",
+        "findings": [
+          {
+            "text": "YesStyle scores 1/5 on Planet, 1/5 on People and 0/5 on Animals, an overall 'We avoid'.",
+            "quote": "Planet 1 out of 5 People 1 out of 5 Animals 0 out of 5 Overall rating: We avoid",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The low rating stems from failing to communicate environmental and labour policy information.",
+            "quote": "YesStyle does not communicate sufficient information about its environmental and labour policies.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is YesStyle Fast Fashion? How Ethical & Sustainable is YesStyle",
+        "publisher": "Apartstyle",
+        "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "fast-fashion",
+          "supply-chain",
+          "labour",
+          "materials",
+          "animal-welfare"
+        ],
+        "summary": "Apartstyle concludes YesStyle facilitates the fast-fashion ecosystem via high turnover and low prices, with almost entirely opaque ethics and sustainability practices. It reports YesStyle publishes no supplier list, audits or certifications, sources from regions with documented labour-exploitation risk, sells wool and leather with no animal-welfare policy, and relies overwhelmingly on synthetic fossil-fuel fabrics.",
+        "findings": [
+          {
+            "text": "YesStyle publishes no supplier list, audit reports, or certifications like Fair Trade or SA8000.",
+            "quote": "It does not publish a list of its partner brands or factories, nor does it provide any third-party audit reports or certifications like Fair Trade or SA8000.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "YesStyle sells wool and leather but provides no animal-welfare policy or certification.",
+            "quote": "The marketplace sells products containing materials like wool and leather but fails to provide any animal welfare policy.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "An estimated under 10% of offerings use more sustainable materials, with no eco-labels like GOTS.",
+            "quote": "It's estimated that less than 10% of their offerings consist of more sustainable materials like organic cotton or recycled polyester.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is YesStyle Fast Fashion? 2026 Verdict",
+        "publisher": "My Eco Closet",
+        "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "fast-fashion",
+          "synthetic-fabrics",
+          "transparency",
+          "parent-company",
+          "labour"
+        ],
+        "summary": "My Eco Closet judges YesStyle to be a fast-fashion brand built on synthetic materials, trendy styles and low prices. It notes YesStyle publishes no brand-specific sustainability reports, and that while parent company YesAsia Holdings issues broad ESG reports these lack concrete data on emissions, sourcing, waste or audits. It rates labour ethics as high-risk due to the absence of audits or reporting.",
+        "findings": [
+          {
+            "text": "YesStyle publishes no brand-specific sustainability reports; parent YesAsia Holdings only issues broad ESG reports.",
+            "quote": "While its parent company, YesAsia Holdings, releases broad ESG reports, these documents focus on corporate initiatives rather than concrete sustainability data.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Labour ethics rated high-risk owing to no audits or labour reporting.",
+            "quote": "Labor Ethics High-risk No audits or labor reporting, creating potential for unsafe or unethical conditions",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "YesStyle relies heavily on synthetic fabrics and obscures compositions with '100% mixed fabrics' labels.",
+            "quote": "the marketplace doesn’t necessarily disclose the exact fabric compositions of its products, labeling certain products as “100% mixed fabrics.”",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is YesStyle Fast Fashion? Ethical & Sustainability Rating",
+        "publisher": "Your Sustainable Guide",
+        "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "fast-fashion",
+          "labour",
+          "code-of-conduct",
+          "supply-chain"
+        ],
+        "summary": "Your Sustainable Guide concludes YesStyle is a fast-fashion corporation operating as a marketplace for over 300 Asian brands, adding hundreds of products daily and running frequent flash sales to drive impulse buying. It states YesStyle cannot be considered ethical because it has no Code of Conduct for partner brands and does not address fair wages, discrimination or reasonable working hours.",
+        "findings": [
+          {
+            "text": "YesStyle has no Code of Conduct binding its partner brands, leaving supply-chain ethics unassured.",
+            "quote": "it doesn’t have a Code Of Conduct that all of its partner brands need to comply with. So, there is no assurance that its end-to-end supply chain is ethical.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "YesStyle does not address fair wages, discrimination, or reasonable working hours for its dealers.",
+            "quote": "YesStyle neither publishes how it selects its partner brands nor addresses critical issues like timely payment of fair wages, no discrimination, reasonable working hours, etc.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is YesStyle Ethical or Fast Fashion? Learn the Truth of This Online Fashion Retailer",
+        "publisher": "Sustainable Selections",
+        "sourceUrl": "https://sustainableselections.co/blog/is-yesstyle-sustainable",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "fast-fashion",
+          "supply-chain",
+          "packaging",
+          "transparency"
+        ],
+        "summary": "Sustainable Selections concludes YesStyle is not entirely sustainable, citing its fast-fashion model, lack of supply-chain transparency and absence of certifications such as OEKO-TEX. It also criticises YesStyle's elaborate packaging, which it says translates into a high volume of non-recyclable single-use materials.",
+        "findings": [
+          {
+            "text": "YesStyle's supply chain lacks transparency and certifications like OEKO-TEX, hindering informed choices.",
+            "quote": "Without proper disclosure or certifications such as OEKO-TEX, it becomes difficult for consumers to make informed choices about their purchases",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "YesStyle's aesthetically pleasing packaging uses a high volume of non-recyclable materials.",
+            "quote": "YesStyle is known for its elaborate and aesthetically pleasing packaging, but this often translates into a high volume of non-recyclable materials being used.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning"
+      },
+      {
+        "title": "Is Yesstyle Eco-Friendly?",
+        "publisher": "Ethically Engineered",
+        "sourceUrl": "https://www.ethicallyengineered.com/is-yesstyle-eco-friendly/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "recycled-materials",
+          "packaging",
+          "transparency",
+          "tree-planting"
+        ],
+        "summary": "Ethically Engineered gives a more mixed take, crediting YesStyle for using recycled polyester and wool-silk hemp fibres and for a tree-planting partnership with Trees for the Future, but criticising it for only offering recycled paper bags with no mention of sustainable packaging materials, and for a lack of transparency on where its clothes are made.",
+        "findings": [
+          {
+            "text": "YesStyle offers only recycled paper bags with no wider sustainable packaging commitment.",
+            "quote": "they only offer recycled paper bags, and there is no mention of using sustainable materials for their packaging.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "YesStyle provides no website information on where clothes are made or what materials are used.",
+            "quote": "They don’t currently provide any information on their website about where their clothes are made or what materials are used.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 25,
+    "sourcesFetched": 22,
+    "degraded": true,
+    "generatedAt": "2026-09-10T11:17:11.778Z"
+  }
+}

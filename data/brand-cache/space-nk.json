@@ -1,0 +1,110 @@
+{
+  "cachedAt": "2026-09-02T11:19:42.148Z",
+  "data": {
+    "brand": "Space NK",
+    "overview": "The only substantive brand-specific evidence for Space NK is an independent Good On You assessment, which rates the retailer \"We Avoid\" overall — scoring 1 out of 5 on each of planet, people and animals — citing a lack of disclosed climate action, no evidence of a supplier Code of Conduct or living wages, and no policy against animal testing. Space NK's own website hosts sustainability, \"clean\" and vegan-product pages, but the fetched text of those pages contained only navigation content and no quotable self-claims.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/space-nk-beauty"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/space-nk-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/space-nk-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/space-nk-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Space NK Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/space-nk-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-ethics",
+          "animal-welfare",
+          "packaging",
+          "climate"
+        ],
+        "summary": "Good On You rates Space NK 'We Avoid' overall, scoring 1 out of 5 on planet, people and animals. It finds no evidence of lower-impact ingredients or meaningful climate action, though it credits recycling and disclosure of packaging amounts. On labour it finds no evidence of a Code of Conduct, living wages, or supplier financial security. On animals it finds no policy against animal testing and no commitment to eliminate animal-derived ingredients.",
+        "findings": [
+          {
+            "text": "Space NK receives the lowest possible overall rating from Good On You.",
+            "quote": "Based on all the publicly available information we've reviewed, we rate Space NK \"We Avoid\" overall.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Its environmental rating is 'Very Poor', with no evidence of meaningful climate action or lower-impact ingredients, though it discloses recycled packaging amounts.",
+            "quote": "There's no evidence it's taking meaningful action to reduce its climate impacts. It recycles product packaging and discloses the amount.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "On labour, there is no evidence of a Code of Conduct or that workers are paid living wages in its supply chain.",
+            "quote": "There's no evidence it has a Code of Conduct. It audits some of its suppliers but does not specify what proportion.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It has no policy against animal testing and no commitment to eliminate animal-derived ingredients.",
+            "quote": "It has not made any public commitments to eliminate animal-derived ingredients. It does not have a certification, policy, or statement against the use of animal testing in its supply chain.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 30,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:19:42.147Z"
+  }
+}

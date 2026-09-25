@@ -1,0 +1,114 @@
+{
+  "cachedAt": "2026-09-10T10:21:57.803Z",
+  "data": {
+    "brand": "LOOKFANTASTIC",
+    "parentCompany": "THG (The Hut Group)",
+    "overview": "LOOKFANTASTIC is Europe's leading online premium beauty retailer, owned since 2010 by THG (The Hut Group). Available evidence is limited to a sustainability case study documenting a 72% cut in Beauty Box packaging emissions (produced by THG's own carbon partners), a company vegan-beauty category page, and an independent legitimacy review that flags fulfilment and after-sales complaints. No independent cruelty-free or vegan certification evidence for the brand appears in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "LOOKFANTASTIC states it demonstrated a proactive commitment to sustainability by reducing its Beauty Box packaging footprint through a Life Cycle Assessment.",
+        "quote": "LOOKFANTASTIC were able to demonstrate their proactive commitment to sustainability by conducting an LCA that helped reduce the environmental footprint of their Beauty Box packaging.",
+        "sourceUrl": "https://www.thg.eco/resources/case-studies/lookfantastic",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [
+      {
+        "title": "LOOKFANTASTIC achieves a 72% reduction in Beauty Box packaging emissions",
+        "publisher": "THG Eco",
+        "sourceUrl": "https://www.thg.eco/resources/case-studies/lookfantastic",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "packaging",
+          "carbon-emissions",
+          "life-cycle-assessment"
+        ],
+        "summary": "This case study, authored by LOOKFANTASTIC's own group sustainability arm THG Eco, reports that a redesign of the Beauty Box packaging cut overall packaging emissions by 72% while saving £2 million. The reductions were verified via a Life Cycle Assessment; remaining outer-packaging emissions were offset with carbon credits. As a company-affiliated source, the figures are self-reported.",
+        "findings": [
+          {
+            "text": "LOOKFANTASTIC reduced Beauty Box packaging emissions by 72% and saved £2 million in packaging and supply chain costs.",
+            "quote": "LOOKFANTASTIC reduced overall Beauty Box packaging emissions by 72%, offset the remaining emissions for its outer packaging and saved £2 million across packaging and supply chain costs as a result.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The packaging redesign cut packaging weight by 61%, reducing fuel usage in distribution.",
+            "quote": "61% reduction in BB packaging weight – resulting in reduced overall fuel usage",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "LOOKFANTASTIC is part of THG Holdings plc, a global ecommerce group and brand owner.",
+            "quote": "LOOKFANTASTIC forms part of THG Holdings plc, a leading global ecommerce group and brand owner.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Sustainable Packaging Saving LOOKFANTASTIC £2 Million",
+        "publisher": "MyCarbon",
+        "sourceUrl": "https://www.mycarbon.co.uk/case-studies/lookfantastic/",
+        "independence": "company",
+        "scope": "brand-specific",
+        "topics": [
+          "packaging",
+          "life-cycle-assessment",
+          "carbon-emissions"
+        ],
+        "summary": "MyCarbon, described as THG's sustainability partner since 2021, conducted a Life Cycle Assessment of LOOKFANTASTIC's Beauty Box packaging. It reports the redesign cut cardboard use by 61.4% and total carbon footprint by 72.48%, partly by moving shipping from China to the EU. As THG's contracted partner, the source is company-affiliated rather than independent.",
+        "findings": [
+          {
+            "text": "The packaging upgrade was projected to decrease cardboard used by 61.4% and total footprint by roughly 72%.",
+            "quote": "the packaging upgrade would decrease the paper/ cardboard used by 61.4%. Moving the shipping location to the EU, and embracing a minimalist style with reduce the total carbon footprint by 72.48%",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Production in China and reliance on sea freight were identified as major contributors to LOOKFANTASTIC's emissions.",
+            "quote": "production in China and reliance on sea freight were major contributors to Look Fantastic’s emissions.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      },
+      {
+        "title": "Lookfantastic Review 2026: Is Lookfantastic Legit & Safe?",
+        "publisher": "Atop Legal",
+        "fundingDisclosure": "The source states it is independent and non-commercial, with no affiliate links, commissions, sponsorships or ads.",
+        "sourceUrl": "https://atoplegal.com/review-lookfantastic/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "consumer-protection",
+          "customer-service",
+          "subscriptions",
+          "returns"
+        ],
+        "summary": "Atop Legal, a self-described independent non-commercial reviewer, rates Lookfantastic 70/100 (Grade B). It confirms the retailer is legitimate and THG-owned, selling genuine products with fast worldwide shipping, but flags recurring complaints about missing items, a 30-day return stance applied even to faulty goods, difficult customer service, and beauty-box subscriptions that auto-renew without clear consent.",
+        "findings": [
+          {
+            "text": "Lookfantastic is a legitimate THG-owned retailer, not a scam, carrying genuine products.",
+            "quote": "Lookfantastic is a legitimate online beauty retailer — founded in the UK in 1996 and owned since 2010 by THG (The Hut Group) — not a scam.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Recurring complaints involve missing items, returns handling, customer service, and auto-renewing subscriptions.",
+            "quote": "missing items from larger orders (sometimes with hard-to-recover refunds), a 30-day return stance applied even to faulty goods, exhausting customer service, and beauty-box subscriptions that can auto-renew without clear consent.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 19,
+    "sourcesFetched": 17,
+    "degraded": true,
+    "generatedAt": "2026-09-10T10:21:57.798Z"
+  }
+}

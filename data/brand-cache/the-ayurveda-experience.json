@@ -1,0 +1,125 @@
+{
+  "cachedAt": "2026-09-21T08:04:09.212Z",
+  "data": {
+    "brand": "The Ayurveda Experience",
+    "overview": "The Ayurveda Experience is a Singapore-founded house of Ayurvedic skincare sub-brands (including iYURA) that markets itself as natural, safe, cruelty-free, and with vegan options. Its own sites claim it never tests on products on animals and offers a dedicated vegan collection, while an independent 2026 review reports both strong multi-year customer loyalty and specific product-quality complaints (staining, a rancid body oil, and a skin reaction). No brand-specific legal or regulatory matters appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "The brand states it never tests its products on animals.",
+        "quote": "The Ayurveda Experience's VEGAN POWER POTIONS! We NEVER test our products on animals. FREE SHIPPING OVER $28 USD",
+        "sourceUrl": "https://theayurvedaexperience.com/pages/the-ayurveda-experience-vegan-collection",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Fayes Home Style",
+            "sourceUrl": "https://fayeshomestyle.com/index.php/2026/07/10/the-ayurveda-experience-review-2026/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "The brand markets a dedicated vegan collection of products.",
+        "quote": "Get ready to reveal flawless skin with the unparalleled benefits of The Ayurveda Experience's VEGAN POWER POTIONS!",
+        "sourceUrl": "https://theayurvedaexperience.com/pages/the-ayurveda-experience-vegan-collection",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Fayes Home Style",
+            "sourceUrl": "https://fayeshomestyle.com/index.php/2026/07/10/the-ayurveda-experience-review-2026/"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "claim": "The brand describes its skincare ranges as natural, safe and super gentle.",
+        "quote": "A house of brands that has successfully curated Natural, Safe, Super Gentle yet Super Effective Skincare ranges.",
+        "sourceUrl": "https://theayurvedaexperience.com/pages/the-ayurveda-experience-vegan-collection",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "quality",
+        "claim": "The brand describes its products as premium, authentic, natural and effective skincare.",
+        "quote": "For Premium, Authentic, Natural and Effective Skincare. THE AYURVEDA EXPERIENCE",
+        "sourceUrl": "https://theayurvedaexperience.com/pages/the-ayurveda-experience-vegan-collection",
+        "quoteVerification": "verified",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Fayes Home Style",
+            "sourceUrl": "https://fayeshomestyle.com/index.php/2026/07/10/the-ayurveda-experience-review-2026/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "The Ayurveda Experience Review — Does Ayurvedic Skincare Actually Work?",
+        "publisher": "Fayes Home Style",
+        "sourceUrl": "https://fayeshomestyle.com/index.php/2026/07/10/the-ayurveda-experience-review-2026/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-reviews",
+          "cruelty-free",
+          "vegan",
+          "skin-reactions"
+        ],
+        "summary": "This independent review synthesizes Trustpilot and other sources on The Ayurveda Experience, reporting substantial multi-year customer loyalty and standout products like the Balaayah Black Gram Body Booster and Kesaradi Face Oil, alongside specific quality complaints: a face oil staining clothing, a body oil turning rancid on bedding, a neck mask causing itching and redness, and poorly handled returns/shipping. It notes the products are 100% natural, cruelty-free, with vegan options, but 'Ayurveda-inspired' rather than strictly traditional.",
+        "findings": [
+          {
+            "text": "The review reports the brand is cruelty-free with vegan options, confirmed directly, alongside 100% natural and non-GMO claims.",
+            "quote": "100% natural, non-GMO, cruelty-free, with vegan options — confirmed directly, with ingredients rooted in documented Ayurvedic tradition",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A documented account describes a body oil turning rancid and transferring to bedding, a specific product-integrity concern.",
+            "quote": "A body oil specifically developed a rancid smell that transferred to bedding — “it turned out the oil was rubbing off on my sheets and becoming rancid”",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A specific account describes a neck mask causing an immediate skin reaction.",
+            "quote": "A separate, specific account describes a neck mask causing “immediate itching and redness” — a documented skin reaction account worth direct mention for buyers with sensitive skin",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "A shipping complaint describes a late order with a promised gift item never delivered despite customer service assurances.",
+            "quote": "One specific shipping account describes an order arriving a week late with a promised gift item never included, with customer service promising to “send it right away”",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The review notes broadly positive Trustpilot sentiment across both UK and US markets with responsive brand engagement.",
+            "quote": "UK Trustpilot (1,006 reviews) and US Trustpilot (805 reviews) both reflect broadly positive sentiment with responsive brand engagement on negative reviews",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "good"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 27,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:04:09.212Z"
+  }
+}

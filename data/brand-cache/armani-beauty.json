@@ -1,0 +1,302 @@
+{
+  "cachedAt": "2026-09-21T06:48:23.018Z",
+  "data": {
+    "brand": "Armani Beauty",
+    "parentCompany": "L'Oréal",
+    "overview": "Armani Beauty is a cosmetics brand owned by L'Oréal, as stated across multiple cruelty-free databases and Good On You. Independent ratings converge on it being not cruelty-free (it may permit animal testing where required by law, e.g. China) and using animal-derived ingredients, while scoring better on environmental and labour-rights measures. Independent product reviews of its reformulated Luminous Silk foundation are broadly positive on quality and performance.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/armani-beauty/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/armani-beauty/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/armani-beauty-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/armani-beauty-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/armani-beauty-beauty"
+          }
+        ]
+      },
+      {
+        "category": "quality",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Cosmopolitan",
+            "sourceUrl": "https://www.cosmopolitan.com/style-beauty/beauty/a69913246/armani-luminous-silk-reformulation-review/"
+          },
+          {
+            "publisher": "AllReviews",
+            "sourceUrl": "https://allreviews.ca/online-shopping/armani-beauty-reviews"
+          },
+          {
+            "publisher": "L'Officiel USA",
+            "sourceUrl": "https://www.lofficielusa.com/beauty/armani-foundation-review-luminous-silk-relaunch"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Armani Beauty Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/armani-beauty/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "parent-company"
+        ],
+        "summary": "Conscious Bunny concludes Armani Beauty is not cruelty-free, noting that while the brand states it does not test on animals, others independent of L'Oréal might do so where locally required. It is owned by L'Oréal, which is not cruelty-free, and holds no PETA or Leaping Bunny certification.",
+        "findings": [
+          {
+            "text": "Armani Beauty is assessed as not cruelty-free because animal testing may occur via itself, suppliers, or third parties.",
+            "quote": "No, Armani Beauty is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Its parent company L'Oréal is not cruelty-free.",
+            "quote": "The parent company is L’Oréal, which is not a cruelty-free company.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Armani Beauty holds no cruelty-free certification from any organization.",
+            "quote": "No, Armani Beauty is not certified by any organization.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Armani Beauty Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/armani-beauty/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "parent-company",
+          "China"
+        ],
+        "summary": "Cruelty-Free Kitty rates Armani Beauty as not cruelty-free, noting finished products are tested on animals where required by law. It cites the brand's own FAQ language and confirms L'Oréal ownership, which is also not cruelty-free.",
+        "findings": [
+          {
+            "text": "Armani Beauty is not cruelty-free and may permit animal testing where required by law.",
+            "quote": "No, Armani Beauty is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand's own FAQ states others outside L'Oréal's control might conduct animal testing per local requirements.",
+            "quote": "Others, completely independent of L’Oréal and outside the direction or control of L’Oréal, might do animal testing pursuant to their local requirements.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Parent company L'Oréal also tests on animals.",
+            "quote": "Armani Beauty is owned by L'Oréal, a company that tests on animals. Not only is Armani Beauty not cruelty-free but neither is their parent company.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Armani Beauty - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/armani-beauty-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-rights",
+          "animal-welfare",
+          "packaging",
+          "parent-company"
+        ],
+        "summary": "Good On You rates Armani Beauty 'It's a Start' overall, giving Planet and People each 4/5 but Animals 1/5. It uses some recycled packaging and a science-based emissions target on Planet, traces and audits parts of its supply chain on People, but uses animal-derived ingredients and may conduct animal testing where required by law.",
+        "findings": [
+          {
+            "text": "Armani Beauty scores 'Good' on Planet, using some recycled packaging and a science-based emissions target.",
+            "quote": "It uses some recycled packaging ... It’s set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there’s no evidence it is on track.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "On People it is actively involved with anti-modern-slavery organisations and audits part of its supply chain.",
+            "quote": "It's actively involved with organisations that aim to identify and end modern slavery in supply chains. It audits some of its supply chain including all of the final production stage.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It scores 'Very Poor' on Animals, using animal-derived ingredients including farmed collagen.",
+            "quote": "It uses animal-derived ingredients in its products. It appears to use ingredients derived from farmed animals, including collagen.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It may conduct animal testing when required by law, such as in China.",
+            "quote": "It may conduct animal testing when required by law (for instance, in China), either by itself, through its suppliers, or through third parties.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Cosmo HQ Review: Armani Luminous Silk Foundation Has Been Reformulated",
+        "publisher": "Cosmopolitan",
+        "sourceUrl": "https://www.cosmopolitan.com/style-beauty/beauty/a69913246/armani-luminous-silk-reformulation-review/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "reformulation",
+          "foundation"
+        ],
+        "summary": "Cosmopolitan editors tested the reformulated Armani Luminous Silk foundation, the first reformulation since 2000. They found it more blurring, blendable, and radiant than the original, with added skincare ingredients, expanded shade range, and good longevity, and noted it is safe for acne-prone skin.",
+        "findings": [
+          {
+            "text": "The reformulated Luminous Silk is more blurring and blendable than the original.",
+            "quote": "it’s actually much more blurring and blendable than the original. The original Luminous Silk wasn’t super luminous IMO, but this new version definitely gives skin a noticeable glow.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The new formula adds skincare ingredients and expands to 44 shades.",
+            "quote": "The upgraded formula is packed with skincare ingredients like glycerin, niacinamide, and plant extracts ... Plus, it now comes in 44 shades, including 18 new ones",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "An editor found the reformulation safe for acne-prone skin and long-wearing.",
+            "quote": "my favorite part is that it’s safe for acne-prone skin, which is somehow still hard to come by in 2026.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "good",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Armani Beauty - Reviews and experiences",
+        "publisher": "AllReviews",
+        "sourceUrl": "https://allreviews.ca/online-shopping/armani-beauty-reviews",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-reviews"
+        ],
+        "summary": "AllReviews aggregates 10 voluntary customer reviews of Armani Beauty with an average of 7.6/10. Reviewers praise product quality, luxurious formulas and packaging, and lipstick and foundation performance, though some cite high prices, damaged packaging on delivery, and poor in-store service.",
+        "findings": [
+          {
+            "text": "Customers rated Armani Beauty an average of 7.6 out of 10 across 10 reviews.",
+            "quote": "Average rating 7.6 /10 Based on 10 reviews",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Reviewers described the products as high quality and luxurious.",
+            "quote": "The quality is amazing, and the packaging is super sleek and classy ... The colors were beautiful, and the formulas felt so luxurious on my skin.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Why Is Armani Reformulating Its Iconic Foundation? Full Review",
+        "publisher": "L'Officiel USA",
+        "sourceUrl": "https://www.lofficielusa.com/beauty/armani-foundation-review-luminous-silk-relaunch",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "reformulation",
+          "foundation"
+        ],
+        "summary": "L'Officiel USA reviewed Armani Beauty's reformulated Luminous Silk foundation, testing the new version and sharing their assessment of the change to the ever-popular formula.",
+        "findings": [
+          {
+            "text": "Armani Beauty reformulated the popular Luminous Silk foundation and L'Officiel tested the new version.",
+            "quote": "Armani Beauty Reformulates the Ever-Popular Luminous Silk Foundation We’ve tested the new Armani foundation, and we have some thoughts.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "unclear"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 25,
+    "degraded": true,
+    "generatedAt": "2026-09-21T06:48:23.018Z"
+  }
+}

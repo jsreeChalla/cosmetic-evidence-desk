@@ -1,0 +1,16 @@
+{
+  "cachedAt": "2026-09-21T08:16:21.372Z",
+  "data": {
+    "brand": "Beauté Privée",
+    "overview": "",
+    "hasEvidence": false,
+    "claims": [],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 29,
+    "degraded": true,
+    "retrievalWarning": "29 source(s) were fetched, but none contained brand-specific evidence for this brand. This may be a genuine lack of independent coverage, or an unlucky search pass — try again for a fresh search.",
+    "generatedAt": "2026-09-21T08:16:21.371Z"
+  }
+}

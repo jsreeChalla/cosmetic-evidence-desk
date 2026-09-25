@@ -1,0 +1,239 @@
+{
+  "cachedAt": "2026-09-02T09:34:02.616Z",
+  "data": {
+    "brand": "Clarins",
+    "parentCompany": "Clarins Group",
+    "overview": "Clarins is a skincare brand owned by the Clarins Group, which in 2025 received B Corp certification and publishes detailed environmental and sustainability commitments (We Care 2030) alongside claims of not testing on animals except where legally required. However, multiple independent cruelty-free organizations (PETA, Cruelty Free Kitty, Conscious Bunny, Bunny Search, The Good Shopping Guide) classify Clarins as NOT cruelty-free because it sells in markets such as China where animal testing may occur, and it holds no recognized cruelty-free or vegan certification. The Good Shopping Guide gives it a poor overall ethical score, praising its environmental reporting but faulting its animal welfare and packaging.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Clarins commits to 100% recyclable or refillable skincare packaging and reducing carbon emissions under its We Care 2030 program.",
+        "quote": "We are on track to cut carbon emissions by 30% across scopes 1, 2, and 3 (vs. 2019) and achieve 100% recyclable packaging.",
+        "sourceUrl": "https://www.groupeclarins.com/clarins-we-care-2030-our-commitment-to-people-planet-and-purpose/",
+        "quoteVerification": "flagged",
+        "match": "no-data"
+      },
+      {
+        "category": "labour-ethics",
+        "claim": "Clarins states all employee remuneration exceeds a family living wage benchmark and all employees receive annual training.",
+        "quote": "100% of employee remuneration exceeds the family living wage benchmark",
+        "sourceUrl": "https://www.groupeclarins.com/clarins-we-care-2030-our-commitment-to-people-planet-and-purpose/",
+        "quoteVerification": "flagged",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Clarins says each formula undergoes over 250 checks and is dermatologist-certified as safe, applying internal standards beyond legal requirements.",
+        "quote": "each and every one of our formulas is subjected to over 250 checks. Dermatologists then assess them, confirm skin tolerance and certify them as safe to use.",
+        "sourceUrl": "https://www.clarinsnewzealand.co.nz/beauty-faq/ingredients/consumer-product-safety/?srsltid=AfmBOooVHjZ2qHYPFXwiBOsx1DNkBGlbptcgKBXOniYzyqXVXgcAMRAL",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Clarins states its laboratories do not test on animals except where expressly required by law in certain countries.",
+        "quote": "our laboratories do not test on animals to check product safety, except in exceptional cases where this is expressly required by law in countries where our products may be distributed.",
+        "sourceUrl": "https://www.clarinsnewzealand.co.nz/beauty-faq/ingredients/consumer-product-safety/?srsltid=AfmBOooVHjZ2qHYPFXwiBOsx1DNkBGlbptcgKBXOniYzyqXVXgcAMRAL",
+        "quoteVerification": "verified",
+        "match": "contradicted"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Clarins Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/clarins/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Conscious Bunny concludes Clarins is not cruelty-free because it sells in countries such as China that may require animal testing on imported cosmetics, and it holds no cruelty-free certification from PETA or Leaping Bunny. It notes Clarins is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "Conscious Bunny classifies Clarins as not cruelty-free due to sales in markets requiring animal testing.",
+            "quote": "Clarins is not cruelty-free. They state on their site: “Clarins does not test on animals. Clarins Research uses alternate testing methods",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Clarins holds no cruelty-free certification from any recognized organization.",
+            "quote": "No, Clarins is not certified by any organization.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clarins is sold in countries such as China where animal testing may be required by law.",
+            "quote": "Yes, Clarins is available for sale in countries, such as China, that require animal testing. This means that their products were likely tested on animals.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Clarins - Skincare: Ethical Sustainable Comparison",
+        "publisher": "The Good Shopping Guide",
+        "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/clarins-skincare/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "ethical-ratings",
+          "animal-welfare",
+          "vegan",
+          "sustainability"
+        ],
+        "summary": "The Good Shopping Guide gives Clarins a poor overall ethical score below its benchmark. Clarins scores top for its environmental report but bottom for animal welfare, as it appears on PETA's animal-testing list and lacks a public animal testing policy. Its self-applied 'Vegan Friendly' label on the My Clarins range is not accepted as satisfactory vegan accreditation.",
+        "findings": [
+          {
+            "text": "Clarins receives a poor overall ethical score and does not meet the guide's ethical benchmark.",
+            "quote": "The brand receives a poor GOOD Shopping Guide score in our Ethical Skincare Ratings Table and therefore does not meet our ethical benchmark.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Clarins scores top on the Environmental Report criterion due to its recent CSR report.",
+            "quote": "Clarins receives a top rating for the Environmental Report criterion. This is because Clarins has a recent CSR Report, which details the company’s sustainability commitments",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Clarins has no public in-depth animal testing policy and is on PETA's list of companies that test on animals.",
+            "quote": "There is no publicly available, in-depth Animal Testing Policy from Clarins. In fact, the business is listed on PETA’s list of those that DO test on animals",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Clarins' self-created 'Vegan Friendly' label is not accepted as a satisfactory vegan accreditation.",
+            "quote": "Because this is not a widely-used and authoritative certification, The GOOD Shopping Guide does not accept this label as a satisfactory Vegan accreditation.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Is Clarins Cruelty-Free & Vegan in 2026?",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/clarins/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Cruelty-Free Kitty concludes Clarins is not cruelty-free, noting its finished products are tested on animals where required by law and it is sold in markets with mandatory animal testing. It reproduces Clarins' official animal testing policy and states Clarins is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "Cruelty-Free Kitty classifies Clarins as not cruelty-free.",
+            "quote": "No, Clarins is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Clarins is sold in countries with mandatory animal testing, meaning products were likely tested on animals.",
+            "quote": "Yes, Clarins is available for sale in countries with mandatory animal testing. This means that their products were likely tested on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Clarins Cruelty-Free in 2026?",
+        "publisher": "Bunny Search",
+        "sourceUrl": "https://bunnysearch.app/brands/clarins",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "certification"
+        ],
+        "summary": "Bunny Search, aggregating data from PETA, Leaping Bunny and others, lists Clarins as not cruelty-free and flagged on PETA's and Ethical Elephant's animal-testing lists. It notes Clarins is not Leaping Bunny certified and has no vegan certification data on record.",
+        "findings": [
+          {
+            "text": "Clarins appears on PETA's 'Companies That DO Test on Animals' list.",
+            "quote": "Clarins appears on PETA's \"Companies That DO Test on Animals\" list. PETA maintains this list for companies that have not committed to ending animal testing",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "Clarins is not currently Leaping Bunny certified.",
+            "quote": "Clarins is not currently Leaping Bunny certified. This doesn't necessarily indicate their animal testing status",
+            "quoteVerification": "flagged"
+          },
+          {
+            "text": "No vegan certification data is available for Clarins from the organizations tracked.",
+            "quote": "We don't have vegan certification data for Clarins from the organizations we track.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "unclear"
+          }
+        ]
+      },
+      {
+        "title": "Is Clarins of Paris Cruelty-Free?",
+        "publisher": "PETA",
+        "sourceUrl": "https://crueltyfree.peta.org/company/clarins-of-paris/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing"
+        ],
+        "summary": "PETA lists Clarins of Paris as NOT cruelty-free, stating the company does test on animals whether directly, through suppliers, or third parties, and may sell in regions where animal testing is legally mandated.",
+        "findings": [
+          {
+            "text": "PETA classifies Clarins of Paris as a company that tests on animals.",
+            "quote": "Clarins of Paris does test on animals. They might conduct animal testing directly, rely on their suppliers to do so, or outsource it to a third party.",
+            "quoteVerification": "flagged"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 26,
+    "sourcesFetched": 26,
+    "degraded": false,
+    "generatedAt": "2026-09-02T09:34:02.613Z"
+  }
+}

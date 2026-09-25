@@ -1,0 +1,48 @@
+{
+  "cachedAt": "2026-09-21T07:45:53.877Z",
+  "data": {
+    "brand": "Lovaskin",
+    "overview": "Lovaskin is a Swiss family-run skincare brand (operated by Novellia Beauty AG / Novellia Europe sprl) best known for its Instant Foot Peel. The only brand-specific sources available are Lovaskin's own websites, which claim its products are vegan, cruelty-free, made in Switzerland, and free of parabens, sulfates, phthalates and other harsh chemicals. No independent assessments, third-party certifications, or legal/regulatory matters concerning the brand appear in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "vegan",
+        "claim": "Lovaskin states its products are vegan and free of parabens, sulfates, phthalates, dyes and petrolatum.",
+        "quote": "LOVASKIN products are vegan, free of parabens, sulfates, phthalates, dyes and petrolatum.",
+        "sourceUrl": "https://lovaskin.ch/pages/about-us",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "cruelty-free",
+        "claim": "Lovaskin states its foot peel is completely cruelty-free and not tested on animals.",
+        "quote": "Vegan and cruelty-free: Made without harsh chemicals, parabens or phthalates, and completely cruelty-free.",
+        "sourceUrl": "https://lovaskin.pro/en/collections/frontpage",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "quality",
+        "claim": "Lovaskin claims to create high-quality products that work as promised, made in Switzerland to high standards.",
+        "quote": "Everything is made in Switzerland with the highest quality standards and using the best ingredients science and nature have to offer.",
+        "sourceUrl": "https://lovaskin.ch/pages/about-us",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "safety",
+        "claim": "Lovaskin claims to avoid harsh chemicals and use safe, potent ingredients from nature and science.",
+        "quote": "Using safe, potent and fast-acting ingredients, LOVASKIN was born by combining the best of science and nature to actually care for your body.",
+        "sourceUrl": "https://lovaskin.ch/pages/about-us",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      }
+    ],
+    "papers": [],
+    "legalMatters": [],
+    "sourcesConsulted": 35,
+    "sourcesFetched": 27,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:45:53.877Z"
+  }
+}

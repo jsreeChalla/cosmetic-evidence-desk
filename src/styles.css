@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/*
+ * Cosmetics Evidence Desk — editorial design system.
+ * Serious, calm, investigative-publication tone rather than a flashy product UI.
+ * Tailwind v4 CSS-first config: tokens below become utilities automatically,
+ * e.g. --color-status-good -> bg-status-good / text-status-good.
+ */
+@theme {
+  --font-serif: 'Iowan Old Style', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+  --font-sans:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --color-paper: #faf7f2;
+  --color-ink: #201c18;
+  --color-hairline: #ddd6cb;
+
+  /* Warm accent tint for the homepage hero backdrop — a calmer, more
+     editorial cousin of iGraal's orange, used sparingly rather than
+     throughout the app. */
+  --color-accent-tint: #fbe4cf;
+
+  /* One soft tint per homepage showcase category — distinct from the
+     confirmed/contradicted status colors above, since these banners are a
+     browsing aid, not a verdict. */
+  --color-cat-sustainability-tint: #e3efe1;
+  --color-cat-sustainability: #3f6b4a;
+  --color-cat-vegan-tint: #e1f0ec;
+  --color-cat-vegan: #2f6b5e;
+  --color-cat-cruelty-free-tint: #f6e6ec;
+  --color-cat-cruelty-free: #8c3f63;
+  --color-cat-ethical-tint: #f6ecd9;
+  --color-cat-ethical: #92652c;
+  --color-cat-quality-tint: #e3e8f2;
+  --color-cat-quality: #3d4f7c;
+  --color-cat-material-sourcing-tint: #eae3f0;
+  --color-cat-material-sourcing: #5c3f7c;
+  --color-cat-counterfeit-risk-tint: #f0e3e3;
+  --color-cat-counterfeit-risk: #8c4343;
+  --color-cat-e-waste-recyclability-tint: #dcefe6;
+  --color-cat-e-waste-recyclability: #2f7a5c;
+  --color-cat-conflict-minerals-tint: #efe6d9;
+  --color-cat-conflict-minerals: #8c5a2c;
+  --color-cat-data-privacy-tint: #dde3ef;
+  --color-cat-data-privacy: #34517c;
+  --color-cat-sourcing-organic-tint: #eef0dc;
+  --color-cat-sourcing-organic: #6b7a2f;
+  --color-cat-additives-health-tint: #f0e6ec;
+  --color-cat-additives-health: #7c3f63;
+  --color-cat-animal-welfare-tint: #e6ede3;
+  --color-cat-animal-welfare: #4a6b3f;
+
+  /* Semantic status colors: each has a soft tint (backgrounds) and a stronger
+     foreground (text/borders) for small status pill badges. */
+  --color-status-good-tint: #e6f0e6;
+  --color-status-good: #3f6b4a;
+  --color-status-concerning-tint: #f5e6e3;
+  --color-status-concerning: #8c4338;
+  --color-status-mixed-tint: #f6ecd9;
+  --color-status-mixed: #92652c;
+  --color-status-unclear-tint: #e9e6e0;
+  --color-status-unclear: #5c584f;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+  margin-top: 1.5em;
+  color: var(--color-ink);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  border-left: 3px solid var(--color-ink);
+  background-color: color-mix(in srgb, var(--color-hairline) 40%, transparent);
+  padding: 0.75rem 1.25rem;
+  margin: 0.75rem 0;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/* Keyboard accessibility: a clearly visible focus ring on every interactive
+   element, never silently removed. */
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.prose-body {
+  max-width: 65ch;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--color-ink) 85%, transparent);
+}

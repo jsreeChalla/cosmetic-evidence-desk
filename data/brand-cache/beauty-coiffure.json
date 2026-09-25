@@ -1,0 +1,109 @@
+{
+  "cachedAt": "2026-09-21T08:16:50.851Z",
+  "data": {
+    "brand": "Beauty Coiffure",
+    "overview": "Beauty Coiffure is a French e-commerce retailer of hairdressing and beauty products based in Chalon-sur-Saône, selling third-party brands such as OPI, Umberto Giannini and ghd rather than manufacturing its own line. Independent review platforms show strong customer satisfaction, with a 4.6 TrustScore across 3,175 Trustpilot reviews and a 4.6 Google store rating across over 73,000 reviews, praising delivery speed, pricing and product range. No brand-specific evidence on safety, sustainability, cruelty-free, vegan or labour practices was found in the fetched sources.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "quality",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "Trustpilot",
+            "sourceUrl": "https://www.trustpilot.com/review/beautycoiffure.com?page=2"
+          },
+          {
+            "publisher": "Google",
+            "sourceUrl": "https://www.google.com/storepages?q=beautycoiffure.com&c=FR&v=19&hl=en"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Beauty Coiffure Reviews | 2 of 4 - Trustpilot",
+        "publisher": "Trustpilot",
+        "sourceUrl": "https://www.trustpilot.com/review/beautycoiffure.com?page=2",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "customer-reviews",
+          "product-quality",
+          "delivery",
+          "e-commerce"
+        ],
+        "summary": "Beauty Coiffure, a French e-commerce retailer of hairdressing and beauty products based in Chalon-sur-Saône, holds a TrustScore of 4.6 from over 3,175 Trustpilot reviews. Reviewers praise product availability, quick delivery, attractive prices, and product range, though Trustpilot notes the company has not replied to negative reviews.",
+        "findings": [
+          {
+            "text": "The brand holds a high aggregate customer rating on Trustpilot across a large review base.",
+            "quote": "Beauty CoiffureReviews\n\n3,175",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Reviewers report satisfaction with ease of navigation, product availability and pricing.",
+            "quote": "Very satisfied.\nEasy navigation, available products, and attractive prices.\nVery pretty color that lasts.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Customers highlight fast delivery and a product range not easily found elsewhere.",
+            "quote": "Everything was good! The delivery was really quick and the website has a lot of products that I can't easily find elsewhere.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Trustpilot flags that the company has not responded to negative reviews.",
+            "quote": "Hasn’t replied to negative reviews",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      },
+      {
+        "title": "Beauty Coiffure - Google",
+        "publisher": "Google",
+        "sourceUrl": "https://www.google.com/storepages?q=beautycoiffure.com&c=FR&v=19&hl=en",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "store-rating",
+          "customer-reviews",
+          "e-commerce",
+          "product-range"
+        ],
+        "summary": "Google's store page for Beauty Coiffure shows a 4.6 store rating from over 73,000 reviews and describes the retailer's social media promotion of third-party brands such as OPI, Umberto Giannini and ghd. The data reflects an e-commerce shopping experience rather than the brand's own manufactured products.",
+        "findings": [
+          {
+            "text": "Beauty Coiffure carries a high Google store rating across a very large review base.",
+            "quote": "4.6\n\nstore rating (73,830 reviews)",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The retailer promotes and sells third-party professional brands including OPI and ghd.",
+            "quote": "Retrouvez la ghd glide+ max sur Beauty Coiffure.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "good"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 31,
+    "sourcesFetched": 29,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:16:50.851Z"
+  }
+}

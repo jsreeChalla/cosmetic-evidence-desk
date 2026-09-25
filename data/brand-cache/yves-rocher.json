@@ -1,0 +1,282 @@
+{
+  "cachedAt": "2026-09-21T08:07:29.109Z",
+  "data": {
+    "brand": "Yves Rocher",
+    "parentCompany": "Groupe Rocher",
+    "overview": "Yves Rocher, owned by Groupe Rocher, is a French plant-based cosmetics brand that publicly claims to have stopped animal testing in 1989 and offers 100% vegetarian and hundreds of vegan products. However, independent cruelty-free reviewers (Conscious Bunny, Cruelty-Free Kitty) and Good On You rate it as not cruelty-free because it may allow animal testing where required by law, and Good On You rates its overall sustainability only \"It's a Start.\" Independent product reviews and complaint aggregators report mixed-to-poor quality and satisfaction, particularly around low active-ingredient concentrations and shipping/packaging issues.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "Yves Rocher states none of its cosmetic products have been tested on animals since 1989 and it has stopped marketing in China.",
+        "quote": "None of our cosmetic products have been tested on animals since 1989, a full 15 years before the European ban.",
+        "sourceUrl": "https://consciousbunny.com/brand/yves-rocher/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Conscious Bunny",
+            "sourceUrl": "https://consciousbunny.com/brand/yves-rocher/"
+          },
+          {
+            "publisher": "Cruelty-Free Kitty",
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/yves-rocher/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/yves-rocher-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "claim": "Yves Rocher claims its products are 100% vegetarian with more than 700 vegan references containing no ingredients of animal origin.",
+        "quote": "our products are 100% vegetarian and more than 700 references are Vegan within our offer, across all product categories (skincare, hygiene, make-up, etc.)",
+        "sourceUrl": "https://abspace.yves-rocher.com/us/en/vegan-cosmetic-guide/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "sustainability",
+        "claim": "Yves Rocher claims to grow certified organic plants in La Gacilly and to make the majority of its products in France.",
+        "quote": "+94 % Of our products are made in France 80 ha of certified organic plants in la Gacilly 6600 agricultural partners in france and around the world",
+        "sourceUrl": "https://www.yvesrocher.ca/en/our-commitments",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "quality",
+        "claim": "Yves Rocher claims its formulas are more natural and more responsible, meeting the highest standards.",
+        "quote": "Our formulas are more natural and more responsible, meeting the highest of standards.",
+        "sourceUrl": "https://www.yvesrocher.ca/en/our-commitments",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Holy Skin",
+            "sourceUrl": "https://holyskin.fr/en/blogs/skincare-coreenne/yves-rocher-avis"
+          },
+          {
+            "publisher": "ComplaintsBoard",
+            "sourceUrl": "https://www.complaintsboard.com/yves-rocher-b125007"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/yves-rocher-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is Yves Rocher Cruelty-Free, Vegan Or Clean?",
+        "publisher": "Conscious Bunny",
+        "sourceUrl": "https://consciousbunny.com/brand/yves-rocher/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "China"
+        ],
+        "summary": "Conscious Bunny concludes Yves Rocher is not cruelty-free and holds no cruelty-free certification, though it notes the brand claims to have stopped animal testing in 1989 and stopped marketing in China. The reviewer says the brand may still test on animals itself, through suppliers, or via third parties.",
+        "findings": [
+          {
+            "text": "The reviewer classifies Yves Rocher as not cruelty-free because it may allow animal testing directly or through suppliers/third parties.",
+            "quote": "No, Yves Rocher is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Yves Rocher holds no cruelty-free certification from any organization such as PETA or Leaping Bunny.",
+            "quote": "No, Yves Rocher is not certified by any organization. Companies can be fully cruelty-free without being certified, but certifications are a good indicator of their ethical practices.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Is Yves Rocher Cruelty-Free & Vegan in 2026? THE TRUTH",
+        "publisher": "Cruelty-Free Kitty",
+        "sourceUrl": "https://www.crueltyfreekitty.com/brands/yves-rocher/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "animal-testing",
+          "parent-company"
+        ],
+        "summary": "Cruelty-Free Kitty rates Yves Rocher as not cruelty-free, noting it may test on animals itself, through suppliers, or via third parties, and could sell where animal testing is required by law. It states the brand is not owned by a parent company that tests on animals.",
+        "findings": [
+          {
+            "text": "Cruelty-Free Kitty rates Yves Rocher as not cruelty-free, potentially selling where animal testing is legally required.",
+            "quote": "No, Yves Rocher is not cruelty-free. They may test on animals, either themselves, through their suppliers, or through a third party.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "Yves Rocher - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/yves-rocher-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour",
+          "animals",
+          "supply-chain",
+          "packaging"
+        ],
+        "summary": "Good On You rates Yves Rocher (owned by Groupe Rocher) 'It's a Start' overall, with 3/5 for Planet and People and 2/5 for Animals. It credits organic ingredients, science-based emissions targets and FSC-certified packaging, but flags no evidence of living wages, limited supply-chain traceability, and possible animal testing where legally required.",
+        "findings": [
+          {
+            "text": "Good On You found no evidence Yves Rocher ensures living wages in its supply chain and only partial supply-chain traceability.",
+            "quote": "There’s no evidence it provides financial security to its suppliers, which can result in poor working conditions and wages.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The brand's packaging is fully FSC certified and it has set a science-based emissions reduction target it claims to be on track for.",
+            "quote": "Its product packaging is 100% FSC certified.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Good On You rates the brand 'Not Good Enough' on animals, citing possible animal testing where required by law such as in China.",
+            "quote": "It may conduct animal testing when required by law (for instance, in China), either by itself, through its suppliers, or through third parties.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Yves Rocher: our honest opinion on the brand (2026)",
+        "publisher": "Holy Skin",
+        "sourceUrl": "https://holyskin.fr/en/blogs/skincare-coreenne/yves-rocher-avis",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "ingredients",
+          "efficacy"
+        ],
+        "summary": "Holy Skin's review finds Yves Rocher products mixed: some deliver, others are outdated. It notes low active-ingredient concentrations, non-penetrating collagen in anti-aging serums, silicones and denatured alcohol in some formulas, and cites a 2/5 Trustpilot score, while acknowledging affordable prices and paraben-free, eco-designed formulas.",
+        "findings": [
+          {
+            "text": "The reviewer found active ingredients in anti-aging products often appear in trace amounts rather than effective doses.",
+            "quote": "Active ingredients mentioned in communication (peptides, plant extracts, hyaluronic acid) often appear at the end of the INCI list, meaning they are present in trace amounts rather than at effective doses.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The Lift Pro-Collagen range was criticised by Que Choisir for insufficient results given the price.",
+            "quote": "The Lift Pro-Collagen range, regularly cited in reviews, was the subject of a comparison by Que Choisir which highlighted insufficient results given the price.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The reviewer cites a low customer satisfaction score of 2/5 on Trustpilot from over 1,300 reviews.",
+            "quote": "negative reviews have multiplied on Trustpilot (a score of 2/5 from over 1,300 reviews), and searches for \"dangerous Yves Rocher products\" or Yuka ratings have exploded",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "mixed",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "Yves Rocher Beauty Enthusiasts Reviews and Complaints 2026",
+        "publisher": "ComplaintsBoard",
+        "sourceUrl": "https://www.complaintsboard.com/yves-rocher-b125007",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "product-quality",
+          "customer-service",
+          "complaints"
+        ],
+        "summary": "ComplaintsBoard gives Yves Rocher a 1.5-star reputation rating based on reviews and complaints, with the majority of complaints unresolved. Individual complaints cite damaged/cracked products on delivery, poor packaging, dry mascara, and unsatisfactory customer service.",
+        "findings": [
+          {
+            "text": "Yves Rocher holds a 1.5-star reputation rating with most customers reportedly dissatisfied.",
+            "quote": "Yves Rocher earns a 1.5-star rating from 1 reviews and 49 complaints , indicating that most beauty enthusiasts are dissatisfied with their skincare and cosmetic products.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The large majority of logged complaints against Yves Rocher remained unresolved.",
+            "quote": "Total complaints: 49 Resolved complaints: 6 (12%) Unresolved complaints: 43 (88%)",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "quality",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "How Yves Rocher Integrates Sustainability Into Its Business",
+        "publisher": "Forrester",
+        "sourceUrl": "https://www.forrester.com/blogs/how-yves-rocher-integrates-sustainability-in-its-business/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "business-strategy",
+          "ESG"
+        ],
+        "summary": "Forrester analyst Thomas Husson profiles how Yves Rocher, a global cosmetics player present in more than 90 countries, embeds sustainability into its business operations while trying to maintain profitability. The piece frames the brand's strong environmental DNA as both a challenge and an opportunity in a competitive market.",
+        "findings": [
+          {
+            "text": "Forrester describes Yves Rocher as a global cosmetics player operating in more than 90 countries seeking to execute sustainability in its operations.",
+            "quote": "a leading brand in the French beauty market and a global cosmetics player with a presence in more than 90 countries operates and executes sustainability in its business",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 23,
+    "degraded": true,
+    "generatedAt": "2026-09-21T08:07:29.109Z"
+  }
+}

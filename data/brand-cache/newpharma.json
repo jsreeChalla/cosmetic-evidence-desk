@@ -1,0 +1,44 @@
+{
+  "cachedAt": "2026-09-02T11:42:42.847Z",
+  "data": {
+    "brand": "Newpharma",
+    "parentCompany": "Korys and the Colruyt Group",
+    "overview": "Newpharma is a Liège-based online pharmacy that, according to its owner Korys, has been fully owned by investment company Korys and the Colruyt Group since summer 2021 (Korys first took a 39% stake in 2017). The only brand-specific fetched source is a promotional profile published by the owner; it contains no independent evidence on product safety, sustainability, cruelty-free, vegan, or labour-ethics claims. The remaining fetched sources discuss cruelty-free certification schemes and pharmaceutical packaging generically and do not mention Newpharma.",
+    "hasEvidence": true,
+    "claims": [],
+    "papers": [
+      {
+        "title": "Newpharma: from sick care to health care",
+        "publisher": "Korys",
+        "sourceUrl": "https://korys.be/newpharma-next-chapter/",
+        "independence": "company",
+        "scope": "parent-company",
+        "topics": [
+          "ownership",
+          "labour-employment",
+          "conscious-consumer"
+        ],
+        "summary": "Korys, an investment company, describes acquiring the Liège-based online pharmacy Newpharma. As of summer 2021, Newpharma is fully owned by Korys and the Colruyt Group, having initially acquired a 39% stake in 2017. The piece is a promotional profile emphasising local employment and a 'conscious consumer' investment focus, but contains no verifiable safety or sustainability performance data on Newpharma's products.",
+        "findings": [
+          {
+            "text": "Newpharma became fully owned by investment company Korys and the Colruyt Group as of summer 2021.",
+            "quote": "Since summer 2021, the Liège-based online pharmacy has been fully owned by investment company Korys and the Colruyt Group.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "The company emphasises job creation, particularly for lower-skilled workers, as part of its story.",
+            "quote": "We’ve created many employment opportunities for a group that’s hard to reach, low-skilled workers.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 32,
+    "sourcesFetched": 22,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:42:42.847Z"
+  }
+}

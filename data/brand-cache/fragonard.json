@@ -1,0 +1,114 @@
+{
+  "cachedAt": "2026-09-16T12:24:43.304Z",
+  "data": {
+    "brand": "Fragonard",
+    "overview": "Fragonard is a family-owned fragrance and skincare brand founded in 1926 in Grasse, France, with three production factories in southern France. Its own \"Fragonard s'engage\" page details environmental commitments around recycling, FSC/PEFC-certified paper, and eco-responsible packaging. The independent rating from Good On You scores Fragonard \"Not Good Enough\" overall (2/5 on planet, people, and animals), noting no evidence of a supplier Code of Conduct, no supplier audits, and no policy against animal testing.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "sustainability",
+        "claim": "Fragonard says it began an in-depth reflection on environmental and ethical questions in 2018 and recycles cardboard, plastic and glass daily at its three French factories.",
+        "quote": "Le recyclage du carton, du plastique et du verre fait partie du quotidien de nos usines.",
+        "sourceUrl": "https://usines-parfum.fragonard.com/fragonard-s-engage-6891/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/fragonard-beauty"
+          }
+        ]
+      },
+      {
+        "category": "cruelty-free",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/fragonard-beauty"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/fragonard-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/fragonard-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Fragonard - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/fragonard-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-ethics",
+          "animal-welfare",
+          "packaging",
+          "ingredients"
+        ],
+        "summary": "Good On You rates Fragonard \"Not Good Enough\" overall, with 2-out-of-5 scores across planet, people, and animals. It credits some certified organic ingredients and FSC-certified packaging, but finds no evidence of water-reduction action, no Code of Conduct, no supplier audits, no living-wage assurance, and no policy against animal testing. It notes use of insect-derived ingredients.",
+        "findings": [
+          {
+            "text": "Fragonard uses some lower-impact and certified organic ingredients and FSC-certified packaging, but shows no evidence of meaningful water-reduction action.",
+            "quote": "It uses some lower-impact ingredients including certified organic ingredients. It uses Forest Stewardship Council (FSC) certified packaging. There’s no evidence it’s taking meaningful action to reduce water use.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "On labour, there is no evidence Fragonard has a Code of Conduct, audits its suppliers, or ensures living wages.",
+            "quote": "There’s no evidence it has a Code of Conduct. There's no evidence it audits its suppliers. There’s no evidence it ensures workers are paid living wages in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Fragonard has no certification, policy or statement against animal testing, and uses insect-derived ingredients.",
+            "quote": "It does not have a certification, policy, or statement against the use of animal testing in its supply chain.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Fragonard uses ingredients derived from insects such as bee, snail and/or silk byproducts, but no other animal substances.",
+            "quote": "It uses ingredients derived from insects (eg byproducts of the bee, snail and/or silk industries), but no other animal substances.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "concerning",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "concerning"
+          },
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [],
+    "sourcesConsulted": 31,
+    "sourcesFetched": 29,
+    "degraded": true,
+    "generatedAt": "2026-09-16T12:24:43.302Z"
+  }
+}

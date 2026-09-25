@@ -1,0 +1,101 @@
+{
+  "cachedAt": "2026-09-02T11:02:43.789Z",
+  "data": {
+    "brand": "ghd (Good Hair Day)",
+    "parentCompany": "Wella",
+    "overview": "ghd (Good Hair Day) is a Leeds-based hair-styling tool manufacturer owned by Wella (majority-owned by KKR). Independent cruelty-free assessor ethical elephant classifies ghd as cruelty-free (though its parent Wella is not) and confirms ghd offers only some vegan products, as the rest of its range contains a wool-derived polymer. A 2006 UK Trading Standards prosecution found ghd's manufacturer Jemella Ltd guilty of selling unsafe ceramic hair straighteners.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "ghd states it does not ship to or sell in China, so it is not required to test on animals.",
+        "quote": "We do not ship to China or sell in china.",
+        "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/",
+        "quoteVerification": "verified",
+        "match": "confirmed",
+        "checkedBy": [
+          {
+            "publisher": "ethical elephant",
+            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/"
+          }
+        ]
+      },
+      {
+        "category": "vegan",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "ethical elephant",
+            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "Is ghd Cruelty-Free & Vegan in 2023?",
+        "publisher": "ethical elephant",
+        "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "cruelty-free",
+          "vegan",
+          "animal-testing",
+          "parent-company"
+        ],
+        "summary": "ethical elephant assesses ghd as a cruelty-free brand that does not test on animals or sell in mainland China, but notes ghd is owned by Wella, which is not cruelty-free. ghd is not third-party certified. ghd is not fully vegan: only Perfect Ending, Shiny Ever After, and Dramatic Ending are vegan, with the rest of the range containing a sheep's-wool-derived polymer.",
+        "findings": [
+          {
+            "text": "ghd is assessed as cruelty-free, having confirmed neither it nor its suppliers test on animals and that it does not sell where animal testing is legally required.",
+            "quote": "ghd confirmed they do not test their products or ingredients on animals or ask others to test on their behalf.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "ghd's parent company Wella is not cruelty-free because it allows some of its other brands to test on animals.",
+            "quote": "ghd is owned by Wella , a corporation that is NOT cruelty-free because they allow some of their other brands to test on animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "ghd is not certified by a third-party cruelty-free program such as Leaping Bunny or PETA.",
+            "quote": "ghd is not certified by a third-party cruelty-free accreditation like Leaping Bunny or PETA.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Only three ghd products are vegan; the rest contain an animal-derived polymer from sheep's wool.",
+            "quote": "Perfect Ending, Shiny Ever After, and Dramatic Ending are all vegan. The rest of our range is not vegan due to containing a polymer derived from sheep’s wool.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "good"
+          },
+          {
+            "category": "vegan",
+            "verdict": "mixed"
+          }
+        ]
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "GHD hair irons safety prosecution (Jemella Ltd)",
+        "entity": "Jemella Ltd (ghd)",
+        "status": "decided",
+        "year": 2006,
+        "summary": "Jemella Ltd, the company behind the ghd brand, pleaded guilty in 2006 to selling ceramic hair straighteners that failed to comply with UK electrical safety regulations and was fined and ordered to pay prosecution costs.",
+        "sourceUrl": "https://forums.moneysavingexpert.com/discussion/199658/ghd-hair-irons-safety-case-result",
+        "quote": "Jemella Ltd. of Bradford, West Yorkshire, the company behind the ghd (\"good hair day\") brand, pleaded guilty on 15 May to two offences of selling ceramic hair straightening irons which failed to comply with strict safety laws",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 28,
+    "sourcesFetched": 15,
+    "degraded": true,
+    "generatedAt": "2026-09-02T11:02:43.788Z"
+  }
+}

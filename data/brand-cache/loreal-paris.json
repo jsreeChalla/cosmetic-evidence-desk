@@ -1,0 +1,255 @@
+{
+  "cachedAt": "2026-09-21T07:42:43.919Z",
+  "data": {
+    "brand": "L'Oréal Paris",
+    "parentCompany": "L'Oréal",
+    "overview": "L'Oréal Paris is owned by L'Oréal Groupe, the world's largest cosmetics company. Third-party ethical raters (Good On You, PETA, Bunny Search, Conscious Bunny) consistently classify it as not cruelty-free because it sells in markets like China where animal testing may be required by law and uses animal-derived ingredients, while its parent company scores well on climate and labour ESG metrics. L'Oréal-owned CeraVe faces six US class action lawsuits alleging benzene contamination in benzoyl peroxide acne products.",
+    "hasEvidence": true,
+    "claims": [
+      {
+        "category": "cruelty-free",
+        "claim": "L'Oréal states it has not tested the safety of its products on animals since 1989 and pioneers non-animal testing methods.",
+        "quote": "Since 1989, we have not tested the safety of our products on animals, 14 years before regulations required us to do so.",
+        "sourceUrl": "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/for-beauty-with-no-animal-testing/",
+        "quoteVerification": "verified",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "PETA (People for the Ethical Treatment of Animals)",
+            "sourceUrl": "https://www.peta.org/faq/is-loreal-cruelty-free/"
+          },
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/loreal-paris-beauty"
+          }
+        ]
+      },
+      {
+        "category": "sustainability",
+        "claim": "L'Oréal claims progress toward reducing environmental impact under its L'Oréal for the Future 2030 programme, reporting 91% renewable energy at operated sites.",
+        "quote": "By 2025, we will reach 100% renewable energy for our operated sites. 2023 results : 91%, 2030 goals : 100%",
+        "sourceUrl": "https://www.loreal-finance.com/en/annual-report-2023/social-environmental-performance/",
+        "quoteVerification": "verified",
+        "match": "no-data"
+      },
+      {
+        "category": "vegan",
+        "match": "contradicted",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/loreal-paris-beauty"
+          }
+        ]
+      },
+      {
+        "category": "labour-ethics",
+        "match": "inconclusive",
+        "checkedBy": [
+          {
+            "publisher": "Good On You",
+            "sourceUrl": "https://directory.goodonyou.eco/brand/loreal-paris-beauty"
+          }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "title": "L'Oréal-owned CeraVe faces 6 class action lawsuits over claims products contain cancer-causing chemical",
+        "publisher": "Snopes",
+        "sourceUrl": "https://www.snopes.com/fact-check/class-action-lawsuits-cerave-loreal/",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "benzene",
+          "product-safety",
+          "litigation",
+          "benzoyl-peroxide"
+        ],
+        "summary": "Snopes confirms that L'Oréal-owned CeraVe faces six class action lawsuits alleging its benzoyl peroxide acne products (Acne Foaming Cream Cleanser and Wash) tested positive for benzene, a known carcinogen, after independent lab Valisure found benzene forming when the products were incubated at body and higher temperatures. As of writing no decision had been reached.",
+        "findings": [
+          {
+            "text": "Six class action lawsuits allege CeraVe benzoyl peroxide products tested positive for the carcinogen benzene.",
+            "quote": "All six class action lawsuits allege that multiple CeraVe products had tested positive for benzene, a known carcinogen.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "Independent lab Valisure found benzene at high levels when benzoyl peroxide products were incubated at body temperature and above.",
+            "quote": "Valisure's tests found benzene at high levels when BPO products were incubated at 37°C (98.6°F - body temperature), 50°C (122°F",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "By May 2025 all six lawsuits were consolidated in the Southern District of New York with no decision yet.",
+            "quote": "By May 2025, all six lawsuits were transferred to the Southern District of New York . No decision had been made on the cases as of this writing.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "concerning",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "For Beauty With No Animal Testing",
+        "publisher": "L'Oréal Groupe",
+        "sourceUrl": "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/for-beauty-with-no-animal-testing/",
+        "independence": "company",
+        "scope": "parent-company",
+        "topics": [
+          "animal-testing",
+          "alternative-methods",
+          "reconstructed-skin"
+        ],
+        "summary": "L'Oréal's own corporate page states it has not tested the safety of its products on animals since 1989, pioneered reconstructed human skin models manufactured in Episkin labs, and develops non-animal predictive tools. It presents itself as a leader in non-animal safety methods for over 40 years.",
+        "findings": [
+          {
+            "text": "L'Oréal states it has not tested product safety on animals since 1989, before regulations required it.",
+            "quote": "Since 1989, we have not tested the safety of our products on animals, 14 years before regulations required us to do so.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal manufactures reconstructed human skin in Episkin labs to evaluate cosmetic ingredients without animals.",
+            "quote": "We currently manufacture different types of reconstructed human skin in our Episkin labs in France, China and Brazil",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear"
+      },
+      {
+        "title": "L'Oréal is included on PETA's \"do test\" list. What does that mean?",
+        "publisher": "PETA (People for the Ethical Treatment of Animals)",
+        "sourceUrl": "https://www.peta.org/faq/is-loreal-cruelty-free/",
+        "independence": "independent",
+        "scope": "parent-company",
+        "topics": [
+          "animal-testing",
+          "China",
+          "cruelty-free"
+        ],
+        "summary": "PETA places L'Oréal on its 'do test' list because it sells cosmetics in China that are required by law to be tested on animals and has not adopted an uncompromising company-wide anti-testing policy. PETA acknowledges L'Oréal's progress on non-animal methods but says it is not eligible for the cruelty-free list.",
+        "findings": [
+          {
+            "text": "PETA lists L'Oréal as a company that tests on animals because it sells in China where testing is legally required.",
+            "quote": "L'Oreal still chooses to sell cosmetics in China that are required by law to be tested on animals.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal admits some products it sells in China are required by law to be tested on animals.",
+            "quote": "L'Oreal admits that some of the products it sells there are required by law to be tested on animals.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "unclear",
+        "otherVerdicts": [
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          }
+        ]
+      },
+      {
+        "title": "L'Oréal Paris - Sustainability Rating",
+        "publisher": "Good On You",
+        "sourceUrl": "https://directory.goodonyou.eco/brand/loreal-paris-beauty",
+        "independence": "independent",
+        "scope": "brand-specific",
+        "topics": [
+          "sustainability",
+          "labour-rights",
+          "animal-welfare",
+          "packaging",
+          "supply-chain"
+        ],
+        "summary": "Good On You rates L'Oréal Paris 'It's a Start' overall, with 'Good' on Planet (recycled packaging, RSPO palm oil, science-based emissions target), 'It's a Start' on People (partial supply-chain tracing, some living wages), and 'Very Poor' on Animals due to animal-derived ingredients and possible animal testing where required by law.",
+        "findings": [
+          {
+            "text": "L'Oréal Paris uses animal-derived ingredients including lanolin and collagen with no commitment to eliminate them.",
+            "quote": "It appears to use ingredients derived from farmed animals, including lanolin and collagen. It has not made any public commitments to eliminate animal-derived ingredients.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It may conduct animal testing when required by law such as in China.",
+            "quote": "It may conduct animal testing when required by law (for instance, in China), either by itself, through its suppliers, or through third parties.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It uses some recycled packaging and has a science-based emissions target but no evidence it is on track.",
+            "quote": "It's set a science-based target to reduce greenhouse gas emissions in both its direct operations and supply chain but there's no evidence it is on track.",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "It ensures some but not all final-stage workers are paid living wages.",
+            "quote": "It ensures some workers in the final production stage are paid living wages, though not through its entire supply chain.",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed",
+        "otherVerdicts": [
+          {
+            "category": "vegan",
+            "verdict": "concerning"
+          },
+          {
+            "category": "cruelty-free",
+            "verdict": "concerning"
+          },
+          {
+            "category": "labour-ethics",
+            "verdict": "mixed"
+          }
+        ]
+      },
+      {
+        "title": "L'Oréal social and environmental performance (2023 Annual Report)",
+        "publisher": "L'Oréal Finance",
+        "sourceUrl": "https://www.loreal-finance.com/en/annual-report-2023/social-environmental-performance/",
+        "independence": "company",
+        "scope": "parent-company",
+        "topics": [
+          "climate",
+          "packaging",
+          "renewable-energy",
+          "sustainable-sourcing",
+          "ESG-ratings"
+        ],
+        "summary": "L'Oréal's 2023 annual report details progress under its L'Oréal for the Future 2030 programme, reporting 91% renewable energy, 32% recycled/biobased plastic packaging, and external recognitions including CDP AAA and EcoVadis Platinum. Many 2030 targets remain far from complete.",
+        "findings": [
+          {
+            "text": "In 2023 only 32% of L'Oréal's packaging plastic was from recycled or biobased sources against a 100% 2030 goal.",
+            "quote": "By 2030, 100% of the plastic used in our packaging will be either from recycled or biobased sources (we will reach 50% by 2025). 2023 results : 32%",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal reached 91% renewable energy at operated sites against a 2025 target of 100%.",
+            "quote": "By 2025, we will reach 100% renewable energy for our operated sites. 2023 results : 91%",
+            "quoteVerification": "verified"
+          },
+          {
+            "text": "L'Oréal earned an EcoVadis Platinum medal, placing it in the top 1% of assessed companies.",
+            "quote": "The Group earned a Platinum medal from EcoVadis for the second year running. As part of the top 1% of companies assessed by the agency",
+            "quoteVerification": "verified"
+          }
+        ],
+        "safetyVerdict": "unclear",
+        "sustainabilityVerdict": "mixed"
+      }
+    ],
+    "legalMatters": [
+      {
+        "title": "CeraVe benzene class action lawsuits",
+        "entity": "L'Oréal (CeraVe parent company)",
+        "status": "pending",
+        "year": 2024,
+        "summary": "Six class action lawsuits allege L'Oréal-owned CeraVe benzoyl peroxide acne products contain benzene, a known carcinogen; consolidated in the Southern District of New York with no decision reached.",
+        "sourceUrl": "https://www.snopes.com/fact-check/class-action-lawsuits-cerave-loreal/",
+        "quote": "Snopes identified six ongoing lawsuits against L'Oréal, CeraVe's parent company, after an independent lab called Valisure — which was founded by former Yale students — identified high levels of benzene",
+        "quoteVerification": "verified"
+      }
+    ],
+    "sourcesConsulted": 34,
+    "sourcesFetched": 30,
+    "degraded": true,
+    "generatedAt": "2026-09-21T07:42:43.918Z"
+  }
+}
