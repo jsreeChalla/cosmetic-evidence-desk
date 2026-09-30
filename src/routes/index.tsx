@@ -61,7 +61,7 @@ function InfoNote({ onDismiss }: { onDismiss: () => void }) {
         type="button"
         onClick={onDismiss}
         aria-label="Dismiss note"
-        className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full text-slate-400 hover:bg-slate-200 hover:text-slate-700 focus-visible:outline-none"
+        className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full after:absolute after:-inset-3 after:content-[''] text-slate-400 hover:bg-slate-200 hover:text-slate-700 focus-visible:outline-none"
       >
         ×
       </button>

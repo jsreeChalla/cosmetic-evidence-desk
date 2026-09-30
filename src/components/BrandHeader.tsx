@@ -33,7 +33,7 @@ export function BrandHeader(props: { brand: BrandCatalogEntry; parentCompany?: s
             href={`https://${brand.website}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-0.5 inline-block text-sm text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700"
+            className="tap-area mt-0.5 inline-block text-sm text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700"
           >
             {brand.website} ↗
           </a>

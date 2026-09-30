@@ -23,7 +23,7 @@ function SourceList({ sources }: { sources: Array<{ publisher: string; sourceUrl
             href={s.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-slate-600"
+            className="tap-area-y underline hover:text-slate-600"
           >
             {s.publisher}
           </a>
@@ -66,7 +66,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
                       href={claim.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-slate-400 underline hover:text-slate-600"
+                      className="tap-area text-slate-400 underline hover:text-slate-600"
                     >
                       source ↗
                     </a>

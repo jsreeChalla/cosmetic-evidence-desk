@@ -115,3 +115,23 @@ blockquote {
   line-height: 1.7;
   color: color-mix(in srgb, var(--color-ink) 85%, transparent);
 }
+
+/* Bigger touch target for small text links without changing layout: an
+   invisible ::after extends the clickable area to ~44px tall on each link. */
+.tap-area {
+  position: relative;
+}
+.tap-area::after {
+  content: '';
+  position: absolute;
+  inset: -12px -8px;
+}
+/* Same, vertical only — for links that sit side by side in a comma list. */
+.tap-area-y {
+  position: relative;
+}
+.tap-area-y::after {
+  content: '';
+  position: absolute;
+  inset: -12px 0;
+}

@@ -104,11 +104,11 @@ export function ResearchPaperCard(props: { paper: ResearchPaper }) {
       </div>
 
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-        <a href={paper.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">
+        <a href={paper.sourceUrl} target="_blank" rel="noopener noreferrer" className="tap-area underline">
           View source
         </a>
         {paper.pdfUrl && (
-          <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer" className="underline">
+          <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer" className="tap-area underline">
             View PDF / DOI
           </a>
         )}

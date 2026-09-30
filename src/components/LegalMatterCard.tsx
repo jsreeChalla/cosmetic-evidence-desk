@@ -41,7 +41,7 @@ export function LegalMatterCard(props: { matter: LegalMatter }) {
       <VerificationBadge verified={matter.quoteVerification === 'verified'} />
 
       <div className="mt-3 text-sm">
-        <a href={matter.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">
+        <a href={matter.sourceUrl} target="_blank" rel="noopener noreferrer" className="tap-area underline">
           View source
         </a>
       </div>

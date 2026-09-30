@@ -199,7 +199,7 @@ export async function listBrandCache(): Promise<Array<BrandCacheListing>> {
   try {
     files = (await readdir(CACHE_DIR)).filter((f) => f.endsWith('.json'))
   } catch {
-    return []
+    return withSeedFallback([]) // e.g. on Vercel, where data/ isn't on disk
   }
   const entries = await Promise.all(
     files.map(async (f) => {
