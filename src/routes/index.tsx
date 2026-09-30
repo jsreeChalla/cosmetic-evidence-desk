@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useServerFn } from '@tanstack/react-start'
-import { useState, useCallback, useEffect, useRef } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { ALL_RETAILER_BRANDS } from '~/lib/igraal-brands'
 import { getBrandResearch, type BrandResearchResponse } from '~/lib/research.functions'
 import { getFeaturedBrands, type FeaturedBrandsResponse } from '~/lib/featured-brands.functions'
@@ -108,8 +108,13 @@ function HomePage() {
     [getBrandResearchFn],
   )
 
+  // Phones/tablets: the 65-brand directory is collapsed behind a "Change brand"
+  // button instead of being stacked above the result.
+  const [pickerOpen, setPickerOpen] = useState(false)
+
   const handleSelect = useCallback(
     (brandId: string) => {
+      setPickerOpen(false)
       void runResearch(brandId)
     },
     [runResearch],
@@ -121,26 +126,15 @@ function HomePage() {
 
   // Picking a brand (from the home page or the directory list, often far down
   // the page) replaces the content but keeps the scroll position, so the result
-  // would load out of sight. Bring the result into view on every new selection:
-  // on desktop that's the top of the page (result sits beside the sticky list);
-  // on mobile the list is stacked above the result, so scroll to the result itself.
-  const resultsRef = useRef<HTMLElement>(null)
+  // would load out of sight. Scroll to the top on every new selection: on
+  // desktop the result sits beside the sticky list, and on phones/tablets it
+  // sits right under the compact "Change brand" bar.
   useEffect(() => {
     if (!selectedId) return
     const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-    const behavior: ScrollBehavior = reduceMotion ? 'auto' : 'smooth'
-    // Wait a frame so the brand layout has rendered before measuring.
-    const frame = requestAnimationFrame(() => {
-      const isDesktop = window.matchMedia?.('(min-width: 1024px)').matches
-      if (isDesktop || !resultsRef.current) {
-        window.scrollTo({ top: 0, behavior })
-      } else {
-        resultsRef.current.scrollIntoView({ block: 'start', behavior })
-      }
-    })
+    const frame = requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' }))
     return () => cancelAnimationFrame(frame)
-    // Runs on selection (loading) and again once the result has rendered —
-    // while loading, the page can be too short to scroll the result to the top.
+    // Runs on selection (loading) and again once the result has rendered.
   }, [selectedId, view.status])
 
   if (!selectedBrand) {
@@ -188,14 +182,22 @@ function HomePage() {
     <main className="mx-auto min-h-screen max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[260px_1fr] lg:items-start">
         <section aria-label="Brand directory" className="lg:sticky lg:top-8">
-          <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="column" />
+          {/* Phones/tablets: compact bar, full list on demand */}
+          <div className="lg:hidden">
+            <MobileBrandPicker
+              selectedBrand={selectedBrand}
+              open={pickerOpen}
+              onToggle={() => setPickerOpen((v) => !v)}
+              onSelect={handleSelect}
+            />
+          </div>
+          {/* Desktop: full list beside the result */}
+          <div className="hidden lg:block">
+            <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="column" />
+          </div>
         </section>
 
-        <section
-          ref={resultsRef}
-          aria-live="polite"
-          className="scroll-mt-4 border-t border-hairline pt-6 lg:border-t-0 lg:pt-0"
-        >
+        <section aria-live="polite" className="border-t border-hairline pt-6 lg:border-t-0 lg:pt-0">
           {view.status === 'loading' && <LoadingState brandName={selectedBrand.name} />}
 
           {view.status === 'done' && (
@@ -204,6 +206,61 @@ function HomePage() {
         </section>
       </div>
     </main>
+  )
+}
+
+function MobileBrandPicker(props: {
+  selectedBrand: (typeof ALL_RETAILER_BRANDS)[number]
+  open: boolean
+  onToggle: () => void
+  onSelect: (id: string) => void
+}) {
+  const { selectedBrand, open, onToggle, onSelect } = props
+  const [query, setQuery] = useState('')
+  const q = query.trim().toLowerCase()
+  const matches = q ? ALL_RETAILER_BRANDS.filter((b) => b.name.toLowerCase().includes(q)) : ALL_RETAILER_BRANDS
+
+  return (
+    <div>
+      <div className="flex items-center justify-between gap-3 rounded-lg border border-hairline bg-white px-4 py-2.5 shadow-sm">
+        <div className="min-w-0">
+          <div className="text-xs uppercase tracking-wide text-slate-500">Viewing</div>
+          <div className="truncate font-medium text-ink">{selectedBrand.name}</div>
+        </div>
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={open}
+          aria-controls="mobile-brand-list"
+          className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border border-slate-300 px-4 text-sm font-medium text-slate-800 hover:border-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
+        >
+          {open ? 'Close' : 'Change brand'}
+          <span aria-hidden="true" className={'inline-block transition-transform ' + (open ? 'rotate-180' : '')}>▾</span>
+        </button>
+      </div>
+
+      {open && (
+        <div id="mobile-brand-list" className="mt-3 rounded-lg border border-hairline bg-white p-3 shadow-sm">
+          <label className="sr-only" htmlFor="mobile-brand-search">
+            Search brands
+          </label>
+          <input
+            id="mobile-brand-search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={`Search ${ALL_RETAILER_BRANDS.length} brands`}
+            autoComplete="off"
+            className="mb-3 min-h-11 w-full rounded-md border border-slate-300 px-3 text-base focus:border-slate-500 focus:outline-none"
+          />
+          {matches.length > 0 ? (
+            <BrandChips brands={matches} selectedId={selectedBrand.id} onSelect={onSelect} layout="row" />
+          ) : (
+            <p className="py-4 text-center text-sm text-slate-500">No brands match “{query}”.</p>
+          )}
+        </div>
+      )}
+    </div>
   )
 }
 
