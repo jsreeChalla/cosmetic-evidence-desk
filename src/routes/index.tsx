@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useServerFn } from '@tanstack/react-start'
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { ALL_RETAILER_BRANDS } from '~/lib/igraal-brands'
 import { getBrandResearch, type BrandResearchResponse } from '~/lib/research.functions'
 import { getFeaturedBrands, type FeaturedBrandsResponse } from '~/lib/featured-brands.functions'
@@ -119,6 +119,30 @@ function HomePage() {
     ? ALL_RETAILER_BRANDS.find((b) => b.id === selectedId)
     : undefined
 
+  // Picking a brand (from the home page or the directory list, often far down
+  // the page) replaces the content but keeps the scroll position, so the result
+  // would load out of sight. Bring the result into view on every new selection:
+  // on desktop that's the top of the page (result sits beside the sticky list);
+  // on mobile the list is stacked above the result, so scroll to the result itself.
+  const resultsRef = useRef<HTMLElement>(null)
+  useEffect(() => {
+    if (!selectedId) return
+    const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    const behavior: ScrollBehavior = reduceMotion ? 'auto' : 'smooth'
+    // Wait a frame so the brand layout has rendered before measuring.
+    const frame = requestAnimationFrame(() => {
+      const isDesktop = window.matchMedia?.('(min-width: 1024px)').matches
+      if (isDesktop || !resultsRef.current) {
+        window.scrollTo({ top: 0, behavior })
+      } else {
+        resultsRef.current.scrollIntoView({ block: 'start', behavior })
+      }
+    })
+    return () => cancelAnimationFrame(frame)
+    // Runs on selection (loading) and again once the result has rendered —
+    // while loading, the page can be too short to scroll the result to the top.
+  }, [selectedId, view.status])
+
   if (!selectedBrand) {
     return (
       <main className="mx-auto min-h-screen max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
@@ -167,7 +191,11 @@ function HomePage() {
           <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="column" />
         </section>
 
-        <section aria-live="polite" className="border-t border-hairline pt-6 lg:border-t-0 lg:pt-0">
+        <section
+          ref={resultsRef}
+          aria-live="polite"
+          className="scroll-mt-4 border-t border-hairline pt-6 lg:border-t-0 lg:pt-0"
+        >
           {view.status === 'loading' && <LoadingState brandName={selectedBrand.name} />}
 
           {view.status === 'done' && (
