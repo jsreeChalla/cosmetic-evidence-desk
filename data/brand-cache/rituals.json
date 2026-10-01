@@ -19,7 +19,10 @@
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/rituals/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/rituals/",
+            "publishedDate": "2023-01-04",
+            "updatedDate": "2026-03-31",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -233,7 +236,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2023-01-04",
+        "updatedDate": "2026-03-31",
+        "year": 2026
       },
       {
         "title": "Is Rituals Cruelty-Free in 2026?",
@@ -298,7 +304,10 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "good"
+        "sustainabilityVerdict": "good",
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-07-06",
+        "year": 2026
       }
     ],
     "legalMatters": [],

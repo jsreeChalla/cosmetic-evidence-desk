@@ -1,5 +1,6 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { createHash } from 'node:crypto'
 import { MongoClient, type Collection } from 'mongodb'
 import { attachDatabasePool } from '@vercel/functions'
 import type { BrandAnalysis } from './schemas'
@@ -58,6 +59,11 @@ interface BrandCacheDoc {
   cachedAt: string
   data: BrandAnalysis
   updatedAt: string
+  // Set only when the doc was copied from the bundled seed: a hash of that
+  // seed entry. If a newer deploy ships different seed data for the brand
+  // (e.g. backfilled dates), the copy is replaced. Docs written by a real
+  // refresh have no seedHash and are never replaced by the seed.
+  seedHash?: string
 }
 
 interface RefreshStateDoc {
@@ -78,6 +84,22 @@ interface RefreshStateDoc {
 // files from disk instead, so the seed is simply empty there.
 
 let SEED: Map<string, BrandCacheEntry> | undefined
+const SEED_HASH = new Map<string, string>()
+
+export function hashEntry(entry: BrandCacheEntry): string {
+  return createHash('sha1').update(entry.cachedAt).update(JSON.stringify(entry.data)).digest('hex')
+}
+
+function seedHash(brandId: string): string | undefined {
+  const entry = seedEntries().get(brandId)
+  if (!entry) return undefined
+  let h = SEED_HASH.get(brandId)
+  if (!h) {
+    h = hashEntry(entry)
+    SEED_HASH.set(brandId, h)
+  }
+  return h
+}
 
 function seedEntries(): Map<string, BrandCacheEntry> {
   if (SEED) return SEED
@@ -147,7 +169,18 @@ export async function readBrandCache(brandId: string): Promise<BrandCacheEntry |
   if (cacheBackend() === 'mongodb') {
     try {
       const doc = await (await brands()).findOne({ _id: brandId })
-      if (doc) return { cachedAt: doc.cachedAt, data: doc.data }
+      if (doc) {
+        const current = doc.seedHash ? seedHash(brandId) : undefined
+        if (current && current !== doc.seedHash) {
+          // This doc is an old copy of the seed and the deploy ships newer seed data.
+          const seeded = seedEntries().get(brandId)!
+          await writeSeedBrandCache(brandId, seeded).catch((err) =>
+            console.error(`[brand-cache] re-seeding mongodb failed brand=${brandId}`, err),
+          )
+          return seeded
+        }
+        return { cachedAt: doc.cachedAt, data: doc.data }
+      }
     } catch (err) {
       console.error(`[brand-cache] mongodb read failed brand=${brandId}`, err)
       return seedEntries().get(brandId) // serve the bundled copy rather than failing the page
@@ -155,7 +188,7 @@ export async function readBrandCache(brandId: string): Promise<BrandCacheEntry |
     const seeded = seedEntries().get(brandId)
     if (seeded) {
       // First request for this brand on an empty database: copy the seed in.
-      await writeBrandCache(brandId, seeded.data, seeded.cachedAt).catch((err) =>
+      await writeSeedBrandCache(brandId, seeded).catch((err) =>
         console.error(`[brand-cache] seeding mongodb failed brand=${brandId}`, err),
       )
     }
@@ -183,13 +216,31 @@ export async function writeBrandCache(brandId: string, data: BrandAnalysis, cach
   await writeFile(join(CACHE_DIR, `${brandId}.json`), JSON.stringify(entry, null, 2), 'utf-8')
 }
 
+/**
+ * Writes a seed-derived entry (bundled seed or the committed JSON files) and
+ * tags it with the entry's hash, so a later deploy with newer seed data can
+ * replace it. Real refresh results go through writeBrandCache instead.
+ */
+export async function writeSeedBrandCache(brandId: string, entry: BrandCacheEntry): Promise<void> {
+  if (cacheBackend() !== 'mongodb') return writeBrandCache(brandId, entry.data, entry.cachedAt)
+  await (await brands()).replaceOne(
+    { _id: brandId },
+    { cachedAt: entry.cachedAt, data: entry.data, updatedAt: new Date().toISOString(), seedHash: hashEntry(entry) },
+    { upsert: true },
+  )
+}
+
 /** Every cached brand in one query (the collection is small: ~65 docs, ~1.3 MB). */
 export async function listBrandCache(): Promise<Array<BrandCacheListing>> {
   if (cacheBackend() === 'mongodb') {
     let fromDb: Array<BrandCacheListing> = []
     try {
       const docs = await (await brands()).find({}).toArray()
-      fromDb = docs.map((d) => ({ brandId: d._id, cachedAt: d.cachedAt, data: d.data }))
+      fromDb = docs.map((d) => {
+        const current = d.seedHash ? seedHash(d._id) : undefined
+        if (current && current !== d.seedHash) return { brandId: d._id, ...seedEntries().get(d._id)! } // newer seed wins
+        return { brandId: d._id, cachedAt: d.cachedAt, data: d.data }
+      })
     } catch (err) {
       console.error('[brand-cache] mongodb list failed', err)
     }

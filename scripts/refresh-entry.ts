@@ -10,4 +10,5 @@ export {
   ALL_RETAILER_BRANDS,
 } from '../src/lib/igraal-brands'
 export { refreshBrands, selectBrandsToRefresh, runSweep, getSweepStatus, firecrawlRemainingCredits } from '../src/lib/cache-refresh.server'
-export { cacheBackend, closeCacheStore, listBrandCache, readBrandCache, writeBrandCache, writeRefreshState } from '../src/lib/brand-cache.server'
+export { cacheBackend, closeCacheStore, listBrandCache, readBrandCache, writeBrandCache, writeSeedBrandCache, writeRefreshState } from '../src/lib/brand-cache.server'
+export { addSourceDates, extractDateFromHtml } from '../src/lib/source-dates.server'

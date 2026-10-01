@@ -15,7 +15,9 @@
         "checkedBy": [
           {
             "publisher": "Red Dot Design Award",
-            "sourceUrl": "https://www.red-dot.org/project/laifen-wave-electric-toothbrush-82765"
+            "sourceUrl": "https://www.red-dot.org/project/laifen-wave-electric-toothbrush-82765",
+            "publishedDate": "2026-09-30",
+            "year": 2025
           }
         ]
       }
@@ -53,7 +55,8 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "good"
+        "sustainabilityVerdict": "good",
+        "publishedDate": "2026-09-30"
       }
     ],
     "legalMatters": [],

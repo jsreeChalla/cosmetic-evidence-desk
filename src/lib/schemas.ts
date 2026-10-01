@@ -155,6 +155,10 @@ export interface ResearchPaper {
   publisher: string
   fundingDisclosure?: string
   year?: number
+  // When the source was published / last updated, from the page's own
+  // metadata — see source-dates.server.ts. Absent = not stated.
+  publishedDate?: string
+  updatedDate?: string
   sourceUrl: string
   pdfUrl?: string
   independence: Independence
@@ -195,7 +199,19 @@ export interface BrandClaim {
   match: ClaimMatch
   // The independent source(s) backing `match`. Always set when match is
   // 'confirmed', 'contradicted', or 'inconclusive'; never set for 'no-data'.
-  checkedBy?: Array<{ publisher: string; sourceUrl: string }>
+  checkedBy?: Array<SourceRef>
+  // When the brand's own claim page was published/updated (page metadata).
+  publishedDate?: string
+  updatedDate?: string
+  year?: number
+}
+
+export interface SourceRef {
+  publisher: string
+  sourceUrl: string
+  publishedDate?: string
+  updatedDate?: string
+  year?: number
 }
 
 export const LegalMatterExtractionSchema = z.object({
@@ -213,6 +229,10 @@ export interface LegalMatter {
   entity: string
   status: LegalStatus
   year?: number
+  // When the source was published / last updated, from the page's own
+  // metadata — see source-dates.server.ts. Absent = not stated.
+  publishedDate?: string
+  updatedDate?: string
   summary: string
   sourceUrl: string
   quote: string

@@ -12,7 +12,10 @@
         "quote": "80 % recycled or sustainably sourced materials in our commercial products, including 32 percent recycled materials in 2025",
         "sourceUrl": "https://hmgroup.com/about-us/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2020-02-29",
+        "updatedDate": "2026-09-24",
+        "year": 2026
       },
       {
         "category": "material-sourcing",
@@ -20,7 +23,10 @@
         "quote": "Increase the use of recycled or sustainably sourced materials* in commercial products to 100 percent, with the aim of reaching 50 percent recycled materials.",
         "sourceUrl": "https://hmgroup.com/sustainability/circularity-and-climate/materials/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2021-12-10",
+        "updatedDate": "2026-10-01",
+        "year": 2026
       },
       {
         "category": "labour-ethics",
@@ -32,13 +38,21 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/how-ethical-is-hm/"
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-hm/",
+            "publishedDate": "2024-09-12",
+            "updatedDate": "2026-09-24",
+            "year": 2026
           },
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/hm-hennes-mauritz-ab"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/hm-hennes-mauritz-ab",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           }
-        ]
+        ],
+        "publishedDate": "2020-03-20",
+        "updatedDate": "2026-09-24",
+        "year": 2026
       },
       {
         "category": "safety",
@@ -46,7 +60,10 @@
         "quote": "We were one of the first signatories of the Accord on Fire and Building Safety in Bangladesh, which was signed in 2013.",
         "sourceUrl": "https://hmgroup.com/sustainability/fair-and-equal/working-conditions/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2020-03-20",
+        "updatedDate": "2026-09-24",
+        "year": 2026
       }
     ],
     "papers": [
@@ -121,7 +138,10 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2024-09-12",
+        "updatedDate": "2026-09-24",
+        "year": 2026
       },
       {
         "title": "Company ethical profile: H&M Hennes & Mauritz AB",
@@ -160,7 +180,9 @@
             "category": "animal-welfare",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2018-05-13",
+        "year": 2018
       }
     ],
     "legalMatters": [
@@ -172,7 +194,9 @@
         "summary": "A 2022 class action alleging H&M's 'Conscious Choice' collection was deceptively marketed as sustainable was dismissed by a federal judge in May 2023.",
         "sourceUrl": "https://www.classaction.org/news/handm-hit-with-another-greenwashing-class-action-over-allegedly-false-conscious-choice-sustainability-claims",
         "quote": "A class action claims that clothing in H&M’s “Conscious Choice” collection is misrepresented as sustainable given that the items are made from environmentally harmful materials.",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2022-11-07",
+        "updatedDate": "2026-02-09"
       },
       {
         "title": "Greenwashing suit over recycled and organic clothing claims allowed to proceed",
@@ -182,7 +206,9 @@
         "summary": "A federal judge in Missouri ruled that a greenwashing suit accusing H&M of false statements about its recycled and organic products can move forward.",
         "sourceUrl": "https://www.law.com/2026/02/23/greenwashing-allegations-against-hm-over-recycled-clothing-claim-can-proceed-fed-judge-rules/",
         "quote": "A greenwashing suit accusing clothing company H&M of making false and misleading statements about its recycled and organic products is moving forward after a federal judge in Missouri determined a customer sufficiently alleged claims",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2026-02-23",
+        "updatedDate": "2026-02-23"
       }
     ],
     "sourcesConsulted": 29,

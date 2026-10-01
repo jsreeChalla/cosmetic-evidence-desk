@@ -17,7 +17,9 @@
             "publisher": "Good On You",
             "sourceUrl": "https://directory.goodonyou.eco/brand/printemps"
           }
-        ]
+        ],
+        "publishedDate": "2024-08-09",
+        "year": 2024
       },
       {
         "category": "labour-ethics",
@@ -31,7 +33,9 @@
             "publisher": "Good On You",
             "sourceUrl": "https://directory.goodonyou.eco/brand/printemps"
           }
-        ]
+        ],
+        "publishedDate": "2024-08-09",
+        "year": 2024
       },
       {
         "category": "vegan",
@@ -124,7 +128,9 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "mixed"
+        "sustainabilityVerdict": "mixed",
+        "publishedDate": "2019-06-25",
+        "year": 2019
       }
     ],
     "legalMatters": [],

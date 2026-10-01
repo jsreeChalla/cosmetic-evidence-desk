@@ -16,11 +16,17 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/"
+            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/",
+            "publishedDate": "2026-06-08",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/kiko/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/kiko/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2026-03-31",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -42,7 +48,10 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/"
+            "sourceUrl": "https://consciousbunny.com/brand/kiko-milano/",
+            "publishedDate": "2026-06-08",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           }
         ]
       },
@@ -52,7 +61,10 @@
         "checkedBy": [
           {
             "publisher": "BritainReviews",
-            "sourceUrl": "https://britainreviews.co.uk/online-shopping/kiko-milano-reviews"
+            "sourceUrl": "https://britainreviews.co.uk/online-shopping/kiko-milano-reviews",
+            "publishedDate": "2017-05-07",
+            "updatedDate": "2024-11-29",
+            "year": 2024
           }
         ]
       }
@@ -103,7 +115,10 @@
             "category": "vegan",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-08",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is KIKO Milano Cruelty-Free?",
@@ -136,7 +151,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2026-03-31",
+        "year": 2026
       },
       {
         "title": "Is KIKO Milano Cruelty-Free in 2026?",
@@ -202,7 +220,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2017-05-07",
+        "updatedDate": "2024-11-29",
+        "year": 2024
       }
     ],
     "legalMatters": [],

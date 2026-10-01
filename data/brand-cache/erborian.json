@@ -16,7 +16,9 @@
         "checkedBy": [
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/erborian/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/erborian/",
+            "publishedDate": "2024-05-09",
+            "year": 2024
           },
           {
             "publisher": "Bunny Search",
@@ -79,7 +81,9 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2024-05-09",
+        "year": 2024
       },
       {
         "title": "Is Erborian Cruelty-Free in 2026?",

@@ -18,7 +18,7 @@ if (!process.env.MONGODB_URI) {
   process.exit(1);
 }
 
-const { writeBrandCache, writeRefreshState, listBrandCache, closeCacheStore } = await import('./_bundled-refresh-entry.mjs');
+const { writeSeedBrandCache, writeRefreshState, listBrandCache, closeCacheStore } = await import('./_bundled-refresh-entry.mjs');
 const dir = join(process.cwd(), 'data', 'brand-cache');
 const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
 const dbName = process.env.MONGODB_DB || 'reliability-check';
@@ -31,7 +31,7 @@ for (const f of files) {
   try {
     const { cachedAt, data } = JSON.parse(await readFile(join(dir, f), 'utf-8'));
     if (!cachedAt || !data) throw new Error('missing cachedAt/data');
-    if (!dryRun) await writeBrandCache(brandId, data, cachedAt);
+    if (!dryRun) await writeSeedBrandCache(brandId, { cachedAt, data }); // tagged as seed-derived, so newer committed data replaces it
     ok++;
     console.log(`ok   ${brandId} (cachedAt ${cachedAt})`);
   } catch (err) {

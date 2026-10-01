@@ -16,7 +16,10 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/"
+            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/",
+            "publishedDate": "2026-06-08",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -24,9 +27,15 @@
           },
           {
             "publisher": "PETA",
-            "sourceUrl": "https://crueltyfree.peta.org/company/revolution-beauty/"
+            "sourceUrl": "https://crueltyfree.peta.org/company/revolution-beauty/",
+            "publishedDate": "2019-12-06",
+            "updatedDate": "2020-06-30",
+            "year": 2020
           }
-        ]
+        ],
+        "publishedDate": "2021-09-27",
+        "updatedDate": "2024-06-19",
+        "year": 2024
       },
       {
         "category": "vegan",
@@ -38,13 +47,19 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/"
+            "sourceUrl": "https://consciousbunny.com/brand/revolution-beauty/",
+            "publishedDate": "2026-06-08",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
             "sourceUrl": "https://bunnysearch.app/brands/revolutionbeauty"
           }
-        ]
+        ],
+        "publishedDate": "2021-09-27",
+        "updatedDate": "2024-06-19",
+        "year": 2024
       },
       {
         "category": "sustainability",
@@ -52,7 +67,10 @@
         "quote": "reducing plastic consumption by over 50 tonnes in our 2020 Gift collection. That's equal to roughly 3 million plastic water bottles. In early 2021 we switched our Fixing Spray bottles - over one million of them - to 100% recycled plastic.",
         "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2021-09-27",
+        "updatedDate": "2024-06-19",
+        "year": 2024
       },
       {
         "category": "safety",
@@ -60,7 +78,10 @@
         "quote": "all our products are assessed for safety against regulations in EU, UK, US, Canada, Australia, New Zealand, South Africa, Middle East and most major South American countries. All our factories comply with Good Manufacturing Practices (GMP).",
         "sourceUrl": "https://revolutionbeautyplc.com/corporate-responsibility/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2021-09-27",
+        "updatedDate": "2024-06-19",
+        "year": 2024
       },
       {
         "category": "labour-ethics",
@@ -72,9 +93,15 @@
         "checkedBy": [
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/revolution/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/revolution/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-08-18",
+            "year": 2026
           }
-        ]
+        ],
+        "publishedDate": "2021-09-27",
+        "updatedDate": "2024-06-19",
+        "year": 2024
       }
     ],
     "papers": [
@@ -114,7 +141,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-08",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Revolution Beauty Cruelty-Free in 2026?",
@@ -180,7 +210,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-06",
+        "updatedDate": "2020-06-30",
+        "year": 2020
       },
       {
         "title": "Revolution - Make Up: Ethical Sustainable Comparison",
@@ -220,7 +253,10 @@
             "category": "labour-ethics",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-08-18",
+        "year": 2026
       },
       {
         "title": "Revolution Beauty Group plc - Climate Data, Carbon Emissions & Sustainability Report",

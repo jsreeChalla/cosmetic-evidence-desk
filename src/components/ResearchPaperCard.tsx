@@ -1,4 +1,5 @@
 import type { Independence, ResearchPaper, Scope, Verdict } from '~/lib/schemas'
+import { sourceDateLabel, sourceDateShort } from '~/lib/dates'
 
 const INDEPENDENCE_LABEL: Record<Independence, string> = {
   independent: 'Independent',
@@ -53,8 +54,7 @@ export function ResearchPaperCard(props: { paper: ResearchPaper }) {
     <article className="rounded-lg border border-hairline bg-white p-5 shadow-sm">
       <h4 className="text-base font-semibold">{paper.title}</h4>
       <p className="mt-0.5 text-sm text-slate-500">
-        {paper.publisher}
-        {paper.year ? ` · ${paper.year}` : ''}
+        {paper.publisher} · <span className="whitespace-nowrap">{sourceDateLabel(paper)}</span>
       </p>
 
       <div className="mt-2 flex flex-wrap gap-1.5">
@@ -80,7 +80,12 @@ export function ResearchPaperCard(props: { paper: ResearchPaper }) {
           {paper.findings.map((finding, i) => (
             <li key={i}>
               <p className="text-sm">{finding.text}</p>
-              <blockquote>“{finding.quote}”</blockquote>
+              <blockquote>
+                “{finding.quote}”
+                <footer className="mt-1 text-xs not-italic text-slate-500">
+                  — {paper.publisher}, {sourceDateShort(paper)}
+                </footer>
+              </blockquote>
               <VerificationBadge verified={finding.quoteVerification === 'verified'} />
             </li>
           ))}

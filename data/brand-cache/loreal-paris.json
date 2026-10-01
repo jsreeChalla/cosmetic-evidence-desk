@@ -16,13 +16,19 @@
         "checkedBy": [
           {
             "publisher": "PETA (People for the Ethical Treatment of Animals)",
-            "sourceUrl": "https://www.peta.org/faq/is-loreal-cruelty-free/"
+            "sourceUrl": "https://www.peta.org/faq/is-loreal-cruelty-free/",
+            "publishedDate": "2010-07-07",
+            "updatedDate": "2024-12-10",
+            "year": 2024
           },
           {
             "publisher": "Good On You",
             "sourceUrl": "https://directory.goodonyou.eco/brand/loreal-paris-beauty"
           }
-        ]
+        ],
+        "publishedDate": "2020-04-27",
+        "updatedDate": "2020-04-27",
+        "year": 2020
       },
       {
         "category": "sustainability",
@@ -30,7 +36,9 @@
         "quote": "By 2025, we will reach 100% renewable energy for our operated sites. 2023 results : 91%, 2030 goals : 100%",
         "sourceUrl": "https://www.loreal-finance.com/en/annual-report-2023/social-environmental-performance/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "updatedDate": "2024-03-19",
+        "year": 2024
       },
       {
         "category": "vegan",
@@ -85,7 +93,10 @@
           }
         ],
         "safetyVerdict": "concerning",
-        "sustainabilityVerdict": "unclear"
+        "sustainabilityVerdict": "unclear",
+        "publishedDate": "2026-06-04",
+        "updatedDate": "2026-06-04",
+        "year": 2026
       },
       {
         "title": "For Beauty With No Animal Testing",
@@ -112,7 +123,10 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "unclear"
+        "sustainabilityVerdict": "unclear",
+        "publishedDate": "2020-04-27",
+        "updatedDate": "2020-04-27",
+        "year": 2020
       },
       {
         "title": "L'Oréal is included on PETA's \"do test\" list. What does that mean?",
@@ -145,7 +159,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2010-07-07",
+        "updatedDate": "2024-12-10",
+        "year": 2024
       },
       {
         "title": "L'Oréal Paris - Sustainability Rating",
@@ -232,7 +249,9 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "mixed"
+        "sustainabilityVerdict": "mixed",
+        "updatedDate": "2024-03-19",
+        "year": 2024
       }
     ],
     "legalMatters": [
@@ -244,7 +263,9 @@
         "summary": "Six class action lawsuits allege L'Oréal-owned CeraVe benzoyl peroxide acne products contain benzene, a known carcinogen; consolidated in the Southern District of New York with no decision reached.",
         "sourceUrl": "https://www.snopes.com/fact-check/class-action-lawsuits-cerave-loreal/",
         "quote": "Snopes identified six ongoing lawsuits against L'Oréal, CeraVe's parent company, after an independent lab called Valisure — which was founded by former Yale students — identified high levels of benzene",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2026-06-04",
+        "updatedDate": "2026-06-04"
       }
     ],
     "sourcesConsulted": 34,

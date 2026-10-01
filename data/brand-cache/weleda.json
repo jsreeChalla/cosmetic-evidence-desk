@@ -20,21 +20,31 @@
           },
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-07-06",
+            "year": 2026
           },
           {
             "publisher": "Trusted Labels",
-            "sourceUrl": "https://trustedlabels.co/brands/weleda/"
+            "sourceUrl": "https://trustedlabels.co/brands/weleda/",
+            "updatedDate": "2026-06-21",
+            "year": 2026
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/",
+            "publishedDate": "2026-06-06",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
             "sourceUrl": "https://bunnysearch.app/brands/weleda"
           }
-        ]
+        ],
+        "publishedDate": "2026-03-25",
+        "year": 2026
       },
       {
         "category": "labour-ethics",
@@ -50,11 +60,17 @@
         "checkedBy": [
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-07-06",
+            "year": 2026
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/",
+            "publishedDate": "2026-06-06",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -68,15 +84,23 @@
         "checkedBy": [
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/weleda-skincare/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-07-06",
+            "year": 2026
           },
           {
             "publisher": "Trusted Labels",
-            "sourceUrl": "https://trustedlabels.co/brands/weleda/"
+            "sourceUrl": "https://trustedlabels.co/brands/weleda/",
+            "updatedDate": "2026-06-21",
+            "year": 2026
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/weleda/"
+            "sourceUrl": "https://consciousbunny.com/brand/weleda/",
+            "publishedDate": "2026-06-06",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -150,7 +174,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-07-06",
+        "year": 2026
       },
       {
         "title": "Weleda Review: Ingredients & Ownership",
@@ -190,7 +217,9 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "updatedDate": "2026-06-21",
+        "year": 2026
       },
       {
         "title": "Is Weleda Cruelty-Free, Vegan Or Clean?",
@@ -233,7 +262,10 @@
             "category": "vegan",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-06",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Weleda Cruelty-Free in 2026?",

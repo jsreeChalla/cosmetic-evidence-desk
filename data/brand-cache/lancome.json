@@ -12,7 +12,10 @@
         "quote": "Each and every ingredient used in our products has been thoroughly reviewed and tested by our internal safety team made up of toxicologists, clinicians, pharmacists and physicians.",
         "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       },
       {
         "category": "cruelty-free",
@@ -24,11 +27,17 @@
         "checkedBy": [
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/lancome/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2021-07-06",
+            "year": 2021
           },
           {
             "publisher": "PETA",
-            "sourceUrl": "https://crueltyfree.peta.org/company/lancome-loreal/"
+            "sourceUrl": "https://crueltyfree.peta.org/company/lancome-loreal/",
+            "publishedDate": "2019-12-05",
+            "updatedDate": "2020-06-18",
+            "year": 2020
           },
           {
             "publisher": "Bunny Search",
@@ -40,17 +49,29 @@
           },
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-09-02",
+            "year": 2026
           },
           {
             "publisher": "Insider Beauty",
-            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome"
+            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome",
+            "publishedDate": "2026-03-07",
+            "updatedDate": "2026-08-30",
+            "year": 2026
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/lancome/"
+            "sourceUrl": "https://consciousbunny.com/brand/lancome/",
+            "publishedDate": "2026-06-06",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       },
       {
         "category": "vegan",
@@ -66,7 +87,10 @@
           },
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/lancome/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-09-02",
+            "year": 2026
           }
         ]
       },
@@ -86,11 +110,17 @@
         "checkedBy": [
           {
             "publisher": "Insider Beauty",
-            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome"
+            "sourceUrl": "https://www.insiderbeauty.com/brands/lancome",
+            "publishedDate": "2026-03-07",
+            "updatedDate": "2026-08-30",
+            "year": 2026
           },
           {
             "publisher": "The Dermatology Review",
-            "sourceUrl": "https://thedermreview.com/lancome-skin-care/"
+            "sourceUrl": "https://thedermreview.com/lancome-skin-care/",
+            "publishedDate": "2023-01-09",
+            "updatedDate": "2026-09-18",
+            "year": 2026
           }
         ]
       }
@@ -127,7 +157,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       },
       {
         "title": "Is Lancôme (L'Oreal) Cruelty-Free?",
@@ -154,7 +187,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-05",
+        "updatedDate": "2020-06-18",
+        "year": 2020
       },
       {
         "title": "Is Lancôme Cruelty-Free in 2026?",
@@ -280,7 +316,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-09-02",
+        "year": 2026
       },
       {
         "title": "Lancôme Review 2026: What's Worth It, What to Skip",
@@ -323,7 +362,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-03-07",
+        "updatedDate": "2026-08-30",
+        "year": 2026
       },
       {
         "title": "Lancôme Skin Care Review",
@@ -356,7 +398,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2023-01-09",
+        "updatedDate": "2026-09-18",
+        "year": 2026
       },
       {
         "title": "Is Lancome Cruelty-Free, Vegan Or Clean?",
@@ -395,7 +440,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-06",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       }
     ],
     "legalMatters": [],

@@ -1,4 +1,5 @@
-import type { BrandClaim, ClaimCategory } from '~/lib/schemas'
+import type { BrandClaim, ClaimCategory, SourceRef } from '~/lib/schemas'
+import { sourceDateShort } from '~/lib/dates'
 
 // Aligned to the semantic status tokens in styles.css (--color-status-*) so
 // every verdict in the app — this card, paper badges, legal-matter status —
@@ -13,7 +14,7 @@ const MATCH_STATUS: Record<BrandClaim['match'], { icon: string; label: string; t
 
 const NO_CLAIM = { icon: '–', label: 'No public claim found', tint: 'bg-status-unclear-tint', fg: 'text-status-unclear' }
 
-function SourceList({ sources }: { sources: Array<{ publisher: string; sourceUrl: string }> }) {
+function SourceList({ sources }: { sources: Array<SourceRef> }) {
   return (
     <>
       {sources.map((s, i) => (
@@ -26,7 +27,8 @@ function SourceList({ sources }: { sources: Array<{ publisher: string; sourceUrl
             className="tap-area-y underline hover:text-slate-600"
           >
             {s.publisher}
-          </a>
+          </a>{' '}
+          <span className="whitespace-nowrap">({sourceDateShort(s)})</span>
         </span>
       ))}
     </>
@@ -59,6 +61,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
               <p className="prose-body text-sm">{claim.claim}</p>
               <blockquote className="mt-1 text-xs text-slate-500">
                 “{claim.quote}”
+                <span className="whitespace-nowrap"> — source, {sourceDateShort(claim)}</span>
                 {claim.sourceUrl && (
                   <>
                     {' '}
@@ -73,9 +76,10 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
                   </>
                 )}
               </blockquote>
-              {claim.match === 'inconclusive' && claim.checkedBy && claim.checkedBy.length > 0 && (
+              {claim.checkedBy && claim.checkedBy.length > 0 && (
                 <p className="mt-2 text-xs text-slate-400">
-                  Checked by <SourceList sources={claim.checkedBy} /> — no conclusive finding either way.
+                  Checked by <SourceList sources={claim.checkedBy} />
+                  {claim.match === 'inconclusive' ? ' — no conclusive finding either way.' : '.'}
                 </p>
               )}
             </>

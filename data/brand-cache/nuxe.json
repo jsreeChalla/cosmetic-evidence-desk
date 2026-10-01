@@ -27,11 +27,17 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/nuxe/"
+            "sourceUrl": "https://consciousbunny.com/brand/nuxe/",
+            "publishedDate": "2026-06-07",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nuxe/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nuxe/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2026-03-31",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -39,7 +45,10 @@
           },
           {
             "publisher": "PETA",
-            "sourceUrl": "https://crueltyfree.peta.org/company/nuxe/"
+            "sourceUrl": "https://crueltyfree.peta.org/company/nuxe/",
+            "publishedDate": "2025-09-06",
+            "updatedDate": "2025-09-06",
+            "year": 2025
           }
         ]
       },
@@ -87,7 +96,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-07",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Nuxe Cruelty-Free?",
@@ -115,7 +127,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2026-03-31",
+        "year": 2026
       },
       {
         "title": "Is Nuxe Cruelty-Free in 2026?",
@@ -179,7 +194,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2025-09-06",
+        "updatedDate": "2025-09-06",
+        "year": 2025
       },
       {
         "title": "Nuxe reinforces long-standing commitment to sustainable beauty through wide-ranging CSR strategy",
@@ -212,7 +230,9 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "good"
+        "sustainabilityVerdict": "good",
+        "publishedDate": "2025-08-07",
+        "year": 2025
       },
       {
         "title": "Nuxe Group announces sustainability milestones on 'path of positive transformation'",
@@ -252,7 +272,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2023-07-03",
+        "updatedDate": "2024-07-17",
+        "year": 2024
       }
     ],
     "legalMatters": [],

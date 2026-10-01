@@ -11,7 +11,8 @@
     "test:logic": "esbuild src/lib/research.server.ts --bundle --platform=node --format=esm --outfile=scripts/_bundled-research-server.mjs --external:ai --external:@ai-sdk/anthropic && node scripts/test-pipeline-logic.mjs",
     "refresh-cache:build": "esbuild scripts/refresh-entry.ts --bundle --platform=node --format=esm --outfile=scripts/_bundled-refresh-entry.mjs --banner:js=\"import { createRequire as __crq } from 'node:module'; const require = __crq(import.meta.url);\"",
     "refresh-cache": "npm run refresh-cache:build && node scripts/refresh-brand-cache.mjs",
-    "migrate-cache": "npm run refresh-cache:build && node scripts/migrate-cache-to-db.mjs"
+    "migrate-cache": "npm run refresh-cache:build && node scripts/migrate-cache-to-db.mjs",
+    "backfill-dates": "npm run refresh-cache:build && node scripts/backfill-source-dates.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.0",

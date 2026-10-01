@@ -11,7 +11,10 @@
         "checkedBy": [
           {
             "publisher": "AllReviews",
-            "sourceUrl": "https://allreviews.ca/online-shopping/boticinal-reviews"
+            "sourceUrl": "https://allreviews.ca/online-shopping/boticinal-reviews",
+            "publishedDate": "2026-02-08",
+            "updatedDate": "2026-06-01",
+            "year": 2026
           }
         ]
       }
@@ -53,7 +56,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2026-02-08",
+        "updatedDate": "2026-06-01",
+        "year": 2026
       }
     ],
     "legalMatters": [],

@@ -23,7 +23,9 @@
         "checkedBy": [
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           }
         ]
       },
@@ -37,7 +39,10 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
+            "publishedDate": "2024-04-16",
+            "updatedDate": "2024-04-24",
+            "year": 2024
           },
           {
             "publisher": "BrandScore",
@@ -55,11 +60,16 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
+            "publishedDate": "2024-04-16",
+            "updatedDate": "2024-04-24",
+            "year": 2024
           },
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           }
         ]
       },
@@ -69,11 +79,16 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/adidas-ethical/"
+            "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
+            "publishedDate": "2024-04-16",
+            "updatedDate": "2024-04-24",
+            "year": 2024
           },
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/adidas-ag",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           },
           {
             "publisher": "BrandScore",
@@ -134,7 +149,10 @@
             "category": "material-sourcing",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2024-04-16",
+        "updatedDate": "2024-04-24",
+        "year": 2024
       },
       {
         "title": "How ethical is Adidas AG?",
@@ -178,7 +196,9 @@
             "category": "animal-welfare",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2018-05-13",
+        "year": 2018
       },
       {
         "title": "Is Adidas a Good Company? Ethics, Sustainability & Ratings (2026)",
@@ -263,7 +283,9 @@
         "summary": "France's advertising jury (JDP) ruled that Adidas's '50% recycled' Stan Smith campaign broke advertising rules and misled consumers over recycled content.",
         "sourceUrl": "https://goodonyou.eco/adidas-ethical/",
         "quote": "According to the French Jury de Déontologie Publicitaire (JDP), Adidas’ “Stan Smith Forever. 100% iconic, 50% recycled” campaign broke advertising rules and misled consumers.",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2024-04-16",
+        "updatedDate": "2024-04-24"
       }
     ],
     "sourcesConsulted": 30,

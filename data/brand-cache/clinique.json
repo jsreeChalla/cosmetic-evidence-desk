@@ -20,11 +20,17 @@
         "checkedBy": [
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/clinique/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/clinique/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2021-07-06",
+            "year": 2021
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/clinique/"
+            "sourceUrl": "https://consciousbunny.com/brand/clinique/",
+            "publishedDate": "2026-06-07",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Bunny Search",
@@ -50,7 +56,10 @@
           },
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/clinique-skincare/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/clinique-skincare/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-08-18",
+            "year": 2026
           }
         ]
       },
@@ -102,7 +111,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       },
       {
         "title": "Is Clinique Cruelty-Free, Vegan Or Clean?",
@@ -141,7 +153,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-07",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Clinique Cruelty-Free in 2026?",
@@ -306,7 +321,10 @@
             "category": "vegan",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-08-18",
+        "year": 2026
       },
       {
         "title": "Clinique Sustainable Packaging: Materials, Metrics & Sourcing",

@@ -33,11 +33,17 @@
         "checkedBy": [
           {
             "publisher": "Daily Security Review",
-            "sourceUrl": "https://dailysecurityreview.com/security-spotlight/dell-investigates-data-breach-claims-after-hacker-leaks-employee-info/"
+            "sourceUrl": "https://dailysecurityreview.com/security-spotlight/dell-investigates-data-breach-claims-after-hacker-leaks-employee-info/",
+            "publishedDate": "2024-09-25",
+            "updatedDate": "2024-09-25",
+            "year": 2024
           },
           {
             "publisher": "BreachHistory",
-            "sourceUrl": "https://breachhistory.com/blog/dell-data-breaches-full-timeline-through-2026"
+            "sourceUrl": "https://breachhistory.com/blog/dell-data-breaches-full-timeline-through-2026",
+            "publishedDate": "2026-07-02",
+            "updatedDate": "2026-07-02",
+            "year": 2026
           }
         ]
       }
@@ -152,7 +158,10 @@
             "category": "data-privacy",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2024-09-25",
+        "updatedDate": "2024-09-25",
+        "year": 2024
       },
       {
         "title": "Dell Data Breaches: Full Timeline Through 2026",
@@ -190,7 +199,10 @@
             "category": "data-privacy",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-07-02",
+        "updatedDate": "2026-07-02",
+        "year": 2026
       }
     ],
     "legalMatters": [
@@ -202,7 +214,9 @@
         "summary": "New York AG Andrew Cuomo sued Dell over false advertising and deceptive business practices, and a state Supreme Court justice found Dell had engaged in fraud and deceptive practices.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
         "quote": "Andrew Cuomo filed a lawsuit against Dell for \" false advertising and deceptive business practices, including offering misleading financing, and failing to honor rebates, warranties and service contracts\"",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2009-12-28",
+        "updatedDate": "2026-08-11"
       },
       {
         "title": "OptiPlex faulty capacitor civil case",
@@ -212,7 +226,9 @@
         "summary": "A civil case alleged Dell shipped millions of computers with faulty capacitors and knowingly concealed the component problems from customers.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
         "quote": "Dell shipped at least 11.8 million computers from May 2003 to July 2005 that were at risk of failing because of faulty capacitors made by the Japanese manufacturer Nichicon",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2009-12-28",
+        "updatedDate": "2026-08-11"
       },
       {
         "title": "Gilbert v. Dell gender identity discrimination arbitration",
@@ -222,7 +238,9 @@
         "summary": "A transgender employee filed suit for discriminatory termination, and an arbitrator ruled Dell had terminated the employee because of gender identity and disability.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Lawsuits_involving_Dell_Inc.",
         "quote": "the Arbitrator ruled that Dell had terminated the employee because of gender identity and disability",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2009-12-28",
+        "updatedDate": "2026-08-11"
       }
     ],
     "sourcesConsulted": 34,

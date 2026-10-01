@@ -1,4 +1,4 @@
-export function Hero(props: { checkedCount: number; totalCount: number }) {
+export function Hero(props: { checkedCount: number; independentCount: number; totalCount: number }) {
   return (
     <section className="rounded-2xl bg-accent-tint px-6 py-10 sm:px-10 sm:py-14">
       <div className="mx-auto max-w-2xl text-center">
@@ -11,9 +11,17 @@ export function Hero(props: { checkedCount: number; totalCount: number }) {
           safety, sustainability, labour practices and more — every claim quoted and
           source-checked, never guessed.
         </p>
-        <p className="mt-4 text-sm text-slate-500">
-          {props.checkedCount} of {props.totalCount} brands checked so far.
-        </p>
+        {props.checkedCount > 0 && (
+          <p className="mt-4 text-sm text-slate-500">
+            {props.checkedCount} brands researched · {props.independentCount} with independent evidence
+            {props.checkedCount > props.independentCount && (
+              <span className="block text-xs text-slate-400">
+                For the other {props.checkedCount - props.independentCount}, no independently published source has
+                been found yet.
+              </span>
+            )}
+          </p>
+        )}
       </div>
     </section>
   )

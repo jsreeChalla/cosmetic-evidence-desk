@@ -16,13 +16,22 @@
         "checkedBy": [
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/make-up-for-ever/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/make-up-for-ever/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2021-02-27",
+            "year": 2021
           },
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/makeup-forever/"
+            "sourceUrl": "https://consciousbunny.com/brand/makeup-forever/",
+            "publishedDate": "2026-06-08",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-02-27",
+        "year": 2021
       },
       {
         "category": "safety",
@@ -62,7 +71,10 @@
           },
           {
             "publisher": "AllReviews",
-            "sourceUrl": "https://allreviews.ca/online-shopping/make-up-for-ever-reviews"
+            "sourceUrl": "https://allreviews.ca/online-shopping/make-up-for-ever-reviews",
+            "publishedDate": "2023-01-09",
+            "updatedDate": "2024-11-29",
+            "year": 2024
           }
         ]
       }
@@ -105,7 +117,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-02-27",
+        "year": 2021
       },
       {
         "title": "Is Makeup Forever Cruelty-Free, Vegan Or Clean?",
@@ -144,7 +159,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-08",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "All MAKEUPFOREVER Products Ranked by User Reviews",
@@ -210,7 +228,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2023-01-09",
+        "updatedDate": "2024-11-29",
+        "year": 2024
       }
     ],
     "legalMatters": [],

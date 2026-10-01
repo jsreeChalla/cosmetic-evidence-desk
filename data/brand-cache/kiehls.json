@@ -20,7 +20,10 @@
         "quote": "We at Kiehl’s do not conduct animal testing on our products or ingredients, nor ask others to test on our behalf, except when required by law.",
         "sourceUrl": "https://www.crueltyfreekitty.com/brands/kielhs/",
         "quoteVerification": "verified",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       }
     ],
     "papers": [
@@ -56,7 +59,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2021-07-06",
+        "year": 2021
       },
       {
         "title": "Is Kiehl's (L'Oreal) Cruelty-Free?",
@@ -83,7 +89,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-19",
+        "updatedDate": "2020-06-18",
+        "year": 2020
       },
       {
         "title": "How Sustainable is Kiehl's?",

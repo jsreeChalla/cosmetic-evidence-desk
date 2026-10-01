@@ -16,11 +16,17 @@
         "checkedBy": [
           {
             "publisher": "The Dermatology Review",
-            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/"
+            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/",
+            "publishedDate": "2026-03-31",
+            "updatedDate": "2026-09-30",
+            "year": 2026
           },
           {
             "publisher": "The Skin Sophisticate",
-            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review"
+            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review",
+            "publishedDate": "2025-03-03",
+            "updatedDate": "2026-08-22",
+            "year": 2026
           }
         ]
       },
@@ -30,7 +36,10 @@
         "checkedBy": [
           {
             "publisher": "Green Glow Vibes",
-            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/",
+            "publishedDate": "2025-07-31",
+            "updatedDate": "2025-07-31",
+            "year": 2025
           },
           {
             "publisher": "Bunny Search",
@@ -42,11 +51,17 @@
           },
           {
             "publisher": "The Dermatology Review",
-            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/"
+            "sourceUrl": "https://thedermreview.com/skinceuticals-reviews/",
+            "publishedDate": "2026-03-31",
+            "updatedDate": "2026-09-30",
+            "year": 2026
           },
           {
             "publisher": "The Skin Sophisticate",
-            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review"
+            "sourceUrl": "https://www.theskinsophisticate.com/skin-care/skinceuticals-best-and-worst-review",
+            "publishedDate": "2025-03-03",
+            "updatedDate": "2026-08-22",
+            "year": 2026
           }
         ]
       },
@@ -56,7 +71,10 @@
         "checkedBy": [
           {
             "publisher": "Green Glow Vibes",
-            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/",
+            "publishedDate": "2025-07-31",
+            "updatedDate": "2025-07-31",
+            "year": 2025
           },
           {
             "publisher": "Bunny Search",
@@ -74,7 +92,10 @@
         "checkedBy": [
           {
             "publisher": "Green Glow Vibes",
-            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/"
+            "sourceUrl": "https://greenglowvibes.com/is-skinceuticals-truly-cruelty-free-a-deep-dive/",
+            "publishedDate": "2025-07-31",
+            "updatedDate": "2025-07-31",
+            "year": 2025
           },
           {
             "publisher": "Good On You",
@@ -136,7 +157,10 @@
             "category": "vegan",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2025-07-31",
+        "updatedDate": "2025-07-31",
+        "year": 2025
       },
       {
         "title": "Is SkinCeuticals Cruelty-Free in 2026?",
@@ -253,7 +277,10 @@
             "category": "quality",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2026-03-31",
+        "updatedDate": "2026-09-30",
+        "year": 2026
       },
       {
         "title": "SkinCeuticals Review: The Best and Worst Products, According to Dermatologists",
@@ -293,7 +320,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2025-03-03",
+        "updatedDate": "2026-08-22",
+        "year": 2026
       }
     ],
     "legalMatters": [],

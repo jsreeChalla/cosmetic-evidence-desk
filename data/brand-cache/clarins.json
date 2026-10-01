@@ -12,7 +12,9 @@
         "quote": "We are on track to cut carbon emissions by 30% across scopes 1, 2, and 3 (vs. 2019) and achieve 100% recyclable packaging.",
         "sourceUrl": "https://www.groupeclarins.com/clarins-we-care-2030-our-commitment-to-people-planet-and-purpose/",
         "quoteVerification": "flagged",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2025-09-11",
+        "year": 2025
       },
       {
         "category": "labour-ethics",
@@ -20,7 +22,9 @@
         "quote": "100% of employee remuneration exceeds the family living wage benchmark",
         "sourceUrl": "https://www.groupeclarins.com/clarins-we-care-2030-our-commitment-to-people-planet-and-purpose/",
         "quoteVerification": "flagged",
-        "match": "no-data"
+        "match": "no-data",
+        "publishedDate": "2025-09-11",
+        "year": 2025
       },
       {
         "category": "safety",
@@ -76,7 +80,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-07",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Clarins - Skincare: Ethical Sustainable Comparison",
@@ -124,7 +131,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-07-06",
+        "year": 2026
       },
       {
         "title": "Is Clarins Cruelty-Free & Vegan in 2026?",
@@ -158,7 +168,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2026-03-31",
+        "year": 2026
       },
       {
         "title": "Is Clarins Cruelty-Free in 2026?",
@@ -227,7 +240,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-05",
+        "updatedDate": "2020-06-18",
+        "year": 2020
       }
     ],
     "legalMatters": [],

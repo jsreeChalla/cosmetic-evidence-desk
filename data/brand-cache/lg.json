@@ -31,15 +31,24 @@
         "checkedBy": [
           {
             "publisher": "BreachHistory",
-            "sourceUrl": "https://breachhistory.com/blog/lg-electronics-data-breaches-full-timeline-through-2026"
+            "sourceUrl": "https://breachhistory.com/blog/lg-electronics-data-breaches-full-timeline-through-2026",
+            "publishedDate": "2026-07-08",
+            "updatedDate": "2026-07-08",
+            "year": 2026
           },
           {
             "publisher": "PrivacySavvy",
-            "sourceUrl": "https://privacysavvy.com/news/cybersecurity/alleged-lg-secret-code-leak/"
+            "sourceUrl": "https://privacysavvy.com/news/cybersecurity/alleged-lg-secret-code-leak/",
+            "publishedDate": "2025-11-17",
+            "updatedDate": "2025-11-17",
+            "year": 2025
           },
           {
             "publisher": "The Register",
-            "sourceUrl": "https://www.theregister.com/security/2026/09/08/lg-accused-of-egregious-invasion-of-privacy-over-tv-data-collection/5294956"
+            "sourceUrl": "https://www.theregister.com/security/2026/09/08/lg-accused-of-egregious-invasion-of-privacy-over-tv-data-collection/5294956",
+            "publishedDate": "2026-09-08",
+            "updatedDate": "2026-09-09",
+            "year": 2026
           }
         ]
       }
@@ -76,7 +85,10 @@
             "category": "data-privacy",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-07-08",
+        "updatedDate": "2026-07-08",
+        "year": 2026
       },
       {
         "title": "Hackers Allegedly Dump LG's Secret Code on Dark Web in Major Leak",
@@ -109,7 +121,10 @@
             "category": "data-privacy",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2025-11-17",
+        "updatedDate": "2025-11-17",
+        "year": 2025
       },
       {
         "title": "LG accused of 'egregious invasion of privacy' over TV data collection",
@@ -148,7 +163,10 @@
             "category": "data-privacy",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-09-08",
+        "updatedDate": "2026-09-09",
+        "year": 2026
       }
     ],
     "legalMatters": [
@@ -160,7 +178,9 @@
         "summary": "A proposed class action was filed in February 2025 after LG recalled around 500,000 electric ranges whose front-mounted knobs could be turned on by accidental contact, posing a fire hazard.",
         "sourceUrl": "https://www.classaction.org/news/lg-electric-range-recall-class-action-lawsuit-filed-over-alleged-knob-defect",
         "quote": "LG Electronics USA Inc. faces a proposed class action lawsuit after it recalled around 500,000 electric ranges with front-mounted knobs that can be turned on by accidental contact, inadvertently activating the cooktop and posing a fire hazard.",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2025-02-18",
+        "updatedDate": "2025-02-26"
       },
       {
         "title": "LG electric range recall — reported fires and injuries",
@@ -170,7 +190,9 @@
         "summary": "According to the complaint, the CPSC received 86 unintentional activation reports and 28 fires with injuries and pet deaths tied to the recalled LG ranges.",
         "sourceUrl": "https://www.classaction.org/news/lg-electric-range-recall-class-action-lawsuit-filed-over-alleged-knob-defect",
         "quote": "the CPSC has received 86 reports of \"unintentional activation\" incidents associated with the LG ranges . A total of 28 fires have been reported, with eight minor injuries and three fires resulting in pet deaths",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2025-02-18",
+        "updatedDate": "2025-02-26"
       }
     ],
     "sourcesConsulted": 16,

@@ -22,7 +22,10 @@ export type FeaturedBrandGroups = Record<ClaimCategory, Array<BrandCatalogEntry>
 
 export interface FeaturedBrandsResponse {
   groups: FeaturedBrandGroups
+  // Brands with any cached research result.
   checkedCount: number
+  // Of those, brands with at least one independent source (not just the brand's own pages).
+  independentCount: number
   totalCount: number
 }
 
@@ -35,6 +38,7 @@ export const getFeaturedBrands = createServerFn({ method: 'GET' }).handler(
     ) as FeaturedBrandGroups
 
     let checkedCount = 0
+    let independentCount = 0
 
     // One bulk read (a single database query) instead of one lookup per brand.
     const cacheById = new Map((await listBrandCache()).map((e) => [e.brandId, e]))
@@ -43,6 +47,7 @@ export const getFeaturedBrands = createServerFn({ method: 'GET' }).handler(
       const cached = cacheById.get(brand.id)
       if (!cached) continue
       checkedCount++
+      if (cached.data.papers.some((p) => p.independence === 'independent')) independentCount++
 
       for (const { key } of FEATURED_CATEGORIES) {
         const claim = cached.data.claims.find((c) => c.category === key)
@@ -50,6 +55,6 @@ export const getFeaturedBrands = createServerFn({ method: 'GET' }).handler(
       }
     }
 
-    return { groups, checkedCount, totalCount: ALL_RETAILER_BRANDS.length }
+    return { groups, checkedCount, independentCount, totalCount: ALL_RETAILER_BRANDS.length }
   },
 )

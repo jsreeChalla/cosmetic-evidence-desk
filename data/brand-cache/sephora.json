@@ -24,11 +24,17 @@
           },
           {
             "publisher": "PETA",
-            "sourceUrl": "https://crueltyfree.peta.org/company/sephora-cosmetics/"
+            "sourceUrl": "https://crueltyfree.peta.org/company/sephora-cosmetics/",
+            "publishedDate": "2019-12-19",
+            "updatedDate": "2020-06-18",
+            "year": 2020
           },
           {
             "publisher": "Green Glow Vibes",
-            "sourceUrl": "https://greenglowvibes.com/is-sephora-collection-cruelty-free-a-deep-dive/"
+            "sourceUrl": "https://greenglowvibes.com/is-sephora-collection-cruelty-free-a-deep-dive/",
+            "publishedDate": "2025-07-29",
+            "updatedDate": "2025-07-29",
+            "year": 2025
           }
         ]
       },
@@ -62,11 +68,16 @@
           },
           {
             "publisher": "CheckThat.ai",
-            "sourceUrl": "https://checkthat.ai/brands/sephora/reviews"
+            "sourceUrl": "https://checkthat.ai/brands/sephora/reviews",
+            "updatedDate": "2026-08-07",
+            "year": 2026
           },
           {
             "publisher": "Top Consumer Reviews",
-            "sourceUrl": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora.php"
+            "sourceUrl": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora.php",
+            "publishedDate": "2026-10-01",
+            "updatedDate": "2026-10-01",
+            "year": 2026
           }
         ]
       }
@@ -134,7 +145,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-19",
+        "updatedDate": "2020-06-18",
+        "year": 2020
       },
       {
         "title": "Is Sephora Collection Cruelty Free? A Deep Dive",
@@ -168,7 +182,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2025-07-29",
+        "updatedDate": "2025-07-29",
+        "year": 2025
       },
       {
         "title": "Sephora: Is Sephora a Good Company? Ethics, Sustainability & Ratings",
@@ -251,7 +268,9 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "updatedDate": "2026-08-07",
+        "year": 2026
       },
       {
         "title": "Sephora Review: Beauty Stores",
@@ -284,7 +303,10 @@
             "category": "quality",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2026-10-01",
+        "updatedDate": "2026-10-01",
+        "year": 2026
       },
       {
         "title": "Sephora 2024 Global Impact Report",

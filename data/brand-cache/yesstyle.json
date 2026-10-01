@@ -12,7 +12,10 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/",
+            "publishedDate": "2023-01-17",
+            "updatedDate": "2023-11-17",
+            "year": 2023
           },
           {
             "publisher": "Good On You",
@@ -20,15 +23,24 @@
           },
           {
             "publisher": "Apartstyle",
-            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion"
+            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion",
+            "publishedDate": "2025-12-06",
+            "updatedDate": "2026-03-13",
+            "year": 2026
           },
           {
             "publisher": "My Eco Closet",
-            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/"
+            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/",
+            "publishedDate": "2024-11-11",
+            "updatedDate": "2026-03-23",
+            "year": 2026
           },
           {
             "publisher": "Your Sustainable Guide",
-            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/"
+            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/",
+            "publishedDate": "2023-12-24",
+            "updatedDate": "2023-12-24",
+            "year": 2023
           },
           {
             "publisher": "Sustainable Selections",
@@ -46,7 +58,10 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/",
+            "publishedDate": "2023-01-17",
+            "updatedDate": "2023-11-17",
+            "year": 2023
           }
         ]
       },
@@ -56,7 +71,10 @@
         "checkedBy": [
           {
             "publisher": "Good On You",
-            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/"
+            "sourceUrl": "https://goodonyou.eco/how-ethical-is-yesstyle/",
+            "publishedDate": "2023-01-17",
+            "updatedDate": "2023-11-17",
+            "year": 2023
           },
           {
             "publisher": "Good On You",
@@ -64,15 +82,24 @@
           },
           {
             "publisher": "Apartstyle",
-            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion"
+            "sourceUrl": "https://www.apartstyle.com/post/is-yesstyle-fast-fashion",
+            "publishedDate": "2025-12-06",
+            "updatedDate": "2026-03-13",
+            "year": 2026
           },
           {
             "publisher": "My Eco Closet",
-            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/"
+            "sourceUrl": "https://myecocloset.com/is-yesstyle-fast-fashion/",
+            "publishedDate": "2024-11-11",
+            "updatedDate": "2026-03-23",
+            "year": 2026
           },
           {
             "publisher": "Your Sustainable Guide",
-            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/"
+            "sourceUrl": "https://yoursustainableguide.com/is-yesstyle-fast-fashion/",
+            "publishedDate": "2023-12-24",
+            "updatedDate": "2023-12-24",
+            "year": 2023
           }
         ]
       }
@@ -119,7 +146,10 @@
             "category": "vegan",
             "verdict": "unclear"
           }
-        ]
+        ],
+        "publishedDate": "2023-01-17",
+        "updatedDate": "2023-11-17",
+        "year": 2023
       },
       {
         "title": "YesStyle - Sustainability Rating",
@@ -193,7 +223,10 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2025-12-06",
+        "updatedDate": "2026-03-13",
+        "year": 2026
       },
       {
         "title": "Is YesStyle Fast Fashion? 2026 Verdict",
@@ -233,7 +266,10 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2024-11-11",
+        "updatedDate": "2026-03-23",
+        "year": 2026
       },
       {
         "title": "Is YesStyle Fast Fashion? Ethical & Sustainability Rating",
@@ -267,7 +303,10 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2023-12-24",
+        "updatedDate": "2023-12-24",
+        "year": 2023
       },
       {
         "title": "Is YesStyle Ethical or Fast Fashion? Learn the Truth of This Online Fashion Retailer",

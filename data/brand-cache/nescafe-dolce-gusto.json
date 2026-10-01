@@ -28,11 +28,16 @@
         "checkedBy": [
           {
             "publisher": "ESG Today",
-            "sourceUrl": "https://www.esgtoday.com/nestle-launches-project-to-improve-human-rights-in-coffee-supply-chain/"
+            "sourceUrl": "https://www.esgtoday.com/nestle-launches-project-to-improve-human-rights-in-coffee-supply-chain/",
+            "publishedDate": "2026-04-01",
+            "updatedDate": "2026-04-01",
+            "year": 2026
           },
           {
             "publisher": "CXTMS Insights",
-            "sourceUrl": "https://cxtms.com/blog/coffee-supply-chain-labor-rights-logistics-compliance"
+            "sourceUrl": "https://cxtms.com/blog/coffee-supply-chain-labor-rights-logistics-compliance",
+            "publishedDate": "2026-04-18",
+            "year": 2026
           }
         ]
       },
@@ -42,7 +47,10 @@
         "checkedBy": [
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-07-06",
+            "year": 2026
           }
         ]
       },
@@ -52,7 +60,10 @@
         "checkedBy": [
           {
             "publisher": "The Good Shopping Guide",
-            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/"
+            "sourceUrl": "https://thegoodshoppingguide.com/brand-directory/nescafe/",
+            "publishedDate": "2022-07-22",
+            "updatedDate": "2026-07-06",
+            "year": 2026
           }
         ]
       }
@@ -99,7 +110,10 @@
             "category": "animal-welfare",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2022-07-22",
+        "updatedDate": "2026-07-06",
+        "year": 2026
       },
       {
         "title": "Nestlé Launches Project to Improve Human Rights in the Coffee Supply Chain",
@@ -137,7 +151,10 @@
             "category": "labour-ethics",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2026-04-01",
+        "updatedDate": "2026-04-01",
+        "year": 2026
       },
       {
         "title": "Coffee Supply Chains Are Getting a Labor-Rights Audit",
@@ -171,7 +188,9 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-04-18",
+        "year": 2026
       }
     ],
     "legalMatters": [],

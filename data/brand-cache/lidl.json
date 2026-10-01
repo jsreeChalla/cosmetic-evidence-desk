@@ -32,7 +32,9 @@
         "checkedBy": [
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited",
+            "publishedDate": "2019-05-26",
+            "year": 2019
           }
         ]
       },
@@ -46,7 +48,9 @@
         "checkedBy": [
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/lidl-great-britain-limited",
+            "publishedDate": "2019-05-26",
+            "year": 2019
           }
         ]
       }
@@ -88,7 +92,9 @@
             "category": "animal-welfare",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2019-05-26",
+        "year": 2019
       },
       {
         "title": "Lidl US Releases First Corporate Social Responsibility Report",
@@ -156,7 +162,9 @@
         "summary": "The Heilbronn Regional Court ruled Lidl's \"500 products permanently cheaper\" advertising campaign misleading after a consumer group lawsuit, barring Lidl from continuing it.",
         "sourceUrl": "https://recht24-7.de/en/500-produkte-dauerhaft-guenstiger-lidl-verliert-prozess-um-werbeversprechen/",
         "quote": "the Heilbronn Regional Court has now put a stop to this. The Hamburg Consumer Advice Center had filed a lawsuit and won: the campaign was deemed misleading, and Lidl is not allowed to continue this advertising",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2026-02-20",
+        "updatedDate": "2026-05-24"
       }
     ],
     "sourcesConsulted": 35,

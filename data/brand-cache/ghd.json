@@ -16,9 +16,15 @@
         "checkedBy": [
           {
             "publisher": "ethical elephant",
-            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/"
+            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/",
+            "publishedDate": "2023-03-25",
+            "updatedDate": "2023-03-28",
+            "year": 2023
           }
-        ]
+        ],
+        "publishedDate": "2023-03-25",
+        "updatedDate": "2023-03-28",
+        "year": 2023
       },
       {
         "category": "vegan",
@@ -26,7 +32,10 @@
         "checkedBy": [
           {
             "publisher": "ethical elephant",
-            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/"
+            "sourceUrl": "https://ethicalelephant.com/is-ghd-cruelty-free-vegan/",
+            "publishedDate": "2023-03-25",
+            "updatedDate": "2023-03-28",
+            "year": 2023
           }
         ]
       }
@@ -78,7 +87,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2023-03-25",
+        "updatedDate": "2023-03-28",
+        "year": 2023
       }
     ],
     "legalMatters": [

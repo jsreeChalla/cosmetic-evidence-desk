@@ -20,11 +20,17 @@
           },
           {
             "publisher": "PETA",
-            "sourceUrl": "https://crueltyfree.peta.org/company/nyx-professional-makeup-loreal/"
+            "sourceUrl": "https://crueltyfree.peta.org/company/nyx-professional-makeup-loreal/",
+            "publishedDate": "2019-12-19",
+            "updatedDate": "2020-06-18",
+            "year": 2020
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nyx/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/nyx/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2025-02-22",
+            "year": 2025
           }
         ]
       },
@@ -190,7 +196,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2019-12-19",
+        "updatedDate": "2020-06-18",
+        "year": 2020
       },
       {
         "title": "Is NYX Cruelty-Free & Vegan in 2026?",
@@ -225,7 +234,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2025-02-22",
+        "year": 2025
       }
     ],
     "legalMatters": [],

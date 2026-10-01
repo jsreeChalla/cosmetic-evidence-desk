@@ -1,5 +1,6 @@
 import { VERTICAL_CATEGORIES, type BrandAnalysis, type BrandClaim, type ClaimCategory, type LegalMatter, type ResearchPaper, type Vertical } from './schemas'
 import { sortByRecency } from './recency'
+import { isPenaltyApproved } from './penalty-reviews'
 
 /**
  * A brand's overall sustainability score, out of 5. Built from the same
@@ -91,6 +92,8 @@ export interface SustainabilityScoreBreakdown {
   points: number
   // True when the strict -1 false-claim penalty was applied to this category.
   penalty?: boolean
+  // True when the evidence meets the −1 bar but no human has approved it yet.
+  pendingReview?: boolean
   reason: string
   // An unresolved, unproven caveat on this category's score (e.g. pending
   // litigation) — distinct from `reason`, which explains a settled verdict.
@@ -366,7 +369,11 @@ export function assessFalseClaimPenalty(
 
 // ---------------------------------------------------------------------------
 
-export function computeSustainabilityScore(data: BrandAnalysis, vertical: Vertical = 'cosmetics'): SustainabilityScore | null {
+export function computeSustainabilityScore(
+  data: BrandAnalysis,
+  vertical: Vertical = 'cosmetics',
+  brandId?: string,
+): SustainabilityScore | null {
   if (!data.hasEvidence) return null
 
   const claimByCategory = new Map(data.claims.map((c) => [c.category, c]))
@@ -388,11 +395,24 @@ export function computeSustainabilityScore(data: BrandAnalysis, vertical: Vertic
 
     const penalty = assessFalseClaimPenalty(category, claim, data.papers, data.legalMatters, referenceYear)
     if (penalty.applies) {
+      const review = isPenaltyApproved(brandId, category)
+      if (review) {
+        return {
+          category,
+          points: PENALTY_POINTS,
+          penalty: true,
+          reason: `False claim: ${penalty.explanation}`,
+          note: `Reviewed ${review.reviewedOn}: ${review.note}`,
+        }
+      }
+      // Meets the automatic evidence bar, but a person hasn't confirmed the
+      // sources contradict this specific claim — no penalty until reviewed.
       return {
         category,
-        points: PENALTY_POINTS,
-        penalty: true,
-        reason: `False claim: ${penalty.explanation}`,
+        points: 0,
+        pendingReview: true,
+        reason: 'The brand’s claim is contradicted by independent sources.',
+        note: `Meets the evidence bar for a −1 false-claim penalty (${penalty.explanation.replace(/^The brand's own claim is /, '').replace(/\.$/, '')}), but it is awaiting human review, so no penalty is applied yet.`,
       }
     }
 

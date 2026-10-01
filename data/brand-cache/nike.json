@@ -31,11 +31,15 @@
           },
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           },
           {
             "publisher": "Grokipedia",
-            "sourceUrl": "https://grokipedia.com/page/Labor_conditions_in_Nike's_supply_chain"
+            "sourceUrl": "https://grokipedia.com/page/Labor_conditions_in_Nike's_supply_chain",
+            "updatedDate": "2026-01-14",
+            "year": 2026
           }
         ]
       },
@@ -49,7 +53,9 @@
         "checkedBy": [
           {
             "publisher": "Ethical Consumer",
-            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc"
+            "sourceUrl": "https://www.ethicalconsumer.org/company-profile/nike-inc",
+            "publishedDate": "2018-05-13",
+            "year": 2018
           }
         ]
       },
@@ -171,7 +177,9 @@
             "category": "material-sourcing",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2018-05-13",
+        "year": 2018
       },
       {
         "title": "Labor conditions in Nike's supply chain",
@@ -211,7 +219,9 @@
             "category": "labour-ethics",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "updatedDate": "2026-01-14",
+        "year": 2026
       },
       {
         "title": "Nike - Human Rights and Labor Compliance Standards",
@@ -296,7 +306,8 @@
         "summary": "A federal district court dismissed the EEOC's subpoena enforcement action against Nike in August 2026 after Nike provided the information the agency sought.",
         "sourceUrl": "https://hrdailyadvisor.hci.org/2026/09/10/eeoc-nike-settle-subpoena-enforcement-lawsuit/",
         "quote": "On August 12, a federal district court dismissed the Equal Employment Opportunity Commission’s (EEOC) subpoena enforcement action against Nike at the EEOC’s request. The EEOC said Nike had provided it with the information it sought",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2026-09-10"
       },
       {
         "title": "Inside the EEOC's Sweeping Subpoena in the Nike DEI Investigation",
@@ -306,7 +317,9 @@
         "summary": "Legal analysis noting Nike had signed a January 2025 settlement with the EEOC that the agency later unilaterally rescinded, before pursuing an expansive subpoena over Nike's D&I practices.",
         "sourceUrl": "https://www.laborandemploymentlawinsights.com/2026/02/fair-is-foul-inside-the-eeocs-sweeping-subpoena-in-the-nike-dei-pattern-or-practice-discrimination-investigation-and-what-employers-should-know/",
         "quote": "As of January 2, 2025, Nike received a settlement agreement with the EEOC and signed it without modification on January 9, 2025. However, on February 19, 2025, Nike learned that the EEOC reassigned the investigation",
-        "quoteVerification": "verified"
+        "quoteVerification": "verified",
+        "publishedDate": "2026-02-11",
+        "updatedDate": "2026-02-11"
       }
     ],
     "sourcesConsulted": 26,

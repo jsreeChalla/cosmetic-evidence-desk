@@ -13,11 +13,13 @@ import {
   type OtherClaimCategory,
   type QuoteVerification,
   type ResearchPaper,
+  type SourceRef,
   type BrandStatus,
   type Verdict,
   type Vertical,
 } from './schemas'
 import { sortByRecency, weightedAggregateStatus } from './recency'
+import { addSourceDates } from './source-dates.server'
 
 /**
  * ---------------------------------------------------------------------------
@@ -932,13 +934,13 @@ function isOtherCategory(category: ClaimCategory): category is OtherClaimCategor
   return category === 'cruelty-free' || category === 'vegan' || category === 'labour-ethics' || category === 'quality'
 }
 
-function dedupePapers(evidence: Array<{ paper: ResearchPaper; verdict: Verdict }>): Array<{ publisher: string; sourceUrl: string }> {
+function dedupePapers(evidence: Array<{ paper: ResearchPaper; verdict: Verdict }>): Array<SourceRef> {
   const seen = new Set<string>()
-  const out: Array<{ publisher: string; sourceUrl: string }> = []
+  const out: Array<SourceRef> = []
   for (const { paper } of evidence) {
     if (seen.has(paper.sourceUrl)) continue
     seen.add(paper.sourceUrl)
-    out.push({ publisher: paper.publisher, sourceUrl: paper.sourceUrl })
+    out.push({ publisher: paper.publisher, sourceUrl: paper.sourceUrl, year: paper.year, publishedDate: paper.publishedDate, updatedDate: paper.updatedDate })
   }
   return out
 }
@@ -959,7 +961,7 @@ function dedupePapers(evidence: Array<{ paper: ResearchPaper; verdict: Verdict }
 function deriveCategoryResult(
   category: ClaimCategory,
   papers: Array<ResearchPaper>,
-): { match: ClaimMatch; checkedBy?: Array<{ publisher: string; sourceUrl: string }> } {
+): { match: ClaimMatch; checkedBy?: Array<SourceRef> } {
   // Newest evidence first, and newer sources outweigh older ones (see recency.ts).
   const evidence = sortByRecency(
     independentEvidenceForCategory(category, papers).map((e) => ({ ...e, year: e.paper.year })),
@@ -1148,9 +1150,17 @@ export async function researchBrand(brand: BrandCatalogEntry, opts?: { allowFire
     extraction = synthesizeExtractionFromFetchedSources(brandName, evidence.sources)
   }
 
-  return postProcess(brandName, extraction, evidence.sources, {
+  const analysis = await postProcess(brandName, extraction, evidence.sources, {
     sourcesConsulted: evidence.sourcesConsulted,
     sourcesFetched: evidence.sourcesFetched,
     degraded: evidence.degraded || Date.now() - startedAt > OVERALL_BUDGET_MS,
   }, vertical)
+
+  // Publication dates from each source page's own metadata (no AI, no
+  // credits), so quotes and references can show when they were published and
+  // recency weighting has real dates to work with. Time-boxed; best-effort.
+  if (analysis.hasEvidence) {
+    await addSourceDates(analysis, { concurrency: 6, timeoutMs: 8_000, budgetMs: 20_000 }).catch(() => {})
+  }
+  return analysis
 }

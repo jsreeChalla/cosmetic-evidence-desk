@@ -78,6 +78,9 @@ export function SustainabilityScoreBadge(props: { score: SustainabilityScore }) 
             <span className="text-sm font-medium text-ink/80">
               {score.score.toFixed(1)} / {score.maxScore}
             </span>
+            {score.breakdown.some((b) => b.pendingReview) && (
+              <span className="rounded bg-amber-50 px-1.5 py-0.5 text-xs font-medium text-amber-800">penalty under review</span>
+            )}
             {score.penaltiesApplied > 0 && (
               <span className="rounded bg-rose-50 px-1.5 py-0.5 text-xs font-medium text-rose-700">
                 {score.penaltiesApplied} false-claim penalt{score.penaltiesApplied === 1 ? 'y' : 'ies'}
@@ -120,7 +123,8 @@ export function SustainabilityScoreBadge(props: { score: SustainabilityScore }) 
           <p className="text-xs text-ink/50">
             A −1 is given only when the brand made a verified public claim that recent independent evidence contradicts —
             from two separate sources, an authoritative body (regulator, court, government agency), or a source plus a
-            decided ruling — and no equally recent independent source supports the claim.
+            decided ruling — and no equally recent independent source supports the claim. A person must also confirm
+            the sources contradict that specific claim before the −1 is applied.
           </p>
           <p className="text-xs text-ink/50">
             Newer research is prioritised: sources from the last 2 years count fully, 3–5 years 0.6×, 6–10 years 0.3×,

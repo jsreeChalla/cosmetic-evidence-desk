@@ -1,4 +1,5 @@
 import type { LegalMatter, LegalStatus } from '~/lib/schemas'
+import { sourceDateShort } from '~/lib/dates'
 
 const STATUS_LABEL: Record<LegalStatus, { label: string; classes: string }> = {
   pending: { label: 'Pending', classes: 'bg-status-mixed-tint text-status-mixed' },
@@ -29,6 +30,12 @@ export function LegalMatterCard(props: { matter: LegalMatter }) {
       <p className="mt-0.5 text-sm text-slate-500">
         {matter.entity}
         {matter.year ? ` · ${matter.year}` : ''}
+        {(matter.publishedDate || matter.updatedDate) && (
+          <span className="whitespace-nowrap">
+            {' '}
+            · Source: {sourceDateShort({ publishedDate: matter.publishedDate, updatedDate: matter.updatedDate })}
+          </span>
+        )}
       </p>
 
       <span className={'mt-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium ' + status.classes}>
@@ -37,7 +44,15 @@ export function LegalMatterCard(props: { matter: LegalMatter }) {
 
       <p className="prose-body mt-3">{matter.summary}</p>
 
-      <blockquote>“{matter.quote}”</blockquote>
+      <blockquote>
+        “{matter.quote}”
+        <footer className="mt-1 text-xs not-italic text-slate-500">
+          — source{' '}
+          {matter.publishedDate || matter.updatedDate
+            ? sourceDateShort({ publishedDate: matter.publishedDate, updatedDate: matter.updatedDate })
+            : 'publication date not stated'}
+        </footer>
+      </blockquote>
       <VerificationBadge verified={matter.quoteVerification === 'verified'} />
 
       <div className="mt-3 text-sm">

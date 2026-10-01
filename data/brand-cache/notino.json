@@ -17,7 +17,10 @@
             "publisher": "Good On You",
             "sourceUrl": "https://directory.goodonyou.eco/brand/notino-beauty"
           }
-        ]
+        ],
+        "publishedDate": "2024-09-19",
+        "updatedDate": "2024-09-19",
+        "year": 2024
       },
       {
         "category": "labour-ethics",
@@ -91,7 +94,10 @@
           }
         ],
         "safetyVerdict": "unclear",
-        "sustainabilityVerdict": "mixed"
+        "sustainabilityVerdict": "mixed",
+        "publishedDate": "2024-09-19",
+        "updatedDate": "2024-09-19",
+        "year": 2024
       }
     ],
     "legalMatters": [],

@@ -144,7 +144,11 @@ function HomePage() {
           Evidence Desk
         </div>
 
-        <Hero checkedCount={featured?.checkedCount ?? 0} totalCount={featured?.totalCount ?? ALL_RETAILER_BRANDS.length} />
+        <Hero
+          checkedCount={featured?.checkedCount ?? 0}
+          independentCount={featured?.independentCount ?? 0}
+          totalCount={featured?.totalCount ?? ALL_RETAILER_BRANDS.length}
+        />
 
         {showInfoNote && (
           <div className="mt-8">
@@ -306,7 +310,7 @@ function BrandResult({
     return <EmptyState brandName={brand.name} reason="no-data" />
   }
 
-  const sustainabilityScore = computeSustainabilityScore(data, brand.vertical ?? 'cosmetics')
+  const sustainabilityScore = computeSustainabilityScore(data, brand.vertical ?? 'cosmetics', brand.id)
 
   return (
     <div className="space-y-8">

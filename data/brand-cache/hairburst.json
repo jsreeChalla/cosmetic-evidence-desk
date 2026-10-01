@@ -70,7 +70,9 @@
           }
         ],
         "safetyVerdict": "mixed",
-        "sustainabilityVerdict": "unclear"
+        "sustainabilityVerdict": "unclear",
+        "publishedDate": "2026-05-04",
+        "year": 2026
       }
     ],
     "legalMatters": [],

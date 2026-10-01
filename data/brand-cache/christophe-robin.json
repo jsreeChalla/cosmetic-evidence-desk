@@ -19,15 +19,24 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/"
+            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/",
+            "publishedDate": "2026-06-04",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/christophe-robin/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/christophe-robin/",
+            "publishedDate": "2019-10-30",
+            "updatedDate": "2024-02-09",
+            "year": 2024
           },
           {
             "publisher": "ethical elephant",
-            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/"
+            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/",
+            "publishedDate": "2023-03-22",
+            "updatedDate": "2023-03-22",
+            "year": 2023
           }
         ]
       },
@@ -37,11 +46,17 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/"
+            "sourceUrl": "https://consciousbunny.com/brand/christophe-robin/",
+            "publishedDate": "2026-06-04",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "ethical elephant",
-            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/"
+            "sourceUrl": "https://ethicalelephant.com/is-christophe-robin-cruelty-free-vegan/",
+            "publishedDate": "2023-03-22",
+            "updatedDate": "2023-03-22",
+            "year": 2023
           }
         ]
       }
@@ -88,7 +103,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-04",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Christophe Robin Cruelty-Free & Vegan in 2026?",
@@ -122,7 +140,10 @@
             "category": "cruelty-free",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2019-10-30",
+        "updatedDate": "2024-02-09",
+        "year": 2024
       },
       {
         "title": "Is Christophe Robin Cruelty-Free & Vegan in 2023?",
@@ -165,7 +186,10 @@
             "category": "vegan",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2023-03-22",
+        "updatedDate": "2023-03-22",
+        "year": 2023
       }
     ],
     "legalMatters": [],

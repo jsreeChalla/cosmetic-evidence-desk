@@ -12,11 +12,17 @@
         "checkedBy": [
           {
             "publisher": "Conscious Bunny",
-            "sourceUrl": "https://consciousbunny.com/brand/armani-beauty/"
+            "sourceUrl": "https://consciousbunny.com/brand/armani-beauty/",
+            "publishedDate": "2026-06-06",
+            "updatedDate": "2026-07-24",
+            "year": 2026
           },
           {
             "publisher": "Cruelty-Free Kitty",
-            "sourceUrl": "https://www.crueltyfreekitty.com/brands/armani-beauty/"
+            "sourceUrl": "https://www.crueltyfreekitty.com/brands/armani-beauty/",
+            "publishedDate": "2021-08-02",
+            "updatedDate": "2026-03-31",
+            "year": 2026
           },
           {
             "publisher": "Good On You",
@@ -50,15 +56,24 @@
         "checkedBy": [
           {
             "publisher": "Cosmopolitan",
-            "sourceUrl": "https://www.cosmopolitan.com/style-beauty/beauty/a69913246/armani-luminous-silk-reformulation-review/"
+            "sourceUrl": "https://www.cosmopolitan.com/style-beauty/beauty/a69913246/armani-luminous-silk-reformulation-review/",
+            "publishedDate": "2026-01-06",
+            "updatedDate": "2026-01-06",
+            "year": 2026
           },
           {
             "publisher": "AllReviews",
-            "sourceUrl": "https://allreviews.ca/online-shopping/armani-beauty-reviews"
+            "sourceUrl": "https://allreviews.ca/online-shopping/armani-beauty-reviews",
+            "publishedDate": "2020-08-06",
+            "updatedDate": "2024-11-29",
+            "year": 2024
           },
           {
             "publisher": "L'Officiel USA",
-            "sourceUrl": "https://www.lofficielusa.com/beauty/armani-foundation-review-luminous-silk-relaunch"
+            "sourceUrl": "https://www.lofficielusa.com/beauty/armani-foundation-review-luminous-silk-relaunch",
+            "publishedDate": "2026-01-22",
+            "updatedDate": "2026-01-22",
+            "year": 2026
           }
         ]
       }
@@ -100,7 +115,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2026-06-06",
+        "updatedDate": "2026-07-24",
+        "year": 2026
       },
       {
         "title": "Is Armani Beauty Cruelty-Free & Vegan in 2026?",
@@ -139,7 +157,10 @@
             "category": "cruelty-free",
             "verdict": "concerning"
           }
-        ]
+        ],
+        "publishedDate": "2021-08-02",
+        "updatedDate": "2026-03-31",
+        "year": 2026
       },
       {
         "title": "Armani Beauty - Sustainability Rating",
@@ -230,7 +251,10 @@
             "category": "quality",
             "verdict": "good"
           }
-        ]
+        ],
+        "publishedDate": "2026-01-06",
+        "updatedDate": "2026-01-06",
+        "year": 2026
       },
       {
         "title": "Armani Beauty - Reviews and experiences",
@@ -262,7 +286,10 @@
             "category": "quality",
             "verdict": "mixed"
           }
-        ]
+        ],
+        "publishedDate": "2020-08-06",
+        "updatedDate": "2024-11-29",
+        "year": 2024
       },
       {
         "title": "Why Is Armani Reformulating Its Iconic Foundation? Full Review",
@@ -290,7 +317,10 @@
             "category": "quality",
             "verdict": "unclear"
           }
-        ]
+        ],
+        "publishedDate": "2026-01-22",
+        "updatedDate": "2026-01-22",
+        "year": 2026
       }
     ],
     "legalMatters": [],
