@@ -16,6 +16,7 @@ import { SustainabilityScoreBadge, SCRAPED_NOTICE } from '~/components/Sustainab
 import { computeSustainabilityScore } from '~/lib/sustainability-score'
 import { Hero } from '~/components/Hero'
 import { CategoryBanner } from '~/components/CategoryBanner'
+import { FeedbackCard } from '~/components/FeedbackLink'
 
 const FEATURED_ROWS: Array<{ category: ClaimCategory; title: string; description: string }> = [
   { category: 'sustainability', title: 'Sustainable brands', description: 'Independently confirmed environmental practices.' },
@@ -178,6 +179,10 @@ function HomePage() {
             <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="row" />
           </div>
         </section>
+
+        <div className="mt-10">
+          <FeedbackCard />
+        </div>
       </main>
     )
   }
@@ -205,7 +210,12 @@ function HomePage() {
           {view.status === 'loading' && <LoadingState brandName={selectedBrand.name} />}
 
           {view.status === 'done' && (
-            <BrandResult brand={selectedBrand} result={view.result} onRetry={() => runResearch(selectedBrand.id)} />
+            <>
+              <BrandResult brand={selectedBrand} result={view.result} onRetry={() => runResearch(selectedBrand.id)} />
+              <div className="mt-8">
+                <FeedbackCard brandName={selectedBrand.name} />
+              </div>
+            </>
           )}
         </section>
       </div>
