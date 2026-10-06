@@ -13,12 +13,11 @@ import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 const dryRun = process.argv.includes('--dry-run');
-if (!process.env.MONGODB_URI) {
-  console.error('MONGODB_URI is not set — nothing to migrate into. Run `npx vercel env pull .env.local` and source it first.');
+const { writeSeedBrandCache, writeRefreshState, listBrandCache, closeCacheStore, cacheBackend } = await import('./_bundled-refresh-entry.mjs');
+if (cacheBackend() !== 'mongodb') {
+  console.error('No MongoDB connection string found (MONGODB_URI or e.g. evidence_portal_MONGODB_URI). Run `npx vercel env pull .env.local` and source it first.');
   process.exit(1);
 }
-
-const { writeSeedBrandCache, writeRefreshState, listBrandCache, closeCacheStore } = await import('./_bundled-refresh-entry.mjs');
 const dir = join(process.cwd(), 'data', 'brand-cache');
 const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
 const dbName = process.env.MONGODB_DB || 'reliability-check';

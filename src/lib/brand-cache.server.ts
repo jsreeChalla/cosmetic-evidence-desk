@@ -10,7 +10,8 @@ import type { BrandAnalysis } from './schemas'
  *
  * Two interchangeable backends, chosen by environment:
  *
- * - **MongoDB** (production / Vercel) — used whenever MONGODB_URI is set
+ * - **MongoDB** (production / Vercel) — used whenever MONGODB_URI (or a
+ *   prefixed variant like evidence_portal_MONGODB_URI) is set
  *   (the MongoDB Atlas Vercel integration sets it automatically). Database
  *   MONGODB_DB (default "reliability-check"):
  *     - `brand_cache`   one document per brand, `_id` = brandId
@@ -120,15 +121,29 @@ function seedEntries(): Map<string, BrandCacheEntry> {
 // Backend selection / connection
 // ---------------------------------------------------------------------------
 
+/**
+ * The MongoDB connection string. Vercel's MongoDB Atlas integration may add a
+ * custom prefix to the variable name (e.g. `evidence_portal_MONGODB_URI`), so
+ * any variable ending in `_MONGODB_URI` is accepted when MONGODB_URI is unset.
+ */
+export function mongoUri(): string | undefined {
+  const direct = process.env.MONGODB_URI?.trim()
+  if (direct) return direct
+  const key = Object.keys(process.env)
+    .filter((k) => k.endsWith('_MONGODB_URI') && process.env[k]?.trim())
+    .sort()[0]
+  return key ? process.env[key]!.trim() : undefined
+}
+
 export function cacheBackend(): 'mongodb' | 'file' {
-  return process.env.MONGODB_URI?.trim() ? 'mongodb' : 'file'
+  return mongoUri() ? 'mongodb' : 'file'
 }
 
 let clientPromise: Promise<MongoClient> | undefined
 
 function getClient(): Promise<MongoClient> {
   if (!clientPromise) {
-    const client = new MongoClient(process.env.MONGODB_URI!.trim(), {
+    const client = new MongoClient(mongoUri()!, {
       appName: 'reliability-check',
       // Optional fields in BrandAnalysis are often `undefined`; store them as absent, not null.
       ignoreUndefined: true,
