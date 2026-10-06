@@ -14,7 +14,7 @@ import type { BrandAnalysis } from './schemas'
  *   prefixed variant like evidence_portal_MONGODB_URI) is set
  *   (the MongoDB Atlas Vercel integration sets it automatically). Database
  *   MONGODB_DB (default "reliability-check"):
- *     - `brand_cache`   one document per brand, `_id` = brandId
+ *     - `brands`        one document per brand, `_id` = brandId
  *     - `refresh_state` one document, `_id` = "sweep" (see cache-refresh.server.ts)
  *   The client is created once per function instance and registered with
  *   Vercel's attachDatabasePool so idle connections are released cleanly.
@@ -165,7 +165,7 @@ async function collection<T extends { _id: string }>(name: string): Promise<Coll
   return db.collection<T>(name)
 }
 
-const brands = () => collection<BrandCacheDoc>('brand_cache')
+const brands = () => collection<BrandCacheDoc>('brands')
 const stateColl = () => collection<RefreshStateDoc>('refresh_state')
 
 /** Close the database connection so standalone scripts can exit. */

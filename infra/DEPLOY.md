@@ -6,7 +6,7 @@ integration. A daily **Vercel Cron** call runs the 90-day refresh sweep.
 
 ```
 Browser ──► Vercel function (fra1) ──► MongoDB Atlas M0 (AWS eu-central-1)
-                    │                     db "reliability-check": brand_cache, refresh_state
+                    │                     db "reliability-check": brands, refresh_state
                     └─► Anthropic gateway, Firecrawl, DuckDuckGo
 Vercel Cron 03:00 UTC ─► /api/cron/refresh-cache  (full sweep every 90 days; 2 brands per run during a sweep)
 ```
@@ -91,7 +91,7 @@ curl -H "Authorization: Bearer $CRON_SECRET" "https://<your-domain>/api/cron/ref
 ```
 
 - Vercel → Settings → Cron Jobs shows `/api/cron/refresh-cache` at `0 3 * * *`.
-- Atlas UI → Browse Collections → `reliability-check.brand_cache` shows 65 documents.
+- Atlas UI → Browse Collections → `reliability-check.brands` shows 65 documents.
 - Logs: search `[cron-refresh]` in Vercel runtime logs.
 
 ## Operating notes

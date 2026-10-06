@@ -21,7 +21,7 @@ if (cacheBackend() !== 'mongodb') {
 const dir = join(process.cwd(), 'data', 'brand-cache');
 const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
 const dbName = process.env.MONGODB_DB || 'reliability-check';
-console.log(`${files.length} cache files → MongoDB database "${dbName}", collection brand_cache${dryRun ? ' [dry run]' : ''}`);
+console.log(`${files.length} cache files → MongoDB database "${dbName}", collection brands${dryRun ? ' [dry run]' : ''}`);
 
 let ok = 0;
 const failed = [];
