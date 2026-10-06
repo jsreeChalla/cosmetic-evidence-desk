@@ -154,3 +154,6 @@ logs/
 .vercel
 .env*.local
 .env*
+
+# Local downloads from Claude (e.g. demo video) — not part of the app
+Claude outputs/
