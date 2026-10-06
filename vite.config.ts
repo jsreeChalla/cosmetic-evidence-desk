@@ -25,6 +25,10 @@ export default defineConfig({
     tanstackStart(),
     // Deployment adapter. On Vercel the `vercel` preset is picked automatically.
     nitro({
+      // Keep the MongoDB driver as a normal Node package instead of bundling it:
+      // when bundled into ESM its lazy require('crypto') fails, which breaks
+      // password (SCRAM) authentication against Atlas.
+      traceDeps: ['mongodb'],
       vercel: {
         functions: {
           // Frankfurt — create the MongoDB Atlas cluster in AWS eu-central-1 to match.
