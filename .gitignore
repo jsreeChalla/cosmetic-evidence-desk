@@ -153,3 +153,4 @@ scripts/_bundled-refresh-entry.mjs
 logs/
 .vercel
 .env*.local
+.env*
