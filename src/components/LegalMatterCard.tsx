@@ -25,9 +25,9 @@ export function LegalMatterCard(props: { matter: LegalMatter }) {
   const status = STATUS_LABEL[matter.status]
 
   return (
-    <article className="rounded-lg border border-hairline bg-white p-5 shadow-sm">
+    <article className="rounded-lg border border-hairline bg-surface p-5 shadow-sm">
       <h4 className="text-base font-semibold">{matter.title}</h4>
-      <p className="mt-0.5 text-sm text-slate-500">
+      <p className="mt-0.5 text-sm text-ink-secondary">
         {matter.entity}
         {matter.year ? ` · ${matter.year}` : ''}
         {(matter.publishedDate || matter.updatedDate) && (
@@ -46,7 +46,7 @@ export function LegalMatterCard(props: { matter: LegalMatter }) {
 
       <blockquote>
         “{matter.quote}”
-        <footer className="mt-1 text-xs not-italic text-slate-500">
+        <footer className="mt-1 text-xs not-italic text-ink-secondary">
           — source{' '}
           {matter.publishedDate || matter.updatedDate
             ? sourceDateShort({ publishedDate: matter.publishedDate, updatedDate: matter.updatedDate })

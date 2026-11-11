@@ -42,8 +42,8 @@ export function BrandChips(props: {
             className={
               'flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-sm transition-colors focus-visible:outline-none ' +
               (isSelected
-                ? 'border-slate-900 bg-slate-900 text-white'
-                : 'border-slate-300 bg-white text-slate-800 hover:border-slate-500')
+                ? 'border-inverted bg-inverted text-on-inverted'
+                : 'border-hairline bg-surface text-ink hover:border-hairline-strong')
             }
           >
             <ChipLogo website={brand.website} />

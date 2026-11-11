@@ -16,7 +16,7 @@ export function BrandHeader(props: { brand: BrandCatalogEntry; parentCompany?: s
           alt=""
           width={40}
           height={40}
-          className="h-10 w-10 shrink-0 rounded-md border border-slate-200 bg-white object-contain p-1.5"
+          className="h-10 w-10 shrink-0 rounded-md border border-hairline bg-surface object-contain p-1.5"
           onError={() => setLogoFailed(true)}
         />
       )}
@@ -27,13 +27,13 @@ export function BrandHeader(props: { brand: BrandCatalogEntry; parentCompany?: s
             <ConfirmedLabels claims={props.claims} />
           </div>
         )}
-        {props.parentCompany && <p className="mt-1.5 text-sm text-slate-500">Subsidiary of {props.parentCompany}</p>}
+        {props.parentCompany && <p className="mt-1.5 text-sm text-ink-secondary">Subsidiary of {props.parentCompany}</p>}
         {brand.website && (
           <a
             href={`https://${brand.website}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="tap-area mt-0.5 inline-block text-sm text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700"
+            className="tap-area mt-0.5 inline-block text-sm text-ink-secondary underline decoration-hairline-strong underline-offset-2 hover:text-ink"
           >
             {brand.website} ↗
           </a>

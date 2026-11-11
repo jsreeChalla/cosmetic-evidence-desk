@@ -8,14 +8,14 @@ export function EmptyState(props: {
 
   if (reason === 'no-data') {
     return (
-      <div className="flex items-start gap-3 rounded-lg border border-dashed border-hairline bg-white p-6">
+      <div className="flex items-start gap-3 rounded-lg border border-dashed border-hairline bg-surface p-6">
         <span
           aria-hidden="true"
           className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-status-unclear-tint text-base font-semibold text-status-unclear"
         >
           –
         </span>
-        <p className="prose-body text-slate-700">
+        <p className="prose-body text-ink">
           No independent research, regulatory findings or published data are available for {brandName} yet.
         </p>
       </div>
@@ -25,7 +25,7 @@ export function EmptyState(props: {
   if (reason === 'config-error') {
     return (
       <div className="flex items-start gap-3 rounded-lg border border-status-mixed/30 bg-status-mixed-tint p-6">
-        <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-base font-semibold text-status-mixed">
+        <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface text-base font-semibold text-status-mixed">
           !
         </span>
         <p className="prose-body text-status-mixed">
@@ -37,7 +37,7 @@ export function EmptyState(props: {
 
   return (
     <div className="flex items-start gap-3 rounded-lg border border-status-mixed/30 bg-status-mixed-tint p-6">
-      <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-base font-semibold text-status-mixed">
+      <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface text-base font-semibold text-status-mixed">
         !
       </span>
       <div className="min-w-0">
@@ -47,7 +47,7 @@ export function EmptyState(props: {
           <button
             type="button"
             onClick={onRetry}
-            className="mt-3 rounded-md border border-status-mixed/40 bg-white px-3 py-1.5 text-sm font-medium text-status-mixed hover:bg-status-mixed-tint focus-visible:outline-none"
+            className="mt-3 rounded-md border border-status-mixed/40 bg-surface px-3 py-1.5 text-sm font-medium text-status-mixed hover:bg-status-mixed-tint focus-visible:outline-none"
           >
             Try again
           </button>

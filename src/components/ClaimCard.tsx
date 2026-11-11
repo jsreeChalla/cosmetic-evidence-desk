@@ -24,7 +24,7 @@ function SourceList({ sources }: { sources: Array<SourceRef> }) {
             href={s.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="tap-area-y underline hover:text-slate-600"
+            className="tap-area-y underline hover:text-ink"
           >
             {s.publisher}
           </a>{' '}
@@ -40,7 +40,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
   const status = claim ? MATCH_STATUS[claim.match] : NO_CLAIM
 
   return (
-    <div className="rounded-lg border border-hairline bg-white p-4 shadow-sm">
+    <div className="rounded-lg border border-hairline bg-surface p-4 shadow-sm">
       <div className="flex items-start gap-3">
         <span
           aria-hidden="true"
@@ -49,7 +49,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
           {status.icon}
         </span>
         <div className="min-w-0">
-          <h3 className="text-sm font-medium uppercase tracking-wide text-ink/55">{props.label}</h3>
+          <h3 className="mt-0 text-sm font-semibold text-ink-secondary">{props.label}</h3>
           <p className={'text-xs font-medium ' + status.fg}>{status.label}</p>
         </div>
       </div>
@@ -59,7 +59,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
           claim.claim ? (
             <>
               <p className="prose-body text-sm">{claim.claim}</p>
-              <blockquote className="mt-1 text-xs text-slate-500">
+              <blockquote className="mt-1 text-xs text-ink-secondary">
                 “{claim.quote}”
                 <span className="whitespace-nowrap"> — source, {sourceDateShort(claim)}</span>
                 {claim.sourceUrl && (
@@ -69,7 +69,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
                       href={claim.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="tap-area text-slate-400 underline hover:text-slate-600"
+                      className="tap-area text-ink-secondary underline hover:text-ink"
                     >
                       source ↗
                     </a>
@@ -77,7 +77,7 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
                 )}
               </blockquote>
               {claim.checkedBy && claim.checkedBy.length > 0 && (
-                <p className="mt-2 text-xs text-slate-400">
+                <p className="mt-2 text-xs text-ink-secondary">
                   Checked by <SourceList sources={claim.checkedBy} />
                   {claim.match === 'inconclusive' ? ' — no conclusive finding either way.' : '.'}
                 </p>
@@ -85,18 +85,18 @@ export function ClaimCard(props: { label: string; category: ClaimCategory; claim
             </>
           ) : (
             <>
-              <p className="text-sm text-slate-500">
+              <p className="text-sm text-ink-secondary">
                 No public claim was found for {props.label.toLowerCase()}, but independent sources have looked into it directly.
               </p>
               {claim.checkedBy && claim.checkedBy.length > 0 && (
-                <p className="mt-2 text-xs text-slate-400">
+                <p className="mt-2 text-xs text-ink-secondary">
                   Source{claim.checkedBy.length > 1 ? 's' : ''}: <SourceList sources={claim.checkedBy} />
                 </p>
               )}
             </>
           )
         ) : (
-          <p className="text-sm text-slate-400">This brand does not make a public claim about {props.label.toLowerCase()}.</p>
+          <p className="text-sm text-ink-secondary">This brand does not make a public claim about {props.label.toLowerCase()}.</p>
         )}
       </div>
     </div>

@@ -51,24 +51,24 @@ export function ResearchPaperCard(props: { paper: ResearchPaper }) {
   const { paper } = props
 
   return (
-    <article className="rounded-lg border border-hairline bg-white p-5 shadow-sm">
+    <article className="rounded-lg border border-hairline bg-surface p-5 shadow-sm">
       <h4 className="text-base font-semibold">{paper.title}</h4>
-      <p className="mt-0.5 text-sm text-slate-500">
+      <p className="mt-0.5 text-sm text-ink-secondary">
         {paper.publisher} · <span className="whitespace-nowrap">{sourceDateLabel(paper)}</span>
       </p>
 
       <div className="mt-2 flex flex-wrap gap-1.5">
-        <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700">
+        <span className="rounded-full bg-fill px-2 py-0.5 text-xs text-ink">
           {INDEPENDENCE_LABEL[paper.independence]}
         </span>
-        <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-700">
+        <span className="rounded-full bg-fill px-2 py-0.5 text-xs text-ink">
           {SCOPE_LABEL[paper.scope]}
         </span>
       </div>
 
       {paper.fundingDisclosure && (
-        <p className="mt-2 text-sm text-slate-500">
-          <span className="font-medium text-slate-600">Funding: </span>
+        <p className="mt-2 text-sm text-ink-secondary">
+          <span className="font-medium text-ink-secondary">Funding: </span>
           {paper.fundingDisclosure}
         </p>
       )}
@@ -82,7 +82,7 @@ export function ResearchPaperCard(props: { paper: ResearchPaper }) {
               <p className="text-sm">{finding.text}</p>
               <blockquote>
                 “{finding.quote}”
-                <footer className="mt-1 text-xs not-italic text-slate-500">
+                <footer className="mt-1 text-xs not-italic text-ink-secondary">
                   — {paper.publisher}, {sourceDateShort(paper)}
                 </footer>
               </blockquote>

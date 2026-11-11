@@ -1,119 +1,175 @@
 @import "tailwindcss";
 
+@import "./communities-tokens.css";
+
 /*
- * Cosmetics Evidence Desk — editorial design system.
- * Serious, calm, investigative-publication tone rather than a flashy product UI.
- * Tailwind v4 CSS-first config: tokens below become utilities automatically,
- * e.g. --color-status-good -> bg-status-good / text-status-good.
+ * Evidence Desk — styled with the Pepper Communities Design System (1.11.1),
+ * Dealabs brand. Every colour below points at a design-system token from
+ * communities-tokens.css. The page always uses the light theme.
+ * Tailwind v4 CSS-first config: tokens become utilities, e.g.
+ * --color-status-good -> bg-status-good / text-status-good.
  */
-@theme {
-  --font-serif: 'Iowan Old Style', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
-  --font-sans:
-    system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+@theme inline {
+  --font-sans: 'Averta CY', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-serif: var(--font-sans);
 
-  --color-paper: #faf7f2;
-  --color-ink: #201c18;
-  --color-hairline: #ddd6cb;
+  /* DS type scale (size / line-height). */
+  --text-xs: 12px;
+  --text-xs--line-height: 18px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 26px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 32px;
+  --text-3xl: 32px;
+  --text-3xl--line-height: 42px;
+  --text-4xl: 48px;
+  --text-4xl--line-height: 62px;
 
-  /* Warm accent tint for the homepage hero backdrop — a calmer, more
-     editorial cousin of iGraal's orange, used sparingly rather than
-     throughout the app. */
-  --color-accent-tint: #fbe4cf;
+  /* DS radii: 8 for chips/controls, 16 for in-page cards, pill for tags. */
+  --radius-md: var(--radius-s);
+  --radius-lg: var(--radius-m);
+  --radius-xl: var(--radius-m);
+  --radius-2xl: var(--radius-l);
 
-  /* One soft tint per homepage showcase category — distinct from the
-     confirmed/contradicted status colors above, since these banners are a
-     browsing aid, not a verdict. */
-  --color-cat-sustainability-tint: #e3efe1;
-  --color-cat-sustainability: #3f6b4a;
-  --color-cat-vegan-tint: #e1f0ec;
-  --color-cat-vegan: #2f6b5e;
-  --color-cat-cruelty-free-tint: #f6e6ec;
-  --color-cat-cruelty-free: #8c3f63;
-  --color-cat-ethical-tint: #f6ecd9;
-  --color-cat-ethical: #92652c;
-  --color-cat-quality-tint: #e3e8f2;
-  --color-cat-quality: #3d4f7c;
-  --color-cat-material-sourcing-tint: #eae3f0;
-  --color-cat-material-sourcing: #5c3f7c;
-  --color-cat-counterfeit-risk-tint: #f0e3e3;
-  --color-cat-counterfeit-risk: #8c4343;
-  --color-cat-e-waste-recyclability-tint: #dcefe6;
-  --color-cat-e-waste-recyclability: #2f7a5c;
-  --color-cat-conflict-minerals-tint: #efe6d9;
-  --color-cat-conflict-minerals: #8c5a2c;
-  --color-cat-data-privacy-tint: #dde3ef;
-  --color-cat-data-privacy: #34517c;
-  --color-cat-sourcing-organic-tint: #eef0dc;
-  --color-cat-sourcing-organic: #6b7a2f;
-  --color-cat-additives-health-tint: #f0e6ec;
-  --color-cat-additives-health: #7c3f63;
-  --color-cat-animal-welfare-tint: #e6ede3;
-  --color-cat-animal-welfare: #4a6b3f;
+  /* DS elevation: soft, static shadows. */
+  --shadow-sm: var(--shadow-1);
+  --shadow-md: var(--shadow-2);
 
-  /* Semantic status colors: each has a soft tint (backgrounds) and a stronger
-     foreground (text/borders) for small status pill badges. */
-  --color-status-good-tint: #e6f0e6;
-  --color-status-good: #3f6b4a;
-  --color-status-concerning-tint: #f5e6e3;
-  --color-status-concerning: #8c4338;
-  --color-status-mixed-tint: #f6ecd9;
-  --color-status-mixed: #92652c;
-  --color-status-unclear-tint: #e9e6e0;
-  --color-status-unclear: #5c584f;
+  /* Surfaces (bg-base: page is grey, cards are white in light mode). */
+  --color-paper: var(--color-bg-base-primary);
+  --color-surface: var(--color-bg-base-secondary);
+  --color-fill: var(--color-bg-neutral-secondary);
+  --color-fill-strong: var(--color-bg-neutral-tertiary);
+
+  /* Text hierarchy. */
+  --color-ink: var(--color-text-neutral-primary);
+  --color-ink-secondary: var(--color-text-neutral-secondary);
+  --color-ink-tertiary: var(--color-text-neutral-tertiary);
+  --color-link: var(--color-text-accent-link);
+
+  /* Hairline borders. */
+  --color-hairline: var(--color-border-translucent-primary);
+  --color-hairline-strong: var(--color-border-translucent-secondary);
+
+  /* Brand accent (Dealabs turquoise) — used sparingly. Primary buttons use the
+     static tokens so they look the same in light and dark mode. */
+  --color-accent-tint: var(--color-bg-accent-brand-muted);
+  --color-brand: var(--color-static-bg-accent-brand-primary);
+  --color-brand-hover: var(--color-static-bg-accent-brand-primary-hover);
+  --color-brand-pressed: var(--color-static-bg-accent-brand-primary-pressed);
+  --color-on-brand: #ffffff;
+  --color-brand-text: var(--color-text-accent-brand);
+
+  /* Inverted surface for selected chips (dark pill in light mode). */
+  --color-inverted: var(--color-bg-neutral-inverted-primary);
+  --color-on-inverted: var(--color-text-neutral-inverted-primary);
+
+  /* Star rating fill (decorative, no semantic token fits). */
+  --color-star: var(--color-decorative-yellow);
+
+  /* Verdict colours -> DS status sets (each with a -muted background). */
+  --color-status-good-tint: var(--color-bg-status-positive-muted);
+  --color-status-good: var(--color-text-status-positive);
+  --color-status-concerning-tint: var(--color-bg-status-negative-muted);
+  --color-status-concerning: var(--color-text-status-negative);
+  --color-status-mixed-tint: var(--color-bg-status-warning-muted);
+  --color-status-mixed: var(--color-text-status-warning);
+  --color-status-unclear-tint: var(--color-bg-neutral-secondary);
+  --color-status-unclear: var(--color-text-neutral-secondary);
+
+  /* Homepage category rows -> DS decorative muted backgrounds, with a
+     semantic text colour that keeps readable contrast on each. */
+  --color-cat-sustainability-tint: var(--color-decorative-green-muted);
+  --color-cat-sustainability: var(--color-text-status-positive);
+  --color-cat-vegan-tint: var(--color-decorative-turquoise-muted);
+  --color-cat-vegan: var(--color-text-accent-link);
+  --color-cat-cruelty-free-tint: var(--color-decorative-purple-muted);
+  --color-cat-cruelty-free: var(--color-text-accent-premium);
+  --color-cat-ethical-tint: var(--color-decorative-yellow-muted);
+  --color-cat-ethical: var(--color-text-status-warning);
+  --color-cat-quality-tint: var(--color-decorative-blue-muted);
+  --color-cat-quality: var(--color-decorative-blue);
+  --color-cat-material-sourcing-tint: var(--color-decorative-purple-muted);
+  --color-cat-material-sourcing: var(--color-text-accent-premium);
+  --color-cat-counterfeit-risk-tint: var(--color-decorative-red-muted);
+  --color-cat-counterfeit-risk: var(--color-text-status-negative);
+  --color-cat-e-waste-recyclability-tint: var(--color-decorative-green-muted);
+  --color-cat-e-waste-recyclability: var(--color-text-status-positive);
+  --color-cat-conflict-minerals-tint: var(--color-decorative-orange-muted);
+  --color-cat-conflict-minerals: var(--color-text-status-warning);
+  --color-cat-data-privacy-tint: var(--color-decorative-blue-muted);
+  --color-cat-data-privacy: var(--color-decorative-blue);
+  --color-cat-sourcing-organic-tint: var(--color-decorative-green-muted);
+  --color-cat-sourcing-organic: var(--color-text-status-positive);
+  --color-cat-additives-health-tint: var(--color-decorative-red-muted);
+  --color-cat-additives-health: var(--color-text-status-negative);
+  --color-cat-animal-welfare-tint: var(--color-decorative-yellow-muted);
+  --color-cat-animal-welfare: var(--color-text-status-warning);
 }
 
-html {
-  font-family: var(--font-sans);
-  color: var(--color-ink);
-  background-color: var(--color-paper);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+/* Base element styles live in the base layer so Tailwind utilities
+   (e.g. mt-0 on a heading) can override them. */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  /* DS: one sans family, bold (Semibold cut) headings, tracking 0. */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 1.5em;
+    color: var(--color-ink);
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  a {
+    color: inherit;
+    text-underline-offset: 2px;
+    transition: color var(--dur) var(--ease);
+  }
+
+  blockquote {
+    font-style: italic;
+    border-left: 3px solid var(--color-border-accent-brand);
+    background-color: var(--color-bg-neutral-secondary);
+    padding: 0.75rem 1.25rem;
+    margin: 0.75rem 0;
+    border-radius: 0 var(--radius-s) var(--radius-s) 0;
+  }
 }
 
-body {
-  line-height: 1.6;
-}
-
-h1,
-h2,
-h3 {
-  font-family: var(--font-serif);
-  letter-spacing: -0.01em;
-  margin-top: 1.5em;
-  color: var(--color-ink);
-}
-
-h1 {
-  margin-top: 0;
-}
-
-a {
-  color: inherit;
-  text-underline-offset: 2px;
-}
-
-blockquote {
-  font-family: var(--font-serif);
-  font-style: italic;
-  border-left: 3px solid var(--color-ink);
-  background-color: color-mix(in srgb, var(--color-hairline) 40%, transparent);
-  padding: 0.75rem 1.25rem;
-  margin: 0.75rem 0;
-  border-radius: 0 0.25rem 0.25rem 0;
-}
-
-/* Keyboard accessibility: a clearly visible focus ring on every interactive
-   element, never silently removed. */
+/* Keyboard accessibility: the DS focus ring (brand colour), never removed. */
 :focus-visible {
-  outline: 2px solid var(--color-ink);
+  outline: 2px solid var(--color-border-accent-brand);
   outline-offset: 2px;
-  border-radius: 2px;
+  border-radius: var(--radius-xs);
 }
 
 .prose-body {
   max-width: 65ch;
-  line-height: 1.7;
-  color: color-mix(in srgb, var(--color-ink) 85%, transparent);
+  line-height: 1.6;
+  color: var(--color-ink);
 }
 
 /* Bigger touch target for small text links without changing layout: an

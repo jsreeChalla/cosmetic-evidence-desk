@@ -129,3 +129,34 @@ export const ALL_RETAILER_BRANDS: Array<BrandCatalogEntry> = [
   ...IGRAAL_ELECTRONICS_BRANDS,
   ...IGRAAL_FOOD_BRANDS,
 ]
+
+/**
+ * Brands that are on iGraal but not on the community site (Dealabs).
+ *
+ * Checked on 11 Nov 2026 by searching each brand name on dealabs.com/search:
+ * these had 0 deals there in the past year. Every other brand had at least one.
+ * Re-check occasionally, since a brand can start getting deals posted.
+ */
+export const IGRAAL_ONLY_BRAND_IDS: ReadonlySet<string> = new Set([
+  'asambeauty',
+  'hairburst',
+  'lovaskin',
+  'make-up-for-ever',
+  'merit-beauty',
+  'niche-beauty',
+  'parfums-moins-cher',
+  'pinup-secret',
+  'seventyone',
+  'space-nk',
+  'the-ayurveda-experience',
+])
+
+export function isOnCommunity(brand: BrandCatalogEntry): boolean {
+  return !IGRAAL_ONLY_BRAND_IDS.has(brand.id)
+}
+
+/** On both iGraal and Dealabs. */
+export const COMMUNITY_BRANDS: Array<BrandCatalogEntry> = ALL_RETAILER_BRANDS.filter(isOnCommunity)
+
+/** On iGraal only. */
+export const IGRAAL_ONLY_BRANDS: Array<BrandCatalogEntry> = ALL_RETAILER_BRANDS.filter((b) => !isOnCommunity(b))

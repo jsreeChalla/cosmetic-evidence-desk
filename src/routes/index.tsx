@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useServerFn } from '@tanstack/react-start'
 import { useState, useCallback, useEffect } from 'react'
-import { ALL_RETAILER_BRANDS } from '~/lib/igraal-brands'
+import { ALL_RETAILER_BRANDS, COMMUNITY_BRANDS, IGRAAL_ONLY_BRANDS } from '~/lib/igraal-brands'
 import { getBrandResearch, type BrandResearchResponse } from '~/lib/research.functions'
 import { getFeaturedBrands, type FeaturedBrandsResponse } from '~/lib/featured-brands.functions'
 import { BrandChips } from '~/components/BrandChips'
@@ -17,6 +17,7 @@ import { computeSustainabilityScore } from '~/lib/sustainability-score'
 import { Hero } from '~/components/Hero'
 import { CategoryBanner } from '~/components/CategoryBanner'
 import { FeedbackCard } from '~/components/FeedbackLink'
+import { CommunityDealsLink } from '~/components/CommunityDealsLink'
 
 const FEATURED_ROWS: Array<{ category: ClaimCategory; title: string; description: string }> = [
   { category: 'sustainability', title: 'Sustainable brands', description: 'Independently confirmed environmental practices.' },
@@ -56,20 +57,20 @@ function InfoNote({ onDismiss }: { onDismiss: () => void }) {
   return (
     <div
       role="note"
-      className="relative mx-auto mb-10 max-w-prose rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 pr-9 text-sm text-slate-600 shadow-sm"
+      className="relative mx-auto mb-10 max-w-prose rounded-lg border border-hairline bg-fill px-4 py-3 pr-9 text-sm text-ink-secondary shadow-sm"
     >
       <button
         type="button"
         onClick={onDismiss}
         aria-label="Dismiss note"
-        className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full after:absolute after:-inset-3 after:content-[''] text-slate-400 hover:bg-slate-200 hover:text-slate-700 focus-visible:outline-none"
+        className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full after:absolute after:-inset-3 after:content-[''] text-ink-secondary hover:bg-fill-strong hover:text-ink focus-visible:outline-none"
       >
         ×
       </button>
       Brand safety, sustainability, and labour claims, checked against independent
-      research and records. <span className="font-medium text-emerald-600">✓ backed up</span> ·{' '}
-      <span className="font-medium text-red-600">✗ contradicted</span> ·{' '}
-      <span className="font-medium text-slate-400">– no independent data</span>. Every finding is a
+      research and records. <span className="font-medium text-status-good">✓ backed up</span> ·{' '}
+      <span className="font-medium text-status-concerning">✗ contradicted</span> ·{' '}
+      <span className="font-medium text-ink-secondary">– no independent data</span>. Every finding is a
       verbatim, source-checked quote.
     </div>
   )
@@ -109,7 +110,7 @@ function HomePage() {
     [getBrandResearchFn],
   )
 
-  // Phones/tablets: the 65-brand directory is collapsed behind a "Change brand"
+  // Phones/tablets: the brand directory is collapsed behind a "Change brand"
   // button instead of being stacked above the result.
   const [pickerOpen, setPickerOpen] = useState(false)
 
@@ -141,7 +142,7 @@ function HomePage() {
   if (!selectedBrand) {
     return (
       <main className="mx-auto min-h-screen max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
-        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-medium uppercase tracking-wide text-slate-500">
+        <div className="mb-3 flex items-center justify-center gap-2 text-sm font-semibold text-ink-secondary">
           Evidence Desk
         </div>
 
@@ -174,10 +175,8 @@ function HomePage() {
 
         <section aria-label="Browse all brands" className="mt-10 border-t border-hairline pt-8">
           <h2 className="text-xl">Browse all brands</h2>
-          <p className="mt-1 text-sm text-slate-500">Every brand & retailer across the iGraal France catalogue we cover — cosmetics, fashion, electronics, and food.</p>
-          <div className="mt-4">
-            <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="row" />
-          </div>
+          <p className="mt-1 text-sm text-ink-secondary">Every brand & retailer across the iGraal France catalogue we cover — cosmetics, fashion, electronics, and food.</p>
+          <BrandGroups selectedId={selectedId} onSelect={handleSelect} layout="row" />
         </section>
 
         <div className="mt-10">
@@ -202,7 +201,7 @@ function HomePage() {
           </div>
           {/* Desktop: full list beside the result */}
           <div className="hidden lg:block">
-            <BrandChips brands={ALL_RETAILER_BRANDS} selectedId={selectedId} onSelect={handleSelect} layout="column" />
+            <BrandGroups selectedId={selectedId} onSelect={handleSelect} layout="column" />
           </div>
         </section>
 
@@ -223,6 +222,33 @@ function HomePage() {
   )
 }
 
+const BRAND_GROUPS = [
+  { id: 'community', title: 'On iGraal & Dealabs', brands: COMMUNITY_BRANDS },
+  { id: 'igraal-only', title: 'On iGraal only', brands: IGRAAL_ONLY_BRANDS },
+]
+
+/** Brand directory split into brands that are also on the community site vs. iGraal-only brands. */
+function BrandGroups(props: { selectedId: string | null; onSelect: (id: string) => void; layout: 'row' | 'column' }) {
+  const { selectedId, onSelect, layout } = props
+  return (
+    <div className={layout === 'column' ? 'space-y-6' : 'mt-4 space-y-6'}>
+      {BRAND_GROUPS.filter((g) => g.brands.length > 0).map((group) => (
+        <div key={group.id} aria-labelledby={`brand-group-${group.id}`}>
+          <h3
+            id={`brand-group-${group.id}`}
+            className={
+              'mb-2 text-xs font-medium uppercase text-ink-secondary ' + (layout === 'row' ? 'text-center' : '')
+            }
+          >
+            {group.title} · {group.brands.length}
+          </h3>
+          <BrandChips brands={group.brands} selectedId={selectedId} onSelect={onSelect} layout={layout} />
+        </div>
+      ))}
+    </div>
+  )
+}
+
 function MobileBrandPicker(props: {
   selectedBrand: (typeof ALL_RETAILER_BRANDS)[number]
   open: boolean
@@ -236,9 +262,9 @@ function MobileBrandPicker(props: {
 
   return (
     <div>
-      <div className="flex items-center justify-between gap-3 rounded-lg border border-hairline bg-white px-4 py-2.5 shadow-sm">
+      <div className="flex items-center justify-between gap-3 rounded-lg border border-hairline bg-surface px-4 py-2.5 shadow-sm">
         <div className="min-w-0">
-          <div className="text-xs uppercase tracking-wide text-slate-500">Viewing</div>
+          <div className="text-xs uppercase text-ink-secondary">Viewing</div>
           <div className="truncate font-medium text-ink">{selectedBrand.name}</div>
         </div>
         <button
@@ -246,7 +272,7 @@ function MobileBrandPicker(props: {
           onClick={onToggle}
           aria-expanded={open}
           aria-controls="mobile-brand-list"
-          className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border border-slate-300 px-4 text-sm font-medium text-slate-800 hover:border-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
+          className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border border-hairline px-4 text-sm font-medium text-ink hover:border-hairline-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
         >
           {open ? 'Close' : 'Change brand'}
           <span aria-hidden="true" className={'inline-block transition-transform ' + (open ? 'rotate-180' : '')}>▾</span>
@@ -254,7 +280,7 @@ function MobileBrandPicker(props: {
       </div>
 
       {open && (
-        <div id="mobile-brand-list" className="mt-3 rounded-lg border border-hairline bg-white p-3 shadow-sm">
+        <div id="mobile-brand-list" className="mt-3 rounded-lg border border-hairline bg-surface p-3 shadow-sm">
           <label className="sr-only" htmlFor="mobile-brand-search">
             Search brands
           </label>
@@ -265,12 +291,12 @@ function MobileBrandPicker(props: {
             onChange={(e) => setQuery(e.target.value)}
             placeholder={`Search ${ALL_RETAILER_BRANDS.length} brands`}
             autoComplete="off"
-            className="mb-3 min-h-11 w-full rounded-md border border-slate-300 px-3 text-base focus:border-slate-500 focus:outline-none"
+            className="mb-3 min-h-11 w-full rounded-md border border-hairline px-3 text-base focus:border-hairline-strong focus:outline-none"
           />
           {matches.length > 0 ? (
             <BrandChips brands={matches} selectedId={selectedBrand.id} onSelect={onSelect} layout="row" />
           ) : (
-            <p className="py-4 text-center text-sm text-slate-500">No brands match “{query}”.</p>
+            <p className="py-4 text-center text-sm text-ink-secondary">No brands match “{query}”.</p>
           )}
         </div>
       )}
@@ -317,7 +343,12 @@ function BrandResult({
       )
     }
 
-    return <EmptyState brandName={brand.name} reason="no-data" />
+    return (
+      <div className="space-y-6">
+        <EmptyState brandName={brand.name} reason="no-data" />
+        <CommunityDealsLink brand={brand} />
+      </div>
+    )
   }
 
   const sustainabilityScore = computeSustainabilityScore(data, brand.vertical ?? 'cosmetics', brand.id)
@@ -325,6 +356,8 @@ function BrandResult({
   return (
     <div className="space-y-8">
       <BrandHeader brand={brand} parentCompany={data.parentCompany} claims={data.claims} />
+
+      <CommunityDealsLink brand={brand} />
 
       <ExplanationSection overview={data.overview} />
 
@@ -340,9 +373,9 @@ function BrandResult({
 
       <ReadMoreSection legalMatters={data.legalMatters} papers={data.papers} />
 
-      <p className="text-xs text-slate-500">{SCRAPED_NOTICE}</p>
+      <p className="text-xs text-ink-secondary">{SCRAPED_NOTICE}</p>
 
-      <p className="text-xs text-slate-400">
+      <p className="text-xs text-ink-secondary">
         {data.sourcesFetched} of {data.sourcesConsulted} sources consulted were fully read. Evidence as of{' '}
         {new Date(data.generatedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}.
         {data.degraded ? ' Some searches were slower than expected; this result may be based on partial evidence.' : ''}

@@ -15,7 +15,7 @@ export function ReadMoreSection(props: { legalMatters: Array<LegalMatter>; paper
   if (papers.length > 0) parts.push(`${papers.length} paper${papers.length > 1 ? 's' : ''}/rating${papers.length > 1 ? 's' : ''}`)
 
   return (
-    <details className="group overflow-hidden rounded-lg border border-hairline bg-white shadow-sm">
+    <details className="group overflow-hidden rounded-lg border border-hairline bg-surface shadow-sm">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 [&::-webkit-details-marker]:hidden">
         <span className="flex min-w-0 items-center gap-3">
           <span
@@ -26,10 +26,10 @@ export function ReadMoreSection(props: { legalMatters: Array<LegalMatter>; paper
           </span>
           <span className="min-w-0 text-base font-medium">
             Sources &amp; references
-            <span className="ml-1.5 font-normal text-slate-500">— {parts.join(', ')}</span>
+            <span className="ml-1.5 font-normal text-ink-secondary">— {parts.join(', ')}</span>
           </span>
         </span>
-        <span aria-hidden="true" className="shrink-0 text-slate-400 transition-transform duration-200 group-open:rotate-180">
+        <span aria-hidden="true" className="shrink-0 text-ink-secondary transition-transform duration-200 group-open:rotate-180">
           ▾
         </span>
       </summary>
@@ -38,7 +38,7 @@ export function ReadMoreSection(props: { legalMatters: Array<LegalMatter>; paper
         {legalMatters.length > 0 && (
           <div>
             <h3 className="mb-3 text-base">
-              Legal &amp; regulatory matters <span className="text-sm font-normal text-slate-500">· newest first</span>
+              Legal &amp; regulatory matters <span className="text-sm font-normal text-ink-secondary">· newest first</span>
             </h3>
             <div className="space-y-3">
               {legalMatters.map((matter, i) => (
@@ -51,7 +51,7 @@ export function ReadMoreSection(props: { legalMatters: Array<LegalMatter>; paper
         {papers.length > 0 && (
           <div>
             <h3 className="mb-3 text-base">
-              Research &amp; ratings <span className="text-sm font-normal text-slate-500">· newest first</span>
+              Research &amp; ratings <span className="text-sm font-normal text-ink-secondary">· newest first</span>
             </h3>
             <div className="space-y-3">
               {papers.map((paper, i) => (

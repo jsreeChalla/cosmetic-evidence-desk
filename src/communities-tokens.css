@@ -1,0 +1,1258 @@
+/*
+ * Pepper Communities Design System 1.11.1 — Dealabs brand (turquoise).
+ * Generated from the design system's project/tokens.css:
+ *   light  = [data-theme="root-brand-dealabs-color-light"]
+ *   The page is kept in light mode (the DS default would follow the device;
+ *   switched off on purpose). To bring dark mode back, re-generate with the
+ *   [data-theme="root-brand-dealabs-color-dark"] tokens under
+ *   @media (prefers-color-scheme: dark).
+ * Do not edit token values by hand — re-generate from the design system.
+ */
+
+@font-face {
+  font-family: "Averta CY";
+  src: url("/fonts/AvertaCY-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta CY";
+  src: url("/fonts/AvertaCY-Semibold.woff2") format("woff2");
+  font-weight: 500 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --color-bg-accent-brand-primary: #00a1ae;
+  --color-bg-accent-brand-secondary: #039ba7;
+  --color-bg-accent-brand-tertiary: #0a909b;
+  --color-bg-accent-brand-quaternary: #05858e;
+  --color-bg-accent-brand-alt-primary: #46484b;
+  --color-bg-accent-brand-alt-secondary: #363739;
+  --color-bg-accent-brand-alt-tertiary: #28292a;
+  --color-bg-accent-brand-alt-quaternary: #1d1f20;
+  --color-bg-accent-link: #087a81;
+  --color-bg-accent-brand-muted: #ddfdfd;
+  --color-bg-accent-brand-alt-muted: #f3f5f7;
+  --color-bg-accent-link-muted: #ddfdfd;
+  --color-bg-accent-premium: #7457dd;
+  --color-bg-accent-premium-muted: #f5f4fb;
+  --color-bg-accent-premium-hover: #7d62e1;
+  --color-bg-accent-premium-muted-hover: #f0edfc;
+  --color-bg-accent-premium-pressed: #876fe7;
+  --color-bg-accent-premium-muted-pressed: #ece7fd;
+  --color-bg-accent-brand-primary-hover: #039ba7;
+  --color-bg-accent-brand-secondary-hover: #0a909b;
+  --color-bg-accent-brand-tertiary-hover: #05858e;
+  --color-bg-accent-brand-quaternary-hover: #087a81;
+  --color-bg-accent-brand-alt-primary-hover: #525457;
+  --color-bg-accent-brand-alt-secondary-hover: #46484b;
+  --color-bg-accent-brand-alt-tertiary-hover: #363739;
+  --color-bg-accent-brand-alt-quaternary-hover: #28292a;
+  --color-bg-accent-link-hover: #05858e;
+  --color-bg-accent-brand-muted-hover: #d4f9f9;
+  --color-bg-accent-brand-alt-muted-hover: #eceef0;
+  --color-bg-accent-link-muted-hover: #d4f9f9;
+  --color-bg-accent-brand-primary-pressed: #0a909b;
+  --color-bg-accent-brand-secondary-pressed: #05858e;
+  --color-bg-accent-brand-tertiary-pressed: #087a81;
+  --color-bg-accent-brand-quaternary-pressed: #0d6c73;
+  --color-bg-accent-brand-alt-primary-pressed: #5e6063;
+  --color-bg-accent-brand-alt-secondary-pressed: #525457;
+  --color-bg-accent-brand-alt-tertiary-pressed: #46484b;
+  --color-bg-accent-brand-alt-quaternary-pressed: #363739;
+  --color-bg-accent-link-pressed: #0a909b;
+  --color-bg-accent-brand-muted-pressed: #c4f5f5;
+  --color-bg-accent-brand-alt-muted-pressed: #e9eaec;
+  --color-bg-accent-link-muted-pressed: #c4f5f5;
+  --color-text-accent-brand: #00a1ae;
+  --color-text-accent-price: #e31b3e;
+  --color-text-accent-link: #087a81;
+  --color-text-accent-brand-alt: #6b6d70;
+  --color-text-accent-premium: #7457dd;
+  --color-text-accent-premium-hover: #7d62e1;
+  --color-text-accent-premium-pressed: #876fe7;
+  --color-text-accent-brand-hover: #039ba7;
+  --color-text-accent-price-hover: #ce1736;
+  --color-text-accent-link-hover: #05858e;
+  --color-text-accent-brand-alt-hover: #76787b;
+  --color-text-accent-brand-pressed: #0a909b;
+  --color-text-accent-price-pressed: #b81831;
+  --color-text-accent-link-pressed: #0a909b;
+  --color-text-accent-brand-alt-pressed: #818386;
+  --color-graphic-accent-brand: #00a1ae;
+  --color-graphic-accent-price: #e31b3e;
+  --color-graphic-accent-link: #087a81;
+  --color-graphic-accent-brand-alt: #6b6d70;
+  --color-graphic-accent-premium: #7457dd;
+  --color-graphic-accent-premium-hover: #7d62e1;
+  --color-graphic-accent-premium-pressed: #876fe7;
+  --color-graphic-accent-brand-hover: #039ba7;
+  --color-graphic-accent-price-hover: #ce1736;
+  --color-graphic-accent-link-hover: #05858e;
+  --color-graphic-accent-brand-alt-hover: #76787b;
+  --color-graphic-accent-brand-pressed: #0a909b;
+  --color-graphic-accent-price-pressed: #b81831;
+  --color-graphic-accent-link-pressed: #0a909b;
+  --color-graphic-accent-brand-alt-pressed: #818386;
+  --color-border-accent-brand: #00a1ae;
+  --color-border-accent-price: #e31b3e;
+  --color-border-accent-link: #087a81;
+  --color-border-accent-brand-alt: #dfe1e4;
+  --color-border-accent-premium: #7457dd;
+  --color-border-accent-premium-hover: #7d62e1;
+  --color-border-accent-premium-pressed: #876fe7;
+  --color-border-accent-brand-hover: #039ba7;
+  --color-border-accent-price-hover: #ce1736;
+  --color-border-accent-link-hover: #05858e;
+  --color-border-accent-brand-alt-hover: #d7d9dd;
+  --color-border-accent-brand-pressed: #0a909b;
+  --color-border-accent-price-pressed: #b81831;
+  --color-border-accent-link-pressed: #0a909b;
+  --color-border-accent-brand-alt-pressed: #ced0d3;
+  --color-bg-status-info: #087a81;
+  --color-bg-status-info-muted: #ddfdfd;
+  --color-bg-status-positive: #197e25;
+  --color-bg-status-warning: #ae6509;
+  --color-bg-status-negative: #ce1736;
+  --color-bg-status-positive-muted: #defde4;
+  --color-bg-status-warning-muted: #faf9ca;
+  --color-bg-status-negative-muted: #fcf3f2;
+  --color-bg-status-positive-hover: #1a8a29;
+  --color-bg-status-warning-hover: #9f5c0c;
+  --color-bg-status-negative-hover: #e31b3e;
+  --color-bg-status-positive-muted-hover: #d7fcdd;
+  --color-bg-status-warning-muted-hover: #fcf496;
+  --color-bg-status-negative-muted-hover: #fdeae9;
+  --color-bg-status-positive-pressed: #1c952d;
+  --color-bg-status-warning-pressed: #8f520c;
+  --color-bg-status-negative-pressed: #f03550;
+  --color-bg-status-positive-muted-pressed: #ccf7d3;
+  --color-bg-status-warning-muted-pressed: #fdee6e;
+  --color-bg-status-negative-muted-pressed: #ffe4e2;
+  --color-bg-status-info-hover: #05858e;
+  --color-bg-status-info-muted-hover: #d4f9f9;
+  --color-bg-status-info-pressed: #0a909b;
+  --color-bg-status-info-muted-pressed: #c4f5f5;
+  --color-text-status-info: #087a81;
+  --color-text-status-positive: #197e25;
+  --color-text-status-warning: #c23f12;
+  --color-text-status-negative: #ce1736;
+  --color-text-status-positive-hover: #1a8a29;
+  --color-text-status-warning-hover: #d34616;
+  --color-text-status-negative-hover: #e31b3e;
+  --color-text-status-positive-pressed: #1c952d;
+  --color-text-status-warning-pressed: #e44e11;
+  --color-text-status-negative-pressed: #f03550;
+  --color-text-status-info-hover: #05858e;
+  --color-text-status-info-pressed: #0a909b;
+  --color-graphic-status-info: #087a81;
+  --color-graphic-status-positive: #197e25;
+  --color-graphic-status-warning: #c23f12;
+  --color-graphic-status-negative: #ce1736;
+  --color-graphic-status-positive-hover: #1a8a29;
+  --color-graphic-status-warning-hover: #d34616;
+  --color-graphic-status-negative-hover: #e31b3e;
+  --color-graphic-status-positive-pressed: #1c952d;
+  --color-graphic-status-warning-pressed: #e44e11;
+  --color-graphic-status-negative-pressed: #f03550;
+  --color-graphic-status-info-hover: #05858e;
+  --color-graphic-status-info-pressed: #0a909b;
+  --color-border-status-info: #087a81;
+  --color-border-status-positive: #197e25;
+  --color-border-status-warning: #c23f12;
+  --color-border-status-negative: #ce1736;
+  --color-border-status-positive-hover: #1a8a29;
+  --color-border-status-warning-hover: #d34616;
+  --color-border-status-negative-hover: #e31b3e;
+  --color-border-status-positive-pressed: #1c952d;
+  --color-border-status-warning-pressed: #e44e11;
+  --color-border-status-negative-pressed: #f03550;
+  --color-border-status-info-hover: #05858e;
+  --color-border-status-info-pressed: #0a909b;
+  --color-bg-base-primary: #e9eaec;
+  --color-bg-base-secondary: #ffffff;
+  --color-bg-base-tertiary: #f3f5f7;
+  --color-bg-base-primary-hover: #dfe1e4;
+  --color-bg-base-secondary-hover: #f3f5f7;
+  --color-bg-base-tertiary-hover: #eceef0;
+  --color-bg-base-primary-pressed: #d7d9dd;
+  --color-bg-base-secondary-pressed: #eceef0;
+  --color-bg-base-tertiary-pressed: #e9eaec;
+  --color-bg-neutral-primary: #ffffff;
+  --color-bg-neutral-secondary: #f3f5f7;
+  --color-bg-neutral-tertiary: #e9eaec;
+  --color-bg-neutral-quaternary: #ced0d3;
+  --color-bg-neutral-inverted-primary: #1d1f20;
+  --color-bg-neutral-inverted-secondary: #363739;
+  --color-bg-neutral-inverted-tertiary: #46484b;
+  --color-bg-neutral-inverted-quaternary: #6b6d70;
+  --color-bg-neutral-primary-hover: #f3f5f7;
+  --color-bg-neutral-secondary-hover: #eceef0;
+  --color-bg-neutral-tertiary-hover: #dfe1e4;
+  --color-bg-neutral-quaternary-hover: #c5c7ca;
+  --color-bg-neutral-inverted-primary-hover: #28292a;
+  --color-bg-neutral-inverted-secondary-hover: #46484b;
+  --color-bg-neutral-inverted-tertiary-hover: #525457;
+  --color-bg-neutral-inverted-quaternary-hover: #76787b;
+  --color-bg-neutral-primary-pressed: #eceef0;
+  --color-bg-neutral-secondary-pressed: #e9eaec;
+  --color-bg-neutral-tertiary-pressed: #d7d9dd;
+  --color-bg-neutral-quaternary-pressed: #babcbf;
+  --color-bg-neutral-inverted-primary-pressed: #363739;
+  --color-bg-neutral-inverted-secondary-pressed: #525457;
+  --color-bg-neutral-inverted-tertiary-pressed: #5e6063;
+  --color-bg-neutral-inverted-quaternary-pressed: #818386;
+  --color-bg-translucent-primary: rgba(0, 0, 0, 0.00);
+  --color-bg-translucent-secondary: rgba(15, 55, 95, 0.05);
+  --color-bg-translucent-tertiary: rgba(11, 22, 44, 0.09);
+  --color-bg-translucent-quaternary: rgba(10, 20, 35, 0.2);
+  --color-bg-translucent-inverted-primary: rgba(255, 255, 255, 0.00);
+  --color-bg-translucent-inverted-secondary: rgba(255, 255, 255, 0.11);
+  --color-bg-translucent-inverted-tertiary: rgba(255, 255, 255, 0.18);
+  --color-bg-translucent-inverted-quaternary: rgba(255, 255, 255, 0.35);
+  --color-bg-translucent-overlay: rgba(4, 9, 18, 0.35);
+  --color-bg-translucent-primary-hover: rgba(15, 55, 95, 0.05);
+  --color-bg-translucent-secondary-hover: rgba(18, 42, 67, 0.08);
+  --color-bg-translucent-tertiary-hover: rgba(9, 24, 47, 0.13);
+  --color-bg-translucent-quaternary-hover: rgba(3, 12, 25, 0.23);
+  --color-bg-translucent-inverted-primary-hover: rgba(255, 255, 255, 0.05);
+  --color-bg-translucent-inverted-secondary-hover: rgba(255, 255, 255, 0.18);
+  --color-bg-translucent-inverted-tertiary-hover: rgba(255, 255, 255, 0.24);
+  --color-bg-translucent-inverted-quaternary-hover: rgba(255, 255, 255, 0.40);
+  --color-bg-translucent-overlay-hover: rgba(6, 11, 19, 0.39);
+  --color-bg-translucent-primary-pressed: rgba(18, 42, 67, 0.08);
+  --color-bg-translucent-secondary-pressed: rgba(11, 22, 44, 0.09);
+  --color-bg-translucent-tertiary-pressed: rgba(5, 18, 43, 0.16);
+  --color-bg-translucent-quaternary-pressed: rgba(9, 16, 26, 0.28);
+  --color-bg-translucent-inverted-primary-pressed: rgba(255, 255, 255, 0.11);
+  --color-bg-translucent-inverted-secondary-pressed: rgba(255, 255, 255, 0.24);
+  --color-bg-translucent-inverted-tertiary-pressed: rgba(255, 255, 255, 0.29);
+  --color-bg-translucent-inverted-quaternary-pressed: rgba(255, 255, 255, 0.45);
+  --color-bg-translucent-overlay-pressed: rgba(4, 8, 15, 0.43);
+  --color-text-neutral-primary: #000000;
+  --color-text-neutral-secondary: #6b6d70;
+  --color-text-neutral-tertiary: #a7a9ac;
+  --color-text-neutral-quaternary: #c5c7ca;
+  --color-text-neutral-inverted-primary: #ffffff;
+  --color-text-neutral-inverted-secondary: #c5c7ca;
+  --color-text-neutral-inverted-tertiary: #8b8d90;
+  --color-text-neutral-inverted-quaternary: #6b6d70;
+  --color-text-neutral-primary-hover: #1d1f20;
+  --color-text-neutral-secondary-hover: #76787b;
+  --color-text-neutral-tertiary-hover: #9ea0a3;
+  --color-text-neutral-quaternary-hover: #babcbf;
+  --color-text-neutral-inverted-primary-hover: #f3f5f7;
+  --color-text-neutral-inverted-secondary-hover: #babcbf;
+  --color-text-neutral-inverted-tertiary-hover: #818386;
+  --color-text-neutral-inverted-quaternary-hover: #76787b;
+  --color-text-neutral-primary-pressed: #28292a;
+  --color-text-neutral-secondary-pressed: #818386;
+  --color-text-neutral-tertiary-pressed: #939598;
+  --color-text-neutral-quaternary-pressed: #b3b5b8;
+  --color-text-neutral-inverted-primary-pressed: #eceef0;
+  --color-text-neutral-inverted-secondary-pressed: #b3b5b8;
+  --color-text-neutral-inverted-tertiary-pressed: #76787b;
+  --color-text-neutral-inverted-quaternary-pressed: #818386;
+  --color-text-translucent-primary: rgba(0, 0, 0, 1.00);
+  --color-text-translucent-secondary: rgba(4, 8, 13, 0.59);
+  --color-text-translucent-tertiary: rgba(4, 9, 18, 0.35);
+  --color-text-translucent-quaternary: rgba(3, 12, 25, 0.23);
+  --color-text-translucent-inverted-primary: rgba(255, 255, 255, 1.00);
+  --color-text-translucent-inverted-secondary: rgba(255, 255, 255, 0.75);
+  --color-text-translucent-inverted-tertiary: rgba(255, 255, 255, 0.49);
+  --color-text-translucent-inverted-quaternary: rgba(255, 255, 255, 0.35);
+  --color-text-translucent-primary-hover: rgba(1, 3, 4, 0.89);
+  --color-text-translucent-secondary-hover: rgba(1, 5, 11, 0.54);
+  --color-text-translucent-tertiary-hover: rgba(6, 11, 19, 0.39);
+  --color-text-translucent-quaternary-hover: rgba(9, 16, 26, 0.28);
+  --color-text-translucent-inverted-primary-hover: rgba(255, 255, 255, 0.95);
+  --color-text-translucent-inverted-secondary-hover: rgba(255, 255, 255, 0.70);
+  --color-text-translucent-inverted-tertiary-hover: rgba(255, 255, 255, 0.45);
+  --color-text-translucent-inverted-quaternary-hover: rgba(255, 255, 255, 0.40);
+  --color-text-translucent-primary-pressed: rgba(2, 3, 4, 0.85);
+  --color-text-translucent-secondary-pressed: rgba(3, 7, 13, 0.5);
+  --color-text-translucent-tertiary-pressed: rgba(4, 8, 15, 0.43);
+  --color-text-translucent-quaternary-pressed: rgba(2, 8, 18, 0.3);
+  --color-text-translucent-inverted-primary-pressed: rgba(255, 255, 255, 0.92);
+  --color-text-translucent-inverted-secondary-pressed: rgba(255, 255, 255, 0.67);
+  --color-text-translucent-inverted-tertiary-pressed: rgba(255, 255, 255, 0.40);
+  --color-text-translucent-inverted-quaternary-pressed: rgba(255, 255, 255, 0.45);
+  --color-graphic-neutral-primary: #000000;
+  --color-graphic-neutral-secondary: #6b6d70;
+  --color-graphic-neutral-tertiary: #a7a9ac;
+  --color-graphic-neutral-quaternary: #c5c7ca;
+  --color-graphic-neutral-inverted-primary: #ffffff;
+  --color-graphic-neutral-inverted-secondary: #c5c7ca;
+  --color-graphic-neutral-inverted-tertiary: #8b8d90;
+  --color-graphic-neutral-inverted-quaternary: #6b6d70;
+  --color-graphic-neutral-primary-hover: #1d1f20;
+  --color-graphic-neutral-secondary-hover: #76787b;
+  --color-graphic-neutral-tertiary-hover: #9ea0a3;
+  --color-graphic-neutral-quaternary-hover: #babcbf;
+  --color-graphic-neutral-inverted-primary-hover: #f3f5f7;
+  --color-graphic-neutral-inverted-secondary-hover: #babcbf;
+  --color-graphic-neutral-inverted-tertiary-hover: #818386;
+  --color-graphic-neutral-inverted-quaternary-hover: #76787b;
+  --color-graphic-neutral-primary-pressed: #28292a;
+  --color-graphic-neutral-secondary-pressed: #818386;
+  --color-graphic-neutral-tertiary-pressed: #939598;
+  --color-graphic-neutral-quaternary-pressed: #b3b5b8;
+  --color-graphic-neutral-inverted-primary-pressed: #eceef0;
+  --color-graphic-neutral-inverted-secondary-pressed: #b3b5b8;
+  --color-graphic-neutral-inverted-tertiary-pressed: #76787b;
+  --color-graphic-neutral-inverted-quaternary-pressed: #818386;
+  --color-graphic-translucent-primary: rgba(0, 0, 0, 1.00);
+  --color-graphic-translucent-secondary: rgba(4, 8, 13, 0.59);
+  --color-graphic-translucent-tertiary: rgba(4, 9, 18, 0.35);
+  --color-graphic-translucent-quaternary: rgba(3, 12, 25, 0.23);
+  --color-graphic-translucent-inverted-primary: rgba(255, 255, 255, 1.00);
+  --color-graphic-translucent-inverted-secondary: rgba(255, 255, 255, 0.75);
+  --color-graphic-translucent-inverted-tertiary: rgba(255, 255, 255, 0.49);
+  --color-graphic-translucent-inverted-quaternary: rgba(255, 255, 255, 0.35);
+  --color-graphic-translucent-primary-hover: rgba(1, 3, 4, 0.89);
+  --color-graphic-translucent-secondary-hover: rgba(1, 5, 11, 0.54);
+  --color-graphic-translucent-tertiary-hover: rgba(6, 11, 19, 0.39);
+  --color-graphic-translucent-quaternary-hover: rgba(9, 16, 26, 0.28);
+  --color-graphic-translucent-inverted-primary-hover: rgba(255, 255, 255, 0.95);
+  --color-graphic-translucent-inverted-secondary-hover: rgba(255, 255, 255, 0.70);
+  --color-graphic-translucent-inverted-tertiary-hover: rgba(255, 255, 255, 0.45);
+  --color-graphic-translucent-inverted-quaternary-hover: rgba(255, 255, 255, 0.40);
+  --color-graphic-translucent-primary-pressed: rgba(2, 3, 4, 0.85);
+  --color-graphic-translucent-secondary-pressed: rgba(3, 7, 13, 0.5);
+  --color-graphic-translucent-tertiary-pressed: rgba(4, 8, 15, 0.43);
+  --color-graphic-translucent-quaternary-pressed: rgba(2, 8, 18, 0.3);
+  --color-graphic-translucent-inverted-primary-pressed: rgba(255, 255, 255, 0.92);
+  --color-graphic-translucent-inverted-secondary-pressed: rgba(255, 255, 255, 0.67);
+  --color-graphic-translucent-inverted-tertiary-pressed: rgba(255, 255, 255, 0.40);
+  --color-graphic-translucent-inverted-quaternary-pressed: rgba(255, 255, 255, 0.45);
+  --color-border-neutral-primary: #dfe1e4;
+  --color-border-neutral-secondary: #c5c7ca;
+  --color-border-neutral-tertiary: #a7a9ac;
+  --color-border-neutral-quaternary: #1d1f20;
+  --color-border-neutral-inverted-primary: #46484b;
+  --color-border-neutral-inverted-secondary: #6b6d70;
+  --color-border-neutral-inverted-tertiary: #8b8d90;
+  --color-border-neutral-inverted-quaternary: #ffffff;
+  --color-border-neutral-primary-hover: #d7d9dd;
+  --color-border-neutral-secondary-hover: #babcbf;
+  --color-border-neutral-tertiary-hover: #9ea0a3;
+  --color-border-neutral-quaternary-hover: #28292a;
+  --color-border-neutral-inverted-primary-hover: #525457;
+  --color-border-neutral-inverted-secondary-hover: #76787b;
+  --color-border-neutral-inverted-tertiary-hover: #818386;
+  --color-border-neutral-inverted-quaternary-hover: #f3f5f7;
+  --color-border-neutral-primary-pressed: #ced0d3;
+  --color-border-neutral-secondary-pressed: #b3b5b8;
+  --color-border-neutral-tertiary-pressed: #939598;
+  --color-border-neutral-quaternary-pressed: #363739;
+  --color-border-neutral-inverted-primary-pressed: #5e6063;
+  --color-border-neutral-inverted-secondary-pressed: #818386;
+  --color-border-neutral-inverted-tertiary-pressed: #76787b;
+  --color-border-neutral-inverted-quaternary-pressed: #eceef0;
+  --color-border-translucent-primary: rgba(9, 24, 47, 0.13);
+  --color-border-translucent-secondary: rgba(3, 12, 25, 0.23);
+  --color-border-translucent-tertiary: rgba(4, 9, 18, 0.35);
+  --color-border-translucent-quaternary: rgba(1, 3, 4, 0.89);
+  --color-border-translucent-inverted-primary: rgba(255, 255, 255, 0.18);
+  --color-border-translucent-inverted-secondary: rgba(255, 255, 255, 0.35);
+  --color-border-translucent-inverted-tertiary: rgba(255, 255, 255, 0.49);
+  --color-border-translucent-inverted-quaternary: rgba(255, 255, 255, 1.00);
+  --color-border-translucent-primary-hover: rgba(5, 18, 43, 0.16);
+  --color-border-translucent-secondary-hover: rgba(9, 16, 26, 0.28);
+  --color-border-translucent-tertiary-hover: rgba(6, 11, 19, 0.39);
+  --color-border-translucent-quaternary-hover: rgba(2, 3, 4, 0.85);
+  --color-border-translucent-inverted-primary-hover: rgba(255, 255, 255, 0.24);
+  --color-border-translucent-inverted-secondary-hover: rgba(255, 255, 255, 0.40);
+  --color-border-translucent-inverted-tertiary-hover: rgba(255, 255, 255, 0.45);
+  --color-border-translucent-inverted-quaternary-hover: rgba(255, 255, 255, 0.95);
+  --color-border-translucent-primary-pressed: rgba(10, 20, 35, 0.2);
+  --color-border-translucent-secondary-pressed: rgba(2, 8, 18, 0.3);
+  --color-border-translucent-tertiary-pressed: rgba(4, 8, 15, 0.43);
+  --color-border-translucent-quaternary-pressed: rgba(1, 2, 4, 0.79);
+  --color-border-translucent-inverted-primary-pressed: rgba(255, 255, 255, 0.29);
+  --color-border-translucent-inverted-secondary-pressed: rgba(255, 255, 255, 0.45);
+  --color-border-translucent-inverted-tertiary-pressed: rgba(255, 255, 255, 0.40);
+  --color-border-translucent-inverted-quaternary-pressed: rgba(255, 255, 255, 0.92);
+  --color-temperature10: #034eb1;
+  --color-temperature30: #efa511;
+  --color-temperature50: #fb6001;
+  --color-temperature70: #f03550;
+  --color-temperature90: #ce1736;
+  --color-temperature10-muted: #f0f6fc;
+  --color-temperature30-muted: #faf9ca;
+  --color-temperature50-muted: #fff3db;
+  --color-temperature70-muted: #fcf3f2;
+  --color-temperature90-muted: #fcf3f2;
+  --color-temperature10-hover: #0659c3;
+  --color-temperature30-hover: #e89a16;
+  --color-temperature50-hover: #f45605;
+  --color-temperature70-hover: #e31b3e;
+  --color-temperature90-hover: #e31b3e;
+  --color-temperature10-muted-hover: #e7f0f9;
+  --color-temperature30-muted-hover: #fcf496;
+  --color-temperature50-muted-hover: #feeece;
+  --color-temperature70-muted-hover: #fdeae9;
+  --color-temperature90-muted-hover: #fdeae9;
+  --color-temperature10-pressed: #0d67d9;
+  --color-temperature30-pressed: #e28c23;
+  --color-temperature50-pressed: #e44e11;
+  --color-temperature70-pressed: #ce1736;
+  --color-temperature90-pressed: #f03550;
+  --color-temperature10-muted-pressed: #ddecfc;
+  --color-temperature30-muted-pressed: #fdee6e;
+  --color-temperature50-muted-pressed: #fee7c2;
+  --color-temperature70-muted-pressed: #ffe4e2;
+  --color-temperature90-muted-pressed: #ffe4e2;
+  --color-decorative-red: #e31b3e;
+  --color-decorative-orange: #fb6001;
+  --color-decorative-yellow: #d3801b;
+  --color-decorative-green: #30a83c;
+  --color-decorative-turquoise: #00a1ae;
+  --color-decorative-blue: #0d67d9;
+  --color-decorative-purple: #7457dd;
+  --color-decorative-red-muted: #fcf3f2;
+  --color-decorative-orange-muted: #fff3db;
+  --color-decorative-yellow-muted: #faf9ca;
+  --color-decorative-green-muted: #defde4;
+  --color-decorative-turquoise-muted: #ddfdfd;
+  --color-decorative-blue-muted: #f0f6fc;
+  --color-decorative-purple-muted: #f5f4fb;
+  --color-decorative-inverted-red: #f46672;
+  --color-decorative-inverted-orange: #ff772c;
+  --color-decorative-inverted-yellow: #f4bf15;
+  --color-decorative-inverted-green: #45b54d;
+  --color-decorative-inverted-turquoise: #67ccd6;
+  --color-decorative-inverted-blue: #60a1f9;
+  --color-decorative-inverted-purple: #a390f2;
+  --color-decorative-inverted-red-muted: #4c0a11;
+  --color-decorative-inverted-orange-muted: #451a0d;
+  --color-decorative-inverted-yellow-muted: #412202;
+  --color-decorative-inverted-green-muted: #043008;
+  --color-decorative-inverted-turquoise-muted: #042f32;
+  --color-decorative-inverted-blue-muted: #072a60;
+  --color-decorative-inverted-purple-muted: #2a1665;
+  --color-decorative-red-hover: #ce1736;
+  --color-decorative-orange-hover: #f45605;
+  --color-decorative-yellow-hover: #ca781b;
+  --color-decorative-green-hover: #25a135;
+  --color-decorative-turquoise-hover: #039ba7;
+  --color-decorative-blue-hover: #1772eb;
+  --color-decorative-purple-hover: #7d62e1;
+  --color-decorative-red-muted-hover: #fdeae9;
+  --color-decorative-orange-muted-hover: #feeece;
+  --color-decorative-yellow-muted-hover: #fcf496;
+  --color-decorative-green-muted-hover: #d7fcdd;
+  --color-decorative-turquoise-muted-hover: #d4f9f9;
+  --color-decorative-blue-muted-hover: #e7f0f9;
+  --color-decorative-purple-muted-hover: #f0edfc;
+  --color-decorative-inverted-red-hover: #f55164;
+  --color-decorative-inverted-orange-hover: #fb6001;
+  --color-decorative-inverted-yellow-hover: #f3b204;
+  --color-decorative-inverted-green-hover: #30a83c;
+  --color-decorative-inverted-turquoise-hover: #4fc5d0;
+  --color-decorative-inverted-blue-hover: #4b93f6;
+  --color-decorative-inverted-purple-hover: #9886ee;
+  --color-decorative-inverted-red-muted-hover: #690a18;
+  --color-decorative-inverted-orange-muted-hover: #60220f;
+  --color-decorative-inverted-yellow-muted-hover: #542e04;
+  --color-decorative-inverted-green-muted-hover: #07420e;
+  --color-decorative-inverted-turquoise-muted-hover: #074044;
+  --color-decorative-inverted-blue-muted-hover: #04357d;
+  --color-decorative-inverted-purple-muted-hover: #3c198f;
+  --color-decorative-red-pressed: #b81831;
+  --color-decorative-orange-pressed: #e44e11;
+  --color-decorative-yellow-pressed: #bd6e17;
+  --color-decorative-green-pressed: #1c952d;
+  --color-decorative-turquoise-pressed: #0a909b;
+  --color-decorative-blue-pressed: #287ef4;
+  --color-decorative-purple-pressed: #876fe7;
+  --color-decorative-red-muted-pressed: #ffe4e2;
+  --color-decorative-orange-muted-pressed: #fee7c2;
+  --color-decorative-yellow-muted-pressed: #fdee6e;
+  --color-decorative-green-muted-pressed: #ccf7d3;
+  --color-decorative-turquoise-muted-pressed: #c4f5f5;
+  --color-decorative-blue-muted-pressed: #ddecfc;
+  --color-decorative-purple-muted-pressed: #ece7fd;
+  --color-decorative-inverted-red-pressed: #f03550;
+  --color-decorative-inverted-orange-pressed: #f45605;
+  --color-decorative-inverted-yellow-pressed: #efa511;
+  --color-decorative-inverted-green-pressed: #25a135;
+  --color-decorative-inverted-turquoise-pressed: #43bac6;
+  --color-decorative-inverted-blue-pressed: #3889f9;
+  --color-decorative-inverted-purple-pressed: #907bed;
+  --color-decorative-inverted-red-muted-pressed: #8b1725;
+  --color-decorative-inverted-orange-muted-pressed: #7d2c12;
+  --color-decorative-inverted-yellow-muted-pressed: #6c3e08;
+  --color-decorative-inverted-green-muted-pressed: #0c5215;
+  --color-decorative-inverted-turquoise-muted-pressed: #055256;
+  --color-decorative-inverted-blue-muted-pressed: #04429a;
+  --color-decorative-inverted-purple-muted-pressed: #4c23af;
+  --color-static-bg-accent-brand-primary: #00a1ae;
+  --color-static-bg-accent-brand-secondary: #039ba7;
+  --color-static-bg-accent-brand-tertiary: #0a909b;
+  --color-static-bg-accent-brand-quaternary: #05858e;
+  --color-static-bg-accent-brand-alt-primary: #46484b;
+  --color-static-bg-accent-brand-alt-secondary: #363739;
+  --color-static-bg-accent-brand-alt-tertiary: #28292a;
+  --color-static-bg-accent-brand-alt-quaternary: #1d1f20;
+  --color-static-bg-accent-link: #087a81;
+  --color-static-bg-accent-brand-muted: #ddfdfd;
+  --color-static-bg-accent-brand-alt-muted: #f3f5f7;
+  --color-static-bg-accent-link-muted: #ddfdfd;
+  --color-static-bg-accent-premium: #7457dd;
+  --color-static-bg-accent-premium-muted: #f5f4fb;
+  --color-static-bg-accent-premium-hover: #7d62e1;
+  --color-static-bg-accent-premium-muted-hover: #f0edfc;
+  --color-static-bg-accent-premium-pressed: #876fe7;
+  --color-static-bg-accent-premium-muted-pressed: #ece7fd;
+  --color-static-bg-accent-brand-primary-hover: #039ba7;
+  --color-static-bg-accent-brand-secondary-hover: #0a909b;
+  --color-static-bg-accent-brand-tertiary-hover: #05858e;
+  --color-static-bg-accent-brand-quaternary-hover: #087a81;
+  --color-static-bg-accent-brand-alt-primary-hover: #525457;
+  --color-static-bg-accent-brand-alt-secondary-hover: #46484b;
+  --color-static-bg-accent-brand-alt-tertiary-hover: #363739;
+  --color-static-bg-accent-brand-alt-quaternary-hover: #28292a;
+  --color-static-bg-accent-link-hover: #05858e;
+  --color-static-bg-accent-brand-muted-hover: #d4f9f9;
+  --color-static-bg-accent-brand-alt-muted-hover: #eceef0;
+  --color-static-bg-accent-link-muted-hover: #d4f9f9;
+  --color-static-bg-accent-brand-primary-pressed: #0a909b;
+  --color-static-bg-accent-brand-secondary-pressed: #05858e;
+  --color-static-bg-accent-brand-tertiary-pressed: #087a81;
+  --color-static-bg-accent-brand-quaternary-pressed: #0d6c73;
+  --color-static-bg-accent-brand-alt-primary-pressed: #5e6063;
+  --color-static-bg-accent-brand-alt-secondary-pressed: #525457;
+  --color-static-bg-accent-brand-alt-tertiary-pressed: #46484b;
+  --color-static-bg-accent-brand-alt-quaternary-pressed: #363739;
+  --color-static-bg-accent-link-pressed: #0a909b;
+  --color-static-bg-accent-brand-muted-pressed: #c4f5f5;
+  --color-static-bg-accent-brand-alt-muted-pressed: #e9eaec;
+  --color-static-bg-accent-link-muted-pressed: #c4f5f5;
+  --color-static-text-accent-brand: #00a1ae;
+  --color-static-text-accent-price: #e31b3e;
+  --color-static-text-accent-link: #087a81;
+  --color-static-text-accent-brand-alt: #6b6d70;
+  --color-static-text-accent-premium: #7457dd;
+  --color-static-text-accent-premium-hover: #7d62e1;
+  --color-static-text-accent-premium-pressed: #876fe7;
+  --color-static-text-accent-brand-hover: #039ba7;
+  --color-static-text-accent-price-hover: #ce1736;
+  --color-static-text-accent-link-hover: #05858e;
+  --color-static-text-accent-brand-alt-hover: #76787b;
+  --color-static-text-accent-brand-pressed: #0a909b;
+  --color-static-text-accent-price-pressed: #b81831;
+  --color-static-text-accent-link-pressed: #0a909b;
+  --color-static-text-accent-brand-alt-pressed: #818386;
+  --color-static-graphic-accent-brand: #00a1ae;
+  --color-static-graphic-accent-price: #e31b3e;
+  --color-static-graphic-accent-link: #087a81;
+  --color-static-graphic-accent-brand-alt: #6b6d70;
+  --color-static-graphic-accent-premium: #7457dd;
+  --color-static-graphic-accent-premium-hover: #7d62e1;
+  --color-static-graphic-accent-premium-pressed: #876fe7;
+  --color-static-graphic-accent-brand-hover: #039ba7;
+  --color-static-graphic-accent-price-hover: #ce1736;
+  --color-static-graphic-accent-link-hover: #05858e;
+  --color-static-graphic-accent-brand-alt-hover: #76787b;
+  --color-static-graphic-accent-brand-pressed: #0a909b;
+  --color-static-graphic-accent-price-pressed: #b81831;
+  --color-static-graphic-accent-link-pressed: #0a909b;
+  --color-static-graphic-accent-brand-alt-pressed: #818386;
+  --color-static-border-accent-brand: #00a1ae;
+  --color-static-border-accent-price: #e31b3e;
+  --color-static-border-accent-link: #087a81;
+  --color-static-border-accent-brand-alt: #dfe1e4;
+  --color-static-border-accent-premium: #7457dd;
+  --color-static-border-accent-premium-hover: #7d62e1;
+  --color-static-border-accent-premium-pressed: #876fe7;
+  --color-static-border-accent-brand-hover: #039ba7;
+  --color-static-border-accent-price-hover: #ce1736;
+  --color-static-border-accent-link-hover: #05858e;
+  --color-static-border-accent-brand-alt-hover: #d7d9dd;
+  --color-static-border-accent-brand-pressed: #0a909b;
+  --color-static-border-accent-price-pressed: #b81831;
+  --color-static-border-accent-link-pressed: #0a909b;
+  --color-static-border-accent-brand-alt-pressed: #ced0d3;
+  --color-static-bg-status-info: #087a81;
+  --color-static-bg-status-info-muted: #ddfdfd;
+  --color-static-bg-status-positive: #197e25;
+  --color-static-bg-status-warning: #ae6509;
+  --color-static-bg-status-negative: #ce1736;
+  --color-static-bg-status-positive-muted: #defde4;
+  --color-static-bg-status-warning-muted: #faf9ca;
+  --color-static-bg-status-negative-muted: #fcf3f2;
+  --color-static-bg-status-positive-hover: #1a8a29;
+  --color-static-bg-status-warning-hover: #9f5c0c;
+  --color-static-bg-status-negative-hover: #e31b3e;
+  --color-static-bg-status-positive-muted-hover: #d7fcdd;
+  --color-static-bg-status-warning-muted-hover: #fcf496;
+  --color-static-bg-status-negative-muted-hover: #fdeae9;
+  --color-static-bg-status-positive-pressed: #1c952d;
+  --color-static-bg-status-warning-pressed: #8f520c;
+  --color-static-bg-status-negative-pressed: #f03550;
+  --color-static-bg-status-positive-muted-pressed: #ccf7d3;
+  --color-static-bg-status-warning-muted-pressed: #fdee6e;
+  --color-static-bg-status-negative-muted-pressed: #ffe4e2;
+  --color-static-bg-status-info-hover: #05858e;
+  --color-static-bg-status-info-muted-hover: #d4f9f9;
+  --color-static-bg-status-info-pressed: #0a909b;
+  --color-static-bg-status-info-muted-pressed: #c4f5f5;
+  --color-static-text-status-info: #087a81;
+  --color-static-text-status-positive: #197e25;
+  --color-static-text-status-warning: #c23f12;
+  --color-static-text-status-negative: #ce1736;
+  --color-static-text-status-positive-hover: #1a8a29;
+  --color-static-text-status-warning-hover: #d34616;
+  --color-static-text-status-negative-hover: #e31b3e;
+  --color-static-text-status-positive-pressed: #1c952d;
+  --color-static-text-status-warning-pressed: #e44e11;
+  --color-static-text-status-negative-pressed: #f03550;
+  --color-static-text-status-info-hover: #05858e;
+  --color-static-text-status-info-pressed: #0a909b;
+  --color-static-graphic-status-info: #087a81;
+  --color-static-graphic-status-positive: #197e25;
+  --color-static-graphic-status-warning: #c23f12;
+  --color-static-graphic-status-negative: #ce1736;
+  --color-static-graphic-status-positive-hover: #1a8a29;
+  --color-static-graphic-status-warning-hover: #d34616;
+  --color-static-graphic-status-negative-hover: #e31b3e;
+  --color-static-graphic-status-positive-pressed: #1c952d;
+  --color-static-graphic-status-warning-pressed: #e44e11;
+  --color-static-graphic-status-negative-pressed: #f03550;
+  --color-static-graphic-status-info-hover: #05858e;
+  --color-static-graphic-status-info-pressed: #0a909b;
+  --shadow-1: 0 1px 2px rgba(11, 22, 44, 0.06), 0 0 0 1px rgba(11, 22, 44, 0.04);
+  --shadow-2: 0 2px 6px rgba(11, 22, 44, 0.08), 0 0 0 1px rgba(11, 22, 44, 0.04);
+  --shadow-3: 0 8px 24px rgba(11, 22, 44, 0.12), 0 0 0 1px rgba(11, 22, 44, 0.04);
+  --shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.18);
+  --popover-shadow: 0px 0px 28px 8px rgba(0, 0, 0, 0.19);
+}
+
+/* Light mode only (by request): the Dealabs dark-mode tokens are not applied. */
+
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-h-0: 0px;
+  --space-h-1: 4px;
+  --space-h-2: 8px;
+  --space-h-3: 16px;
+  --space-h-4: 24px;
+  --space-h-5: 32px;
+  --space-v-0: 0px;
+  --space-v-1: 4px;
+  --space-v-2: 8px;
+  --space-v-3: 16px;
+  --space-v-4: 24px;
+  --space-v-5: 32px;
+  --space-v-6: 48px;
+  --space-v-7: 84px;
+  --gutter-xs: 4px;
+  --gutter-s: 8px;
+  --gutter-m: 16px;
+  --gutter-l: 24px;
+  --page-min-width: 320px;
+  --page-narrow-width: 682px;
+  --page-max-width: 1280px;
+  --header-height: 56px;
+  --nav-bar-height: 46px;
+  --bottom-nav-height: 70px;
+  --sticky-pagination-height: 58px;
+  --nav-menu-indent: 16px;
+  --control-width: 210px;
+  --control-height: 40px;
+  --control-line-height: 22px;
+  --search-control-height: 40px;
+  --button-height-s: 28px;
+  --button-height-m: 36px;
+  --button-height-l: 56px;
+  --button-legacy-height-xs: 24px;
+  --button-legacy-height-s: 32px;
+  --button-legacy-height-m: 36px;
+  --avatar-size-xs: 18px;
+  --avatar-size-s: 26px;
+  --avatar-size-sm: 32px;
+  --avatar-size-m: 50px;
+  --avatar-size-l: 62px;
+  --avatar-size-xl: 100px;
+  --avatar-size-nav: 40px;
+  --image-size-s16: 16px;
+  --image-size-xs: 22px;
+  --image-size-s: 38px;
+  --image-size-m: 54px;
+  --image-size-l: 70px;
+  --image-size-s80: 80px;
+  --image-size-s88: 88px;
+  --image-size-xl: 96px;
+  --icon-size-default: 16px;
+  --radius-xs: 4px;
+  --radius-s: 8px;
+  --radius-m: 16px;
+  --radius-l: 24px;
+  --radius-xl: 48px;
+  --radius-pill: 999px;
+  --border-radius-small: 2px;
+  --border-radius: 8px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --dur-fast: 120ms;
+  --dur: 200ms;
+  --dur-slow: 320ms;
+  --transition-duration: 0.2s;
+  --transition-timing-function: linear;
+  --type-s-bold-underline-line-height: 20px;
+  --type-s-regular-strikethrough-line-height: 20px;
+  --type-s-regular-underline-line-height: 20px;
+  --type-s-bold-indent-line-height: 20px;
+  --type-xs-bold-line-height: 18px;
+  --type-xs-regular-line-height: 18px;
+  --type-xs-bold-underline-line-height: 18px;
+  --type-xs-regular-underline-line-height: 18px;
+  --type-s-bold-underline-letter-spacing: 0;
+  --type-s-regular-strikethrough-letter-spacing: 0;
+  --type-s-regular-underline-letter-spacing: 0;
+  --type-s-bold-indent-letter-spacing: 0;
+  --type-xs-bold-letter-spacing: 0;
+  --type-xs-regular-letter-spacing: 0;
+  --type-xs-bold-underline-letter-spacing: 0;
+  --type-xs-regular-underline-letter-spacing: 0;
+  --type-s-bold-underline-font-weight: 700;
+  --type-s-regular-strikethrough-font-weight: 400;
+  --type-s-regular-underline-font-weight: 400;
+  --type-s-bold-indent-font-weight: 700;
+  --type-xs-bold-font-weight: 700;
+  --type-xs-regular-font-weight: 400;
+  --type-xs-bold-underline-font-weight: 700;
+  --type-xs-regular-underline-font-weight: 400;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --type-4xl-bold-font-style: normal;
+  --type-4xl-regular-font-style: normal;
+  --type-3xl-bold-font-style: normal;
+  --type-3xl-regular-font-style: normal;
+  --type-2xl-bold-font-style: normal;
+  --type-2xl-regular-font-style: normal;
+  --type-2xl-regular-strikethrough-font-style: normal;
+  --type-xl-bold-font-style: normal;
+  --type-xl-regular-font-style: normal;
+  --type-xl-bold-underline-font-style: normal;
+  --type-xl-regular-strikethrough-font-style: normal;
+  --type-l-bold-font-style: normal;
+  --type-l-regular-font-style: normal;
+  --type-l-regular-strikethrough-font-style: normal;
+  --type-l-bold-indent-font-style: normal;
+  --type-m-bold-font-style: normal;
+  --type-m-regular-font-style: normal;
+  --type-m-regular-underline-font-style: normal;
+  --type-m-bold-underline-font-style: normal;
+  --type-m-bold-indent-font-style: normal;
+  --type-s-bold-font-style: normal;
+  --type-s-regular-font-style: normal;
+  --type-s-bold-underline-font-style: normal;
+  --type-s-regular-strikethrough-font-style: normal;
+  --type-s-regular-underline-font-style: normal;
+  --type-s-bold-indent-font-style: normal;
+  --type-xs-bold-font-style: normal;
+  --type-xs-regular-font-style: normal;
+  --type-xs-bold-underline-font-style: normal;
+  --type-xs-regular-underline-font-style: normal;
+  --opacity-hover: 0.9;
+  --nav-logo-width: 101px;
+  --nav-logo-width-mobile: 101px;
+  --nav-logo-width-icon: 30px;
+  --logo-auth-modal-width: 82px;
+  --logo-cf-page-width: 137px;
+  --arrow-animation-color: initial;
+  --background-active: initial;
+  --background-animation-color: initial;
+  --background-default: initial;
+  --background-disabled: initial;
+  --background-highlighted: initial;
+  --background-highlighted-hover: initial;
+  --background-hover: initial;
+  --background-selected: initial;
+  --background-selected-active: initial;
+  --background-selected-hover: initial;
+  --border-active: initial;
+  --border-default: initial;
+  --border-disabled: initial;
+  --border-highlighted: initial;
+  --border-highlighted-hover: initial;
+  --border-hover: initial;
+  --border-selected: initial;
+  --border-selected-active: initial;
+  --border-selected-hover: initial;
+  --icon-color-default: initial;
+  --icon-color-disabled: initial;
+  --shadow-active: initial;
+  --shadow-default: initial;
+  --font-type-4xl-bold-font-family: 'Averta CY', sans-serif;
+  --font-type-4xl-bold-text-decoration: none;
+  --font-type-4xl-italic-font-family: 'Averta CY', sans-serif;
+  --font-type-4xl-italic-font-style: italic;
+  --font-type-4xl-italic-text-decoration: none;
+  --font-type-4xl-regular-font-family: 'Averta CY', sans-serif;
+  --font-type-4xl-regular-text-decoration: none;
+  --font-type-3xl-bold-font-family: 'Averta CY', sans-serif;
+  --font-type-3xl-bold-text-decoration: none;
+  --font-type-3xl-regular-font-family: 'Averta CY', sans-serif;
+  --font-type-3xl-regular-text-decoration: none;
+  --font-type-3xl-italic-font-family: 'Averta CY', sans-serif;
+  --text-type-4xl-bold: 700 48px/62px var(--font-type-4xl-bold-font-family);
+  --text-type-4xl-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-4xl-italic: 400 48px/62px var(--font-type-4xl-italic-font-family);
+  --text-type-4xl-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-4xl-regular: 400 48px/62px var(--font-type-4xl-regular-font-family);
+  --text-type-4xl-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-3xl-bold: 700 32px/42px var(--font-type-3xl-bold-font-family);
+  --text-type-3xl-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-3xl-regular: 400 32px/42px var(--font-type-3xl-regular-font-family);
+  --text-type-3xl-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-3xl-italic: 400 32px/42px var(--font-type-3xl-italic-font-family);
+  --text-type-3xl-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-2xl-bold: 700 24px/32px inherit;
+  --text-type-2xl-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-2xl-regular: 400 24px/32px inherit;
+  --text-type-2xl-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-2xl-italic: 400 24px/32px inherit;
+  --text-type-2xl-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-2xl-regular-strikethrough: 400 24px/32px inherit;
+  --text-type-2xl-regular-strikethrough-text-indent: 400 0px/1.4 inherit;
+  --text-type-xl-bold: 700 20px/28px inherit;
+  --text-type-xl-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-xl-regular: 400 20px/28px inherit;
+  --text-type-xl-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-xl-italic: 400 20px/28px inherit;
+  --text-type-xl-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-xl-bold-underline: 700 20px/28px inherit;
+  --text-type-xl-bold-underline-text-indent: 400 0px/1.4 inherit;
+  --text-type-xl-regular-strikethrough: 400 20px/28px inherit;
+  --text-type-xl-regular-strikethrough-text-indent: 400 0px/1.4 inherit;
+  --text-type-l-bold: 700 18px/26px inherit;
+  --text-type-l-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-l-regular: 400 18px/26px inherit;
+  --text-type-l-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-l-italic: 400 18px/26px inherit;
+  --text-type-l-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-l-regular-strikethrough: 400 18px/26px inherit;
+  --text-type-l-regular-strikethrough-text-indent: 400 0px/1.4 inherit;
+  --text-type-l-bold-indent: 700 18px/26px inherit;
+  --text-type-l-bold-indent-text-indent: 400 80px/1.4 inherit;
+  --text-type-m-bold: 700 16px/24px inherit;
+  --text-type-m-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-regular: 400 16px/24px inherit;
+  --text-type-m-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-italic: 400 16px/24px inherit;
+  --text-type-m-italic-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-regular-underline: 400 16px/24px inherit;
+  --text-type-m-regular-underline-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-bold-underline: 700 16px/24px inherit;
+  --text-type-m-bold-underline-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-italic-underline: 400 16px/24px inherit;
+  --text-type-m-italic-underline-text-indent: 400 0px/1.4 inherit;
+  --text-type-m-bold-indent: 700 16px/24px inherit;
+  --text-type-m-bold-indent-text-indent: 400 80px/1.4 inherit;
+  --text-type-s-bold: 700 14px/20px inherit;
+  --text-type-s-bold-text-indent: 400 0px/1.4 inherit;
+  --text-type-s-regular: 400 14px/20px inherit;
+  --text-type-s-regular-text-indent: 400 0px/1.4 inherit;
+  --text-type-s-italic: 400 14px/16px inherit;
+  --text-type-s-italic-text-indent: 400 0px/1.4 inherit;
+  --text-code: 400 0.9em/1.4 inherit; /* From `code` in colors_and_type.css — its font-family var(--font-mono) is not one of the system’s font tokens. */
+  --text-type-xs-bold: 700 12px/18px var(--font-type-4xl-bold-font-family); /* From `.type-xs-bold` in tokens/typography.css. */
+  --text-type-xs-regular: 400 12px/18px var(--font-type-4xl-bold-font-family); /* From `.type-xs-regular` in tokens/typography.css. */
+}
+
+/* Typography classes (.type-*) — the DS's only approved text styles. */
+.type-4xl-bold {
+  font-family: var(--font-type-4xl-bold-font-family);
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-4xl-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-4xl-italic {
+  font-family: var(--font-type-4xl-italic-font-family);
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-4xl-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-4xl-regular {
+  font-family: var(--font-type-4xl-regular-font-family);
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-4xl-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-3xl-bold {
+  font-family: var(--font-type-3xl-bold-font-family);
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-3xl-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-3xl-regular {
+  font-family: var(--font-type-3xl-regular-font-family);
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-3xl-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-3xl-italic {
+  font-family: var(--font-type-3xl-italic-font-family);
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-3xl-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-bold {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-2xl-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-regular {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-italic {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-regular-strikethrough {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-2xl-regular-strikethrough-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-bold {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-xl-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-regular {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-italic {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-bold-underline {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-xl-bold-underline-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-regular-strikethrough {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xl-regular-strikethrough-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-bold {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-l-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-regular {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-italic {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-regular-strikethrough {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-regular-strikethrough-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-l-bold-indent {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-l-bold-indent-text-indent {
+  font-size: 80px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-bold {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-m-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-regular {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-italic {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-regular-underline {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-regular-underline-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-bold-underline {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-m-bold-underline-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-italic-underline {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-italic-underline-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-m-bold-indent {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-m-bold-indent-text-indent {
+  font-size: 80px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-s-bold {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-s-bold-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-s-regular {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-s-regular-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-s-italic {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-s-italic-text-indent {
+  font-size: 0px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.type-xs-bold {
+  font-family: var(--font-type-4xl-bold-font-family);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.type-xs-regular {
+  font-family: var(--font-type-4xl-bold-font-family);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
