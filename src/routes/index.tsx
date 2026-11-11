@@ -17,7 +17,7 @@ import { computeSustainabilityScore } from '~/lib/sustainability-score'
 import { Hero } from '~/components/Hero'
 import { CategoryBanner } from '~/components/CategoryBanner'
 import { FeedbackCard } from '~/components/FeedbackLink'
-import { CommunityDealsLink } from '~/components/CommunityDealsLink'
+import { CommunityDealsLink, DealabsMockupLink } from '~/components/CommunityDealsLink'
 
 const FEATURED_ROWS: Array<{ category: ClaimCategory; title: string; description: string }> = [
   { category: 'sustainability', title: 'Sustainable brands', description: 'Independently confirmed environmental practices.' },
@@ -347,6 +347,7 @@ function BrandResult({
       <div className="space-y-6">
         <EmptyState brandName={brand.name} reason="no-data" />
         <CommunityDealsLink brand={brand} />
+        <DealabsMockupLink />
       </div>
     )
   }
@@ -357,7 +358,10 @@ function BrandResult({
     <div className="space-y-8">
       <BrandHeader brand={brand} parentCompany={data.parentCompany} claims={data.claims} />
 
-      <CommunityDealsLink brand={brand} />
+      <div className="space-y-3">
+        <CommunityDealsLink brand={brand} />
+        <DealabsMockupLink />
+      </div>
 
       <ExplanationSection overview={data.overview} />
 

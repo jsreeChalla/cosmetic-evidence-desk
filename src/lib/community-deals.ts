@@ -28,3 +28,12 @@ export function brandDealsLink(brand: BrandCatalogEntry): { site: 'Dealabs' | 'i
   }
   return { site: 'iGraal', url: brand.storeUrl }
 }
+
+/**
+ * Design mockup showing how brand evidence could appear on Dealabs itself
+ * (deal-card evidence strip + "Brand evidence" filter), as a static image in
+ * public/. Linked from every brand page as an example. The editable source is
+ * the "Dealabs evidence badge mockup" design on claude.ai; re-export the PNG
+ * after changing it.
+ */
+export const DEALABS_MOCKUP_URL = '/dealabs-mockup.png'
